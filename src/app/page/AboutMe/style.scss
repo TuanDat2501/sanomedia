@@ -1,0 +1,96 @@
+main{
+  margin-top: 80px;
+  .main-about{
+    max-width: 1200px;
+    margin: auto;
+    .intro-content{
+      background: rgba(217, 217, 217, 0.38);
+      position: relative;
+      min-height: 600px;
+      .intro-content-img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        max-width: 75%;
+        width: 60%;
+        height: 100%;
+        img{
+          width: 100%;
+          height: 75%;
+          object-fit: cover;
+        }
+      }
+      .intro-content-text{
+        /* Group 29 */
+        position: absolute;
+        width: 50%;
+        height: 300px;
+        top: 270px;
+        right: 0;
+        background: #FFFFFF;
+        border-radius: 30px 30px  30px 30px;
+        padding: 30px 43px 30px 43px;
+        span{
+          color: var(--color-red);
+        }
+      }
+    }
+    .work-environment{
+      display: flex;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      .work-environment-text{
+        width: 40%;
+        padding: 20px 44px;
+      }
+      .work-environment-img{
+        width: 60%;
+      }
+    }
+    .present-data{
+      width: 100%;
+      height: 328px;
+      background: var(--color-red);
+      text-align: center;
+      padding: 20px;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      align-items: center;
+      h1{
+        color: #fff;
+      }
+      .data{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+
+        .data-item{
+          color: #FFFFFF;
+          .data-item-num{
+            /* 5 */
+            font-style: normal;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 73px;
+          }
+          .data-item-text{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+    .sano-culture{
+      padding: 60px 70px;
+      .sano-culture-content{
+        border: 1px solid #BDB9B9;
+        height: 500px;
+        border-radius: 30px;
+      }
+    }
+  }
+}
