@@ -55,11 +55,16 @@ const AboutMe = () => {
                         </div>
                         <h1>Giá trị cốt lỗi - văn hoá <span>Sano</span></h1>
                         <p>“Phát triển - Sáng tạo - Thành công”</p>
-                        <div className="p">Làm việc tại Sano, bạn không chỉ có cơ hội được thử thách, học hỏi, sáng tạo, bạn còn phát triển bản thân để trở nên toàn diện hơn. Sano đã và đang xây dựng một tập thể với các giá trị cốt lõi sau: </div>
+                        <div className="text-culture">Làm việc tại Sano, bạn không chỉ có cơ hội được thử thách, học hỏi, sáng tạo, bạn còn phát triển bản thân để trở nên toàn diện hơn. Sano đã và đang xây dựng một tập thể với các giá trị cốt lõi sau: </div>
                         <ul>
                             <li>Giá trị cốt lõi của chúng tôi bao gồm sự cống hiến, tôn trọng, trung thực và sự đổi mới. Mỗi nhân viên đều được khuyến khích và hỗ trợ để phát triển khả năng sáng tạo và đóng góp ý kiến mới mẻ.</li>
                         </ul>
                     </div>
+                </section>
+                <section className="image">
+                    <img src="https://i.ibb.co/LS7TmP9/aboutme-6.jpg" alt="aboutme-6"/>
+                    <img src="https://i.ibb.co/N2Cz2dn/aboutme-5.jpg" alt="aboutme-5"/>
+                    <img src="https://i.ibb.co/WDbT5K1/aboutme-4.jpg" alt="aboutme-4"/>
                 </section>
             </div>
         </main>
