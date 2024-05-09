@@ -1,6 +1,13 @@
+'use client'
 import './style.scss';
-
+import ButtonRed from "@/app/component/button-red/ButtonRed";
+import AOS from 'aos';
+import "aos/dist/aos.css";
+import {useEffect} from "react";
 const Header = () => {
+    useEffect(()=>{
+        AOS.init();
+    },[])
     return (
         <header className="header">
             <div className="wrapper">
@@ -9,18 +16,16 @@ const Header = () => {
                 </div>
                 <div className="nav">
                     <div className="link cursor-pointer">
-                        <a href="">tuyển dụng</a>
+                        <a href="/tuyen-dung">tuyển dụng</a>
                     </div>
                     <div className="link cursor-pointer">
-                        <a href="">giới thiệu</a>
+                        <a href="/gioi-thieu">giới thiệu</a>
                     </div>
                     <div className="link cursor-pointer">
                         <a href="">sano life</a>
                     </div>
                 </div>
-                <div className="button">
-                    <button>Tuyển dụng</button>
-                </div>
+                <ButtonRed text="Tuyển dụng"/>
             </div>
         </header>
     );

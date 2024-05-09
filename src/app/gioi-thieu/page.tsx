@@ -1,16 +1,39 @@
+'use client'
 import './style.scss'
-import {PRESENT_DATA} from "@/app/constant/const";
+import {NEWS_SANOLIFE_DATA, PRESENT_DATA} from "@/constant/const";
+import IArrowRight from "@/icon/IArrowRight";
+import ButtonRed from "@/app/component/button-red/ButtonRed";
+import {useEffect, useRef, useState} from "react";
 
 const AboutMe = () => {
     const dataPresent = PRESENT_DATA;
+    const dataNews = NEWS_SANOLIFE_DATA;
+    const myRef = useRef(null);
+    const [year, setYear] = useState(0)
+    const [member, setMember] = useState(0)
+    const [yellow, setYellow] = useState(0)
+    const [silver, setSilver] = useState(0)
+    const [numChange, setNumChange] = useState(0)
+    const [isInView, setIsInView] = useState(false)
+    useEffect(()=>{
+        const observer = new IntersectionObserver((entries)=>{
+            const entry = entries[0];
+            if(entry["isIntersecting"] && numChange === 0){
+                setNumChange(1);
+            }
+            console.log("entries loaded", entry["isIntersecting"]);
+        })
+        // @ts-ignore
+        observer.observe(myRef.current);
+    },[])
     return (
         <main>
             <div className="main-about">
                 <section className="intro-content">
-                    <div className="intro-content-img">
+                    <div className="intro-content-img" data-aos="fade-up">
                         <img src="https://i.ibb.co/Y8QYQFP/aboutme-1.jpg" alt="aboutme-1"/>
                     </div>
-                    <div className="intro-content-text">
+                    <div className="intro-content-text" >
                         <h1>Giới thiệu</h1>
                         <h1><span>Sano</span> Media</h1>
                         <p>Sano Media là công ty về Youtube có trụ sở tại Bắc Giang, Sano Media không chỉ là một công ty
@@ -28,13 +51,13 @@ const AboutMe = () => {
                             sáng tạo và sự kết nối giữa các thành viên tạo ra một Sano năng động và mang lại hiệu suất
                             làm việc cao hơn. </p>
                     </div>
-                    <div className="work-environment-img">
+                    <div className="work-environment-img" data-aos="fade-left">
                         <img src="https://i.ibb.co/r2N3LbD/Group-412.jpg" alt="Group-412"/>
                     </div>
                 </section>
-                <section className="present-data ">
+                <section className="present-data" ref={myRef}>
                     <div className="text flex flex-col justify-around items-center ">
-                        <h1>Đến ngày hôm nay</h1>
+                        <h1>Đến ngày hôm nay {numChange}</h1>
                         <div className="line"></div>
                     </div>
                     <div className="data">
@@ -65,6 +88,36 @@ const AboutMe = () => {
                     <img src="https://i.ibb.co/LS7TmP9/aboutme-6.jpg" alt="aboutme-6"/>
                     <img src="https://i.ibb.co/N2Cz2dn/aboutme-5.jpg" alt="aboutme-5"/>
                     <img src="https://i.ibb.co/WDbT5K1/aboutme-4.jpg" alt="aboutme-4"/>
+                </section>
+                <section className="sano-life-news">
+                    <div className="title-life">
+                        <h1><span>Sano</span> Life</h1>
+                        <div className="line-1"></div>
+                    </div>
+                    <div className="news">
+                        {dataNews.map(value =>
+                            <>
+                                <div className="item-news">
+                                    <img src="https://i.ibb.co/X7jSHCd/news-1.jpg" alt="news-1"/>
+                                    <div className="title-news">
+                                        <h2>{value.title}</h2>
+                                    </div>
+                                    <div className="date-news">
+                                        <p>{value.date}</p>
+                                    </div>
+                                    <div className="sub-text">
+                                        <p>
+                                            {value.subText}
+                                        </p>
+                                    </div>
+                                </div>
+                            </>
+                        )}
+
+                    </div>
+                    <div className="find-out-more">
+                        <ButtonRed text="Tìm hiểu thêm" icon={<IArrowRight/>}></ButtonRed>
+                    </div>
                 </section>
             </div>
         </main>

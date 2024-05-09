@@ -1,53 +1,63 @@
-main{
-  margin-top: 80px;
-  .main-about{
-    max-width: 1200px;
+main {
+  .main-about {
+    max-width: 1366px;
     margin: auto;
-    .intro-content{
+    .intro-content {
       background: rgba(217, 217, 217, 0.38);
       position: relative;
-      min-height: 600px;
-      .intro-content-img{
+      min-height: 700px;
+
+      .intro-content-img {
         position: absolute;
         top: 0;
         left: 0;
         max-width: 75%;
         width: 60%;
         height: 100%;
-        img{
+
+        img {
           width: 100%;
           height: 75%;
           object-fit: cover;
         }
       }
-      .intro-content-text{
+
+      .intro-content-text {
         /* Group 29 */
         position: absolute;
         width: 50%;
-        height: 300px;
+        height: 400px;
         top: 270px;
         right: 0;
         background: #FFFFFF;
-        border-radius: 30px 30px  30px 30px;
+        border-radius: 30px 30px 30px 30px;
         padding: 30px 43px 30px 43px;
-        span{
+
+        span {
           color: var(--color-red);
         }
       }
     }
-    .work-environment{
+
+    .work-environment {
       display: flex;
       margin-top: 20px;
       margin-bottom: 20px;
-      .work-environment-text{
+
+      .work-environment-text {
         width: 40%;
         padding: 20px 44px;
       }
-      .work-environment-img{
+
+      .work-environment-img {
         width: 60%;
+        img{
+          width: 100%;
+        }
       }
     }
-    .present-data{
+
+    .present-data {
       width: 100%;
       height: 328px;
       background: var(--color-red);
@@ -57,24 +67,28 @@ main{
       justify-content: space-evenly;
       flex-direction: column;
       align-items: center;
-      h1{
+
+      h1 {
         color: #fff;
       }
-      .data{
+
+      .data {
         display: flex;
         width: 100%;
         justify-content: space-around;
 
-        .data-item{
+        .data-item {
           color: #FFFFFF;
-          .data-item-num{
+
+          .data-item-num {
             /* 5 */
             font-style: normal;
             font-weight: 700;
             font-size: 60px;
             line-height: 73px;
           }
-          .data-item-text{
+
+          .data-item-text {
             font-style: normal;
             font-weight: 700;
             font-size: 20px;
@@ -84,9 +98,11 @@ main{
         }
       }
     }
-    .sano-culture{
+
+    .sano-culture {
       padding: 60px 70px;
-      .sano-culture-content{
+
+      .sano-culture-content {
         border: 1px solid #BDB9B9;
         height: 500px;
         border-radius: 30px;
@@ -95,31 +111,92 @@ main{
         align-items: center;
         padding: 60px;
         text-align: center;
-        span{
+
+        span {
           color: var(--color-red);
         }
-        p{
+
+        p {
           margin-bottom: 20px;
         }
-        .icon-culture{
-          img{
+
+        .icon-culture {
+          img {
             width: 50px;
           }
         }
-        .text-culture{
+
+        .text-culture {
           padding: 0 120px;
           margin-bottom: 10px;
         }
-        ul{
+
+        ul {
           text-align: justify;
           list-style: circle;
         }
       }
     }
-    .image{
+
+    .image {
       display: flex;
-      img{
+
+      img {
         width: 33.33%;
+      }
+    }
+
+    .sano-life-news {
+      padding-bottom: 30px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+      .title-life {
+        span {
+          color: var(--color-red);
+        }
+      }
+      .news {
+        width: 100%;
+        justify-content: space-evenly;
+        display: flex;
+        .item-news {
+            max-width: 320px;
+          img {
+            margin-bottom: 10px;
+          }
+          .date-news{
+            p{
+              margin-top: 5px;
+              margin-bottom: 5px;
+            }
+          }
+          .sub-text {
+            p {
+              margin-top: 5px;
+              margin-bottom: 5px;
+              display: -webkit-box;
+              max-width: 320px;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+      .find-out-more{
+        //button{
+        //  width: 200px;
+        //  height: 50px;
+        //  background: #FF5454;
+        //  border-radius: 10px;
+        //  color: #fff;
+        //}
       }
     }
   }

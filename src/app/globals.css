@@ -7,6 +7,7 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
   --color-red: #FF5454;
+  --color-red-1:#A60000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,14 +25,20 @@ body {
   width: 100vw;
   overflow-x: hidden;
   font-family: 'Inter';
-  height: 3661px;
+  height: auto;
 }
 h1{
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 39px;
-
+  color: #000000;
+}
+h2{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
   color: #000000;
 }
 p{
@@ -49,6 +56,27 @@ p{
   height: 5px;
   background: #FFFFFF;
   margin-top: 10px;
+}
+.line-1{
+  width: 60%;
+  height: 5px;
+  background: var(--color-red);
+  margin-top: 5px;
+}
+.line-red{
+  width: 250px;
+  height: 5px;
+  background: var(--color-red);
+
+}
+.line-white{
+  width: 60px;
+  height: 5px;
+  background: #FFFFFF;
+  margin-top: 5px;
+}
+.main-children{
+  margin-top: 80px;
 }
 @layer utilities {
   .text-balance {
