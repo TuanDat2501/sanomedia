@@ -15,7 +15,7 @@ const Footer = () => {
                 <div className="links-menu">
                     <a href="/tuyen-dung">Tuyển dụng</a>
                     <a href="/gioi-thieu">Giới thiệu</a>
-                    <a>Sano life</a>
+                    <a href="/sano-life">Sano life</a>
                 </div>
             </div>
             <div className="contact">
