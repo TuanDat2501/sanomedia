@@ -1,9 +1,13 @@
-import React from 'react';
+'use client'
+import React, {useEffect, useRef, useState} from 'react';
 import './style.scss'
 import IGraduate from "@/icon/IGraduate";
 import ButtonRed from "@/app/component/button-red/ButtonRed";
 import ISend from "@/icon/ISend";
-
+import emailjs from '@emailjs/browser';
+import {Simulate} from "react-dom/test-utils";
+import submit = Simulate.submit;
+import IEditor from "@/icon/IEditor";
 const TREATMENT_DATA = [
     {
         icon: <IGraduate></IGraduate>,
@@ -32,6 +36,44 @@ const TREATMENT_DATA = [
 ]
 const Recruitment = () => {
     const dataTreatment = TREATMENT_DATA;
+    const form = useRef(null) as any;
+    const [name, setName] = useState()
+    const [email, setEmail] = useState()
+    const [position, setPosition] = useState()
+    const sendEmail = (e:any) => {
+        e.preventDefault();
+        emailjs.send('sano-media', 'template_dixznx9', {
+                to_name: name,
+                from_name: email,
+                message: `Bạn này đang quan tâm đến vị trí ${position}`,
+            } as any, {
+                publicKey: 'dPF4gXlQQdOsF8nkv',
+
+            })
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                },
+            );
+    };
+    const getValueInput = (event:any,num:number) =>{
+        switch (num){
+            case 1:
+                setName(event.target.value);
+                break;
+            case 2:
+                setEmail(event.target.value);
+                break;
+            case 3:
+                setPosition(event.target.value);
+                break;
+            default:
+                setName(event.target.value);
+        }
+    }
     return (
         <div className="main-recruitment">
             <section className="recruitment-content">
@@ -60,6 +102,29 @@ const Recruitment = () => {
                     <video controls>
                         <source src="/video/video.mp4"/>
                     </video>
+                </div>
+            </section>
+            <section className="recruiting">
+                <h1>Các vị trí đang tuyển tại Sano Media</h1>
+                <div className="position">
+                    <div className="item-position">
+                        <div className="icon">
+                            <IEditor></IEditor>
+                        </div>
+                        <text>Editor</text>
+                    </div>
+                    <div className="item-position">
+                        <div className="icon">
+                            <IEditor></IEditor>
+                        </div>
+                        <text>Editor</text>
+                    </div>
+                    <div className="item-position">
+                        <div className="icon">
+                            <IEditor></IEditor>
+                        </div>
+                        <text>Editor</text>
+                    </div>
                 </div>
             </section>
             <section className="environment">
@@ -149,17 +214,17 @@ const Recruitment = () => {
                 <form>
                     <div className="input-name flex flex-col gap-2 mb-2" data-aos="fade-right">
                         <label htmlFor="name">Họ tên</label>
-                        <input id="name" type="text" placeholder="Họ và tên"/>
+                        <input id="name" type="text" placeholder="Họ và tên" onChange={(e)=>{getValueInput(e,1)}}/>
                     </div>
                     <div className="input-email flex flex-col gap-2 mb-2" data-aos="fade-left">
                         <label htmlFor="email">Email</label>
-                        <input id="email" type="text" placeholder="Email"/>
+                        <input id="email" type="text" placeholder="Email" onChange={(e)=>{getValueInput(e,2)}}/>
                     </div>
                     <div className="input-position flex flex-col gap-2 " data-aos="fade-right">
                         <label htmlFor="position">Vị trí quan tâm</label>
-                        <input id="position" type="text" placeholder="Vị trí bạn quan tâm"/>
+                        <input id="position" type="text" placeholder="Vị trí bạn quan tâm" onChange={(e)=>{getValueInput(e,3)}}/>
                     </div>
-                    <div className="submit flex justify-center mt-4" data-aos="flip-up">
+                    <div className="submit flex justify-center mt-4" data-aos="flip-up" onClick={sendEmail}>
                         <ButtonRed text="Đăng ký" icon={<ISend/>}></ButtonRed>
                     </div>
                 </form>

@@ -1,38 +1,72 @@
-.main-recruitment{
+.main-recruitment {
   max-width: 1200px;
   margin: auto;
-  .recruitment-content{
+
+  .recruitment-content {
     padding: 70px;
     display: flex;
     width: 100%;
     gap: 20px;
-    .recruitment-content-text{
+
+    .recruitment-content-text {
       width: 40%;
     }
-    .recruitment-content-video{
+
+    .recruitment-content-video {
       width: 60%;
     }
   }
-  .environment{
+
+  .recruiting {
+    text-align: center;
+    padding: 50px;
+
+    .position {
+      margin-top: 50px;
+      display: flex;
+      width: 100%;
+      gap: 20px;
+      justify-content: center;
+      .item-position {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+        border-radius: 10px;
+        text{
+          font-weight: bold;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  .environment {
     background: var(--color-red);
     text-align: center;
     padding: 15px 144px 50px 144px;
-    h1,p{
+
+    h1, p {
       text-align: center;
-      color:#fff!important;
+      color: #fff !important;
     }
-    .treatments{
+
+    .treatments {
       margin-top: 20px;
       display: grid;
       grid-template-columns: auto auto;
       grid-gap: 25px;
-      .item-treatment{
+
+      .item-treatment {
         width: 100%;
         height: 200.46px;
         background: #FFFFFF;
         border-radius: 30px;
         padding: 20px;
-        .treatment{
+
+        .treatment {
           font-style: normal;
           font-weight: 700;
           font-size: 18px;
@@ -42,40 +76,47 @@
       }
     }
   }
-  .newbie{
+
+  .newbie {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 40px 50px;
     position: relative;
-    span{
+
+    span {
       color: var(--color-red);
     }
-    .feedback{
+
+    .feedback {
       width: 100%;
       margin-top: 40px;
       margin-bottom: 40px;
       z-index: 2;
 
-      .item-feedback{
-        .member-img{
-          img{
+      .item-feedback {
+        .member-img {
+          img {
             max-width: 100px;
             border-radius: 50%;
           }
         }
-        .info-feedback{
-          span{
+
+        .info-feedback {
+          span {
             font-style: italic;
           }
-          .name-right{
+
+          .name-right {
             text-align: end;
           }
-          .name-member{
+
+          .name-member {
             font-weight: bold;
           }
-          .cmt-member{
+
+          .cmt-member {
             text-align: justify;
             max-width: 830px;
 
@@ -83,7 +124,8 @@
         }
       }
     }
-    .polygon-2{
+
+    .polygon-2 {
       position: absolute;
       width: 99.63px;
       height: 99.63px;
@@ -93,7 +135,8 @@
       border-radius: 10px;
       transform: matrix(-0.7, 0.71, -0.7, -0.71, 0, 0);
     }
-    .polygon-1{
+
+    .polygon-1 {
       position: absolute;
       width: 99.63px;
       height: 99.63px;
@@ -102,7 +145,8 @@
       border-radius: 10px;
       transform: matrix(0.7, -0.71, 0.7, 0.71, 0, 0);
     }
-    .ellipse-3{
+
+    .ellipse-3 {
       border-radius: 50%;
       position: absolute;
       width: 50px;
@@ -112,7 +156,8 @@
       background: rgba(217, 217, 217, 0.47);
 
     }
-    .subtract{
+
+    .subtract {
       /* Subtract */
 
       position: absolute;
@@ -123,7 +168,8 @@
       transform: rotate(-30deg);
     }
   }
-  .register{
+
+  .register {
     background-image: url("https://i.ibb.co/Nj9N0tK/Rectangle-27.png");
     width: 100%;
     height: 100%;
@@ -133,12 +179,15 @@
     flex-direction: column;
     padding: 20px;
     gap: 20px;
-    h1{
+
+    h1 {
       color: #FFFFFF;
     }
-    form{
+
+    form {
       width: 300px;
-      label{
+
+      label {
         width: 100%;
         height: 17px;
         font-style: normal;
@@ -146,26 +195,31 @@
         font-size: 14px;
         line-height: 17px;
       }
-      input{
+
+      input {
         padding: 5px 15px;
         color: #000;
       }
     }
   }
-  @media screen and (max-width: 430px){
-    .recruitment-content{
+
+  @media screen and (max-width: 430px) {
+    .recruitment-content {
       flex-direction: column;
       padding: 20px;
-      .recruitment-content-text{
+
+      .recruitment-content-text {
         width: 100%;
       }
-      .recruitment-content-video{
+
+      .recruitment-content-video {
         width: 100%;
       }
     }
-    .environment{
+    .environment {
       padding: 15px;
-      .treatments{
+
+      .treatments {
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -183,32 +237,40 @@
       .ellipse-3 {
         display: none;
       }
-      .subtract  {
+
+      .subtract {
         display: none;
       }
-      .line-red{
+
+      .line-red {
         width: 30%;
       }
-      h1{
+
+      h1 {
         text-align: center;
       }
-      .feedback{
-        .item-feedback{
+
+      .feedback {
+        .item-feedback {
           flex-direction: column;
           align-items: center;
           text-align: center;
           padding: 20px;
-          &:nth-child(2){
+
+          &:nth-child(2) {
             background: var(--color-red);
             color: #FFFFFF;
           }
         }
-        .colums-reverse{
-          flex-direction: column-reverse!important;
+
+        .colums-reverse {
+          flex-direction: column-reverse !important;
         }
-        .name-right{
-          text-align: center!important;
-          span{
+
+        .name-right {
+          text-align: center !important;
+
+          span {
             color: #FFFFFF;
           }
         }
