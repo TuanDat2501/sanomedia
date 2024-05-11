@@ -4,7 +4,11 @@ import {NEWS_SANOLIFE_DATA, PRESENT_DATA} from "@/constant/const";
 import IArrowRight from "@/icon/IArrowRight";
 import ButtonRed from "@/app/component/button-red/ButtonRed";
 import {useEffect, useRef, useState} from "react";
-import Image from "next/image";
+import {Swiper, SwiperSlide} from 'swiper/react';
+import { useMediaQuery } from 'usehooks-ts'
+// Import Swiper styles
+import 'swiper/css';
+import {Autoplay} from "swiper/modules";
 
 const AboutMe = () => {
     const dataPresent = PRESENT_DATA;
@@ -41,7 +45,8 @@ const AboutMe = () => {
         });
         return count;
     }
-
+    const isMobile = useMediaQuery('(max-width: 430px)');
+    const isTablet = useMediaQuery('(min-width: 430px) and (max-width: 830px)');
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
             const entry = entries[0];
@@ -129,9 +134,24 @@ const AboutMe = () => {
                     </div>
                 </section>
                 <section className="image">
-                    <img src="https://i.ibb.co/LS7TmP9/aboutme-6.jpg" alt="aboutme-6"/>
-                    <img src="https://i.ibb.co/N2Cz2dn/aboutme-5.jpg" alt="aboutme-5"/>
-                    <img src="https://i.ibb.co/WDbT5K1/aboutme-4.jpg" alt="aboutme-4"/>
+                    <Swiper
+                        spaceBetween={0}
+                        slidesPerView={isMobile? 1 : isTablet ? 2:3}
+                        autoplay={{
+                            delay:1500
+                        }}
+                        modules={[Autoplay]}
+                    >
+                        <SwiperSlide><img style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-6.jpg" alt="aboutme-6"/></SwiperSlide>
+                        <SwiperSlide><img style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-4.jpg" alt="aboutme-5"/></SwiperSlide>
+                        <SwiperSlide><img style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-5.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><img style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-8.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><img style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-9.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><img style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-10.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><img style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-11.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><img style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-12.jpg" alt="aboutme-4"/></SwiperSlide>
+
+                    </Swiper>
                 </section>
                 <section className="sano-life-news">
                     <div className="title-life">

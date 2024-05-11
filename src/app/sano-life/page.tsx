@@ -28,11 +28,42 @@ const SanoLife = () => {
                     <div className="image-right image-sub">
                         <div className="image-right-top" data-aos="fade-left">
                             <img src="/image/sanolife-2.jpg" alt="sanolife-5"/>
-                        </div >
+                        </div>
                         <div className="image-right-bottom" data-aos="fade-left">
                             <img src="/image/sanolife-3.jpg" alt="sanolife-5"/>
                         </div>
-
+                    </div>
+                </div>
+                <div className="images-mobile">
+                    <div className="image-one">
+                        <img src="/image/sanolife-1.jpg" alt="sanolife-1" data-aos="zoom-in"/>
+                    </div>
+                    <div className="image-two" data-aos="fade-left">
+                        <img src="/image/sanolife-2.jpg" alt="sanolife-5"/>
+                    </div>
+                    <div className="image-sub">
+                        <div className="image-left-top " data-aos="fade-right">
+                            <img src="/image/sanolife-4.jpg" alt="sanolife-4"/>
+                        </div>
+                        <div className="image-left-bottom" data-aos="fade-right">
+                            <img src="/image/sanolife-5.jpg" alt="sanolife-5"/>
+                        </div>
+                    </div>
+                </div>
+                <div className="images-tablet">
+                    <div className="image-one">
+                        <img src="/image/sanolife-1.jpg" alt="sanolife-1" data-aos="zoom-in"/>
+                    </div>
+                    <div className="image-sub">
+                        <div className="image" data-aos="fade-left">
+                            <img src="/image/sanolife-2.jpg" alt="sanolife-5"/>
+                        </div>
+                        <div className="image" data-aos="fade-right">
+                            <img src="/image/sanolife-4.jpg" alt="sanolife-4"/>
+                        </div>
+                        <div className="image" data-aos="fade-right">
+                            <img src="/image/sanolife-5.jpg" alt="sanolife-5"/>
+                        </div>
                     </div>
                 </div>
                 <div className="text-sub">

@@ -1,12 +1,11 @@
 main {
   .main-about {
-    max-width: 1366px;
+    max-width: 1200px;
     margin: auto;
     .intro-content {
       background: rgba(217, 217, 217, 0.38);
       position: relative;
       min-height: 700px;
-
       .intro-content-img {
         position: absolute;
         top: 0;
@@ -142,7 +141,6 @@ main {
       display: flex;
 
       img {
-        width: 33.33%;
       }
     }
 
@@ -197,6 +195,129 @@ main {
         //  border-radius: 10px;
         //  color: #fff;
         //}
+      }
+    }
+  }
+  @media screen and (max-width: 430px) {
+    .main-about {
+      margin: 0;
+      max-width: unset;
+      .intro-content{
+        min-height: unset;
+        .intro-content-img{
+          position: unset;
+          max-width: unset;
+          width: 100%;
+        }
+        .intro-content-text{
+          position: unset;
+          width: 100%;
+          height: auto;
+          border-radius: unset;
+          padding: 20px 44px;
+        }
+      }
+      .work-environment{
+        flex-direction: column-reverse;
+        .work-environment-img{
+          width: 100%;
+        }
+        .work-environment-text{
+          width: 100%;
+        }
+      }
+      .present-data{
+        .data{
+          display: grid;
+          width: 100%;
+          grid-template-columns: auto auto;
+          .data-item{
+            .data-item-num{
+              font-size: 40px;
+              line-height: unset;
+            }
+            .data-item-text{
+              font-size: 16px;
+            }
+          }
+        }
+      }
+      .sano-culture{
+        padding: 20px 10px;
+        .sano-culture-content{
+          padding: 30px;
+          .text-culture{
+            padding: unset;
+          }
+        }
+      }
+      .sano-life-news{
+        .news{
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 834px) {
+    .main-about {
+      margin: 0;
+      max-width: unset;
+      .intro-content{
+        min-height: unset;
+        .intro-content-img{
+          position: unset;
+          max-width: unset;
+          width: 100%;
+        }
+        .intro-content-text{
+          position: unset;
+          width: 100%;
+          height: auto;
+          border-radius: unset;
+          padding: 20px 44px;
+        }
+      }
+      .work-environment{
+        flex-direction: column-reverse;
+        .work-environment-img{
+          width: 100%;
+        }
+        .work-environment-text{
+          width: 100%;
+        }
+      }
+      .present-data{
+        .data{
+          display: grid;
+          width: 100%;
+          grid-template-columns: auto auto;
+          .data-item{
+            .data-item-num{
+              font-size: 50px;
+              line-height: unset;
+            }
+            .data-item-text{
+              font-size: 18px;
+            }
+          }
+        }
+      }
+      .sano-culture{
+        padding: 20px 10px;
+        .sano-culture-content{
+          padding: 30px;
+          .text-culture{
+            padding: unset;
+          }
+        }
+      }
+      .sano-life-news{
+        .news{
+          justify-content: center;
+          flex-wrap: wrap;
+          gap: 20px;
+        }
       }
     }
   }

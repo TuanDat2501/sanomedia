@@ -44,7 +44,7 @@ const Recruitment = () => {
                         thách bản thân trong ngành công nghiệp đa phương tiện </p>
                 </div>
                 <div className="recruitment-content-video" data-aos="fade-left">
-                    <div style={{position: 'relative', width: '100%', height: '0px', paddingBottom: '56.250%'}}>
+                    {/*<div style={{position: 'relative', width: '100%', height: '0px', paddingBottom: '56.250%'}}>
                         <iframe allow="fullscreen;autoplay" allowFullScreen height="100%"
                                 src="https://streamable.com/e/57d5zc?autoplay=0" width="100%"
                                 style={{
@@ -56,7 +56,10 @@ const Recruitment = () => {
                                     top: '0px',
                                     overflow: 'hidden'
                                 }}></iframe>
-                    </div>
+                    </div>*/}
+                    <video controls>
+                        <source src="/video/video.mp4"/>
+                    </video>
                 </div>
             </section>
             <section className="environment">
@@ -99,7 +102,7 @@ const Recruitment = () => {
                 <h1>Cảm nhận của các <span>Newbies</span></h1>
                 <div className="line-red"></div>
                 <div className="feedback">
-                    <div className="item-feedback flex gap-3">
+                    <div className="item-feedback flex gap-3" data-aos="flip-down">
                         <div className="member-img">
                             <img src="https://i.ibb.co/nPrNkL1/newbie.jpg" alt="newbie"/>
                         </div>
@@ -112,7 +115,7 @@ const Recruitment = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="item-feedback flex gap-3 justify-end">
+                    <div className="item-feedback flex gap-3 justify-end colums-reverse" data-aos="flip-up">
                         <div className="info-feedback">
                             <div className="name-member name-right">Trịnh tuấn Đạt - <span>Editor</span></div>
                             <div className="cmt-member">
@@ -125,7 +128,7 @@ const Recruitment = () => {
                             <img src="https://i.ibb.co/nPrNkL1/newbie.jpg" alt="newbie"/>
                         </div>
                     </div>
-                    <div className="item-feedback flex gap-3">
+                    <div className="item-feedback flex gap-3" data-aos="flip-down">
                         <div className="member-img">
                             <img src="https://i.ibb.co/nPrNkL1/newbie.jpg" alt="newbie"/>
                         </div>
@@ -144,19 +147,19 @@ const Recruitment = () => {
             <section className="register">
                 <h1>Đăng kí tuyển dụng</h1>
                 <form>
-                    <div className="input-name flex flex-col gap-2 mb-2">
+                    <div className="input-name flex flex-col gap-2 mb-2" data-aos="fade-right">
                         <label htmlFor="name">Họ tên</label>
                         <input id="name" type="text" placeholder="Họ và tên"/>
                     </div>
-                    <div className="input-email flex flex-col gap-2 mb-2">
+                    <div className="input-email flex flex-col gap-2 mb-2" data-aos="fade-left">
                         <label htmlFor="email">Email</label>
                         <input id="email" type="text" placeholder="Email"/>
                     </div>
-                    <div className="input-position flex flex-col gap-2 ">
+                    <div className="input-position flex flex-col gap-2 " data-aos="fade-right">
                         <label htmlFor="position">Vị trí quan tâm</label>
                         <input id="position" type="text" placeholder="Vị trí bạn quan tâm"/>
                     </div>
-                    <div className="submit flex justify-center mt-4">
+                    <div className="submit flex justify-center mt-4" data-aos="flip-up">
                         <ButtonRed text="Đăng ký" icon={<ISend/>}></ButtonRed>
                     </div>
                 </form>

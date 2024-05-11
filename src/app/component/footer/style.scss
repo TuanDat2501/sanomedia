@@ -74,9 +74,11 @@
 
   .fanpage {
     margin-top: 50px;
+
     .media {
       display: flex;
       justify-content: center;
+
       .btn-media {
         width: 40px;
         height: 40px;
@@ -93,5 +95,30 @@
         margin-right: 5px;
       }
     }
+  }
+
+  @media screen and (max-width: 430px) {
+    height: auto;
+    display: block;
+    padding: 20px 20px;
+    .menu {
+      align-items: flex-start;
+
+    }
+    .contact{
+      .title-contact {
+        height: 100px;
+      }
+    }
+    .fanpage {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  @media screen and (max-width: 834px){
+    padding: 20px;
+    gap:20px;
   }
 }

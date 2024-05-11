@@ -48,6 +48,7 @@
     justify-content: center;
     align-items: center;
     padding: 40px 50px;
+    position: relative;
     span{
       color: var(--color-red);
     }
@@ -56,6 +57,7 @@
       margin-top: 40px;
       margin-bottom: 40px;
       z-index: 2;
+
       .item-feedback{
         .member-img{
           img{
@@ -85,8 +87,8 @@
       position: absolute;
       width: 99.63px;
       height: 99.63px;
-      left: 392.37px;
-      top: 1250.71px;
+      left: 13%;
+      top: 20%;
       background: rgba(217, 217, 217, 0.38);
       border-radius: 10px;
       transform: matrix(-0.7, 0.71, -0.7, -0.71, 0, 0);
@@ -95,8 +97,8 @@
       position: absolute;
       width: 99.63px;
       height: 99.63px;
-      left: 960.79px;
-      top: 1416.71px;
+      right: 100px;
+      top: 50.71px;
       border-radius: 10px;
       transform: matrix(0.7, -0.71, 0.7, 0.71, 0, 0);
     }
@@ -105,8 +107,8 @@
       position: absolute;
       width: 50px;
       height: 50px;
-      right: 500px;
-      top: 1275px;
+      right: 220px;
+      top: 80%;
       background: rgba(217, 217, 217, 0.47);
 
     }
@@ -117,9 +119,8 @@
       width: 79.42px;
       height: 100px;
       left: 300px;
-      top: 1581.71px;
+      top: 70%;
       transform: rotate(-30deg);
-
     }
   }
   .register{
@@ -148,6 +149,69 @@
       input{
         padding: 5px 15px;
         color: #000;
+      }
+    }
+  }
+  @media screen and (max-width: 430px){
+    .recruitment-content{
+      flex-direction: column;
+      padding: 20px;
+      .recruitment-content-text{
+        width: 100%;
+      }
+      .recruitment-content-video{
+        width: 100%;
+      }
+    }
+    .environment{
+      padding: 15px;
+      .treatments{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+    .newbie {
+      .polygon-2 {
+        display: none;
+      }
+
+      .polygon-1 {
+        display: none;
+      }
+
+      .ellipse-3 {
+        display: none;
+      }
+      .subtract  {
+        display: none;
+      }
+      .line-red{
+        width: 30%;
+      }
+      h1{
+        text-align: center;
+      }
+      .feedback{
+        .item-feedback{
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          padding: 20px;
+          &:nth-child(2){
+            background: var(--color-red);
+            color: #FFFFFF;
+          }
+        }
+        .colums-reverse{
+          flex-direction: column-reverse!important;
+        }
+        .name-right{
+          text-align: center!important;
+          span{
+            color: #FFFFFF;
+          }
+        }
       }
     }
   }

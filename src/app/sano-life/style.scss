@@ -4,13 +4,21 @@
   margin-left: auto;
 
   .sano-life-img {
-    height: 100vh;
+    height: auto;
     padding: 50px 70px;
     text-align: center;
     background: var(--background-1);
 
     h1 {
       font-size: 40px;
+    }
+
+    .images-mobile {
+      display: none;
+    }
+
+    .images-tablet {
+      display: none;
     }
 
     .images {
@@ -115,13 +123,16 @@
   .images-media {
     padding: 50px 30px;
     background: var(--background-1);
+
     .images-media-wrapper {
       display: grid;
       grid-template-columns: auto auto auto;
       grid-gap: 25px;
-      .sano-life-media{
+
+      .sano-life-media {
         position: relative;
-        .overlay{
+
+        .overlay {
           position: absolute;
           top: 0;
           z-index: 2;
@@ -133,7 +144,8 @@
           justify-content: space-evenly;
           flex-direction: column;
           align-items: center;
-          text{
+
+          text {
             max-width: 154px;
             font-style: normal;
             font-weight: 700;
@@ -141,26 +153,126 @@
             line-height: 36px;
             color: #FFFFFF;
           }
-          .link-media{
+
+          .link-media {
             display: flex;
             align-items: center;
             gap: 5px;
             cursor: pointer;
-            &:hover{
+
+            &:hover {
               text-decoration-line: underline;
               text-decoration-color: #fff;
             }
-            p{
+
+            p {
               color: #fff;
               margin: 0;
             }
           }
         }
       }
+
       img {
         max-width: 350px;
         height: 350px;
         object-fit: cover;
+      }
+    }
+  }
+
+  @media screen and (max-width: 430px) {
+    .sano-life-img {
+      padding: 15px;
+
+      h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+      }
+
+      .images-mobile {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .image-sub {
+          display: flex;
+          gap: 10px;
+        }
+      }
+
+      .images {
+        display: none;
+      }
+    }
+    .sano-blog {
+      padding: 15px;
+
+      .blogs {
+        grid-template-columns: auto;
+        grid-row-gap: 10px;
+      }
+    }
+    .images-media {
+      padding: 15px;
+
+      .images-media-wrapper {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 15px;
+      }
+    }
+  }
+  @media screen and (min-width: 431px) and (max-width: 768px) {
+    .sano-life-img {
+      padding: 20px;
+
+      h1 {
+        font-size: 30px;
+      }
+
+      .images {
+        display: none;
+      }
+
+      .images-tablet {
+        margin-top: 10px;
+        display: block;
+
+        .image-sub {
+          margin-top: 10px;
+          display: flex;
+          gap: 10px;
+
+          .image {
+            width: 33.33%;
+
+            img {
+              height: 150px;
+              width: 100%;
+              object-fit: cover;
+            }
+          }
+        }
+      }
+
+      .text-sub {
+        p {
+
+          max-width: 500px;
+        }
+      }
+    }
+    .sano-blog {
+      padding: 15px 20px;
+    }
+    .images-media {
+      padding: 30px 20px;
+
+      .images-media-wrapper {
+        display: grid !important;
+        grid-template-columns: auto auto !important;
+        grid-gap: 15px !important;
       }
     }
   }
