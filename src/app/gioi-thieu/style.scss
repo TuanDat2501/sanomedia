@@ -162,9 +162,20 @@ main {
         justify-content: space-evenly;
         display: flex;
         .item-news {
+          .title-news{
+            h2{
+              &:hover{
+                color: var(--color-red);
+                cursor: pointer;
+              }
+            }
+          }
             max-width: 320px;
           img {
             margin-bottom: 10px;
+            height: 200px;
+            width: 320px;
+            object-fit: cover;
           }
           .date-news{
             p{

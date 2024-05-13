@@ -1,12 +1,16 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 interface Props {
     width?: number;
     height?: number;
+    hover?:any
 }
-const ISend = ({height,width}:Props) => {
+const ISend = ({height,width,hover}:Props) => {
+    useEffect(() => {
+        console.log("hover",hover)
+    }, [hover]);
     return (
         <div>
-            <svg fill="#ffffff" height={height ||'12px'} width={width||'12px'} version="1.1" id="Capa_1"
+            <svg fill={hover ? "#FF5454" : "#fff"} height={height ||'12px'} width={width||'12px'} version="1.1" id="Capa_1"
                  xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
                  viewBox="0 0 495.003 495.003" xmlSpace="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>

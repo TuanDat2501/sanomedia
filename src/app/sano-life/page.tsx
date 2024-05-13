@@ -2,9 +2,10 @@ import React from 'react';
 import './style.scss'
 import IArrowRight from "@/icon/IArrowRight";
 import IFacebook1 from "@/icon/IFacebook1";
+import {NEWS_SANOLIFE_DATA1} from "@/constant/const";
 
 const SanoLife = () => {
-    const arr = [1, 2, 3, 4]
+    const arr = NEWS_SANOLIFE_DATA1;
     return (
         <div className="sano-wrapper">
             <section className="sano-life-img">
@@ -76,23 +77,17 @@ const SanoLife = () => {
                 <div className="blogs">
                     {arr.map(value => <>
                         <div className="item-blog">
-                            <img src="https://i.ibb.co/X7jSHCd/news-1.jpg" alt="news-1" data-aos="fade-right"/>
+                            <img src={value.image} alt="news-1" data-aos="fade-right"/>
                             <div className="content-blog">
                                 <div className="title-blog">
-                                    <h2>Chương trình hoạt động: Gala Dinner</h2>
+                                    <h2>{value.title}</h2>
                                 </div>
                                 <div className="date-blog">
-                                    <p>02-11-2020</p>
+                                    <p>{value.date}</p>
                                 </div>
                                 <div className="sub-text">
                                     <p>
-                                        Một đêm tiệc đầy niềm vui và ý nghĩa khi toàn thể nhân sự Công ty cùng gia đình
-                                        cùng
-                                        nhau nhìn lại hành trình một năm đầy biến động nhưng cũng không kém phần rực rỡ
-                                        của
-                                        Sano Media. Để rồi sau đó những giải thưởng vinh danh các cá nhân, tập thể xuất
-                                        sắc
-                                        trong năm qua đã được hô vang.
+                                        {value.subText}
                                     </p>
                                 </div>
                             </div>

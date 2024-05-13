@@ -150,7 +150,6 @@ const AboutMe = () => {
                         <SwiperSlide><img style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-10.jpg" alt="aboutme-4"/></SwiperSlide>
                         <SwiperSlide><img style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-11.jpg" alt="aboutme-4"/></SwiperSlide>
                         <SwiperSlide><img style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-12.jpg" alt="aboutme-4"/></SwiperSlide>
-
                     </Swiper>
                 </section>
                 <section className="sano-life-news">
@@ -162,7 +161,7 @@ const AboutMe = () => {
                         {dataNews.map(value =>
                             <>
                                 <div className="item-news">
-                                    <img src="https://i.ibb.co/X7jSHCd/news-1.jpg" alt="news-1" data-aos="fade-right"/>
+                                    <img src={value.image} alt="news-1" data-aos="fade-right"/>
                                     <div className="title-news">
                                         <h2>{value.title}</h2>
                                     </div>

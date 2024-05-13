@@ -6,20 +6,34 @@ import ButtonRed from "@/app/component/button-red/ButtonRed";
 import ISend from "@/icon/ISend";
 import emailjs from '@emailjs/browser';
 import {Simulate} from "react-dom/test-utils";
-import submit = Simulate.submit;
 import IEditor from "@/icon/IEditor";
+import IContent from "@/icon/IContent";
+import IUpload from "@/icon/IUpload";
+import {
+    ref,
+    uploadBytes,
+    getDownloadURL,
+    listAll,
+    list,
+} from "firebase/storage";
+import {storage} from "@/app/firebase";
+import {v4} from "uuid";
+import ITick from "@/icon/ITick";
+import Toast from "@/app/component/toast/Toast";
+import {useMediaQuery} from "usehooks-ts";
+
 const TREATMENT_DATA = [
     {
         icon: <IGraduate></IGraduate>,
         title: "Đào tạo toàn diện",
         description: "Sano chú trọng đào tạo không chỉ các kiến thức chuyên môn mà còn việc phát triển ngoại ngữ, kiến thức xã hội và các kỹ năng mềm.",
-        animation:"fade-right"
+        animation: "fade-right"
     },
     {
         icon: <IGraduate></IGraduate>,
         title: "Đào tạo toàn diện",
         description: "Sano chú trọng đào tạo không chỉ các kiến thức chuyên môn mà còn việc phát triển ngoại ngữ, kiến thức xã hội và các kỹ năng mềm.",
-        animation:"fade-left"
+        animation: "fade-left"
     },
     {
         icon: <IGraduate></IGraduate>,
@@ -37,30 +51,77 @@ const TREATMENT_DATA = [
 const Recruitment = () => {
     const dataTreatment = TREATMENT_DATA;
     const form = useRef(null) as any;
+    const isMobile = useMediaQuery('(max-width: 430px)');
     const [name, setName] = useState()
     const [email, setEmail] = useState()
     const [position, setPosition] = useState()
-    const sendEmail = (e:any) => {
-        e.preventDefault();
-        emailjs.send('sano-media', 'template_dixznx9', {
-                to_name: name,
-                from_name: email,
-                message: `Bạn này đang quan tâm đến vị trí ${position}`,
-            } as any, {
-                publicKey: 'dPF4gXlQQdOsF8nkv',
+    const [file, setFile] = useState<any>()
+    const [url, setUrl] = useState("")
+    const [hover, setHover] = useState<boolean | null>(null)
+    const [isLoadingFile, setIsLoadingFile] = useState(false)
+    const [isLoadingFileIcon, setIsLoadingFileIcon] = useState(false)
+    const [isShowToast, setIsShowToast] = useState(true);
+    const [status, setStatus] = useState<string | null>(null)
+    const [textToast, setTextToast] = useState("")
+    const [isLoading, setIsLoading] = useState(false)
+    const hoverBtn = () => {
+        setHover(true);
+    }
+    const leaveBtn = () => {
+        setHover(false);
+    }
+    const showToast = (status: string, text: string) => {
+        setIsLoading(false);
+        setStatus(status);
+        setTextToast(text);
+        setIsShowToast(true);
+        const x = setTimeout(() => {
+            setIsShowToast(false);
+            clearTimeout(x);
+        }, 3000)
+    }
+    const sendEmail = (e: any) => {
+        setIsLoading(true);
+        if (name) {
+            if (email) {
+                if(position){
+                    if(file){
+                        e.preventDefault();
+                        emailjs.send('sano-media', 'template_whmq9dn', {
+                            to_name: name,
+                            from_name: email,
+                            message: `Bạn này đang quan tâm đến vị trí ${position} `,
+                            content: url,
+                            position: position
+                        } as any, {
+                            publicKey: 'dPF4gXlQQdOsF8nkv',
+                        })
+                            .then(
+                                () => {
+                                    showToast("success", "Bạn đã ứng tuyển thành công!")
+                                    console.log('SUCCESS!');
+                                },
+                                (error) => {
+                                    showToast("failed", "Bạn ứng tuyển thất bại")
+                                    console.log('FAILED...', error.text);
+                                },
+                            );
+                    }else {
+                        showToast("warning", "Bạn tải CV của bạn")
+                    }
+                }else {
+                    showToast("warning", "Bạn cần chọn vị trí quan tâm")
+                }
+            } else {
+                showToast("warning", "Bạn cần nhập email")
+            }
+        } else {
+            showToast("warning", "Bạn cần nhập họ tên")
+        }
 
-            })
-            .then(
-                () => {
-                    console.log('SUCCESS!');
-                },
-                (error) => {
-                    console.log('FAILED...', error.text);
-                },
-            );
     };
-    const getValueInput = (event:any,num:number) =>{
-        switch (num){
+    const getValueInput = (event: any, num: number) => {
+        switch (num) {
             case 1:
                 setName(event.target.value);
                 break;
@@ -70,14 +131,34 @@ const Recruitment = () => {
             case 3:
                 setPosition(event.target.value);
                 break;
+            case 4:
+                setFile(event.target.files[0]);
+                break;
             default:
                 setName(event.target.value);
         }
     }
+    useEffect(() => {
+        uploadFile();
+    }, [file]);
+    const imagesListRef = ref(storage, "cv/");
+    const uploadFile = () => {
+        if (file == null) return;
+        setIsLoadingFile(true);
+        const imageRef = ref(storage, `cv/${file.name + v4()}`);
+        uploadBytes(imageRef, file).then((snapshot) => {
+            getDownloadURL(snapshot.ref).then((url) => {
+                setIsLoadingFile(false);
+                setIsLoadingFileIcon(true);
+                setUrl(url);
+            });
+        });
+    };
+
     return (
         <div className="main-recruitment">
             <section className="recruitment-content">
-                <div className="recruitment-content-text" >
+                <div className="recruitment-content-text">
                     <h1>Tuyển dụng <br/>Sano Media</h1>
                     <p>Trong suốt 07 năm hình thành và phát triển, Sano Media luôn mở rộng cánh cửa chào đón những nhân
                         sự xuất sắc để cùng đồng hành và chinh phục những đỉnh cao mới </p>
@@ -109,21 +190,15 @@ const Recruitment = () => {
                 <div className="position">
                     <div className="item-position">
                         <div className="icon">
-                            <IEditor></IEditor>
+                            <IEditor width={isMobile ? 100: 150} height={isMobile ? 100: 150}></IEditor>
                         </div>
                         <text>Editor</text>
                     </div>
                     <div className="item-position">
                         <div className="icon">
-                            <IEditor></IEditor>
+                            <IContent width={isMobile ? 100: 150} height={isMobile ? 100: 150}/>
                         </div>
-                        <text>Editor</text>
-                    </div>
-                    <div className="item-position">
-                        <div className="icon">
-                            <IEditor></IEditor>
-                        </div>
-                        <text>Editor</text>
+                        <text>Content</text>
                     </div>
                 </div>
             </section>
@@ -133,7 +208,8 @@ const Recruitment = () => {
                 <div className="treatments">
                     {dataTreatment.map(value =>
                         <>
-                            <div className="item-treatment flex flex-col justify-center items-center gap-5" data-aos={value.animation}>
+                            <div className="item-treatment flex flex-col justify-center items-center gap-5"
+                                 data-aos={value.animation}>
                                 <div className="flex flex-col justify-center items-center">
                                     <div className="icon">{value.icon}</div>
                                     <div className="treatment">{value.title}</div>
@@ -211,24 +287,50 @@ const Recruitment = () => {
             </section>
             <section className="register">
                 <h1>Đăng kí tuyển dụng</h1>
-                <form>
-                    <div className="input-name flex flex-col gap-2 mb-2" data-aos="fade-right">
+                <div className="form">
+                    <div className="container-input input-name flex flex-col gap-2 mb-2" data-aos="fade-right">
                         <label htmlFor="name">Họ tên</label>
-                        <input id="name" type="text" placeholder="Họ và tên" onChange={(e)=>{getValueInput(e,1)}}/>
+                        <input id="name" type="text" placeholder="Họ và tên" onChange={(e) => {
+                            getValueInput(e, 1)
+                        }}/>
                     </div>
-                    <div className="input-email flex flex-col gap-2 mb-2" data-aos="fade-left">
+                    <div className="container-input input-email flex flex-col gap-2 mb-2" data-aos="fade-left">
                         <label htmlFor="email">Email</label>
-                        <input id="email" type="text" placeholder="Email" onChange={(e)=>{getValueInput(e,2)}}/>
+                        <input id="email" type="text" placeholder="Email" onChange={(e) => {
+                            getValueInput(e, 2)
+                        }}/>
                     </div>
-                    <div className="input-position flex flex-col gap-2 " data-aos="fade-right">
+                    <div className="container-input input-position flex flex-col gap-2 " data-aos="fade-right">
                         <label htmlFor="position">Vị trí quan tâm</label>
-                        <input id="position" type="text" placeholder="Vị trí bạn quan tâm" onChange={(e)=>{getValueInput(e,3)}}/>
+                        <div className="custom-select">
+                            <select onChange={(e) => getValueInput(e, 3)}>
+                                <option value="" disabled selected>Vị trí bạn quan tâm</option>
+                                <option value="Editor">Editor</option>
+                                <option value="Content">Content</option>
+                            </select>
+                        </div>
                     </div>
-                    <div className="submit flex justify-center mt-4" data-aos="flip-up" onClick={sendEmail}>
-                        <ButtonRed text="Đăng ký" icon={<ISend/>}></ButtonRed>
+                    <div className="container-input input-position flex flex-col gap-2 file" data-aos="fade-right">
+                        <label htmlFor="position">CV</label>
+                        <div className="input-file">
+                            <span>
+                                {!isLoadingFileIcon ? <IUpload width={50} height={50}></IUpload> :
+                                    <ITick width={50} height={50}></ITick>}
+                                {file ? <p>{file.name}</p> : <p>Chọn file CV của bạn</p>}
+                            </span>
+                            <input id="position" type="file" placeholder="Vị trí bạn quan tâm" onChange={(e) => {
+                                getValueInput(e, 4)
+                            }}/>
+                        </div>
                     </div>
-                </form>
+                    <div className="container-input submit flex justify-center mt-4" data-aos="flip-up"
+                         onClick={sendEmail} onMouseEnter={hoverBtn} onMouseLeave={leaveBtn}>
+                        <ButtonRed disabled={isLoadingFile} text="Đăng ký" icon={<ISend hover={hover}/>} isLoading={isLoading}></ButtonRed>
+                    </div>
+                </div>
+                {isShowToast && <Toast status={status} text={textToast}></Toast>}
             </section>
+
         </div>
     );
 };
