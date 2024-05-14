@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 interface Props {
     width?: number;
     height?: number;
@@ -7,7 +8,7 @@ interface Props {
 const ICreative = ({width, height}: Props) => {
     return (
         <div style={{width: width || 25, height: height || 25}}>
-            <img src="/image/ICreative.png" alt=""/>
+            <Image  width={width || 25} height={height || 25} src="/image/ICreative.png" alt=""/>
         </div>
     );
 };

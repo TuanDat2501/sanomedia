@@ -5,12 +5,13 @@ import IEmail from "@/icon/IEmail";
 import IAddress from "@/icon/IAddress";
 import IFacebook from "@/icon/IFacebook";
 import IYoutube from "@/icon/IYoutube";
+import Image from "next/image";
 const Footer = () => {
     return (
         <div className="footer">
             <div className="menu">
                 <div className="logo">
-                    <img src="https://i.ibb.co/w4nyGx5/logo.png" alt="logo"/>
+                    <Image width={80} height={80} src="/image/logo.png" alt="logo"/>
                 </div>
                 <div className="links-menu">
                     <a href="/tuyen-dung">Tuyển dụng</a>

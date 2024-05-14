@@ -5,7 +5,6 @@ import IGraduate from "@/icon/IGraduate";
 import ButtonRed from "@/app/component/button-red/ButtonRed";
 import ISend from "@/icon/ISend";
 import emailjs from '@emailjs/browser';
-import {Simulate} from "react-dom/test-utils";
 import IEditor from "@/icon/IEditor";
 import IContent from "@/icon/IContent";
 import IUpload from "@/icon/IUpload";
@@ -24,6 +23,7 @@ import {useMediaQuery} from "usehooks-ts";
 import IGift from "@/icon/IGift";
 import IHighFive from "@/icon/IHighFive";
 import ICreative from "@/icon/ICreative";
+import Image from "next/image";
 
 const TREATMENT_DATA = [
     {
@@ -142,10 +142,6 @@ const Recruitment = () => {
         }
     }
     useEffect(() => {
-        uploadFile();
-    }, [file]);
-    const imagesListRef = ref(storage, "cv/");
-    const uploadFile = () => {
         if (file == null) return;
         setIsLoadingFile(true);
         const imageRef = ref(storage, `cv/${file.name + v4()}`);
@@ -156,7 +152,8 @@ const Recruitment = () => {
                 setUrl(url);
             });
         });
-    };
+    }, [file]);
+    const imagesListRef = ref(storage, "cv/");
 
     return (
         <div className="main-recruitment">
@@ -231,15 +228,15 @@ const Recruitment = () => {
                     <svg width="71" height="71" viewBox="0 0 71 71" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M69.8104 58.2733C71.7953 65.7367 65.0167 72.5663 57.6088 70.5664L7.9153 57.1512C0.507437 55.1514 -1.97373 45.8221 3.4492 40.3585L39.8274 3.70752C45.2503 -1.75609 54.5101 0.743688 56.4951 8.20711L69.8104 58.2733Z"
-                            fill="#D9D9D9" fill-opacity="0.38"/>
+                            fill="#D9D9D9" fillOpacity="0.38"/>
                     </svg>
                 </div>
                 <div className="ellipse-3"></div>
                 <div className="subtract">
                     <svg width="96" height="101" viewBox="0 0 96 101" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
+                        <path fillRule="evenodd" clipRule="evenodd"
                               d="M55.5639 0.285672C53.4282 1.08767 51.3289 2.07548 49.2868 3.25443C29.4377 14.7143 22.5249 39.9015 33.8468 59.5115C45.1686 79.1215 70.4377 85.7284 90.2868 74.2685C92.3289 73.0896 94.234 71.7654 95.9964 70.3168C91.8558 79.6553 84.8252 87.8141 75.3013 93.3127C51.3866 107.12 20.8071 98.9261 7 75.0115C-6.80713 51.0968 1.38665 20.5173 25.3013 6.71021C34.8252 1.21156 45.4062 -0.797717 55.5639 0.285672Z"
-                              fill="#D9D9D9" fill-opacity="0.35"/>
+                              fill="#D9D9D9" fillOpacity="0.35"/>
                     </svg>
 
                 </div>
@@ -248,7 +245,7 @@ const Recruitment = () => {
                 <div className="feedback">
                     <div className="item-feedback flex gap-3" data-aos="flip-down">
                         <div className="member-img">
-                            <img src="https://i.ibb.co/nPrNkL1/newbie.jpg" alt="newbie"/>
+                            <Image width={100} height={100} src="/image/newbie.jpg" alt="newbie"/>
                         </div>
                         <div className="info-feedback">
                             <div className="name-member">Trịnh tuấn Đạt - <span>Editor</span></div>
@@ -269,12 +266,12 @@ const Recruitment = () => {
                             </div>
                         </div>
                         <div className="member-img">
-                            <img src="https://i.ibb.co/nPrNkL1/newbie.jpg" alt="newbie"/>
+                            <Image width={100} height={100} src="/image/newbie.jpg" alt="newbie"/>
                         </div>
                     </div>
                     <div className="item-feedback flex gap-3" data-aos="flip-down">
                         <div className="member-img">
-                            <img src="https://i.ibb.co/nPrNkL1/newbie.jpg" alt="newbie"/>
+                            <Image width={100} height={100} src="/image/newbie.jpg" alt="newbie"/>
                         </div>
                         <div className="info-feedback">
                             <div className="name-member">Trịnh tuấn Đạt - <span>Editor</span></div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 
 interface Props {
     width?: number;
@@ -8,7 +9,7 @@ interface Props {
 const IEditor = ({width, height}: Props) => {
     return (
         <div style={{width: width || "150px", height: height || "150px"}}>
-            <img src="/image/IEditor1.png" alt="icon"/>
+            <Image width={width || 150}  height={height||150} src="/image/IEditor1.png" alt="icon"/>
         </div>
     );
 };

@@ -10,6 +10,7 @@ import { useMediaQuery } from 'usehooks-ts'
 import 'swiper/css';
 import {Autoplay} from "swiper/modules";
 import {useRouter} from "next/navigation";
+import Image from "next/image";
 
 const AboutMe = () => {
     const dataPresent = PRESENT_DATA;
@@ -63,15 +64,15 @@ const AboutMe = () => {
                 observer.disconnect();
             }
         })
-        // @ts-ignore
+        // @ts-ignore☻◘
         observer.observe(myRef.current);
-    }, [])
+    })
     return (
         <main>
             <div className="main-about">
                 <section className="intro-content">
                     <div className="intro-content-img" data-aos="fade-up">
-                        <img src="./image/aboutme-1.jpg" alt="aboutme-1"/>
+                        <Image width={1000} height={1000} quality={100} src="/image/aboutme-1.jpg" alt="aboutme-1"/>
                     </div>
                     <div className="intro-content-text">
                         <h1>Giới thiệu</h1>
@@ -92,7 +93,7 @@ const AboutMe = () => {
                             làm việc cao hơn. </p>
                     </div>
                     <div className="work-environment-img" data-aos="fade-left">
-                        <img src='./image/Group412.jpg' alt="Group-412"/>
+                        <Image width={1000} height={1000} quality={100} src='/image/Group412.jpg' alt="Group-412"/>
                     </div>
                 </section>
                 <section className="present-data" ref={myRef}>
@@ -122,7 +123,7 @@ const AboutMe = () => {
                 <section className="sano-culture">
                     <div className="sano-culture-content">
                         <div className="icon-culture">
-                            <img src="https://i.ibb.co/fXVW33S/icon-heart.png" alt="icon-heart"/>
+                            <Image width={1000} height={1000} quality={100} src="/image/icon_heart.png" alt="icon-heart"/>
                         </div>
                         <h1>Giá trị cốt lỗi - văn hoá <span>Sano</span></h1>
                         <p>“Phát triển - Sáng tạo - Thành công”</p>
@@ -147,14 +148,14 @@ const AboutMe = () => {
                         }}
                         modules={[Autoplay]}
                     >
-                        <SwiperSlide><img style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-6.jpg" alt="aboutme-6"/></SwiperSlide>
-                        <SwiperSlide><img style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-4.jpg" alt="aboutme-5"/></SwiperSlide>
-                        <SwiperSlide><img style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-5.jpg" alt="aboutme-4"/></SwiperSlide>
-                        <SwiperSlide><img style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-8.jpg" alt="aboutme-4"/></SwiperSlide>
-                        <SwiperSlide><img style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-9.jpg" alt="aboutme-4"/></SwiperSlide>
-                        <SwiperSlide><img style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-10.jpg" alt="aboutme-4"/></SwiperSlide>
-                        <SwiperSlide><img style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-11.jpg" alt="aboutme-4"/></SwiperSlide>
-                        <SwiperSlide><img style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-12.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-6.jpg" alt="aboutme-6"/></SwiperSlide>
+                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-4.jpg" alt="aboutme-5"/></SwiperSlide>
+                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-5.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-8.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-9.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-10.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-11.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-12.jpg" alt="aboutme-4"/></SwiperSlide>
                     </Swiper>
                 </section>
                 <section className="sano-life-news">
@@ -166,7 +167,7 @@ const AboutMe = () => {
                         {dataNews.map(value =>
                             <>
                                 <div className="item-news" onClick={()=>clickNew(value.link)}>
-                                    <img src={value.image} alt="news-1" data-aos="fade-right"/>
+                                    <Image width={1000} height={1000} quality={100} src={value.image} alt="news-1" data-aos="fade-right"/>
                                     <div className="title-news">
                                         <h2>{value.title}</h2>
                                     </div>
