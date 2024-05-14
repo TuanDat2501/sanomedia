@@ -87,8 +87,8 @@ const Recruitment = () => {
         setIsLoading(true);
         if (name) {
             if (email) {
-                if(position){
-                    if(file){
+                if (position) {
+                    if (file) {
                         e.preventDefault();
                         emailjs.send('sano-media', 'template_whmq9dn', {
                             to_name: name,
@@ -109,10 +109,10 @@ const Recruitment = () => {
                                     console.log('FAILED...', error.text);
                                 },
                             );
-                    }else {
+                    } else {
                         showToast("warning", "Bạn tải CV của bạn")
                     }
-                }else {
+                } else {
                     showToast("warning", "Bạn cần chọn vị trí quan tâm")
                 }
             } else {
@@ -190,13 +190,13 @@ const Recruitment = () => {
                 <div className="position">
                     <div className="item-position">
                         <div className="icon">
-                            <IEditor width={isMobile ? 100: 150} height={isMobile ? 100: 150}></IEditor>
+                            <IEditor width={isMobile ? 100 : 150} height={isMobile ? 100 : 150}></IEditor>
                         </div>
                         <text>Editor</text>
                     </div>
                     <div className="item-position">
                         <div className="icon">
-                            <IContent width={isMobile ? 100: 150} height={isMobile ? 100: 150}/>
+                            <IContent width={isMobile ? 100 : 150} height={isMobile ? 100 : 150}/>
                         </div>
                         <text>Content</text>
                     </div>
@@ -251,8 +251,8 @@ const Recruitment = () => {
                             <div className="name-member">Trịnh tuấn Đạt - <span>Editor</span></div>
                             <div className="cmt-member">
                                 “ Mình vốn là người hướng nội và ít giao tiếp. Nhưng với một môi trường trẻ trung, năng
-                                động như Adamo, mình như được "mở lòng" hơn với tất cả mọi người. Đặc biệt, điều tuyệt
-                                vời với mình là được dẫn dắt bởi anh Leader có tâm nhất quả đất. So niceeeeeeeeeeeee! ”
+                                động như Sano, mình như được "mở lòng" hơn với tất cả mọi người. Đặc biệt, điều tuyệt
+                                vời với mình là được dẫn dắt bởi anh Leader có tâm nhất quả đất. So niceee! ”
                             </div>
                         </div>
                     </div>
@@ -260,9 +260,8 @@ const Recruitment = () => {
                         <div className="info-feedback">
                             <div className="name-member name-right">Trịnh tuấn Đạt - <span>Editor</span></div>
                             <div className="cmt-member">
-                                “ Mình vốn là người hướng nội và ít giao tiếp. Nhưng với một môi trường trẻ trung, năng
-                                động như Adamo, mình như được "mở lòng" hơn với tất cả mọi người. Đặc biệt, điều tuyệt
-                                vời với mình là được dẫn dắt bởi anh Leader có tâm nhất quả đất. So niceeeeeeeeeeeee! ”
+                                “ Sau tuần đầu tiên làm việc tại công ty, tôi cảm nhận được một môi trường làm việc
+                                chuyên nghiệp, thân thiện và đầy năng lượng tích cực. ”
                             </div>
                         </div>
                         <div className="member-img">
@@ -276,9 +275,9 @@ const Recruitment = () => {
                         <div className="info-feedback">
                             <div className="name-member">Trịnh tuấn Đạt - <span>Editor</span></div>
                             <div className="cmt-member">
-                                “ Mình vốn là người hướng nội và ít giao tiếp. Nhưng với một môi trường trẻ trung, năng
-                                động như Adamo, mình như được "mở lòng" hơn với tất cả mọi người. Đặc biệt, điều tuyệt
-                                vời với mình là được dẫn dắt bởi anh Leader có tâm nhất quả đất. So niceeeeeeeeeeeee! ”
+                                “ Sau tuần đầu tiên làm việc tại công ty, tôi cảm nhận được một môi trường làm việc
+                                chuyên nghiệp, thân thiện và đầy năng lượng tích cực. Mọi người luôn sẵn lòng hỗ trợ và
+                                chia sẻ kinh nghiệm, giúp tôi nhanh chóng hòa nhập và phát triển kỹ năng. ”
                             </div>
                         </div>
                     </div>
@@ -325,7 +324,8 @@ const Recruitment = () => {
                     </div>
                     <div className="container-input submit flex justify-center mt-4" data-aos="flip-up"
                          onClick={sendEmail} onMouseEnter={hoverBtn} onMouseLeave={leaveBtn}>
-                        <ButtonRed disabled={isLoadingFile} text="Đăng ký" icon={<ISend hover={hover}/>} isLoading={isLoading}></ButtonRed>
+                        <ButtonRed disabled={isLoadingFile} text="Đăng ký" icon={<ISend hover={hover}/>}
+                                   isLoading={isLoading}></ButtonRed>
                     </div>
                 </div>
                 {isShowToast && <Toast status={status} text={textToast}></Toast>}
