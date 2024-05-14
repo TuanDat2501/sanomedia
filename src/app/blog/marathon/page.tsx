@@ -5,7 +5,7 @@ const Marathon = () => {
         "        <h1>Chương trình hoạt động: Chạy Marathon</h1>\n" +
         "        <h3 style=\"font-size: 20px;\">19-08-2023</h3>\n" +
         "        <p>Vào ngày 19 tháng 08 năm 2023, Sano Media đã tổ chức hoạt động team building đầy niềm vui và ý nghĩa khi toàn thể nhân sự Công ty. Nhằm tạo sự gắn kết giữa người với người giữa các thành viên trong Công ty</p>\n" +
-        "        <img style=\"max-width: 1200px;\" src=\"/image/marathon/image1.jpg\">\n" +
+        "        <img style=\"max-width: 1200px;\" src=\"./image/marathon/image1.jpg\">\n" +
         "        <div class=\"paragraph\">\n" +
         "            <h3>Khám Phá Hoạt Động Chạy Marathon Cho Công Ty: Kết Nối Đội Ngũ và Thúc Đẩy Sức Khỏe</h3>\n" +
         "            <p>Chạy Marathon 21km và Hành trình Team Building Đầy Ý Nghĩa tại SANO Media Việt Nam!</p>\n" +
@@ -37,22 +37,22 @@ const Marathon = () => {
         "            <h3>Khuyến Khích Lối Sống Lành Mạnh</h3>\n" +
         "            <p>Hoạt động chạy marathon thúc đẩy lối sống lành mạnh, khuyến khích nhân viên duy trì chế độ tập luyện và dinh dưỡng hợp lý. Điều này không chỉ cải thiện sức khỏe cá nhân mà còn giảm thiểu các chi phí y tế cho công ty.</p>\n" +
         "        </div>\n" +
-        "        <img style=\"max-width: 1200px;\" src=\"/image/marathon/image2.jpg\">\n" +
-        "        <img style=\"max-width: 1200px;\" src=\"/image/marathon/image3.jpg\">\n" +
+        "        <img style=\"max-width: 1200px;\" src=\"./image/marathon/image2.jpg\">\n" +
+        "        <img style=\"max-width: 1200px;\" src=\"./image/marathon/image3.jpg\">\n" +
         "    \n" +
         "        <div class=\"paragraph\">\n" +
         "            <h3>Nâng Cao Hình Ảnh Công Ty</h3>\n" +
         "            <p>Tham gia các sự kiện cộng đồng như chạy marathon giúp nâng cao hình ảnh của công ty, thể hiện sự quan tâm đến sức khỏe và hạnh phúc của nhân viên cũng như cam kết đối với các hoạt động xã hội. Không chỉ dừng lại ở đó, chúng ta đã thể hiện sự kiên nhẫn và quyết tâm trong cuộc chạy Marathon 21km. Dù trời mưa hay trời nắng, chúng ta đã cùng nhau vượt qua từng dặm đường, từng bước chân. Đích đến không chỉ là về nơi, mà còn là sự thể hiện ý chí và sức mạnh bên trong chúng ta.</p>\n" +
         "        </div>\n" +
-        "        <img style=\"max-width: 1200px;\" src=\"/image/marathon/image4.jpg\">\n" +
-        "        <img style=\"max-width: 1200px;\" src=\"/image/marathon/image8.jpg\">\n" +
-        "        <img style=\"max-width: 1200px;\" src=\"/image/marathon/image9.jpg\">\n" +
+        "        <img style=\"max-width: 1200px;\" src=\"./image/marathon/image4.jpg\">\n" +
+        "        <img style=\"max-width: 1200px;\" src=\"./image/marathon/image8.jpg\">\n" +
+        "        <img style=\"max-width: 1200px;\" src=\"./image/marathon/image9.jpg\">\n" +
         "        <div class=\"paragraph\">\n" +
         "            <h3>Xây dựng văn hóa công ty</h3>\n" +
         "            <p>Team building giúp xây dựng và củng cố văn hóa công ty, tạo ra một môi trường làm việc tích cực và thân thiện. Văn hóa công ty mạnh mẽ không chỉ giúp thu hút và giữ chân nhân tài mà còn tăng cường hiệu suất làm việc của toàn đội ngũ.</p>\n" +
         "        </div>\n" +
-        "        <img style=\"max-width: 1200px;\" src=\"/image/marathon/image5.jpg\">\n" +
-        "        <img style=\"max-width: 1200px;\" src=\"/image/marathon/image10.jpg\">\n" +
+        "        <img style=\"max-width: 1200px;\" src=\"./image/marathon/image5.jpg\">\n" +
+        "        <img style=\"max-width: 1200px;\" src=\"./image/marathon/image10.jpg\">\n" +
         "        <div class=\"paragraph\">\n" +
         "            <h3>Kết Luận</h3>\n" +
         "            <p>Hoạt động chạy marathon cho công ty không chỉ là một sự kiện thể thao mà còn là một công cụ mạnh mẽ để xây dựng đội ngũ, thúc đẩy sức khỏe và nâng cao tinh thần làm việc. Với sự chuẩn bị kỹ lưỡng và sự tham gia nhiệt tình của các nhân viên, công ty có thể tạo ra một sự kiện đáng nhớ, mang lại nhiều lợi ích lâu dài cho cả cá nhân và tổ chức. Hãy bắt đầu lên kế hoạch cho cuộc chạy marathon tiếp theo và tận hưởng những giá trị tuyệt vời mà nó mang lại!</p>\n" +

@@ -245,7 +245,7 @@ const Recruitment = () => {
                 <div className="feedback">
                     <div className="item-feedback flex gap-3" data-aos="flip-down">
                         <div className="member-img">
-                            <Image width={100} height={100} src="/image/newbie.jpg" alt="newbie"/>
+                            <Image width={100} height={100} src="./image/newbie.jpg" alt="newbie"/>
                         </div>
                         <div className="info-feedback">
                             <div className="name-member">Trịnh tuấn Đạt - <span>Editor</span></div>
@@ -266,12 +266,12 @@ const Recruitment = () => {
                             </div>
                         </div>
                         <div className="member-img">
-                            <Image width={100} height={100} src="/image/newbie.jpg" alt="newbie"/>
+                            <Image width={100} height={100} src="./image/newbie.jpg" alt="newbie"/>
                         </div>
                     </div>
                     <div className="item-feedback flex gap-3" data-aos="flip-down">
                         <div className="member-img">
-                            <Image width={100} height={100} src="/image/newbie.jpg" alt="newbie"/>
+                            <Image width={100} height={100} src="./image/newbie.jpg" alt="newbie"/>
                         </div>
                         <div className="info-feedback">
                             <div className="name-member">Trịnh tuấn Đạt - <span>Editor</span></div>

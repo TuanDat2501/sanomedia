@@ -32,7 +32,7 @@ const Header = () => {
         <header className="header">
             <div className="wrapper desktop">
                 <div className="logo cursor-pointer" onClick={()=>router.push('/SanoMedia/gioi-thieu')}>
-                    <Image width={120} height={120} src="/image/logo.png" alt="logo"/>
+                    <Image width={120} height={120} src="./image/logo.png" alt="logo"/>
                 </div>
                 <div className="nav">
                     <div className={pageActive == 0 ?"link cursor-pointer active":"link cursor-pointer"}>
@@ -55,7 +55,7 @@ const Header = () => {
             </div>
             <div className=" mobile">
                 <div className="logo cursor-pointer" onClick={()=>router.push('/SanoMedia/gioi-thieu')}>
-                    <Image width={1000} height={1000} quality={100} src="/image/logo.png"  alt="logo"/>
+                    <Image width={1000} height={1000} quality={100} src="./image/logo.png"  alt="logo"/>
                 </div>
                 <div className="menu-header" onClick={() => setIsOpenMenu(!isOpenMenu)}>
                     <text>Menu</text>

@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer">
             <div className="menu">
                 <div className="logo">
-                    <Image width={80} height={80} src="/image/logo.png" alt="logo"/>
+                    <Image width={80} height={80} src="./image/logo.png" alt="logo"/>
                 </div>
                 <div className="links-menu">
                     <a href="/SanoMedia/tuyen-dung">Tuyển dụng</a>

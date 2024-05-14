@@ -8,7 +8,7 @@ interface Props {
 const ICreative = ({width, height}: Props) => {
     return (
         <div style={{width: width || 25, height: height || 25}}>
-            <Image  width={width || 25} height={height || 25} src="/image/ICreative.png" alt=""/>
+            <Image  width={width || 25} height={height || 25} src="./image/ICreative.png" alt=""/>
         </div>
     );
 };
