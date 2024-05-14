@@ -5,7 +5,7 @@ const Training = () => {
         "        <h1>Chương trình hoạt động: Đào tạo nội bộ</h1>\n" +
         "        <h3 style=\"font-size: 20px;\">19-08-2023</h3>\n" +
         "        <p>Sano Media có tổ chức hoạt động đào tạo nội bộ thường niên cho toàn bộ thành viên trong Công ty nhằm nâng cao kiến thức, nhận thức cho mọi người.</p>\n" +
-        "        <img style=\"max-width: 1200px;\" src=\"./image/training/image1.jpg\">\n" +
+        "        <img style=\"max-width: 1200px;\" src=\"../image/training/image1.jpg\">\n" +
         "        <div class=\"paragraph\">\n" +
         "            <h3>Khám Phá Hoạt Động Đào Tạo Nội Bộ Cho Công Ty: Nâng Cao Năng Lực và Gắn Kết Đội Ngũ</h3>\n" +
         "            <p>Trong bối cảnh cạnh tranh ngày càng gay gắt, việc đầu tư vào hoạt động đào tạo nội bộ cho công ty trở nên vô cùng quan trọng. Đào tạo nội bộ không chỉ giúp nâng cao năng lực chuyên môn của nhân viên mà còn tạo ra một môi trường làm việc tích cực, thúc đẩy sự gắn kết và lòng trung thành đối với công ty. Hãy cùng tìm hiểu về những lợi ích và cách tổ chức hiệu quả hoạt động đào tạo nội bộ qua bài viết này.</p>\n" +
@@ -37,15 +37,15 @@ const Training = () => {
         "            <h3>Tăng Cường Sự Gắn Kết Đội Ngũ</h3>\n" +
         "            <p>Các hoạt động đào tạo nội bộ thường đòi hỏi sự tham gia và hợp tác của các thành viên, từ đó tăng cường tinh thần đồng đội và sự gắn kết trong công ty. Khi cùng nhau học hỏi và phát triển, mối quan hệ giữa các nhân viên sẽ trở nên chặt chẽ hơn.</p>\n" +
         "        </div>\n" +
-        "        <img style=\"max-width: 1200px;\" src=\"./image/training/image2.jpg\">\n" +
-        "        <img style=\"max-width: 1200px;\" src=\"./image/training/image3.jpg\">\n" +
+        "        <img style=\"max-width: 1200px;\" src=\"../image/training/image2.jpg\">\n" +
+        "        <img style=\"max-width: 1200px;\" src=\"../image/training/image3.jpg\">\n" +
         "    \n" +
         "        <div class=\"paragraph\">\n" +
         "            <h3>Thích Nghi Nhanh Chóng Với Thay Đổi</h3>\n" +
         "            <p>Đào tạo nội bộ giúp nhân viên nhanh chóng thích nghi với những thay đổi trong công việc và thị trường. Các chương trình đào tạo liên tục và kịp thời sẽ giúp đội ngũ luôn sẵn sàng đối mặt với những thách thức mới.</p>\n" +
         "        </div>\n" +
-        "        <img style=\"max-width: 1200px;\" src=\"./image/training/image4.jpg\">\n" +
-        "        <img style=\"max-width: 1200px;\" src=\"./image/training/image8.jpg\">\n" +
+        "        <img style=\"max-width: 1200px;\" src=\"../image/training/image4.jpg\">\n" +
+        "        <img style=\"max-width: 1200px;\" src=\"../image/training/image8.jpg\">\n" +
         "        <div class=\"paragraph\">\n" +
         "            <h3>Xây dựng văn hóa công ty</h3>\n" +
         "            <p>Team building giúp xây dựng và củng cố văn hóa công ty, tạo ra một môi trường làm việc tích cực và thân thiện. Văn hóa công ty mạnh mẽ không chỉ giúp thu hút và giữ chân nhân tài mà còn tăng cường hiệu suất làm việc của toàn đội ngũ.</p>\n" +
@@ -56,12 +56,12 @@ const Training = () => {
         "                <h3>Xác Định Nhu Cầu Đào Tạo</h3>\n" +
         "                <p>Bắt đầu bằng việc đánh giá nhu cầu đào tạo của công ty. Xác định các kỹ năng và kiến thức cần thiết để đạt được mục tiêu kinh doanh. Điều này có thể thực hiện thông qua khảo sát, phỏng vấn và đánh giá hiệu suất làm việc của nhân viên.</p>\n" +
         "            </div>\n" +
-        "            <img style=\"max-width: 1200px;\" src=\"./image/training/image2.jpg\">\n" +
+        "            <img style=\"max-width: 1200px;\" src=\"../image/training/image2.jpg\">\n" +
         "            <div class=\"paragraph\">\n" +
         "                <h3>Lên Kế Hoạch Đào Tạo Chi Tiết</h3>\n" +
         "                <p>Dựa trên nhu cầu đào tạo, xây dựng kế hoạch chi tiết cho các chương trình đào tạo. Kế hoạch cần bao gồm mục tiêu, nội dung, phương pháp và thời gian đào tạo. Đảm bảo rằng các khóa học được thiết kế phù hợp với từng đối tượng nhân viên.</p>\n" +
         "            </div>\n" +
-        "            <img style=\"max-width: 1200px;\" src=\"./image/training/image5.jpg\">\n" +
+        "            <img style=\"max-width: 1200px;\" src=\"../image/training/image5.jpg\">\n" +
         "            <div class=\"paragraph\">\n" +
         "                <h3>Tận Dụng Nguồn Lực Nội Bộ</h3>\n" +
         "                <p>Tận dụng kiến thức và kinh nghiệm của các chuyên gia nội bộ để thực hiện đào tạo. Các quản lý, trưởng phòng và nhân viên giàu kinh nghiệm có thể chia sẻ kiến thức và hướng dẫn cho các đồng nghiệp, tạo ra môi trường học tập và phát triển liên tục.</p>\n" +
