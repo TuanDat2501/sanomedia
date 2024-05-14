@@ -72,7 +72,7 @@ const AboutMe = () => {
             <div className="main-about">
                 <section className="intro-content">
                     <div className="intro-content-img" data-aos="fade-up">
-                        <Image width={1000} height={1000} quality={100} src="/image/aboutme-1.jpg" alt="aboutme-1"/>
+                        <Image width={1000} height={1000} quality={100} src="./image/aboutme-1.jpg" alt="aboutme-1"/>
                     </div>
                     <div className="intro-content-text">
                         <h1>Giới thiệu</h1>
@@ -93,7 +93,7 @@ const AboutMe = () => {
                             làm việc cao hơn. </p>
                     </div>
                     <div className="work-environment-img" data-aos="fade-left">
-                        <Image width={1000} height={1000} quality={100} src='/image/Group412.jpg' alt="Group-412"/>
+                        <Image width={1000} height={1000} quality={100} src='./image/Group412.jpg' alt="Group-412"/>
                     </div>
                 </section>
                 <section className="present-data" ref={myRef}>
@@ -123,7 +123,7 @@ const AboutMe = () => {
                 <section className="sano-culture">
                     <div className="sano-culture-content">
                         <div className="icon-culture">
-                            <Image width={1000} height={1000} quality={100} src="/image/icon_heart.png" alt="icon-heart"/>
+                            <Image width={1000} height={1000} quality={100} src="./image/icon_heart.png" alt="icon-heart"/>
                         </div>
                         <h1>Giá trị cốt lỗi - văn hoá <span>Sano</span></h1>
                         <p>“Phát triển - Sáng tạo - Thành công”</p>
@@ -148,14 +148,14 @@ const AboutMe = () => {
                         }}
                         modules={[Autoplay]}
                     >
-                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-6.jpg" alt="aboutme-6"/></SwiperSlide>
-                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-4.jpg" alt="aboutme-5"/></SwiperSlide>
-                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-5.jpg" alt="aboutme-4"/></SwiperSlide>
-                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-8.jpg" alt="aboutme-4"/></SwiperSlide>
-                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-9.jpg" alt="aboutme-4"/></SwiperSlide>
-                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-10.jpg" alt="aboutme-4"/></SwiperSlide>
-                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-11.jpg" alt="aboutme-4"/></SwiperSlide>
-                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="/image/aboutme-12.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="./image/aboutme-6.jpg" alt="aboutme-6"/></SwiperSlide>
+                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="./image/aboutme-4.jpg" alt="aboutme-5"/></SwiperSlide>
+                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="./image/aboutme-5.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="./image/aboutme-8.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="./image/aboutme-9.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="./image/aboutme-10.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="./image/aboutme-11.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="./image/aboutme-12.jpg" alt="aboutme-4"/></SwiperSlide>
                     </Swiper>
                 </section>
                 <section className="sano-life-news">
