@@ -9,12 +9,12 @@ const IContent = ({height, width}: prop) => {
     return (
         <div>
             <svg width={width || 150} height={height||150} xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" fill="#000000"
-                 version="1.1" id="Capa_1" viewBox="-97.9 -97.9 685.30 685.30" xmlSpace="preserve" stroke="#000000" stroke-width="0.004895040000000001">
+                 version="1.1" id="Capa_1" viewBox="-97.9 -97.9 685.30 685.30" xmlSpace="preserve" stroke="#000000" strokeWidth="0.004895040000000001">
                 <script id="gpm-inject-b"/>
 
-                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                <g id="SVGRepo_bgCarrier" strokeWidth="0"/>
 
-                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"/>
 
                 <g id="SVGRepo_iconCarrier">
                     <g>

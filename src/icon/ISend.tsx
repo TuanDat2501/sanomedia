@@ -12,8 +12,8 @@ const ISend = ({height,width,hover}:Props) => {
         <div>
             <svg fill={hover ? "#FF5454" : "#fff"} height={height ||'12px'} width={width||'12px'} version="1.1" id="Capa_1"
                  xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
-                 viewBox="0 0 495.003 495.003" xmlSpace="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                 viewBox="0 0 495.003 495.003" xmlSpace="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                 <g id="SVGRepo_iconCarrier"> <g id="XMLID_51_"> <path id="XMLID_53_"
                                                                       d="M164.711,456.687c0,2.966,1.647,5.686,4.266,7.072c2.617,1.385,5.799,1.207,8.245-0.468l55.09-37.616 l-67.6-32.22V456.687z"></path>
                     <path id="XMLID_52_"

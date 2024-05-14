@@ -1,10 +1,16 @@
+'use client'
 import React from 'react';
 import './style.scss'
 import IArrowRight from "@/icon/IArrowRight";
 import IFacebook1 from "@/icon/IFacebook1";
 import {NEWS_SANOLIFE_DATA1} from "@/constant/const";
+import {useRouter} from "next/navigation";
 
 const SanoLife = () => {
+    const router = useRouter();
+    const navigate = (link:string)=>{
+        router.push(link);
+    }
     const arr = NEWS_SANOLIFE_DATA1;
     return (
         <div className="sano-wrapper">
@@ -79,7 +85,7 @@ const SanoLife = () => {
                         <div className="item-blog">
                             <img src={value.image} alt="news-1" data-aos="fade-right"/>
                             <div className="content-blog">
-                                <div className="title-blog">
+                                <div className="title-blog" onClick={()=>navigate(value.link)}>
                                     <h2>{value.title}</h2>
                                 </div>
                                 <div className="date-blog">

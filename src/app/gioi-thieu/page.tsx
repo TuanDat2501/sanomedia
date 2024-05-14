@@ -1,6 +1,6 @@
 'use client'
 import './style.scss'
-import {NEWS_SANOLIFE_DATA, PRESENT_DATA} from "@/constant/const";
+import {NEWS_SANOLIFE_DATA, NEWS_SANOLIFE_DATA1, PRESENT_DATA} from "@/constant/const";
 import IArrowRight from "@/icon/IArrowRight";
 import ButtonRed from "@/app/component/button-red/ButtonRed";
 import {useEffect, useRef, useState} from "react";
@@ -9,6 +9,7 @@ import { useMediaQuery } from 'usehooks-ts'
 // Import Swiper styles
 import 'swiper/css';
 import {Autoplay} from "swiper/modules";
+import {useRouter} from "next/navigation";
 
 const AboutMe = () => {
     const dataPresent = PRESENT_DATA;
@@ -47,6 +48,10 @@ const AboutMe = () => {
     }
     const isMobile = useMediaQuery('(max-width: 430px)');
     const isTablet = useMediaQuery('(min-width: 430px) and (max-width: 830px)');
+    const router = useRouter()
+    const clickNew = (href:string)=>{
+        router.push(href);
+    }
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
             const entry = entries[0];
@@ -160,7 +165,7 @@ const AboutMe = () => {
                     <div className="news">
                         {dataNews.map(value =>
                             <>
-                                <div className="item-news">
+                                <div className="item-news" onClick={()=>clickNew(value.link)}>
                                     <img src={value.image} alt="news-1" data-aos="fade-right"/>
                                     <div className="title-news">
                                         <h2>{value.title}</h2>

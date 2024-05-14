@@ -48,10 +48,10 @@ const Footer = () => {
                 ></iframe>
                 <div className="media">
                     <button className="btn-media btn-facebook">
-                        <span><IFacebook width={20} height={20}/></span>
+                        <a href={"https://www.facebook.com/sanomediavn" } target="_blank" rel="noopener noreferrer"><IFacebook width={20} height={20}/></a>
                     </button>
                     <button className="btn-media btn-youtube">
-                        <span><IYoutube width={20} height={20}/></span>
+                        <a><IYoutube width={30} height={30}/></a>
                     </button>
                 </div>
             </div>

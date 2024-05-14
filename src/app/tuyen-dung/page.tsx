@@ -21,6 +21,9 @@ import {v4} from "uuid";
 import ITick from "@/icon/ITick";
 import Toast from "@/app/component/toast/Toast";
 import {useMediaQuery} from "usehooks-ts";
+import IGift from "@/icon/IGift";
+import IHighFive from "@/icon/IHighFive";
+import ICreative from "@/icon/ICreative";
 
 const TREATMENT_DATA = [
     {
@@ -30,21 +33,21 @@ const TREATMENT_DATA = [
         animation: "fade-right"
     },
     {
-        icon: <IGraduate></IGraduate>,
-        title: "Đào tạo toàn diện",
-        description: "Sano chú trọng đào tạo không chỉ các kiến thức chuyên môn mà còn việc phát triển ngoại ngữ, kiến thức xã hội và các kỹ năng mềm.",
+        icon: <IGift></IGift>,
+        title: "Đãi ngộ tuyệt vời",
+        description: "Chính sách đãi ngộ hấp dẫn với các gói phúc lợi đa dạng, mức lương cạnh tranh, cùng những hoạt động, sự kiện thú vị để gắn kết thành viên. ",
         animation: "fade-left"
     },
     {
-        icon: <IGraduate></IGraduate>,
-        title: "Đào tạo toàn diện",
-        description: "Sano chú trọng đào tạo không chỉ các kiến thức chuyên môn mà còn việc phát triển ngoại ngữ, kiến thức xã hội và các kỹ năng mềm.",
+        icon: <IHighFive></IHighFive>,
+        title: "Môi trường năng động",
+        description: "Đội ngũ 9x năng động trẻ trung, cơ sở vật chất tiện nghi, hiện đại cùng phong cách làm việc chuyên nghiệp.",
         animation: "fade-right"
     },
     {
-        icon: <IGraduate></IGraduate>,
-        title: "Đào tạo toàn diện",
-        description: "Sano chú trọng đào tạo không chỉ các kiến thức chuyên môn mà còn việc phát triển ngoại ngữ, kiến thức xã hội và các kỹ năng mềm.",
+        icon: <ICreative></ICreative>,
+        title: "Thoả sức sáng tạo",
+        description: "Luôn khuyến khích và tôn trọng sự thoả sức sáng tạo của mỗi thành viên trong tổ chức để đạt được sự đổi mới và tiến bộ liên tục.",
         animation: "fade-left"
     }
 ]
