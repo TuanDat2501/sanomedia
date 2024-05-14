@@ -86,7 +86,7 @@ const SanoLife = () => {
                         <div className="item-blog">
                             <Image width={1000} height={1000} quality={100} src={value.image} alt="news-1" data-aos="fade-right"/>
                             <div className="content-blog">
-                                <div className="title-blog" onClick={()=>navigate(value.link)}>
+                                <div className="title-blog" onClick={()=>navigate(`/SanoMedia${value.link}`)}>
                                     <h2>{value.title}</h2>
                                 </div>
                                 <div className="date-blog">

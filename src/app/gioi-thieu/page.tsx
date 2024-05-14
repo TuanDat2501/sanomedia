@@ -166,7 +166,7 @@ const AboutMe = () => {
                     <div className="news">
                         {dataNews.map(value =>
                             <>
-                                <div className="item-news" onClick={()=>clickNew(value.link)}>
+                                <div className="item-news" onClick={()=>clickNew(`/SanoMedia${value.link}`)}>
                                     <Image width={1000} height={1000} quality={100} src={value.image} alt="news-1" data-aos="fade-right"/>
                                     <div className="title-news">
                                         <h2>{value.title}</h2>

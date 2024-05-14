@@ -14,9 +14,9 @@ const Footer = () => {
                     <Image width={80} height={80} src="/image/logo.png" alt="logo"/>
                 </div>
                 <div className="links-menu">
-                    <a href="/tuyen-dung">Tuyển dụng</a>
-                    <a href="/gioi-thieu">Giới thiệu</a>
-                    <a href="/sano-life">Sano life</a>
+                    <a href="/SanoMedia/tuyen-dung">Tuyển dụng</a>
+                    <a href="/SanoMedia/gioi-thieu">Giới thiệu</a>
+                    <a href="/SanoMedia/sano-life">Sano life</a>
                 </div>
             </div>
             <div className="contact">
