@@ -181,7 +181,7 @@ const Recruitment = () => {
                                 }}></iframe>
                     </div>*/}
                     <video controls>
-                        <source src="/video/video.mp4"/>
+                        <source src="./video/video.mp4"/>
                     </video>
                 </div>
             </section>
