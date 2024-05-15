@@ -1,0 +1,20 @@
+.button1 button{
+  width: 143px;
+  height: 45px;
+  background: linear-gradient(180deg, #FF5454 0%, #DA4848 49%, #993232 100%);
+  border-radius: 10px;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 50px;
+  /* identical to box height */
+  color: #FFFFFF;
+  transition: .5s ease;
+  &:hover{
+    background: #fff;
+    color: var(--color-red);
+    border: 2px solid var(--color-red);
+  }
+}/* Rectangle 3 */

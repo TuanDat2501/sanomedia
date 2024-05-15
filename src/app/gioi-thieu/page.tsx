@@ -5,12 +5,13 @@ import IArrowRight from "@/icon/IArrowRight";
 import ButtonRed from "@/app/component/button-red/ButtonRed";
 import {useEffect, useRef, useState} from "react";
 import {Swiper, SwiperSlide} from 'swiper/react';
-import { useMediaQuery } from 'usehooks-ts'
+import {useMediaQuery} from 'usehooks-ts'
 // Import Swiper styles
 import 'swiper/css';
 import {Autoplay} from "swiper/modules";
 import {useRouter} from "next/navigation";
 import Image from "next/image";
+import ButtonRed1 from "@/app/component/button-red1/ButtonRed1";
 
 const AboutMe = () => {
     const dataPresent = PRESENT_DATA;
@@ -47,20 +48,21 @@ const AboutMe = () => {
         });
         return count;
     }
+
     const isMobile = useMediaQuery('(max-width: 430px)');
     const isTablet = useMediaQuery('(min-width: 430px) and (max-width: 830px)');
     const router = useRouter()
-    const clickNew = (href:string)=>{
+    const clickNew = (href: string) => {
         router.push(href);
     }
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
             const entry = entries[0];
             if (entry["isIntersecting"] && year === 0) {
-                waitUntil(5, 50, 1);
+                waitUntil(8, 200, 1);
                 waitUntil(50, 20, 2);
-                waitUntil(5, 70, 3);
-                waitUntil(5, 100, 4);
+                waitUntil(2, 1000, 3);
+                waitUntil(30, 60, 4);
                 observer.disconnect();
             }
         })
@@ -71,32 +73,31 @@ const AboutMe = () => {
         <main>
             <div className="main-about">
                 <section className="intro-content">
+
                     <div className="intro-content-img" data-aos="fade-up">
-                        <Image width={1000} height={1000} quality={100} src="./image/aboutme-1.jpg" alt="aboutme-1"/>
+                        <div className="overlay"></div>
+                        <Image width={2000} height={2000} quality={100} src="./image/aboutme-1.jpg" alt="aboutme-1"/>
                     </div>
                     <div className="intro-content-text">
-                        <h1>Giới thiệu</h1>
-                        <h1><span>Sano</span> Media</h1>
-                        <p>Sano Media là công ty về Youtube có trụ sở tại Bắc Giang, Sano Media không chỉ là một công ty
-                            - chúng tôi là một cộng đồng sáng tạo đầy nhiệt huyết, đang chuyên về mảng YouTube. Chúng
-                            tôi tin tưởng rằng mỗi video, mỗi ý tưởng đều có thể thay đổi thế giới. Với đội ngũ giàu
-                            kinh nghiệm và tận tâm, chúng tôi đang chinh phục những ngóc ngách mới của nền kỹ thuật
-                            số.</p>
+                        <h1>Chào mừng đến với Sano Media</h1>
+                        <p>Sano media là doanh nghiệp sản xuất sáng tạo Youtube số 1 tại Bắc Giang. </p>
+                        <ButtonRed1 text={"Liên hệ"}/>
                     </div>
                 </section>
-                <section className="work-environment">
+                <section className="work-environment margin-center">
                     <div className="work-environment-text">
                         <h1>Môi trường làm việc</h1>
                         <p>Sano Media - một môi trường công ty tích cực không chỉ là nơi làm việc mà còn là nguồn cảm
                             hứng và động lực cho mỗi thành viên . Việc tạo ra không gian cho sự phát triển cá nhân, sự
                             sáng tạo và sự kết nối giữa các thành viên tạo ra một Sano năng động và mang lại hiệu suất
                             làm việc cao hơn. </p>
+
                     </div>
                     <div className="work-environment-img" data-aos="fade-left">
                         <Image width={1000} height={1000} quality={100} src='./image/Group412.jpg' alt="Group-412"/>
                     </div>
                 </section>
-                <section className="present-data" ref={myRef}>
+                <section className="present-data margin-center" ref={myRef}>
                     <div className="text flex flex-col justify-around items-center ">
                         <h1>Đến ngày hôm nay</h1>
                         <div className="line"></div>
@@ -120,45 +121,69 @@ const AboutMe = () => {
                         </div>
                     </div>
                 </section>
-                <section className="sano-culture">
+                <section className="sano-culture margin-center">
                     <div className="sano-culture-content">
                         <div className="icon-culture">
-                            <Image width={1000} height={1000} quality={100} src="./image/icon_heart.png" alt="icon-heart"/>
+                            <Image width={1000} height={1000} quality={100} src="./image/icon_heart.png"
+                                   alt="icon-heart"/>
                         </div>
                         <h1>Giá trị cốt lỗi - văn hoá <span>Sano</span></h1>
-                        <p>“Phát triển - Sáng tạo - Thành công”</p>
+                        <p>“Học tập - Phát triển - Hạnh phúc - Giàu có - Khoẻ mạnh”</p>
                         <div className="text-culture">Làm việc tại Sano, bạn không chỉ có cơ hội được thử thách, học
                             hỏi, sáng tạo, bạn còn phát triển bản thân để trở nên toàn diện hơn. Sano đã và đang xây
                             dựng một tập thể với các giá trị cốt lõi sau:
                         </div>
                         <ul>
-                            <li>Giá trị cốt lõi của chúng tôi bao gồm sự cống hiến, tôn trọng, trung thực và sự đổi mới.
-                                Mỗi nhân viên đều được khuyến khích và hỗ trợ để phát triển khả năng sáng tạo và đóng
-                                góp ý kiến mới mẻ.
+                            <li> <span>Nhân sự:</span> Xây dựng chân dung nhân sự điểm hình Sano với 03 đặc điểm “khả năng xác
+                                lập mục tiêu”, “tính kỷ luật cao”, “sự sáng tạo”.
                             </li>
+
+                            <li> <span>Chính trực:</span> nhằm tạo nên sự thông suốt nhất quán của mỗi cá nhân và toàn tổ chức.</li>
+
+                            <li> <span>Tôn trọng:</span> nhằm tạo ra động lực mạnh cho cá nhân và tổ chức.</li>
+                            <li> <span>Kết nối:</span> nhằm tạo ra nguồn lực mạnh mẽ thúc đẩy sự phát triển của cá nhân và tổ chức.
+                            </li>
+
+                            <li> <span>Phát triển:</span> nhằm đáp ứng với nhu cầu phát triển và hạnh phúc hơn của con người.</li>
                         </ul>
                     </div>
                 </section>
                 <section className="image">
                     <Swiper
                         spaceBetween={0}
-                        slidesPerView={isMobile? 1 : isTablet ? 2:3}
+                        slidesPerView={isMobile ? 1 : isTablet ? 2 : 4}
                         autoplay={{
-                            delay:1500
+                            delay: 1500
                         }}
                         modules={[Autoplay]}
                     >
-                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="./image/aboutme-6.jpg" alt="aboutme-6"/></SwiperSlide>
-                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="./image/aboutme-4.jpg" alt="aboutme-5"/></SwiperSlide>
-                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="./image/aboutme-5.jpg" alt="aboutme-4"/></SwiperSlide>
-                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="./image/aboutme-8.jpg" alt="aboutme-4"/></SwiperSlide>
-                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="./image/aboutme-9.jpg" alt="aboutme-4"/></SwiperSlide>
-                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="./image/aboutme-10.jpg" alt="aboutme-4"/></SwiperSlide>
-                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="./image/aboutme-11.jpg" alt="aboutme-4"/></SwiperSlide>
-                        <SwiperSlide><Image  width={1000} height={1000} quality={100} style={{width:'100%',height:"350px",objectFit:'cover'}} src="./image/aboutme-12.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><Image width={500} height={500} quality={100}
+                                            style={{width: '100%', height: "350px", objectFit: 'cover'}}
+                                            src="./image/aboutme-6.jpg" alt="aboutme-6"/></SwiperSlide>
+                        <SwiperSlide><Image width={500} height={500} quality={100}
+                                            style={{width: '100%', height: "350px", objectFit: 'cover'}}
+                                            src="./image/aboutme-4.jpg" alt="aboutme-5"/></SwiperSlide>
+                        <SwiperSlide><Image width={500} height={500} quality={100}
+                                            style={{width: '100%', height: "350px", objectFit: 'cover'}}
+                                            src="./image/aboutme-5.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><Image width={500} height={500} quality={100}
+                                            style={{width: '100%', height: "350px", objectFit: 'cover'}}
+                                            src="./image/aboutme-8.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><Image width={500} height={500} quality={100}
+                                            style={{width: '100%', height: "350px", objectFit: 'cover'}}
+                                            src="./image/aboutme-9.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><Image width={500} height={500} quality={100}
+                                            style={{width: '100%', height: "350px", objectFit: 'cover'}}
+                                            src="./image/aboutme-10.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><Image width={500} height={500} quality={100}
+                                            style={{width: '100%', height: "350px", objectFit: 'cover'}}
+                                            src="./image/aboutme-11.jpg" alt="aboutme-4"/></SwiperSlide>
+                        <SwiperSlide><Image width={500} height={500} quality={100}
+                                            style={{width: '100%', height: "350px", objectFit: 'cover'}}
+                                            src="./image/aboutme-12.jpg" alt="aboutme-4"/></SwiperSlide>
                     </Swiper>
                 </section>
-                <section className="sano-life-news">
+                <section className="sano-life-news margin-center">
                     <div className="title-life">
                         <h1><span>Sano</span> Life</h1>
                         <div className="line-1"></div>
@@ -166,8 +191,9 @@ const AboutMe = () => {
                     <div className="news">
                         {dataNews.map(value =>
                             <>
-                                <div className="item-news" onClick={()=>clickNew(`${value.link}`)}>
-                                    <Image width={1000} height={1000} quality={100} src={value.image} alt="news-1" data-aos="fade-right"/>
+                                <div className="item-news" onClick={() => clickNew(`${value.link}`)}>
+                                    <Image width={1000} height={1000} quality={100} src={value.image} alt="news-1"
+                                           data-aos="fade-right"/>
                                     <div className="title-news">
                                         <h2>{value.title}</h2>
                                     </div>

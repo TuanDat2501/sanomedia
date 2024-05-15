@@ -3,96 +3,104 @@
   width: 100%;
   height: 415px;
   background: linear-gradient(180deg, #FF5454 0%, #C94242 75.96%, #993232 100%);
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1200px;
+  //margin-left: auto;
+  //margin-right: auto;
+  //max-width: 1200px;
   padding: 20px 70px;
   display: flex;
   color: #FFFFFF !important;
   align-items: flex-start;
   gap: 100px;
+  justify-content: center;
 
-  .menu {
+  .wrapper-footer {
+    max-width: 1200px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    .logo {
-      img {
-        width: 200px;
-        height: 200px;
-      }
-    }
-
-    .links-menu {
-      font-size: 16px;
+    justify-content: space-between;
+    width: 100%;
+    gap: 100px;
+    .menu {
       display: flex;
-      justify-content: start;
       flex-direction: column;
-      gap: 18px;
+      align-items: center;
 
-      a {
-        &:hover {
-          text-decoration-line: underline;
-          cursor: pointer;
+      .logo {
+        img {
+          width: 200px;
+          height: 200px;
         }
       }
-    }
-  }
 
-  .contact {
-
-    .title-contact {
-      height: 200px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-
-      h2 {
-        color: #FFFFFF !important;
-      }
-    }
-
-    .contacts {
-      max-width: 300px;
-
-      .item-contacts {
+      .links-menu {
+        font-size: 16px;
         display: flex;
-        align-items: center;
-        gap: 5px;
-
-        &:nth-child(2) {
-          margin-top: 18px;
-        }
-
-        &:nth-child(3) {
-          margin-top: 18px;
-        }
-      }
-    }
-  }
-
-  .fanpage {
-    margin-top: 50px;
-
-    .media {
-      display: flex;
-      justify-content: center;
-
-      .btn-media {
-        width: 40px;
-        height: 40px;
-        background: var(--color-red-1);
-        border-radius: 50%;
+        justify-content: start;
+        flex-direction: column;
+        gap: 18px;
 
         a {
-          display: flex;
-          justify-content: center;
+          &:hover {
+            text-decoration-line: underline;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .contact {
+
+      .title-contact {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h2 {
+          color: #FFFFFF !important;
         }
       }
 
-      .btn-facebook {
-        margin-right: 5px;
+      .contacts {
+        max-width: 300px;
+
+        .item-contacts {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+
+          &:nth-child(2) {
+            margin-top: 18px;
+          }
+
+          &:nth-child(3) {
+            margin-top: 18px;
+          }
+        }
+      }
+    }
+
+    .fanpage {
+      margin-top: 50px;
+
+      .media {
+        display: flex;
+        justify-content: center;
+
+        .btn-media {
+          width: 40px;
+          height: 40px;
+          background: var(--color-red-1);
+          border-radius: 50%;
+
+          a {
+            display: flex;
+            justify-content: center;
+          }
+        }
+
+        .btn-facebook {
+          margin-right: 5px;
+        }
       }
     }
   }
@@ -105,7 +113,7 @@
       align-items: flex-start;
 
     }
-    .contact{
+    .contact {
       .title-contact {
         height: 100px;
       }
@@ -117,8 +125,8 @@
       align-items: center;
     }
   }
-  @media screen and (max-width: 834px){
+  @media screen and (max-width: 834px) {
     padding: 20px;
-    gap:20px;
+    gap: 20px;
   }
 }

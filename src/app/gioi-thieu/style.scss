@@ -1,22 +1,26 @@
 main {
   .main-about {
-    max-width: 1200px;
-    margin: auto;
+    //max-width: 1200px;
+    //margin: auto;
     .intro-content {
       background: rgba(217, 217, 217, 0.38);
       position: relative;
       min-height: 700px;
+      height: 100vh;
+
       .intro-content-img {
         position: absolute;
         top: 0;
         left: 0;
-        max-width: 75%;
-        width: 60%;
+        //max-width: 75%;
+        width: 100%;
         height: 100%;
-
+        .overlay{
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0.38) 63%, rgba(138, 138, 138, 0.38) 82.5%);
+        }
         img {
           width: 100%;
-          height: 75%;
+          height: 100%;
           object-fit: cover;
         }
       }
@@ -24,16 +28,31 @@ main {
       .intro-content-text {
         /* Group 29 */
         position: absolute;
-        width: 50%;
+        width: 100%;
         height: 400px;
-        top: 270px;
-        right: 0;
-        background: #FFFFFF;
+        top: 200px;
+        left: 50%;
+        transform: translate(-50%);
         border-radius: 30px 30px 30px 30px;
         padding: 30px 43px 30px 43px;
-
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+          color: #fff;
+        }
         span {
           color: var(--color-red);
+        }
+        h1{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 50px;
+            line-height: 36px;
+            color: #FFFFFF;
+        }
+        p{
+          font-size: 22px;
         }
       }
     }
@@ -42,7 +61,6 @@ main {
       display: flex;
       margin-top: 20px;
       margin-bottom: 20px;
-
       .work-environment-text {
         width: 40%;
         padding: 20px 44px;
@@ -103,7 +121,7 @@ main {
 
       .sano-culture-content {
         border: 1px solid #BDB9B9;
-        height: 500px;
+        height: auto;
         border-radius: 30px;
         display: flex;
         flex-direction: column;
@@ -117,6 +135,7 @@ main {
 
         p {
           margin-bottom: 20px;
+          font-size: 18px;
         }
 
         .icon-culture {
@@ -128,11 +147,19 @@ main {
         .text-culture {
           padding: 0 120px;
           margin-bottom: 10px;
+          font-size: 16px;
         }
 
         ul {
           text-align: justify;
           list-style: circle;
+          font-size: 16px;
+          li{
+            span{
+              font-weight: bold;
+              color: #000;
+            }
+          }
         }
       }
     }
@@ -215,17 +242,32 @@ main {
       max-width: unset;
       .intro-content{
         min-height: unset;
+        height: 100%;
+
         .intro-content-img{
           position: unset;
           max-width: unset;
           width: 100%;
+          .overlay{
+            display: none ;
+          }
         }
         .intro-content-text{
-          position: unset;
           width: 100%;
           height: auto;
           border-radius: unset;
           padding: 20px 44px;
+          position: inherit;
+          top: 0;
+          text-align: center;
+          h1{
+            color: #000;
+            font-size: 24px;
+          }
+          p{
+            color: #000;
+            font-size: 16px;
+          }
         }
       }
       .work-environment{
@@ -270,27 +312,35 @@ main {
       }
     }
   }
-  @media screen and (max-width: 834px) {
+  @media screen and (min-width: 431px)and (max-width: 834px) {
     .main-about {
       margin: 0;
       max-width: unset;
       .intro-content{
         min-height: unset;
+        height: unset;
         .intro-content-img{
           position: unset;
           max-width: unset;
           width: 100%;
         }
         .intro-content-text{
-          position: unset;
+          position: absolute;
           width: 100%;
           height: auto;
           border-radius: unset;
           padding: 20px 44px;
+          top: 100px;
+          h1{
+            font-size: 40px;
+          }
+          p{
+            font-size: 18px;
+          }
         }
       }
       .work-environment{
-        flex-direction: column-reverse;
+        flex-direction: column;
         .work-environment-img{
           width: 100%;
         }

@@ -27,6 +27,9 @@ const Header = () => {
         if(pathname.endsWith('sano-life')){
             setPageActive(2);
         }
+        if(pathname.endsWith('lien-he')){
+            setPageActive(3);
+        }
     }, [pathname]);
     return (
         <header className="header">
@@ -35,26 +38,34 @@ const Header = () => {
                     <Image width={120} height={120} src="./image/logo.png" alt="logo"/>
                 </div>
                 <div className="nav">
-                    <div className={pageActive == 0 ?"link cursor-pointer active":"link cursor-pointer"}>
-                        <a href="/SanoMedia/gioi-thieu">giới thiệu</a>
+                    <div onClick={() => router.push('/gioi-thieu')}
+                         className={pageActive == 0 ? "link cursor-pointer active" : "link cursor-pointer"}>
+                        <a>giới thiệu</a>
                         {pageActive === 0 && <div className="line-4"></div>}
                     </div>
-                    <div className={pageActive == 1 ?"link cursor-pointer active":"link cursor-pointer"}>
-                        <a href="/SanoMedia/tuyen-dung">tuyển dụng</a>
+                    <div onClick={() => router.push('/tuyen-dung')}
+                         className={pageActive == 1 ? "link cursor-pointer active" : "link cursor-pointer"}>
+                        <a>tuyển dụng</a>
                         {pageActive === 1 && <div className="line-4"></div>}
                     </div>
-                    <div className={pageActive == 2 ?"link cursor-pointer active":"link cursor-pointer"}>
-                        <a href="/SanoMedia/sano-life">sano life</a>
+                    <div onClick={() => router.push('/sano-life')}
+                         className={pageActive == 2 ? "link cursor-pointer active" : "link cursor-pointer"}>
+                        <a>sano life</a>
                         {pageActive === 2 && <div className="line-4"></div>}
                     </div>
+                    <div onClick={() => router.push('/lien-he')}
+                         className={pageActive == 3 ? "link cursor-pointer active" : "link cursor-pointer"}>
+                        <a>liên hệ</a>
+                        {pageActive === 3 && <div className="line-4"></div>}
+                    </div>
                 </div>
-                <span onClick={()=>router.push('/SanoMedia/tuyen-dung')}>
+                <span onClick={() => router.push('/tuyen-dung')}>
 
                 <ButtonRed text="Tuyển dụng"/>
                 </span>
             </div>
             <div className=" mobile">
-                <div className="logo cursor-pointer" onClick={()=>router.push('/gioi-thieu')}>
+                <div className="logo cursor-pointer" onClick={() => router.push('/gioi-thieu')}>
                     <Image width={1000} height={1000} quality={100} src="./image/logo.png"  alt="logo"/>
                 </div>
                 <div className="menu-header" onClick={() => setIsOpenMenu(!isOpenMenu)}>
@@ -64,14 +75,17 @@ const Header = () => {
                 {isOpenMenu && <>
                     <div className="menus">
                         <div className="nav">
-                            <div className="link cursor-pointer">
-                                <a href="/SanoMedia/gioi-thieu">giới thiệu</a>
+                            <div className="link cursor-pointer" onClick={() => router.push('/gioi-thieu')}>
+                                <a>giới thiệu</a>
                             </div>
-                            <div className="link cursor-pointer">
-                                <a href="/SanoMedia/tuyen-dung">tuyển dụng</a>
+                            <div className="link cursor-pointer" onClick={() => router.push('/tuyen-dung')}>
+                                <a>tuyển dụng</a>
                             </div>
-                            <div className="link cursor-pointer">
-                                <a href="/SanoMedia/sano-life">sano life</a>
+                            <div className="link cursor-pointer" onClick={() => router.push('/sano-life')}>
+                                <a>sano life</a>
+                            </div>
+                            <div className="link cursor-pointer" onClick={() => router.push('/lien-he')}>
+                                <a>liên hệ</a>
                             </div>
                         </div>
 

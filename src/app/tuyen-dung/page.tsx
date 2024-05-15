@@ -24,6 +24,7 @@ import IGift from "@/icon/IGift";
 import IHighFive from "@/icon/IHighFive";
 import ICreative from "@/icon/ICreative";
 import Image from "next/image";
+import IManager from "@/icon/IManager";
 
 const TREATMENT_DATA = [
     {
@@ -55,9 +56,14 @@ const Recruitment = () => {
     const dataTreatment = TREATMENT_DATA;
     const form = useRef(null) as any;
     const isMobile = useMediaQuery('(max-width: 430px)');
+    useEffect(()=>{
+        console.log("isMobile",isMobile)
+    },[isMobile])
     const [name, setName] = useState()
     const [email, setEmail] = useState()
     const [position, setPosition] = useState()
+    const [phone, setPhone] = useState()
+    const [message, setMessage] = useState()
     const [file, setFile] = useState<any>()
     const [url, setUrl] = useState("")
     const [hover, setHover] = useState<boolean | null>(null)
@@ -90,14 +96,15 @@ const Recruitment = () => {
                 if (position) {
                     if (file) {
                         e.preventDefault();
-                        emailjs.send('sano-media', 'template_whmq9dn', {
+                        emailjs.send("sano_media","template_lbrg7ip", {
                             to_name: name,
                             from_name: email,
-                            message: `Bạn này đang quan tâm đến vị trí ${position} `,
+                            message: message,
                             content: url,
-                            position: position
+                            position: position,
+                            phone:phone,
                         } as any, {
-                            publicKey: 'dPF4gXlQQdOsF8nkv',
+                            publicKey: 'JKJJ2QEBu8pcj1d86',
                         })
                             .then(
                                 () => {
@@ -136,6 +143,12 @@ const Recruitment = () => {
                 break;
             case 4:
                 setFile(event.target.files[0]);
+                break;
+            case 5:
+                setPhone(event.target.value);
+                break;
+            case 6:
+                setMessage(event.target.value);
                 break;
             default:
                 setName(event.target.value);
@@ -190,15 +203,21 @@ const Recruitment = () => {
                 <div className="position">
                     <div className="item-position">
                         <div className="icon">
-                            <IEditor width={isMobile ? 100 : 150} height={isMobile ? 100 : 150}></IEditor>
+                            <IEditor width={isMobile ? 50 : 150} height={isMobile ? 50 : 150}></IEditor>
                         </div>
                         <text>Editor</text>
                     </div>
                     <div className="item-position">
                         <div className="icon">
-                            <IContent width={isMobile ? 100 : 150} height={isMobile ? 100 : 150}/>
+                            <IContent width={isMobile ? 50 : 150} height={isMobile ? 50 : 150}/>
                         </div>
                         <text>Content</text>
+                    </div>
+                    <div className="item-position">
+                        <div className="icon">
+                            <IManager width={isMobile ? 50 : 150} height={isMobile ? 50 : 150}/>
+                        </div>
+                        <text>Manager</text>
                     </div>
                 </div>
             </section>
@@ -287,46 +306,65 @@ const Recruitment = () => {
             <section className="register">
                 <h1>Đăng kí tuyển dụng</h1>
                 <div className="form">
-                    <div className="container-input input-name flex flex-col gap-2 mb-2" data-aos="fade-right">
-                        <label htmlFor="name">Họ tên</label>
-                        <input id="name" type="text" placeholder="Họ và tên" onChange={(e) => {
-                            getValueInput(e, 1)
-                        }}/>
-                    </div>
-                    <div className="container-input input-email flex flex-col gap-2 mb-2" data-aos="fade-left">
-                        <label htmlFor="email">Email</label>
-                        <input id="email" type="text" placeholder="Email" onChange={(e) => {
-                            getValueInput(e, 2)
-                        }}/>
-                    </div>
-                    <div className="container-input input-position flex flex-col gap-2 " data-aos="fade-right">
-                        <label htmlFor="position">Vị trí quan tâm</label>
-                        <div className="custom-select">
-                            <select onChange={(e) => getValueInput(e, 3)}>
-                                <option value="" disabled selected>Vị trí bạn quan tâm</option>
-                                <option value="Editor">Editor</option>
-                                <option value="Content">Content</option>
-                            </select>
+                    <div className="form-right">
+                        <div className="container-input input-name flex flex-col gap-2 mb-2" data-aos="fade-right">
+                            <label htmlFor="name">Họ tên</label>
+                            <input id="name" type="text" placeholder="Họ và tên" onChange={(e) => {
+                                getValueInput(e, 1)
+                            }}/>
+                        </div>
+                        <div className="container-input input-email flex flex-col gap-2 mb-2" data-aos="fade-left">
+                            <label htmlFor="email">Email</label>
+                            <input id="email" type="text" placeholder="Email" onChange={(e) => {
+                                getValueInput(e, 2)
+                            }}/>
+                        </div>
+                        <div className="container-input input-email flex flex-col gap-2 mb-2" data-aos="fade-left">
+                            <label htmlFor="email">Số điện thoại</label>
+                            <input id="email" type="text" placeholder="Số điện thoại" onChange={(e) => {
+                                getValueInput(e, 5)
+                            }}/>
+                        </div>
+                        <div className="container-input input-position flex flex-col gap-2 " data-aos="fade-right">
+                            <label htmlFor="position">Vị trí quan tâm</label>
+                            <div className="custom-select">
+                                <select onChange={(e) => getValueInput(e, 3)}>
+                                    <option value="" disabled selected>Vị trí bạn quan tâm</option>
+                                    <option value="Editor">Editor</option>
+                                    <option value="Content">Content</option>
+                                    <option value="Manager">Manager</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
-                    <div className="container-input input-position flex flex-col gap-2 file" data-aos="fade-right">
-                        <label htmlFor="position">CV</label>
-                        <div className="input-file">
+                    <div className="form-left">
+                        <div className="container-input input-position flex flex-col gap-2 file" data-aos="fade-right">
+                            <label htmlFor="position">CV</label>
+                            <div className="input-file">
                             <span>
                                 {!isLoadingFileIcon ? <IUpload width={50} height={50}></IUpload> :
                                     <ITick width={50} height={50}></ITick>}
                                 {file ? <p>{file.name}</p> : <p>Chọn file CV của bạn</p>}
                             </span>
-                            <input id="position" type="file" placeholder="Vị trí bạn quan tâm" onChange={(e) => {
-                                getValueInput(e, 4)
-                            }}/>
+                                <input id="position" type="file" placeholder="Vị trí bạn quan tâm" onChange={(e) => {
+                                    getValueInput(e, 4)
+                                }}/>
+                            </div>
                         </div>
+                        <div className="container-input input-email flex flex-col gap-2 mb-2" data-aos="fade-left">
+                            <label htmlFor="message">Nội dung</label>
+                            <textarea id="message" placeholder="Nội dung" onChange={(e) => {
+                                getValueInput(e, 6)
+                            }} rows={4} cols={20} style={{padding:"5px"}}></textarea>
+                        </div>
+
                     </div>
-                    <div className="container-input submit flex justify-center mt-4" data-aos="flip-up"
-                         onClick={sendEmail} onMouseEnter={hoverBtn} onMouseLeave={leaveBtn}>
-                        <ButtonRed disabled={isLoadingFile} text="Đăng ký" icon={<ISend hover={hover}/>}
-                                   isLoading={isLoading}></ButtonRed>
-                    </div>
+
+                </div>
+                <div className="container-input submit flex justify-center mt-4" data-aos="flip-up"
+                     onClick={sendEmail} onMouseEnter={hoverBtn} onMouseLeave={leaveBtn}>
+                    <ButtonRed disabled={isLoadingFile} text="Đăng ký" icon={<ISend hover={hover}/>}
+                               isLoading={isLoading}></ButtonRed>
                 </div>
                 {isShowToast && <Toast status={status} text={textToast}></Toast>}
             </section>
