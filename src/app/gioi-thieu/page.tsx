@@ -81,7 +81,9 @@ const AboutMe = () => {
                     <div className="intro-content-text">
                         <h1>Chào mừng đến với Sano Media</h1>
                         <p>Sano media là doanh nghiệp sản xuất sáng tạo Youtube số 1 tại Bắc Giang. </p>
+                        <div onClick={()=>{router.push('/lien-he')}}>
                         <ButtonRed1 text={"Liên hệ"}/>
+                        </div>
                     </div>
                 </section>
                 <section className="work-environment margin-center">
