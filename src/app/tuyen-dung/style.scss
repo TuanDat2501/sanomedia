@@ -362,4 +362,15 @@
       }
     }
   }
+  .register{
+    .form{
+      flex-direction: column!important;
+      .form-right{
+        width: 100%;
+      }
+      .form-left{
+        width: 100%;
+      }
+    }
+  }
 }
