@@ -109,23 +109,27 @@
     height: auto;
     display: block;
     padding: 20px 20px;
-    .menu {
-      align-items: flex-start;
 
-    }
-    .contact {
-      .title-contact {
-        height: 100px;
+    .wrapper-footer{
+      flex-direction: column!important;
+      gap: 20px;
+      .menu {
+        align-items: flex-start!important;
+      }
+      .contact {
+        .title-contact {
+          height: 100px;
+        }
+      }
+      .fanpage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
       }
     }
-    .fanpage {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
   }
-  @media screen and (max-width: 834px) {
+  @media screen and (min-width: 431px) and (max-width: 834px) {
     padding: 20px;
     gap: 20px;
   }

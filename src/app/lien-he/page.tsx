@@ -9,6 +9,7 @@ import IPhone1 from "@/icon/IPhone1";
 import IEmail1 from "@/icon/IEmail1";
 import emailjs from "@emailjs/browser";
 import Toast from "@/app/component/toast/Toast";
+import Loading from "@/app/component/loading/Loading";
 
 const Contact = () => {
     const [name, setName] = useState()
@@ -47,36 +48,36 @@ const Contact = () => {
                 setName(event.target.value);
         }
     }
-    const submit = ()=>{
-        console.log(name,email,phone,message)
+    const submit = () => {
+        console.log(name, email, phone, message)
     }
     const sendEmail = (e: any) => {
         setIsLoading(true);
         if (name) {
             if (email) {
-               if(message){
-                   e.preventDefault();
-                   emailjs.send("sano_media", "template_9v64tsa", {
-                       to_name: name,
-                       from_name: email,
-                       message: message,
-                       phone: phone,
-                   } as any, {
-                       publicKey: 'JKJJ2QEBu8pcj1d86',
-                   })
-                       .then(
-                           () => {
-                               showToast("success", "Bạn đã ứng tuyển thành công!")
-                               console.log('SUCCESS!');
-                           },
-                           (error) => {
-                               showToast("failed", "Bạn ứng tuyển thất bại")
-                               console.log('FAILED...', error.text);
-                           },
-                       );
-               }else {
-                   showToast("warning", "Bạn cần nội dung")
-               }
+                if (message) {
+                    e.preventDefault();
+                    emailjs.send("sano_media", "template_9v64tsa", {
+                        to_name: name,
+                        from_name: email,
+                        message: message,
+                        phone: phone,
+                    } as any, {
+                        publicKey: 'JKJJ2QEpcj1d86',
+                    })
+                        .then(
+                            () => {
+                                showToast("success", "Bạn đã gửi thành công!")
+                                console.log('SUCCESS!');
+                            },
+                            (error) => {
+                                showToast("failed", "Bạn ứng gửi thất bại")
+                                console.log('FAILED...', error.text);
+                            },
+                        );
+                } else {
+                    showToast("warning", "Bạn cần nội dung")
+                }
             } else {
                 showToast("warning", "Bạn cần nhập email")
             }
@@ -197,25 +198,27 @@ const Contact = () => {
                         </p>
                         <div className="form-contact">
                             <div className="form flex flex-col gap-3">
-                                <input type="text" placeholder="Tên của bạn" onChange={(e)=>getValueInput(e,1)}/>
+                                <input type="text" placeholder="Tên của bạn" onChange={(e) => getValueInput(e, 1)}/>
                                 <div className="email-phone flex gap-3">
                                     <input
                                         type="text"
                                         className="email flex-1"
-                                        placeholder="Email"  onChange={(e)=>getValueInput(e,2)}
+                                        placeholder="Email" onChange={(e) => getValueInput(e, 2)}
                                     />
                                     <input
                                         type="text"
                                         className="phone flex-1"
                                         placeholder="Số điện thoại"
-                                        onChange={(e)=>getValueInput(e,3)}
+                                        onChange={(e) => getValueInput(e, 3)}
                                     />
                                 </div>
                                 <div className="content-contact">
-                                    <textarea placeholder="Nội dung" onChange={(e)=>getValueInput(e,4)}></textarea>
+                                    <textarea placeholder="Nội dung" onChange={(e) => getValueInput(e, 4)}></textarea>
                                 </div>
                                 <div>
-                                    <button className="button submit" onClick={sendEmail}>Gửi cho chúng tôi</button>
+                                    <button className="button submit" onClick={sendEmail}>
+                                        {isLoading ? <Loading/> : "Gửi cho chúng tôi"}
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -237,6 +240,7 @@ const Contact = () => {
                         referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 {isShowToast && <Toast status={status} text={textToast}></Toast>}
+
             </div>
         </div>
     );

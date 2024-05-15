@@ -75,16 +75,16 @@ const Header = () => {
                 {isOpenMenu && <>
                     <div className="menus">
                         <div className="nav">
-                            <div className="link cursor-pointer" onClick={() => router.push('/gioi-thieu')}>
+                            <div className="link cursor-pointer" onClick={() => {router.push('/gioi-thieu');setIsOpenMenu(false)}}>
                                 <a>giới thiệu</a>
                             </div>
-                            <div className="link cursor-pointer" onClick={() => router.push('/tuyen-dung')}>
+                            <div className="link cursor-pointer" onClick={() => {router.push('/tuyen-dung');setIsOpenMenu(false)}}>
                                 <a>tuyển dụng</a>
                             </div>
-                            <div className="link cursor-pointer" onClick={() => router.push('/sano-life')}>
+                            <div className="link cursor-pointer" onClick={() => {router.push('/sano-life');setIsOpenMenu(false)}}>
                                 <a>sano life</a>
                             </div>
-                            <div className="link cursor-pointer" onClick={() => router.push('/lien-he')}>
+                            <div className="link cursor-pointer" onClick={() => {router.push('/lien-he');setIsOpenMenu(false)}}>
                                 <a>liên hệ</a>
                             </div>
                         </div>
