@@ -2,7 +2,7 @@ import React from 'react';
 
 const GalaDinner = () => {
     const html = "<div style=\"max-width: 1200px; margin-left: auto;\n" +
-        "        margin-right: auto; margin-top: 100px;margin-bottom: 100px\">\n" +
+        "        margin-right: auto; margin-top: 100px;margin-bottom: 100px;padding: 15px\">\n" +
         "        <h1>Chương trình hoạt động: Gala Dinner</title>\n" +
         "        <h3 style=\"font-size: 20px;\">05-02-2024</h3>\n" +
         "        <p>Vào ngày 5 tháng 2 năm 2024, Sano Media đã tổ chức một đêm tiệc đầy niềm vui và ý nghĩa khi toàn thể nhân sự Công ty cùng gia đình cùng nhau nhìn lại hành trình một năm đầy biến động nhưng cũng không kém phần rực rỡ của Sano Media. Để rồi sau đó những giải thưởng vinh danh các cá nhân, tập thể xuất sắc trong năm qua đã được hô vang.</p>\n" +
@@ -24,7 +24,7 @@ const GalaDinner = () => {
         "                margin-top: 10px\n" +
         "            }\n" +
         "            img{\n" +
-        "                margin-bottom: 15px;\n" +
+        "                margin-bottom: 15px;width: 100%\n" +
         "            }\n" +
         "        </style>\n" +
         "        <div class=\"paragraph\">\n" +

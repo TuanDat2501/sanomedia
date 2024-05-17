@@ -1,7 +1,7 @@
 import React from 'react';
 
 const TeamBuilding = () => {
-    const html = "<div style=\"max-width: 1200px;margin-left: auto;margin-right: auto; margin-top: 100px;margin-bottom: 100px\">\n" +
+    const html = "<div style=\"max-width: 1200px;margin-left: auto;margin-right: auto; margin-top: 100px;margin-bottom: 100px;padding: 15px;\">\n" +
         "        <h1>Chương trình hoạt động: Team Building</h1>\n" +
         "        <h3 style=\"font-size: 20px;\">19-10-2023</h3>\n" +
         "        <p>Vào ngày 19 tháng 10 năm 2023, Sano Media đã tổ chức hoạt động team building đầy niềm vui và ý nghĩa khi toàn thể nhân sự Công ty. Nhằm tạo sự gắn kết giữa người với người giữa các thành viên trong Công ty</p>\n" +
@@ -22,7 +22,7 @@ const TeamBuilding = () => {
         "                margin-top: 10px\n" +
         "            }\n" +
         "            img{\n" +
-        "                margin-bottom: 15px;\n" +
+        "                margin-bottom: 15px;width: 100%\n" +
         "            }\n" +
         "        </style>\n" +
         "        <div class=\"paragraph\">\n" +

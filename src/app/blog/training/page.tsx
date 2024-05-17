@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Training = () => {
-    const html = "<div style=\"max-width: 1200px;margin-left: auto;margin-right: auto; margin-top: 100px;margin-bottom: 100px\">\n" +
+    const html = "<div style=\"max-width: 1200px;margin-left: auto;margin-right: auto; margin-top: 100px;margin-bottom: 100px;padding: 15px;\">\n" +
         "        <h1>Chương trình hoạt động: Đào tạo nội bộ</h1>\n" +
         "        <h3 style=\"font-size: 20px;\">19-08-2023</h3>\n" +
         "        <p>Sano Media có tổ chức hoạt động đào tạo nội bộ thường niên cho toàn bộ thành viên trong Công ty nhằm nâng cao kiến thức, nhận thức cho mọi người.</p>\n" +
@@ -22,7 +22,7 @@ const Training = () => {
         "                margin-top: 10px\n" +
         "            }\n" +
         "            img{\n" +
-        "                margin-bottom: 15px;\n" +
+        "                margin-bottom: 15px;width: 100%\n" +
         "            }\n" +
         "        </style>\n" +
         "        <div class=\"paragraph\">\n" +

@@ -259,15 +259,15 @@ const Recruitment = () => {
                     </svg>
 
                 </div>
-                <h1>Cảm nhận của các <span>Newbies</span></h1>
+                <h1>Cảm nhận của các <span>Member</span></h1>
                 <div className="line-red"></div>
                 <div className="feedback">
                     <div className="item-feedback flex gap-3" data-aos="flip-down">
                         <div className="member-img">
-                            <Image width={100} height={100} src="./image/newbie.jpg" alt="newbie"/>
+                            <Image width={500} height={500} quality={100} src="./image/member.png" alt="newbie"/>
                         </div>
                         <div className="info-feedback">
-                            <div className="name-member">Trịnh tuấn Đạt - <span>Editor</span></div>
+                            <div className="name-member">Nguyễn An Hướng - <span>Editor</span></div>
                             <div className="cmt-member">
                                 “ Mình vốn là người hướng nội và ít giao tiếp. Nhưng với một môi trường trẻ trung, năng
                                 động như Sano, mình như được "mở lòng" hơn với tất cả mọi người. Đặc biệt, điều tuyệt
@@ -277,14 +277,14 @@ const Recruitment = () => {
                     </div>
                     <div className="item-feedback flex gap-3 justify-end colums-reverse" data-aos="flip-up">
                         <div className="info-feedback">
-                            <div className="name-member name-right">Trịnh tuấn Đạt - <span>Editor</span></div>
+                            <div className="name-member name-right">Khổng Thị Yến - <span>Manager</span></div>
                             <div className="cmt-member">
                                 “ Sau tuần đầu tiên làm việc tại công ty, tôi cảm nhận được một môi trường làm việc
                                 chuyên nghiệp, thân thiện và đầy năng lượng tích cực. ”
                             </div>
                         </div>
                         <div className="member-img">
-                            <Image width={100} height={100} src="./image/newbie.jpg" alt="newbie"/>
+                            <Image width={500} height={500} quality={100} src="./image/member2.png" alt="newbie"/>
                         </div>
                     </div>
                     <div className="item-feedback flex gap-3" data-aos="flip-down">
