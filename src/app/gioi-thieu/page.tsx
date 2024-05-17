@@ -125,16 +125,28 @@ const AboutMe = () => {
                 </section>
                 <section className="sano-culture margin-center">
                     <div className="sano-culture-wrapper">
+                        {isMobile &&
+                            <div className="sano-culture-mobile">
+                                <div className="icon-culture">
+                                    <Image width={1000} height={1000} quality={100} src="./image/icon_heart.png"
+                                           alt="icon-heart"/>
+                                </div>
+                                <h1>Giá trị cốt lỗi</h1>
+                                <p>“Học tập - Phát triển - Hạnh phúc - Giàu có - Khoẻ mạnh”</p>
+                            </div>
+                        }
                         <div className="sano-culture-image" data-aos="fade-right">
                             <Image width={500} height={500} src="./image/image-culture.jpg" alt="image"></Image>
                         </div>
                         <div className="sano-culture-content">
-                            <div className="icon-culture">
-                                <Image width={1000} height={1000} quality={100} src="./image/icon_heart.png"
-                                       alt="icon-heart"/>
-                            </div>
-                            <h1>Giá trị cốt lỗi</h1>
-                            <p>“Học tập - Phát triển - Hạnh phúc - Giàu có - Khoẻ mạnh”</p>
+                            {!isMobile && <>
+                                <div className="icon-culture">
+                                    <Image width={1000} height={1000} quality={100} src="./image/icon_heart.png"
+                                           alt="icon-heart"/>
+                                </div>
+                                <h1>Giá trị cốt lỗi</h1>
+                                <p>“Học tập - Phát triển - Hạnh phúc - Giàu có - Khoẻ mạnh”</p>
+                            </>}
                             {/*<div className="text-culture">Làm việc tại Sano, bạn không chỉ có cơ hội được thử thách, học
                             hỏi, sáng tạo, bạn còn phát triển bản thân để trở nên toàn diện hơn. Sano đã và đang xây
                             dựng một tập thể với các giá trị cốt lõi sau:
