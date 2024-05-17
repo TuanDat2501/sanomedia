@@ -35,7 +35,7 @@ const Header = () => {
         <header className="header">
             <div className="wrapper desktop">
                 <div className="logo cursor-pointer" onClick={()=>router.push('/gioi-thieu')}>
-                    <Image width={120} height={120} src="./image/logo.png" alt="logo"/>
+                    <Image width={120} height={120} quality={100} src="./image/logo.png" alt="logo"/>
                 </div>
                 <div className="nav">
                     <div onClick={() => router.push('/gioi-thieu')}

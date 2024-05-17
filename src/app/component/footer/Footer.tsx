@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="wrapper-footer">
             <div className="menu">
                 <div className="logo">
-                    <Image width={80} height={80} src="./image/logo.png" alt="logo"/>
+                    <Image width={100} height={100} quality={100} src="./image/logo.png" alt="logo"/>
                 </div>
                 <div className="links-menu">
                     <a onClick={()=>router.push('/tuyen-dung')}>Tuyển dụng</a>
