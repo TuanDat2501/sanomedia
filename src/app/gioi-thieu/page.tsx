@@ -126,7 +126,7 @@ const AboutMe = () => {
                 <section className="sano-culture margin-center">
                     <div className="sano-culture-wrapper">
                         <div className="sano-culture-image" data-aos="fade-right">
-                            <Image width={500} height={500} src="/image/image-culture.jpg" alt="image"></Image>
+                            <Image width={500} height={500} src="./image/image-culture.jpg" alt="image"></Image>
                         </div>
                         <div className="sano-culture-content">
                             <div className="icon-culture">
