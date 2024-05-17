@@ -5,12 +5,12 @@ import Image from "next/image";
 const Training = () => {
 
     return (
-        <div style={{maxWidth: "1200px",marginLeft: "auto",marginRight: "auto", marginTop: "100px",marginBottom: "100px"}}>
+        <div style={{maxWidth: "1200px",marginLeft: "auto",marginRight: "auto", marginTop: "100px",marginBottom: "100px",padding:"15px"}}>
             <h1>Chương trình hoạt động: Đào tạo nội bộ</h1>
             <h3 style={{fontSize: "20px"}}>19-08-2023</h3>
             <p>Sano Media có tổ chức hoạt động đào tạo nội bộ thường niên cho toàn bộ thành viên trong Công ty nhằm nâng
                 cao kiến thức, nhận thức cho mọi người.</p>
-            <Image width={1000} height={1000} quality={100} style={{maxWidth: "1200px"}} src="../image/traning/image1.jpg" alt="image1"/>
+            <Image width={1000} height={1000} quality={100} style={{maxWidth: "1200px"}} src="../image/training/image1.jpg" alt="image1"/>
             <div className="paragraph">
                 <h3>Khám Phá Hoạt Động Đào Tạo Nội Bộ Cho Công Ty: Nâng Cao Năng Lực và Gắn Kết Đội Ngũ</h3>
                 <p>Trong bối cảnh cạnh tranh ngày càng gay gắt, việc đầu tư vào hoạt động đào tạo nội bộ cho công ty trở

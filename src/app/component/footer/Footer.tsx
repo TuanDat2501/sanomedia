@@ -1,5 +1,5 @@
 'use client'
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import './style.scss';
 import IPhone from "@/icon/IPhone";
 import IEmail from "@/icon/IEmail";
@@ -7,15 +7,20 @@ import IAddress from "@/icon/IAddress";
 import IFacebook from "@/icon/IFacebook";
 import IYoutube from "@/icon/IYoutube";
 import Image from "next/image";
-import {useRouter} from "next/navigation";
+import {usePathname, useRouter} from "next/navigation";
 const Footer = () => {
     const router = useRouter();
+    const pathname = usePathname()
+    const [isBlog, setIsBlog] = useState<boolean|undefined>()
+    useEffect(() => {
+        setIsBlog(pathname.includes('blog'));
+    }, [pathname]);
     return (
         <div className="footer">
             <div className="wrapper-footer">
             <div className="menu">
                 <div className="logo">
-                    <Image width={100} height={100} quality={100} src="./image/logo.png" alt="logo"/>
+                    <Image width={100} height={100} quality={100} src={isBlog ? "../image/logo.png" :"./image/logo.png" } alt="logo"/>
                 </div>
                 <div className="links-menu">
                     <a onClick={()=>router.push('/tuyen-dung')}>Tuyển dụng</a>
