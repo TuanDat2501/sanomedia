@@ -264,7 +264,7 @@ const Recruitment = () => {
                 <div className="feedback">
                     <div className="item-feedback flex gap-3" data-aos="flip-down">
                         <div className="member-img">
-                            <Image width={500} height={500} quality={100} src="./image/member.png" alt="newbie"/>
+                            <Image width={500} height={500} quality={100} src="./image/anh-sano4.png" alt="newbie"/>
                         </div>
                         <div className="info-feedback">
                             <div className="name-member">Nguyễn An Hướng - <span>Editor</span></div>
@@ -284,15 +284,15 @@ const Recruitment = () => {
                             </div>
                         </div>
                         <div className="member-img">
-                            <Image width={500} height={500} quality={100} src="./image/member2.png" alt="newbie"/>
+                            <Image width={500} height={500} quality={100} src="./image/anh-sano1.png" alt="newbie"/>
                         </div>
                     </div>
                     <div className="item-feedback flex gap-3" data-aos="flip-down">
                         <div className="member-img">
-                            <Image width={100} height={100} src="./image/newbie.jpg" alt="newbie"/>
+                            <Image width={100} height={100} src="./image/anh-sano3.png" alt="newbie"/>
                         </div>
                         <div className="info-feedback">
-                            <div className="name-member">Trịnh tuấn Đạt - <span>Editor</span></div>
+                            <div className="name-member">Ngô Văn Đức - <span>Editor</span></div>
                             <div className="cmt-member">
                                 “ Sau tuần đầu tiên làm việc tại công ty, tôi cảm nhận được một môi trường làm việc
                                 chuyên nghiệp, thân thiện và đầy năng lượng tích cực. Mọi người luôn sẵn lòng hỗ trợ và
