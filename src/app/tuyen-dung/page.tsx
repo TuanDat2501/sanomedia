@@ -289,7 +289,7 @@ const Recruitment = () => {
                     </div>
                     <div className="item-feedback flex gap-3" data-aos="flip-down">
                         <div className="member-img">
-                            <Image width={100} height={100} src="./image/anh-sano3.png" alt="newbie"/>
+                            <Image width={300} height={300} src="./image/anh-sano3.png" alt="newbie"/>
                         </div>
                         <div className="info-feedback">
                             <div className="name-member">Ngô Văn Đức - <span>Editor</span></div>
