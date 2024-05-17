@@ -13,11 +13,12 @@ const Header = () => {
     const [isOpenMenu, setIsOpenMenu] = useState(false)
     const [pageActive, setPageActive] = useState(0)
     const pathname = usePathname()
+    const [isBlog, setIsBlog] = useState<boolean|undefined>()
     useEffect(() => {
         AOS.init();
-
     }, [])
     useEffect(() => {
+        setIsBlog(pathname.includes('blog'))
         if(pathname.endsWith('tuyen-dung')){
             setPageActive(1);
         }
@@ -66,7 +67,7 @@ const Header = () => {
             </div>
             <div className=" mobile">
                 <div className="logo cursor-pointer" onClick={() => router.push('/gioi-thieu')}>
-                    <Image width={120} height={120} quality={100} src="./image/logo.png"  alt="logo"/>
+                    <Image width={120} height={120} quality={100} src={isBlog ? "../image/logo.png" :"./image/logo.png" } alt="logo"/>
                 </div>
                 <div className="menu-header" onClick={() => setIsOpenMenu(!isOpenMenu)}>
                     <text>Menu</text>
