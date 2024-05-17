@@ -21,7 +21,7 @@ const SanoLife = () => {
                 inline: 'center'
             });
         }
-    }, []);
+    });
     const navigate = (link:string)=>{
         router.push(link);
     }

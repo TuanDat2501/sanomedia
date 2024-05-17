@@ -4,7 +4,10 @@ const nextConfig = {
     distDir: 'dist',
     images:{
         unoptimized:true,
-    }
+    },
+    experimental: {
+        missingSuspenseWithCSRBailout: false,
+    },
 };
 
 export default nextConfig;
