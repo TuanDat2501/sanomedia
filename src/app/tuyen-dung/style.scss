@@ -14,7 +14,8 @@
 
     .recruitment-content-video {
       width: 60%;
-      video{
+
+      video {
         width: 100%;
       }
     }
@@ -205,13 +206,16 @@
       justify-content: center;
       align-items: center;
       gap: 20px;
-      .container-input{
+
+      .container-input {
         width: 100%;
-        button:disabled{
+
+        button:disabled {
           opacity: 0.8;
           cursor: not-allowed;
         }
       }
+
       .file {
         position: relative;
       }
@@ -225,20 +229,30 @@
           justify-content: center;
           align-items: center;
           padding: 5px;
+
           span {
             display: flex;
             flex-direction: column;
             align-items: center;
             position: absolute;
-            p{
+
+            p {
               color: #fff;
             }
           }
+
           #position {
             opacity: 0;
             min-height: 100px;
             cursor: pointer;
           }
+        }
+      }
+
+      .textarea {
+        textarea {
+
+          color: #000;
         }
       }
     }
@@ -273,42 +287,44 @@
 }
 
 @media screen and (max-width: 430px) {
-  .recruiting{
-    .position{
+  .recruiting {
+    .position {
       flex-wrap: wrap;
       gap: 20px;
-      .item-position{
-        width: 125px!important;
-        height: 125px!important;
-        min-width: unset!important;
-        max-width: unset!important;
-        padding: 20px!important;
+
+      .item-position {
+        width: 125px !important;
+        height: 125px !important;
+        min-width: unset !important;
+        max-width: unset !important;
+        padding: 20px !important;
       }
     }
   }
   .recruitment-content {
-    flex-direction: column!important;
-    padding: 20px!important;
+    flex-direction: column !important;
+    padding: 20px !important;
 
     .recruitment-content-text {
-      width: 100%!important;
+      width: 100% !important;
     }
 
     .recruitment-content-video {
-      width: 100%!important;
+      width: 100% !important;
     }
   }
   .environment {
-    padding: 15px!important;
+    padding: 15px !important;
 
     .treatments {
-      display: flex!important;
-      flex-direction: column!important;
-      gap: 20px!important;
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 20px !important;
     }
   }
   .newbie {
-    padding: 20px 20px!important;
+    padding: 20px 20px !important;
+
     .polygon-2 {
       display: none;
     }
@@ -344,9 +360,10 @@
           background: var(--color-red);
           color: #FFFFFF;
         }
-        .info-feedback{
-          .cmt-member{
-            max-width: 200px!important;
+
+        .info-feedback {
+          .cmt-member {
+            max-width: 200px !important;
           }
         }
       }
@@ -364,13 +381,15 @@
       }
     }
   }
-  .register{
-    .form{
-      flex-direction: column!important;
-      .form-right{
+  .register {
+    .form {
+      flex-direction: column !important;
+
+      .form-right {
         width: 100%;
       }
-      .form-left{
+
+      .form-left {
         width: 100%;
       }
     }

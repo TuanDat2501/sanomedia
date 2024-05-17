@@ -1,14 +1,27 @@
 'use client'
-import React from 'react';
+import React, {useEffect} from 'react';
 import './style.scss'
 import IArrowRight from "@/icon/IArrowRight";
 import IFacebook1 from "@/icon/IFacebook1";
 import {NEWS_SANOLIFE_DATA1} from "@/constant/const";
-import {useRouter} from "next/navigation";
+import {useParams, usePathname, useRouter, useSearchParams} from "next/navigation";
 import Image from "next/image";
 
 const SanoLife = () => {
     const router = useRouter();
+    const pathname = usePathname();
+    const searchParams = useSearchParams()
+    const flag = searchParams.get('flag')
+    useEffect(() => {
+        if (flag == "1") {
+            const elemt=document.getElementById("sano-blog");
+            elemt && elemt.scrollIntoView({
+                behavior: 'auto',
+                block: 'center',
+                inline: 'center'
+            });
+        }
+    }, []);
     const navigate = (link:string)=>{
         router.push(link);
     }
@@ -80,7 +93,7 @@ const SanoLife = () => {
                         cực và gắn kết.” </p>
                 </div>
             </section>
-            <section className="sano-blog">
+            <section className="sano-blog" id="sano-blog">
                 <div className="blogs">
                     {arr.map(value => <>
                         <div className="item-blog">

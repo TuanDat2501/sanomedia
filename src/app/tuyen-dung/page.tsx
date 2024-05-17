@@ -351,7 +351,7 @@ const Recruitment = () => {
                                 }}/>
                             </div>
                         </div>
-                        <div className="container-input input-email flex flex-col gap-2 mb-2" data-aos="fade-left">
+                        <div className="container-input textarea flex flex-col gap-2 mb-2" data-aos="fade-left">
                             <label htmlFor="message">Nội dung</label>
                             <textarea id="message" placeholder="Nội dung" onChange={(e) => {
                                 getValueInput(e, 6)

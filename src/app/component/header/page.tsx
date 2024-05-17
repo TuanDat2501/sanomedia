@@ -31,6 +31,9 @@ const Header = () => {
         if(pathname.endsWith('lien-he')){
             setPageActive(3);
         }
+        if(pathname.includes('blog')){
+            setPageActive(4);
+        }
     }, [pathname]);
     return (
         <header className="header">

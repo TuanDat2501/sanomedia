@@ -124,31 +124,84 @@ const AboutMe = () => {
                     </div>
                 </section>
                 <section className="sano-culture margin-center">
-                    <div className="sano-culture-content">
-                        <div className="icon-culture">
-                            <Image width={1000} height={1000} quality={100} src="./image/icon_heart.png"
-                                   alt="icon-heart"/>
+                    <div className="sano-culture-wrapper">
+                        <div className="sano-culture-image" data-aos="fade-right">
+                            <Image width={500} height={500} src="/image/image-culture.jpg" alt="image"></Image>
                         </div>
-                        <h1>Giá trị cốt lỗi - văn hoá <span>Sano</span></h1>
-                        <p>“Học tập - Phát triển - Hạnh phúc - Giàu có - Khoẻ mạnh”</p>
-                        <div className="text-culture">Làm việc tại Sano, bạn không chỉ có cơ hội được thử thách, học
+                        <div className="sano-culture-content">
+                            <div className="icon-culture">
+                                <Image width={1000} height={1000} quality={100} src="./image/icon_heart.png"
+                                       alt="icon-heart"/>
+                            </div>
+                            <h1>Giá trị cốt lỗi</h1>
+                            <p>“Học tập - Phát triển - Hạnh phúc - Giàu có - Khoẻ mạnh”</p>
+                            {/*<div className="text-culture">Làm việc tại Sano, bạn không chỉ có cơ hội được thử thách, học
+                            hỏi, sáng tạo, bạn còn phát triển bản thân để trở nên toàn diện hơn. Sano đã và đang xây
+                            dựng một tập thể với các giá trị cốt lõi sau:
+                        </div>*/}
+                            <ul>
+                                <li><span>Nhân sự:</span> Xây dựng chân dung nhân sự điểm hình Sano với 03 đặc điểm “khả
+                                    năng xác
+                                    lập mục tiêu”, “tính kỷ luật cao”, “sự sáng tạo”.
+                                </li>
+
+                                <li><span>Chính trực:</span> nhằm tạo nên sự thông suốt nhất quán của mỗi cá nhân và
+                                    toàn tổ
+                                    chức.
+                                </li>
+
+                                <li><span>Tôn trọng:</span> nhằm tạo ra động lực mạnh cho cá nhân và tổ chức.</li>
+                                <li><span>Kết nối:</span> nhằm tạo ra nguồn lực mạnh mẽ thúc đẩy sự phát triển của cá
+                                    nhân
+                                    và tổ chức.
+                                </li>
+
+                                <li><span>Phát triển:</span> nhằm đáp ứng với nhu cầu phát triển và hạnh phúc hơn của
+                                    con
+                                    người.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    {/*<div className="sano-culture-wrapper">
+                        <div className="sano-culture-content">
+                            <div className="icon-culture">
+                                <Image width={1000} height={1000} quality={100} src="./image/icon_heart.png"
+                                       alt="icon-heart"/>
+                            </div>
+                            <h1>Giá trị văn hoá</h1>
+                            <p>“Học tập - Phát triển - Hạnh phúc - Giàu có - Khoẻ mạnh”</p>
+                            <div className="text-culture">Làm việc tại Sano, bạn không chỉ có cơ hội được thử thách, học
                             hỏi, sáng tạo, bạn còn phát triển bản thân để trở nên toàn diện hơn. Sano đã và đang xây
                             dựng một tập thể với các giá trị cốt lõi sau:
                         </div>
-                        <ul>
-                            <li> <span>Nhân sự:</span> Xây dựng chân dung nhân sự điểm hình Sano với 03 đặc điểm “khả năng xác
-                                lập mục tiêu”, “tính kỷ luật cao”, “sự sáng tạo”.
-                            </li>
+                            <ul>
+                                <li><span>Nhân sự:</span> Xây dựng chân dung nhân sự điểm hình Sano với 03 đặc điểm “khả
+                                    năng xác
+                                    lập mục tiêu”, “tính kỷ luật cao”, “sự sáng tạo”.
+                                </li>
 
-                            <li> <span>Chính trực:</span> nhằm tạo nên sự thông suốt nhất quán của mỗi cá nhân và toàn tổ chức.</li>
+                                <li><span>Chính trực:</span> nhằm tạo nên sự thông suốt nhất quán của mỗi cá nhân và
+                                    toàn tổ
+                                    chức.
+                                </li>
 
-                            <li> <span>Tôn trọng:</span> nhằm tạo ra động lực mạnh cho cá nhân và tổ chức.</li>
-                            <li> <span>Kết nối:</span> nhằm tạo ra nguồn lực mạnh mẽ thúc đẩy sự phát triển của cá nhân và tổ chức.
-                            </li>
+                                <li><span>Tôn trọng:</span> nhằm tạo ra động lực mạnh cho cá nhân và tổ chức.</li>
+                                <li><span>Kết nối:</span> nhằm tạo ra nguồn lực mạnh mẽ thúc đẩy sự phát triển của cá
+                                    nhân
+                                    và tổ chức.
+                                </li>
 
-                            <li> <span>Phát triển:</span> nhằm đáp ứng với nhu cầu phát triển và hạnh phúc hơn của con người.</li>
-                        </ul>
-                    </div>
+                                <li><span>Phát triển:</span> nhằm đáp ứng với nhu cầu phát triển và hạnh phúc hơn của
+                                    con
+                                    người.
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="sano-culture-image image-large">
+                            <Image width={500} height={500} src="/image/image-culture.jpg" alt="image"></Image>
+                        </div>
+                    </div>*/}
                 </section>
                 <section className="image">
                     <Swiper
@@ -212,7 +265,7 @@ const AboutMe = () => {
                         )}
 
                     </div>
-                    <div className="find-out-more">
+                    <div className="find-out-more" onClick={()=>router.push('/sano-life?flag=1')}>
                         <ButtonRed text="Tìm hiểu thêm" icon={<IArrowRight/>}></ButtonRed>
                     </div>
                 </section>
