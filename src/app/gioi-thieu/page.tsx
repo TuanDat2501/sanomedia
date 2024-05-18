@@ -5,7 +5,7 @@ import IArrowRight from "@/icon/IArrowRight";
 import ButtonRed from "@/app/component/button-red/ButtonRed";
 import {useEffect, useRef, useState} from "react";
 import {Swiper, SwiperSlide} from 'swiper/react';
-import {useMediaQuery} from 'usehooks-ts'
+import {useMediaQuery} from 'usehooks-ts';
 // Import Swiper styles
 import 'swiper/css';
 import {Autoplay} from "swiper/modules";
@@ -75,7 +75,7 @@ const AboutMe = () => {
 
                     <div className="intro-content-img" data-aos="fade-up">
                         <div className="overlay"></div>
-                        <Image width={isMobile ? 430 : 1200} height={isMobile ? 430 : 1200} quality={100} src="./image/aboutme-1.jpg" alt="aboutme-1"/>
+                        <Image width={isMobile ? 430 : 1200} height={isMobile ? 430 : 1200} quality={100} src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/aboutme-1.jpg?alt=media&token=ac935808-4c4d-4b8f-9066-55221673cf00" alt="aboutme-1"/>
                     </div>
                     <div className="intro-content-text">
                         <h1>Chào mừng đến với Sano Media</h1>
