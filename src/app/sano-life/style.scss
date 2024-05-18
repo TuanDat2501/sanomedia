@@ -166,7 +166,9 @@
             align-items: center;
             gap: 5px;
             cursor: pointer;
-
+            a{
+              color: #fff;
+            }
             &:hover {
               text-decoration-line: underline;
               text-decoration-color: #fff;

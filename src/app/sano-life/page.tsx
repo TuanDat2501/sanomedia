@@ -125,7 +125,7 @@ const SanoLife = () => {
                                 <div className="icon-media">
                                     <IFacebook1/>
                                 </div>
-                                <p>sanomediavn</p>
+                                <a href={"https://www.facebook.com/sanomediavn/photos" } target="_blank" rel="noopener noreferrer">sanomediavn</a>
                                 <IArrowRight/>
                             </div>
                         </div>
