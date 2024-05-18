@@ -22,9 +22,9 @@ const GalaDinner = () => {
                 kém phần rực rỡ của Sano Media. Để rồi sau đó những giải thưởng vinh danh các cá nhân, tập thể xuất
                 sắc trong năm qua đã được hô vang.</p>
             <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} style={{maxWidth: "1200px"}}
-                   src="../image/gala-dinner/image19.jpg" alt="image1" />
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/gala-dinner%2Fimage19.jpg?alt=media&token=979253cb-49a1-4749-b515-cab87c4f10a2" alt="image1" />
             <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} style={{maxWidth: "1200px"}}
-                   src="../image/gala-dinner/image24.jpg" alt="image1"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/gala-dinner%2Fimage24.jpg?alt=media&token=5242f4d1-3391-441d-8de3-e2dc63f2595b" alt="image1"/>
             <div className="paragraph">
                 <h3>Khám phá Sự Kiện Gala Dinner: Một Tối Trọn Vẹn Sự Sang Trọng và Ý Nghĩa</h3>
                 <p>Gala Dinner, những sự kiện lộng lẫy kết hợp giữa sự sang trọng và mục đích cao cả, là những buổi
@@ -59,32 +59,32 @@ const GalaDinner = () => {
                     Mỗi khoảnh khắc trong Gala Dinner đều là một kỷ niệm đáng nhớ.</p>
             </div>
             <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
-                   src="../image/gala-dinner/image6.jpg"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/gala-dinner%2Fimage6.jpg?alt=media&token=684e2fca-f1ae-4d82-8f30-66024dd79afb"/>
             <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
-                   src="../image/gala-dinner/image10.jpg"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/gala-dinner%2Fimage10.jpg?alt=media&token=139616be-cfe1-43ca-8e84-95b08beff8ab"/>
             <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
-                   src="../image/gala-dinner/image7.jpg"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/gala-dinner%2Fimage7.jpg?alt=media&token=63b1f58d-cdd1-42d3-9fb2-bcb5521aa2f6"/>
             <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
-                   src="../image/gala-dinner/image9.jpg"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/gala-dinner%2Fimage9.jpg?alt=media&token=6759ef73-233a-4601-a6de-5342266a606b"/>
             <div className="paragraph">
                 <h3>Vinh danh thành viên cống hiến</h3>
                 <p>Bên cạnh các hoạt động vui chơi giải trí, Sano vinh danh các thành viên có những thành tích nổi
                     bật trong năm. Sano cũng tổ chức min game với các phần thưởng cho thành viên may mắn nhất.</p>
             </div>
             <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
-                   src="../image/gala-dinner/image8.jpg"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/gala-dinner%2Fimage8.jpg?alt=media&token=ba3e00f2-e928-4e6d-ab28-65abc235c931"/>
             <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
-                   src="../image/gala-dinner/image12.jpg"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/gala-dinner%2Fimage12.jpg?alt=media&token=7f3e2c23-5464-4f6d-9578-b278407b4985"/>
             <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
-                   src="../image/gala-dinner/image11.jpg"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/gala-dinner%2Fimage11.jpg?alt=media&token=d44fb8b6-68e7-4da1-8a21-a2438f3b7514"/>
             <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
-                   src="../image/gala-dinner/image18.jpg"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/gala-dinner%2Fimage18.jpg?alt=media&token=f07940f8-12b9-48d9-9d41-b203e3c9f4be"/>
             <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
-                   src="../image/gala-dinner/image3.jpg"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/gala-dinner%2Fimage3.jpg?alt=media&token=c29e264a-eced-4b39-adf5-a0f85fafbee5"/>
             <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
-                   src="../image/gala-dinner/image4.jpg"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/gala-dinner%2Fimage4.jpg?alt=media&token=f0e3b6b5-8ca6-4200-a6e8-a1464ae2d57f"/>
             <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
-                   src="../image/gala-dinner/image25.jpg"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/gala-dinner%2Fimage25.jpg?alt=media&token=8f162edd-0398-4911-a999-7ea5051471a8"/>
             <div className="paragraph">
                 <h3>Kết Luận</h3>
                 <p>Như vậy, Gala Dinner không chỉ là một sự kiện sang trọng mà còn là một cơ hội để kết nối cộng

@@ -20,7 +20,7 @@ const TeamBuilding = () => {
             <p>Vào ngày 19 tháng 10 năm 2023, Sano Media đã tổ chức hoạt động team building đầy niềm vui và ý nghĩa khi
                 toàn thể nhân sự Công ty. Nhằm tạo sự gắn kết giữa người với người giữa các thành viên trong Công ty</p>
             <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} style={{maxWidth: "1200px"}}
-                   src="../image/team-building/image6.jpg" alt="image1"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/team-building%2Fimage6.jpg?alt=media&token=c74d3b70-9666-41d0-9668-43dfefd02bce" alt="image1"/>
             <div className="paragraph">
                 <h3>Khám Phá Team Building: Xây Dựng Đội Ngũ Vững Mạnh và Đoàn Kết</h3>
                 <p>Trong môi trường ngày càng cạnh tranh và biến động, việc xây dựng một đội ngũ làm việc đoàn kết và
@@ -50,9 +50,9 @@ const TeamBuilding = () => {
                     Mỗi khoảnh khắc trong Gala Dinner đều là một kỷ niệm đáng nhớ.</p>
             </div>
             <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
-                   src="../image/team-building/image6.jpg"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/team-building%2Fimage4.jpg?alt=media&token=8788c060-ba77-419e-8cfd-1c14a43e06db"/>
             <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
-                   src="../image/team-building/image10.jpg"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/team-building%2Fimage10.jpg?alt=media&token=d5d21f47-8caf-4e25-b9c5-f6ef208d877f"/>
             <div className="paragraph">
                 <h3>Giảm căng thẳng và áp lực</h3>
                 <p>Team building cung cấp một không gian thư giãn và vui vẻ, giúp giảm bớt căng thẳng và áp lực công
@@ -66,9 +66,9 @@ const TeamBuilding = () => {
                     hiệu suất làm việc của toàn đội ngũ.</p>
             </div>
             <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
-                   src="../image/team-building/image8.jpg"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/team-building%2Fimage8.jpg?alt=media&token=ef2eb51e-6e81-4a8d-9d94-5a6cd52724ec"/>
             <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
-                   src="../image//team-building/image12.jpg"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/team-building%2Fimage12.jpg?alt=media&token=c704b2f5-8a26-4ae3-b86b-f2b5f45ffefb"/>
             <div className="paragraph">
                 <h3>Kết Luận</h3>
                 <p>Team building không chỉ là một hoạt động giải trí mà còn là một công cụ quan trọng để xây dựng một

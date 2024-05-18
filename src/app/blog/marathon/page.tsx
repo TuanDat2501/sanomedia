@@ -20,7 +20,7 @@ const Marathon = () => {
             <p>Vào ngày 19 tháng 08 năm 2023, Sano Media đã tổ chức hoạt động team building đầy niềm vui và ý nghĩa khi
                 toàn thể nhân sự Công ty. Nhằm tạo sự gắn kết giữa người với người giữa các thành viên trong Công ty</p>
             <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} style={{maxWidth: "1200px"}}
-                   src="../image/marathon/image1.jpg" alt="image1"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/marathon%2Fimage1.jpg?alt=media&token=40142cda-257d-4604-818d-b690c450c8ff" alt={"image"}/>
             <div className="paragraph">
                 <h3>Khám Phá Hoạt Động Chạy Marathon Cho Công Ty: Kết Nối Đội Ngũ và Thúc Đẩy Sức Khỏe</h3>
                 <p>Chạy Marathon 21km và Hành trình Team Building Đầy Ý Nghĩa tại SANO Media Việt Nam!</p>
@@ -46,9 +46,9 @@ const Marathon = () => {
                     công ty.</p>
             </div>
             <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
-                   src="../image/marathon/image2.jpg"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/marathon%2Fimage2.jpg?alt=media&token=83b51607-49b7-4742-92b0-ed0c98f20b53"/>
             <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
-                   src="../image/marathon/image3.jpg"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/marathon%2Fimage3.jpg?alt=media&token=739d898e-6737-4f00-89e1-ca52347ac17f"/>
             <div className="paragraph">
                 <h3>Nâng Cao Hình Ảnh Công Ty</h3>
                 <p>Tham gia các sự kiện cộng đồng như chạy marathon giúp nâng cao hình ảnh của công ty, thể hiện sự quan
@@ -62,11 +62,11 @@ const Marathon = () => {
                     mà còn là sự thể hiện ý chí và sức mạnh bên trong chúng ta.</p>
             </div>
             <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
-                   src="../image/marathon/image4.jpg"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/marathon%2Fimage4.jpg?alt=media&token=5c90ce29-41f8-4684-81d6-7d4e80b68d36"/>
             <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
-                   src="../image/marathon/image8.jpg"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/marathon%2Fimage8.jpg?alt=media&token=c36e53b7-0b53-4843-ac78-91c32e0fc9ff"/>
             <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
-                   src="../image/marathon/image9.jpg"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/marathon%2Fimage9.jpg?alt=media&token=b31f0324-4a5e-4e9c-bf33-19602dda327d"/>
             <div className="paragraph">
                 <h3>Xây dựng văn hóa công ty</h3>
                 <p>Team building giúp xây dựng và củng cố văn hóa công ty, tạo ra một môi trường làm việc tích cực và
@@ -76,9 +76,9 @@ const Marathon = () => {
                     làm việc của toàn đội ngũ.</p>
             </div>
             <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
-                   src="../image/marathon/image5.jpg"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/marathon%2Fimage5.jpg?alt=media&token=02205584-c3fc-46e2-93e0-1e80c9e79aad"/>
             <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
-                   src="../image/marathon/image10.jpg"/>
+                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/marathon%2Fimage10.jpg?alt=media&token=771e0d3b-c027-4bc5-ac1c-cc96d0aaea75"/>
             <div className="paragraph">
                 <h3>Kết Luận</h3>
                 <p>Hoạt động chạy marathon cho công ty không chỉ là một sự kiện thể thao mà còn là một công cụ mạnh mẽ
