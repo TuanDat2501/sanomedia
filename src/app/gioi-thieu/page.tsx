@@ -76,7 +76,7 @@ const AboutMe = () => {
 
                     <div className="intro-content-img" data-aos="fade-up">
                         <div className="overlay"></div>
-                        <Image width={2000} height={2000} quality={100} src="./image/aboutme-1.jpg" alt="aboutme-1"/>
+                        <Image width={1200} height={1200} quality={100} src="./image/aboutme-1.jpg" alt="aboutme-1"/>
                     </div>
                     <div className="intro-content-text">
                         <h1>Chào mừng đến với Sano Media</h1>
@@ -141,7 +141,7 @@ const AboutMe = () => {
                         <div className="sano-culture-content">
                             {!isMobile && <>
                                 <div className="icon-culture">
-                                    <Image width={1000} height={1000} quality={100} src="./image/icon_heart.png"
+                                    <Image width={100} height={100} quality={100} src="./image/icon_heart.png"
                                            alt="icon-heart"/>
                                 </div>
                                 <h1>Giá trị cốt lỗi</h1>
@@ -259,7 +259,7 @@ const AboutMe = () => {
                         {dataNews.map(value =>
                             <>
                                 <div className="item-news" onClick={() => clickNew(`${value.link}`)}>
-                                    <Image width={1000} height={1000} quality={100} src={value.image} alt="news-1"
+                                    <Image width={350} height={220} quality={100} src={value.image} alt="news-1"
                                            data-aos="fade-right"/>
                                     <div className="title-news">
                                         <h2>{value.title}</h2>

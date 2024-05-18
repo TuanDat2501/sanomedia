@@ -33,57 +33,57 @@ const SanoLife = () => {
                 <div className="images">
                     <div className="image-left image-sub">
                         <div className="image-left-top " data-aos="fade-right">
-                            <Image width={1000} height={1000} quality={100} src="./image/sanolife-4.jpg" alt="sanolife-4"/>
+                            <Image width={250} height={300} quality={100} src="./image/sanolife-4.jpg" alt="sanolife-4"/>
                         </div>
                         <div className="image-left-bottom" data-aos="fade-right">
-                            <Image width={1000} height={1000} quality={100}  src="./image/sanolife-5.jpg" alt="sanolife-5"/>
+                            <Image width={250} height={300} quality={100}  src="./image/sanolife-5.jpg" alt="sanolife-5"/>
                         </div>
                     </div>
                     <div className="image-center">
                         <div className="flex justify-end">
                             <div className="line-2"></div>
                         </div>
-                        <Image width={1000} height={1000} quality={100} src="./image/sanolife-1.jpg" alt="sanolife-1" data-aos="zoom-in"/>
+                        <Image width={700} height={400} quality={100} src="./image/sanolife-1.jpg" alt="sanolife-1" data-aos="zoom-in"/>
                         <div className="line-3"></div>
                     </div>
                     <div className="image-right image-sub">
                         <div className="image-right-top" data-aos="fade-left">
-                            <Image width={1000} height={1000} quality={100} src="./image/sanolife-2.jpg" alt="sanolife-5"/>
+                            <Image width={250} height={300} quality={100} src="./image/sanolife-2.jpg" alt="sanolife-5"/>
                         </div>
                         <div className="image-right-bottom" data-aos="fade-left">
-                            <Image width={1000} height={1000} quality={100} src="./image/sanolife-3.jpg" alt="sanolife-5"/>
+                            <Image width={250} height={300} quality={100} src="./image/sanolife-3.jpg" alt="sanolife-5"/>
                         </div>
                     </div>
                 </div>
                 <div className="images-mobile">
                     <div className="image-one">
-                        <Image width={1000} height={1000} src="./image/sanolife-1.jpg" alt="sanolife-1" data-aos="zoom-in"/>
+                        <Image width={450} height={300} src="./image/sanolife-1.jpg" alt="sanolife-1" data-aos="zoom-in"/>
                     </div>
                     <div className="image-two" data-aos="fade-left">
-                        <Image width={1000} height={1000} src="./image/sanolife-2.jpg" alt="sanolife-5"/>
+                        <Image width={450} height={300} src="./image/sanolife-2.jpg" alt="sanolife-5"/>
                     </div>
                     <div className="image-sub">
                         <div className="image-left-top " data-aos="fade-right">
-                            <Image width={1000} height={1000} src="./image/sanolife-4.jpg" alt="sanolife-4"/>
+                            <Image width={200} height={150} src="./image/sanolife-4.jpg" alt="sanolife-4"/>
                         </div>
                         <div className="image-left-bottom" data-aos="fade-right">
-                            <Image width={1000} height={1000} src="./image/sanolife-5.jpg" alt="sanolife-5"/>
+                            <Image width={200} height={150} src="./image/sanolife-5.jpg" alt="sanolife-5"/>
                         </div>
                     </div>
                 </div>
                 <div className="images-tablet">
                     <div className="image-one">
-                        <Image width={1000} height={1000} src="./image/sanolife-1.jpg" alt="sanolife-1" data-aos="zoom-in"/>
+                        <Image width={150} height={150} src="./image/sanolife-1.jpg" alt="sanolife-1" data-aos="zoom-in"/>
                     </div>
                     <div className="image-sub">
                         <div className="image" data-aos="fade-left">
-                            <Image width={1000} height={1000} src="./image/sanolife-2.jpg" alt="sanolife-5"/>
+                            <Image width={150} height={150} src="./image/sanolife-2.jpg" alt="sanolife-5"/>
                         </div>
                         <div className="image" data-aos="fade-right">
-                            <Image width={1000} height={1000} src="./image/sanolife-4.jpg" alt="sanolife-4"/>
+                            <Image width={150} height={150} src="./image/sanolife-4.jpg" alt="sanolife-4"/>
                         </div>
                         <div className="image" data-aos="fade-right">
-                            <Image width={1000} height={1000} src="./image/sanolife-5.jpg" alt="sanolife-5"/>
+                            <Image width={150} height={150} src="./image/sanolife-5.jpg" alt="sanolife-5"/>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@ const SanoLife = () => {
                 <div className="blogs">
                     {arr.map(value => <>
                         <div className="item-blog">
-                            <Image width={1000} height={1000} quality={100} src={value.image} alt="news-1" data-aos="fade-right"/>
+                            <Image width={350} height={350} quality={100} src={value.image} alt="news-1" data-aos="fade-right"/>
                             <div className="content-blog">
                                 <div className="title-blog" onClick={()=>navigate(`${value.link}`)}>
                                     <h2>{value.title}</h2>
