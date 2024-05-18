@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from "next/image";
 import {useMediaQuery} from "usehooks-ts";
-
+import './style.scss';
 const GalaDinner = () => {
     const isMobile = useMediaQuery('(max-width: 430px)');
     return (
@@ -21,9 +21,9 @@ const GalaDinner = () => {
                 nhân sự Công ty cùng gia đình cùng nhau nhìn lại hành trình một năm đầy biến động nhưng cũng không
                 kém phần rực rỡ của Sano Media. Để rồi sau đó những giải thưởng vinh danh các cá nhân, tập thể xuất
                 sắc trong năm qua đã được hô vang.</p>
-            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} style={{maxWidth: "1200px"}}
-                   src="../image/gala-dinner/image19.jpg" alt="image1"/>
-            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} style={{maxWidth: "1200px"}}
+            <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} style={{maxWidth: "1200px"}}
+                   src="../image/gala-dinner/image19.jpg" alt="image1" />
+            <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} style={{maxWidth: "1200px"}}
                    src="../image/gala-dinner/image24.jpg" alt="image1"/>
             <div className="paragraph">
                 <h3>Khám phá Sự Kiện Gala Dinner: Một Tối Trọn Vẹn Sự Sang Trọng và Ý Nghĩa</h3>
@@ -58,32 +58,32 @@ const GalaDinner = () => {
                     ty.
                     Mỗi khoảnh khắc trong Gala Dinner đều là một kỷ niệm đáng nhớ.</p>
             </div>
-            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
+            <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
                    src="../image/gala-dinner/image6.jpg"/>
-            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
+            <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
                    src="../image/gala-dinner/image10.jpg"/>
-            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
+            <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
                    src="../image/gala-dinner/image7.jpg"/>
-            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
+            <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
                    src="../image/gala-dinner/image9.jpg"/>
             <div className="paragraph">
                 <h3>Vinh danh thành viên cống hiến</h3>
                 <p>Bên cạnh các hoạt động vui chơi giải trí, Sano vinh danh các thành viên có những thành tích nổi
                     bật trong năm. Sano cũng tổ chức min game với các phần thưởng cho thành viên may mắn nhất.</p>
             </div>
-            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
+            <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
                    src="../image/gala-dinner/image8.jpg"/>
-            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
+            <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
                    src="../image/gala-dinner/image12.jpg"/>
-            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
+            <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
                    src="../image/gala-dinner/image11.jpg"/>
-            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
+            <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
                    src="../image/gala-dinner/image18.jpg"/>
-            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
+            <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
                    src="../image/gala-dinner/image3.jpg"/>
-            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
+            <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
                    src="../image/gala-dinner/image4.jpg"/>
-            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
+            <Image loading="lazy" width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
                    src="../image/gala-dinner/image25.jpg"/>
             <div className="paragraph">
                 <h3>Kết Luận</h3>
