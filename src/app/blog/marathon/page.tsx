@@ -1,7 +1,11 @@
+'use client'
 import React from 'react';
+
 import Image from "next/image";
 import './style.scss'
+import {useMediaQuery} from "usehooks-ts";
 const Marathon = () => {
+    const isMobile = useMediaQuery('(max-width: 430px)');
     return (
         <div style={{
             maxWidth: "1200px",
@@ -15,7 +19,7 @@ const Marathon = () => {
             <h3 style={{fontSize: "20px"}}>19-08-2023</h3>
             <p>Vào ngày 19 tháng 08 năm 2023, Sano Media đã tổ chức hoạt động team building đầy niềm vui và ý nghĩa khi
                 toàn thể nhân sự Công ty. Nhằm tạo sự gắn kết giữa người với người giữa các thành viên trong Công ty</p>
-            <Image width={1000} height={1000} quality={100} style={{maxWidth: "1200px"}}
+            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} style={{maxWidth: "1200px"}}
                    src="../image/marathon/image1.jpg" alt="image1"/>
             <div className="paragraph">
                 <h3>Khám Phá Hoạt Động Chạy Marathon Cho Công Ty: Kết Nối Đội Ngũ và Thúc Đẩy Sức Khỏe</h3>
@@ -41,9 +45,9 @@ const Marathon = () => {
                     cho
                     công ty.</p>
             </div>
-            <Image width={1000} height={1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
+            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
                    src="../image/marathon/image2.jpg"/>
-            <Image width={1000} height={1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
+            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
                    src="../image/marathon/image3.jpg"/>
             <div className="paragraph">
                 <h3>Nâng Cao Hình Ảnh Công Ty</h3>
@@ -57,11 +61,11 @@ const Marathon = () => {
                     nơi,
                     mà còn là sự thể hiện ý chí và sức mạnh bên trong chúng ta.</p>
             </div>
-            <Image width={1000} height={1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
+            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
                    src="../image/marathon/image4.jpg"/>
-            <Image width={1000} height={1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
+            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
                    src="../image/marathon/image8.jpg"/>
-            <Image width={1000} height={1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
+            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
                    src="../image/marathon/image9.jpg"/>
             <div className="paragraph">
                 <h3>Xây dựng văn hóa công ty</h3>
@@ -71,9 +75,9 @@ const Marathon = () => {
                     suất
                     làm việc của toàn đội ngũ.</p>
             </div>
-            <Image width={1000} height={1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
+            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
                    src="../image/marathon/image5.jpg"/>
-            <Image width={1000} height={1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
+            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
                    src="../image/marathon/image10.jpg"/>
             <div className="paragraph">
                 <h3>Kết Luận</h3>

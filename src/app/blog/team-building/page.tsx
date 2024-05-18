@@ -1,7 +1,11 @@
+'use client'
 import React from 'react';
+
 import Image from "next/image";
 import './style.scss'
+import {useMediaQuery} from "usehooks-ts";
 const TeamBuilding = () => {
+    const isMobile = useMediaQuery('(max-width: 430px)');
     return (
         <div style={{
             maxWidth: "1200px",
@@ -15,7 +19,7 @@ const TeamBuilding = () => {
             <h3 style={{fontSize: "20px"}}>19-10-2023</h3>
             <p>Vào ngày 19 tháng 10 năm 2023, Sano Media đã tổ chức hoạt động team building đầy niềm vui và ý nghĩa khi
                 toàn thể nhân sự Công ty. Nhằm tạo sự gắn kết giữa người với người giữa các thành viên trong Công ty</p>
-            <Image width={1000} height={1000} quality={100} style={{maxWidth: "1200px"}}
+            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} style={{maxWidth: "1200px"}}
                    src="../image/team-building/image6.jpg" alt="image1"/>
             <div className="paragraph">
                 <h3>Khám Phá Team Building: Xây Dựng Đội Ngũ Vững Mạnh và Đoàn Kết</h3>
@@ -45,9 +49,9 @@ const TeamBuilding = () => {
                     gia vào các hoạt động giải trí mang lại không khí trẻ trung,năng động, đậm nét văn hoá của Công ty.
                     Mỗi khoảnh khắc trong Gala Dinner đều là một kỷ niệm đáng nhớ.</p>
             </div>
-            <Image width={1000} height={1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
+            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
                    src="../image/team-building/image6.jpg"/>
-            <Image width={1000} height={1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
+            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
                    src="../image/team-building/image10.jpg"/>
             <div className="paragraph">
                 <h3>Giảm căng thẳng và áp lực</h3>
@@ -61,9 +65,9 @@ const TeamBuilding = () => {
                     thân thiện. Văn hóa công ty mạnh mẽ không chỉ giúp thu hút và giữ chân nhân tài mà còn tăng cường
                     hiệu suất làm việc của toàn đội ngũ.</p>
             </div>
-            <Image width={1000} height={1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
+            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
                    src="../image/team-building/image8.jpg"/>
-            <Image width={1000} height={1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
+            <Image width={isMobile ? 430 :1000} height={isMobile ? 430 :1000} quality={100} alt={"image"} style={{maxWidth: "1200px"}}
                    src="../image//team-building/image12.jpg"/>
             <div className="paragraph">
                 <h3>Kết Luận</h3>
