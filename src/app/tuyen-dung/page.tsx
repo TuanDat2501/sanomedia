@@ -57,9 +57,9 @@ const Recruitment = () => {
     const dataTreatment = TREATMENT_DATA;
     const form = useRef(null) as any;
     const isMobile = useMediaQuery('(max-width: 430px)');
-    useEffect(()=>{
-        console.log("isMobile",isMobile)
-    },[isMobile])
+    useEffect(() => {
+        console.log("isMobile", isMobile)
+    }, [isMobile])
     const [name, setName] = useState()
     const [email, setEmail] = useState()
     const [position, setPosition] = useState()
@@ -97,13 +97,13 @@ const Recruitment = () => {
                 if (position) {
                     if (file) {
                         e.preventDefault();
-                        emailjs.send("sano_media","template_lbrg7ip", {
+                        emailjs.send("sano_media", "template_lbrg7ip", {
                             to_name: name,
                             from_name: email,
                             message: message,
                             content: url,
                             position: position,
-                            phone:phone,
+                            phone: phone,
                         } as any, {
                             publicKey: 'JKJJ2QEBu8pcj1d86',
                         })
@@ -194,9 +194,13 @@ const Recruitment = () => {
                                     overflow: 'hidden'
                                 }}></iframe>
                     </div>*/}
-                    <video controls>
+                    {/*<video controls>
                         <source src="./video/video.mp4"/>
-                    </video>
+                    </video>*/}
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/o9UR4QiiiLA?si=GLuOK2U_Y6Ut4teg"
+                            title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
             </section>
             <section className="recruiting">
@@ -265,7 +269,9 @@ const Recruitment = () => {
                 <div className="feedback">
                     <div className="item-feedback flex gap-3" data-aos="flip-down">
                         <div className="member-img">
-                            <Image width={150} height={150} quality={100} src={`${urlImg}/anh-sano4.png?alt=media&token=719da060-a6c2-4106-8daa-7d9f1150c04e`} alt="newbie"/>
+                            <Image width={150} height={150} quality={100}
+                                   src={`${urlImg}/anh-sano4.png?alt=media&token=719da060-a6c2-4106-8daa-7d9f1150c04e`}
+                                   alt="newbie"/>
                         </div>
                         <div className="info-feedback">
                             <div className="name-member">Nguyễn An Hướng - <span>Editor</span></div>
@@ -285,12 +291,16 @@ const Recruitment = () => {
                             </div>
                         </div>
                         <div className="member-img">
-                            <Image width={150} height={150} quality={100} src={`${urlImg}/anh-sano1.png?alt=media&token=33f9c068-8892-4e6a-abd4-b59d6642b10e`} alt="newbie"/>
+                            <Image width={150} height={150} quality={100}
+                                   src={`${urlImg}/anh-sano1.png?alt=media&token=33f9c068-8892-4e6a-abd4-b59d6642b10e`}
+                                   alt="newbie"/>
                         </div>
                     </div>
                     <div className="item-feedback flex gap-3" data-aos="flip-down">
                         <div className="member-img">
-                            <Image width={150} height={150} src={`${urlImg}/anh-sano2.png?alt=media&token=9c17b2e6-39f1-4eff-821d-2a85ebc5a73b`} alt="newbie"/>
+                            <Image width={150} height={150}
+                                   src={`${urlImg}/anh-sano2.png?alt=media&token=9c17b2e6-39f1-4eff-821d-2a85ebc5a73b`}
+                                   alt="newbie"/>
                         </div>
                         <div className="info-feedback">
                             <div className="name-member">Ngô Văn Đức - <span>Editor</span></div>
@@ -356,7 +366,7 @@ const Recruitment = () => {
                             <label htmlFor="message">Nội dung</label>
                             <textarea id="message" placeholder="Nội dung" onChange={(e) => {
                                 getValueInput(e, 6)
-                            }} rows={4} cols={20} style={{padding:"5px"}}></textarea>
+                            }} rows={4} cols={20} style={{padding: "5px"}}></textarea>
                         </div>
 
                     </div>
