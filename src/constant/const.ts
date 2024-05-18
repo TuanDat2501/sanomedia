@@ -19,21 +19,21 @@ export const PRESENT_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA = [
     {
-        image:"./image/sanolife-2.jpg",
+        image:"https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-2.jpg?alt=media&token=20f283b4-87f9-47dd-87cc-d2ab55c3f47f",
         title: "Chương trình hoạt động: Gala Dinner",
         date: "05-02-2024",
         subText: "Một đêm tiệc đầy niềm vui và ý nghĩa khi toàn thể nhân sự Công ty cùng gia đình cùng nhau nhìn lại hành trình một năm đầy biến động nhưng cũng không kém phần rực rỡ của Sano Media. Để rồi sau đó những giải thưởng vinh danh các cá nhân, tập thể xuất sắc trong năm qua đã được hô vang.",
         link:"/blog/gala-dinner"
     },
     {
-        image:"./image/sanolife-4.jpg",
+        image:"https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-4.jpg?alt=media&token=b972dbd6-ca89-43a7-816a-6e2496bd8af3",
         title: "Chương trình hoạt động: Team building",
         date: "19-10-2023",
         subText: "Làm việc tại Sano Media không chỉ được khen thưởng thường xuyên, mà còn có những hoạt động trải nghiệm, team building đầy cảm xúc. Mỗi hoạt động mang theo 1 giá trị và cũng là dịp giúp các thành viên hiểu nhau hơn, thêm gắn kết hơn.",
         link:"/blog/team-building"
     },
     {
-        image:"./image/sanolife-13.jpg",
+        image:"https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-13.jpg?alt=media&token=7c26d99d-4b3c-4a27-aff5-e90d9a8d2ec0",
         title: "Chương trình hoạt động: Chạy Marathon",
         date: "19-08-2023",
         link:"/blog/marathon",
@@ -43,7 +43,7 @@ export const NEWS_SANOLIFE_DATA = [
 export const NEWS_SANOLIFE_DATA1 = [
     {
         id:1,
-        image:"./image/sanolife-2.jpg",
+        image:"https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-2.jpg?alt=media&token=20f283b4-87f9-47dd-87cc-d2ab55c3f47f",
         title: "Chương trình hoạt động: Gala Dinner",
         date: "05-02-2024",
         subText: "Một đêm tiệc đầy niềm vui và ý nghĩa khi toàn thể nhân sự Công ty cùng gia đình cùng nhau nhìn lại hành trình một năm đầy biến động nhưng cũng không kém phần rực rỡ của Sano Media. Để rồi sau đó những giải thưởng vinh danh các cá nhân, tập thể xuất sắc trong năm qua đã được hô vang.",
@@ -107,21 +107,21 @@ export const NEWS_SANOLIFE_DATA1 = [
         link:"/blog/gala-dinner"
     },
     {
-        image:"./image/sanolife-4.jpg",
+        image:"https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-4.jpg?alt=media&token=b972dbd6-ca89-43a7-816a-6e2496bd8af3",
         title: "Chương trình hoạt động: Team building",
         date: "19-10-2023",
         subText: "Làm việc tại Sano Media không chỉ được khen thưởng thường xuyên, mà còn có những hoạt động trải nghiệm, team building đầy cảm xúc. Mỗi hoạt động mang theo 1 giá trị và cũng là dịp giúp các thành viên hiểu nhau hơn, thêm gắn kết hơn.",
         link:"/blog/team-building"
     },
     {
-        image:"./image/sanolife-13.jpg",
+        image:"https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-13.jpg?alt=media&token=7c26d99d-4b3c-4a27-aff5-e90d9a8d2ec0",
         title: "Chương trình hoạt động: Chạy Marathon",
         date: "19-08-2023",
         subText: "Không chỉ là một công ty, chúng ta là một đại gia đình đang cùng nhau trải qua những khoảnh khắc đáng nhớ và thú vị! Vừa qua, SANO Media Việt Nam đã tổ chức một chuyến đi hoạt động Team Building kết hợp chạy Marathon 21km tại Hạ Long.",
         link:"/blog/marathon"
     },
     {
-        image:"./image/sanolife-14.jpg",
+        image:"https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-14.jpg?alt=media&token=21ccb35e-6a1c-4bee-9fdc-4a67bf3ae187",
         title: "Chương trình hoạt động: Đào tạo nội bộ",
         date: "05-03-2023",
         subText: "Sano Media có tổ chức hoạt động đào tạo nội bộ thường niên cho toàn bộ thành viên trong Công ty nhằm nâng cao kiến thức, nhận thức cho mọi người.",

@@ -47,7 +47,7 @@ const AboutMe = () => {
         });
         return count;
     }
-
+    const urlImg = "https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o";
     const isMobile = useMediaQuery('(max-width: 430px)');
     const isTablet = useMediaQuery('(min-width: 430px) and (max-width: 830px)');
     const router = useRouter()
@@ -95,7 +95,7 @@ const AboutMe = () => {
 
                     </div>
                     <div className="work-environment-img" data-aos="fade-left">
-                        <Image width={1000} height={1000} quality={100} src='./image/Group412.jpg' alt="Group-412"/>
+                        <Image width={1000} height={1000} quality={100} src={`${urlImg}/Group412.jpg?alt=media&token=d25003fb-1882-4fc2-962b-43c560318b7b`} alt="Group-412"/>
                     </div>
                 </section>
                 <section className="present-data margin-center" ref={myRef}>
@@ -127,7 +127,7 @@ const AboutMe = () => {
                         {isMobile &&
                             <div className="sano-culture-mobile">
                                 <div className="icon-culture">
-                                    <Image width={1000} height={1000} quality={100} src="./image/icon_heart.png"
+                                    <Image width={1000} height={1000} quality={100} src={`${urlImg}/icon_heart.png?alt=media&token=13e93d9f-69b1-4894-9bcc-841dbdbdaa73`}
                                            alt="icon-heart"/>
                                 </div>
                                 <h1>Giá trị cốt lỗi</h1>
@@ -135,12 +135,12 @@ const AboutMe = () => {
                             </div>
                         }
                         <div className="sano-culture-image" data-aos="fade-right">
-                            <Image width={500} height={500} src="./image/image-culture.jpg" alt="image"></Image>
+                            <Image width={500} height={500} src={`${urlImg}/image-culture.jpg?alt=media&token=77de1b94-580e-49b3-9c3e-f488d7f08861`} alt="image"></Image>
                         </div>
                         <div className="sano-culture-content">
                             {!isMobile && <>
                                 <div className="icon-culture">
-                                    <Image width={100} height={100} quality={100} src="./image/icon_heart.png"
+                                    <Image width={100} height={100} quality={100} src={`${urlImg}/icon_heart.png?alt=media&token=13e93d9f-69b1-4894-9bcc-841dbdbdaa73`}
                                            alt="icon-heart"/>
                                 </div>
                                 <h1>Giá trị cốt lỗi</h1>
@@ -225,28 +225,28 @@ const AboutMe = () => {
                     >
                         <SwiperSlide><Image width={500} height={500} quality={100}
                                             style={{width: '100%', height: "350px", objectFit: 'cover'}}
-                                            src="./image/aboutme-6.jpg" alt="aboutme-6"/></SwiperSlide>
+                                            src={`${urlImg}/aboutme-6.jpg?alt=media&token=b60095f3-ce71-4809-a079-70d385ae68a7`} alt="aboutme-6"/></SwiperSlide>
                         <SwiperSlide><Image width={500} height={500} quality={100}
                                             style={{width: '100%', height: "350px", objectFit: 'cover'}}
-                                            src="./image/aboutme-4.jpg" alt="aboutme-5"/></SwiperSlide>
+                                            src={`${urlImg}/aboutme-4.jpg?alt=media&token=adeed954-e92b-4c8b-9c5b-3dd6c1a1d064`} alt="aboutme-5"/></SwiperSlide>
                         <SwiperSlide><Image width={500} height={500} quality={100}
                                             style={{width: '100%', height: "350px", objectFit: 'cover'}}
-                                            src="./image/aboutme-5.jpg" alt="aboutme-4"/></SwiperSlide>
+                                            src={`${urlImg}/aboutme-5.jpg?alt=media&token=e7fd4a79-0333-434d-bce4-5e9e572f7aba`} alt="aboutme-4"/></SwiperSlide>
                         <SwiperSlide><Image width={500} height={500} quality={100}
                                             style={{width: '100%', height: "350px", objectFit: 'cover'}}
-                                            src="./image/aboutme-8.jpg" alt="aboutme-4"/></SwiperSlide>
+                                            src={`${urlImg}/aboutme-8.jpg?alt=media&token=5c1dc5bc-ddbe-4903-bf9e-ae991b39374e`} alt="aboutme-4"/></SwiperSlide>
                         <SwiperSlide><Image width={500} height={500} quality={100}
                                             style={{width: '100%', height: "350px", objectFit: 'cover'}}
-                                            src="./image/aboutme-9.jpg" alt="aboutme-4"/></SwiperSlide>
+                                            src={`${urlImg}/aboutme-9.jpg?alt=media&token=e2dc5ed8-b3cd-419b-85a8-dabc8d3bff04`} alt="aboutme-4"/></SwiperSlide>
                         <SwiperSlide><Image width={500} height={500} quality={100}
                                             style={{width: '100%', height: "350px", objectFit: 'cover'}}
-                                            src="./image/aboutme-10.jpg" alt="aboutme-4"/></SwiperSlide>
+                                            src={`${urlImg}/aboutme-10.jpg?alt=media&token=1c2604f5-d00c-4387-8ac4-ff07096f77d2`} alt="aboutme-4"/></SwiperSlide>
                         <SwiperSlide><Image width={500} height={500} quality={100}
                                             style={{width: '100%', height: "350px", objectFit: 'cover'}}
-                                            src="./image/aboutme-11.jpg" alt="aboutme-4"/></SwiperSlide>
+                                            src={`${urlImg}/aboutme-11.jpg?alt=media&token=8da1db7e-82bc-4eaf-bd69-3d317ed75413`} alt="aboutme-4"/></SwiperSlide>
                         <SwiperSlide><Image width={500} height={500} quality={100}
                                             style={{width: '100%', height: "350px", objectFit: 'cover'}}
-                                            src="./image/aboutme-12.jpg" alt="aboutme-4"/></SwiperSlide>
+                                            src={`${urlImg}/aboutme-12.jpg?alt=media&token=d9336eda-e3ce-4538-ac01-e7bebea64117`} alt="aboutme-4"/></SwiperSlide>
                     </Swiper>
                 </section>
                 <section className="sano-life-news margin-center">

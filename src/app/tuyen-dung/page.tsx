@@ -53,6 +53,7 @@ const TREATMENT_DATA = [
     }
 ]
 const Recruitment = () => {
+    const urlImg = "https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o";
     const dataTreatment = TREATMENT_DATA;
     const form = useRef(null) as any;
     const isMobile = useMediaQuery('(max-width: 430px)');
@@ -264,7 +265,7 @@ const Recruitment = () => {
                 <div className="feedback">
                     <div className="item-feedback flex gap-3" data-aos="flip-down">
                         <div className="member-img">
-                            <Image width={150} height={150} quality={100} src="./image/anh-sano4.png" alt="newbie"/>
+                            <Image width={150} height={150} quality={100} src={`${urlImg}/anh-sano4.png?alt=media&token=719da060-a6c2-4106-8daa-7d9f1150c04e`} alt="newbie"/>
                         </div>
                         <div className="info-feedback">
                             <div className="name-member">Nguyễn An Hướng - <span>Editor</span></div>
@@ -284,12 +285,12 @@ const Recruitment = () => {
                             </div>
                         </div>
                         <div className="member-img">
-                            <Image width={150} height={150} quality={100} src="./image/anh-sano1.png" alt="newbie"/>
+                            <Image width={150} height={150} quality={100} src={`${urlImg}/anh-sano1.png?alt=media&token=33f9c068-8892-4e6a-abd4-b59d6642b10e`} alt="newbie"/>
                         </div>
                     </div>
                     <div className="item-feedback flex gap-3" data-aos="flip-down">
                         <div className="member-img">
-                            <Image width={150} height={150} src="./image/anh-sano3.png" alt="newbie"/>
+                            <Image width={150} height={150} src={`${urlImg}/anh-sano2.png?alt=media&token=9c17b2e6-39f1-4eff-821d-2a85ebc5a73b`} alt="newbie"/>
                         </div>
                         <div className="info-feedback">
                             <div className="name-member">Ngô Văn Đức - <span>Editor</span></div>

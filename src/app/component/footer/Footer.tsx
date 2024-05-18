@@ -20,7 +20,7 @@ const Footer = () => {
             <div className="wrapper-footer">
             <div className="menu">
                 <div className="logo">
-                    <Image width={100} height={100} quality={100} src={isBlog ? "../image/logo.png" :"./image/logo.png" } alt="logo"/>
+                    <Image width={100} height={100} quality={100} src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/logo.png?alt=media&token=1748ce5e-2cbc-4942-8657-7c9ba87abd09" alt="logo"/>
                 </div>
                 <div className="links-menu">
                     <a onClick={()=>router.push('/tuyen-dung')}>Tuyển dụng</a>

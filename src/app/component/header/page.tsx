@@ -70,7 +70,7 @@ const Header = () => {
             </div>
             <div className=" mobile">
                 <div className="logo cursor-pointer" onClick={() => router.push('/gioi-thieu')}>
-                    <Image width={120} height={120} quality={100} src={isBlog ? "../image/logo.png" :"./image/logo.png" } alt="logo"/>
+                    <Image width={120} height={120} quality={100} src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/logo.png?alt=media&token=1748ce5e-2cbc-4942-8657-7c9ba87abd09" alt="logo"/>
                 </div>
                 <div className="menu-header" onClick={() => setIsOpenMenu(!isOpenMenu)}>
                     <text>Menu</text>
