@@ -298,6 +298,15 @@
         min-width: unset !important;
         max-width: unset !important;
         padding: 20px !important;
+        .icon{
+          svg{
+            max-width: 50px;
+            max-height: 50px;
+          }
+        }
+        text{
+          font-size: 14px;
+        }
       }
     }
   }
