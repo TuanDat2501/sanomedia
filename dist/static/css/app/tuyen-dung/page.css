@@ -1,0 +1,372 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/app/tuyen-dung/style.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.main-recruitment {
+  max-width: 1200px;
+  margin: auto;
+}
+.main-recruitment .recruitment-content {
+  padding: 70px;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.main-recruitment .recruitment-content .recruitment-content-text {
+  width: 40%;
+}
+.main-recruitment .recruitment-content .recruitment-content-video {
+  width: 60%;
+}
+.main-recruitment .recruitment-content .recruitment-content-video iframe {
+  width: 100%;
+  height: 100%;
+  max-height: 400px;
+}
+.main-recruitment .recruiting {
+  text-align: center;
+  padding: 50px;
+}
+.main-recruitment .recruiting .position {
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  justify-content: center;
+}
+.main-recruitment .recruiting .position .item-position {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 200px;
+  max-width: 300px;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  border-radius: 10px;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.main-recruitment .recruiting .position .item-position:hover {
+  transform: scale(1.05);
+}
+.main-recruitment .recruiting .position .item-position text {
+  font-weight: bold;
+  font-size: 20px;
+}
+.main-recruitment .environment {
+  background: var(--color-red);
+  text-align: center;
+  padding: 15px 144px 50px 144px;
+}
+.main-recruitment .environment h1, .main-recruitment .environment p {
+  text-align: center;
+  color: #fff !important;
+}
+.main-recruitment .environment .treatments {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 25px;
+}
+.main-recruitment .environment .treatments .item-treatment {
+  width: 100%;
+  height: 200.46px;
+  background: #FFFFFF;
+  border-radius: 30px;
+  padding: 20px;
+}
+.main-recruitment .environment .treatments .item-treatment .treatment {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.main-recruitment .newbie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 50px;
+  position: relative;
+}
+.main-recruitment .newbie span {
+  color: var(--color-red);
+}
+.main-recruitment .newbie .feedback {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  z-index: 2;
+}
+.main-recruitment .newbie .feedback .item-feedback .member-img img {
+  max-width: 100px;
+  max-height: 200px;
+  object-fit: cover;
+}
+.main-recruitment .newbie .feedback .item-feedback .info-feedback span {
+  font-style: italic;
+}
+.main-recruitment .newbie .feedback .item-feedback .info-feedback .name-right {
+  text-align: end;
+}
+.main-recruitment .newbie .feedback .item-feedback .info-feedback .name-member {
+  font-weight: bold;
+}
+.main-recruitment .newbie .feedback .item-feedback .info-feedback .cmt-member {
+  text-align: justify;
+  max-width: 830px;
+}
+.main-recruitment .newbie .polygon-2 {
+  position: absolute;
+  width: 99.63px;
+  height: 99.63px;
+  left: 13%;
+  top: 20%;
+  background: rgba(217, 217, 217, 0.38);
+  border-radius: 10px;
+  transform: matrix(-0.7, 0.71, -0.7, -0.71, 0, 0);
+}
+.main-recruitment .newbie .polygon-1 {
+  position: absolute;
+  width: 99.63px;
+  height: 99.63px;
+  right: 100px;
+  top: 50.71px;
+  border-radius: 10px;
+  transform: matrix(0.7, -0.71, 0.7, 0.71, 0, 0);
+}
+.main-recruitment .newbie .ellipse-3 {
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: 220px;
+  top: 80%;
+  background: rgba(217, 217, 217, 0.47);
+}
+.main-recruitment .newbie .subtract {
+  /* Subtract */
+  position: absolute;
+  width: 79.42px;
+  height: 100px;
+  left: 300px;
+  top: 70%;
+  transform: rotate(-30deg);
+}
+.main-recruitment .register {
+  background-image: url("https://i.ibb.co/Nj9N0tK/Rectangle-27.png");
+  width: 100%;
+  height: 100%;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+.main-recruitment .register h1 {
+  color: #FFFFFF;
+}
+.main-recruitment .register .form {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.main-recruitment .register .form .container-input {
+  width: 100%;
+}
+.main-recruitment .register .form .container-input button:disabled {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+.main-recruitment .register .form .file {
+  position: relative;
+}
+.main-recruitment .register .form .input-position .input-file {
+  cursor: pointer;
+  background: rgba(96, 96, 96, 0.85);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.main-recruitment .register .form .input-position .input-file span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+}
+.main-recruitment .register .form .input-position .input-file span p {
+  color: #fff;
+}
+.main-recruitment .register .form .input-position .input-file #position {
+  opacity: 0;
+  min-height: 100px;
+  cursor: pointer;
+}
+.main-recruitment .register .form .textarea textarea {
+  color: #000;
+}
+.main-recruitment .register label {
+  width: 100%;
+  height: 17px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.main-recruitment .register .custom-select {
+  color: #000000;
+}
+.main-recruitment .register .custom-select select {
+  width: 100%;
+  padding: 5px 15px;
+}
+.main-recruitment .register .custom-select select option:disabled {
+  color: #959595;
+}
+.main-recruitment .register input {
+  padding: 5px 15px;
+  color: #000;
+}
+
+@media screen and (max-width: 430px) {
+  .recruiting .position {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .recruiting .position .item-position {
+    width: 125px !important;
+    height: 125px !important;
+    min-width: unset !important;
+    max-width: unset !important;
+    padding: 20px !important;
+  }
+  .recruiting .position .item-position .icon svg {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  .recruiting .position .item-position .icon img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  .recruiting .position .item-position text {
+    font-size: 16px !important;
+  }
+  .recruitment-content {
+    flex-direction: column !important;
+    padding: 20px !important;
+  }
+  .recruitment-content .recruitment-content-text {
+    width: 100% !important;
+  }
+  .recruitment-content .recruitment-content-video {
+    width: 100% !important;
+  }
+  .recruitment-content .recruitment-content-video iframe {
+    height: 200px !important;
+  }
+  .environment {
+    padding: 15px !important;
+  }
+  .environment .treatments {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+  .newbie {
+    padding: 20px 20px !important;
+  }
+  .newbie .polygon-2 {
+    display: none;
+  }
+  .newbie .polygon-1 {
+    display: none;
+  }
+  .newbie .ellipse-3 {
+    display: none;
+  }
+  .newbie .subtract {
+    display: none;
+  }
+  .newbie .line-red {
+    width: 30%;
+  }
+  .newbie h1 {
+    text-align: center;
+  }
+  .newbie .feedback .item-feedback {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  .newbie .feedback .item-feedback:nth-child(2) {
+    background: var(--color-red);
+    color: #FFFFFF;
+  }
+  .newbie .feedback .item-feedback .info-feedback .cmt-member {
+    max-width: 200px !important;
+  }
+  .newbie .feedback .colums-reverse {
+    flex-direction: column-reverse !important;
+  }
+  .newbie .feedback .name-right {
+    text-align: center !important;
+  }
+  .newbie .feedback .name-right span {
+    color: #FFFFFF;
+  }
+  .register .form {
+    flex-direction: column !important;
+  }
+  .register .form .form-right {
+    width: 100%;
+  }
+  .register .form .form-left {
+    width: 100%;
+  }
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/app/component/button-red/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.button button {
+  width: 143px;
+  height: 45px;
+  background: var(--color-red);
+  border-radius: 10px;
+  border: 2px solid var(--color-red);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  color: #FFFFFF;
+  transition: background-color 0.5s ease;
+}
+.button button:hover {
+  background: none;
+  color: var(--color-red);
+}
+.button button .loader {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 3px solid #FFF;
+  border-right: 3px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

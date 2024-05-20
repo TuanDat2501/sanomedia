@@ -184,7 +184,7 @@ const Contact = () => {
                                     <p>
                                         <strong>Email</strong>
                                         <br></br>
-                                        sanonaturalteam@gmail.com
+                                        vanns@sanogroup.tv
                                     </p>
                                 </li>
                             </ul>

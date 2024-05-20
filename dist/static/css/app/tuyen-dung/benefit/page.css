@@ -1,0 +1,104 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/app/tuyen-dung/benefit/style.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.main-benefit {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-benefit h1 {
+  text-align: center;
+  font-size: 40px;
+  margin: 30px 0;
+  padding-top: 30px;
+}
+.main-benefit .job-detail {
+  height: 200px;
+  background-color: var(--color-red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-benefit .job-detail .items-job {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.main-benefit .job-detail .items-job .item-job-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-benefit .job-detail .items-job .item-job-detail text {
+  color: #f8cccc;
+  font-weight: 500;
+}
+.main-benefit .job-detail .items-job .item-job-detail p {
+  color: #fff;
+  font-weight: 800;
+}
+.main-benefit .job {
+  padding: 30px;
+}
+.main-benefit .job h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+.main-benefit .job ul {
+  list-style: circle;
+}
+.main-benefit .job ul li {
+  margin-left: 30px;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+.main-benefit .contact .detail-contact {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+.main-benefit .contact .btn-apply {
+  margin-top: 20px;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/app/component/button-red/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.button button {
+  width: 143px;
+  height: 45px;
+  background: var(--color-red);
+  border-radius: 10px;
+  border: 2px solid var(--color-red);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  color: #FFFFFF;
+  transition: background-color 0.5s ease;
+}
+.button button:hover {
+  background: none;
+  color: var(--color-red);
+}
+.button button .loader {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 3px solid #FFF;
+  border-right: 3px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

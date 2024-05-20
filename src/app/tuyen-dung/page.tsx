@@ -25,6 +25,8 @@ import IHighFive from "@/icon/IHighFive";
 import ICreative from "@/icon/ICreative";
 import Image from "next/image";
 import IManager from "@/icon/IManager";
+import {router} from "next/client";
+import {useRouter} from "next/navigation";
 
 const TREATMENT_DATA = [
     {
@@ -42,7 +44,7 @@ const TREATMENT_DATA = [
     {
         icon: <IHighFive></IHighFive>,
         title: "Môi trường năng động",
-        description: "Đội ngũ 9x năng động trẻ trung, cơ sở vật chất tiện nghi, hiện đại cùng phong cách làm việc chuyên nghiệp.",
+        description: "Đội ngũ GenZ năng động trẻ trung, cơ sở vật chất tiện nghi, hiện đại cùng phong cách làm việc chuyên nghiệp.",
         animation: "fade-right"
     },
     {
@@ -53,6 +55,7 @@ const TREATMENT_DATA = [
     }
 ]
 const Recruitment = () => {
+    const router = useRouter();
     const urlImg = "https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o";
     const dataTreatment = TREATMENT_DATA;
     const form = useRef(null) as any;
@@ -79,6 +82,9 @@ const Recruitment = () => {
     }
     const leaveBtn = () => {
         setHover(false);
+    }
+    const clickRecruiting = (path:string)=>{
+        router.push(path);
     }
     const showToast = (status: string, text: string) => {
         setIsLoading(false);
@@ -206,7 +212,7 @@ const Recruitment = () => {
             <section className="recruiting">
                 <h1>Các vị trí đang tuyển tại Sano Media</h1>
                 <div className="position">
-                    <div className="item-position">
+                    <div className="item-position" onClick={()=>clickRecruiting('/tuyen-dung/benefit')}>
                         <div className="icon">
                             <IEditor width={isMobile ? 50 : 150} height={isMobile ? 50 : 150}></IEditor>
                         </div>
@@ -274,7 +280,7 @@ const Recruitment = () => {
                                    alt="newbie"/>
                         </div>
                         <div className="info-feedback">
-                            <div className="name-member">Nguyễn An Hướng - <span>Editor</span></div>
+                            <div className="name-member">Nguyễn An Hướng - <span>Trưởng nhóm</span></div>
                             <div className="cmt-member">
                                 “ Mình vốn là người hướng nội và ít giao tiếp. Nhưng với một môi trường trẻ trung, năng
                                 động như Sano, mình như được "mở lòng" hơn với tất cả mọi người. So niceee! ”
@@ -283,7 +289,7 @@ const Recruitment = () => {
                     </div>
                     <div className="item-feedback flex gap-3 justify-end colums-reverse" data-aos="flip-up">
                         <div className="info-feedback">
-                            <div className="name-member name-right">Khổng Thị Yến - <span>Manager</span></div>
+                            <div className="name-member name-right">Khổng Thị Yến - <span>Trưởng nhóm</span></div>
                             <div className="cmt-member">
                                 “ Sau tuần đầu tiên làm việc tại công ty, tôi cảm nhận được một môi trường làm việc
                                 chuyên nghiệp, thân thiện và đầy năng lượng tích cực. ”
@@ -376,7 +382,6 @@ const Recruitment = () => {
                 </div>
                 {isShowToast && <Toast status={status} text={textToast}></Toast>}
             </section>
-
         </div>
     );
 };
