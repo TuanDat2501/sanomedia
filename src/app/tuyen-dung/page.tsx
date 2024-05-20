@@ -197,7 +197,7 @@ const Recruitment = () => {
                     {/*<video controls>
                         <source src="./video/video.mp4"/>
                     </video>*/}
-                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/o9UR4QiiiLA?si=GLuOK2U_Y6Ut4teg"
+                    <iframe src="https://www.youtube.com/embed/o9UR4QiiiLA?si=GLuOK2U_Y6Ut4teg"
                             title="YouTube video player"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
@@ -277,8 +277,7 @@ const Recruitment = () => {
                             <div className="name-member">Nguyễn An Hướng - <span>Editor</span></div>
                             <div className="cmt-member">
                                 “ Mình vốn là người hướng nội và ít giao tiếp. Nhưng với một môi trường trẻ trung, năng
-                                động như Sano, mình như được "mở lòng" hơn với tất cả mọi người. Đặc biệt, điều tuyệt
-                                vời với mình là được dẫn dắt bởi anh Leader có tâm nhất quả đất. So niceee! ”
+                                động như Sano, mình như được "mở lòng" hơn với tất cả mọi người. So niceee! ”
                             </div>
                         </div>
                     </div>
@@ -368,9 +367,7 @@ const Recruitment = () => {
                                 getValueInput(e, 6)
                             }} rows={4} cols={20} style={{padding: "5px"}}></textarea>
                         </div>
-
                     </div>
-
                 </div>
                 <div className="container-input submit flex justify-center mt-4" data-aos="flip-up"
                      onClick={sendEmail} onMouseEnter={hoverBtn} onMouseLeave={leaveBtn}>
