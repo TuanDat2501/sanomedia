@@ -128,5 +128,118 @@ export const NEWS_SANOLIFE_DATA1 = [
         link:"/blog/training"
     }
 ]
+export const DATA_BENEFIT = {
+    editor:{
+        salary:"8-15M",
+        quantity:"3",
+        date:"31/12/2024",
+        title:"Editor",
+        description:[
+            "Dựng video, cắt ghép các video để tạo thành 1 video hoàn chỉnh theo kịch bản có sẵn , nguồn có sẵn.",
+            "Định hướng nội dung và hình ảnh trong video\n" +
+            "(Biên tập, chỉnh sửa video lồng ghép âm thanh, hình ảnh, hiệu ứng...cho phù hợp)"
+        ],
+        required:[
+            "Nam/Nữ tuổi từ 20-25",
+            "Biết sử dụng cơ bản một số phần mềm chỉnh sửa video: phần mềm Adobe Premiere, PTS ….",
+            "Tư duy sáng tạo, nắm bắt các xu hướng nội dung video",
+            "Làm việc cẩn thận chỉn chu."
+        ],
+        treatment:[
+            "Lương thử việc 6.000.000",
+            "Lương Chính thức 8.000.000+ thưởng (theo doanh số kênh + thưởng game thi đua) + lương thâm niên",
+            "Thu nhập trung bình 12.000.000 - 15.000.000đ/tháng",
+            "Môi trường làm việc năng động, nhân sự trẻ , teamwork tốt",
+            "Được thỏa sức học tập phát triển bản thân cũng như các kỹ năng chuyên môn",
+            "Chế độ bảo hiểm, phụ cấp đầy đủ",
+            "Được cấp máy tính làm việc"
+        ]
+    },
+    content:{
+        salary:"8-15M",
+        quantity:"3",
+        date:"31/12/2024",
+        title:"Content",
+        description: [
+            "Tìm nguồn, xây dựng kịch bản cho video đăng youtube.",
+            "Phát triển và soạn thảo các nội dung cụ thể theo Key có sẵn",
+            "Phối hợp với bộ phận edit để lên ý tưởng, kế hoạch xây dựng phát triển kênh",
+            "Báo cáo công việc và hỗ trợ thực hiện các công việc khác do Quản lý yêu cầu."
+        ],
+        required:[
+            "Nam/Nữ tuổi từ 20-25",
+            "Ưu tiên Tốt nghiệp từ Cao Đẳng, Đại học",
+            "Tư duy sáng tạo, nắm bắt các xu hướng nội dung video",
+            "Làm việc cẩn thận chỉn chu."
+        ],
+        treatment:[
+            "Lương thử việc 6.000.000",
+            "Lương Chính thức 8tr+ thưởng ( theo doanh số kênh + thưởng game thi đua + thưởng KPI)",
+            "Mức thu nhập trung bình từ 13 -15tr/tháng",
+            "Được làm việc trong môi trường genZ trẻ, chuyên nghiệp, năng động",
+            "Được liên tục học tập phát triển bản thân và nâng cao kỹ năng chuyên môn",
+            "Được hưởng đầy đủ các quyền lợi lao động: BHXH, BHYT, Lễ Tết,...",
+            "Được tham gia các hoạt động teambuilding, liên hoan tháng/Năm …."
+        ],
+
+    },
+    manager:{
+        title:"Quản lý"
+    },
+    artist2D:{
+        salary:"8-15M",
+        quantity:"3",
+        date:"31/12/2024",
+        title:"Artist 2D",
+        description:[
+            "Lĩnh vực: Youtube 2D thị trường nước ngoài với đa nội dung",
+            "Vẽ minh hoạ các nội dung có sẵn theo kịch bản",
+            "Định hướng nội dung, concept và bố cục"
+        ],
+        required:[
+            "Nam/Nữ tuổi từ 20-25",
+            "Biết sử dụng cơ bản một số phần mềm vẽ: Illustrator, Photoshop, Procreate, ….",
+            "Tư duy sáng tạo, nắm bắt các xu hướng hình ảnh, trending.",
+            "Làm việc cẩn thận chỉn chu."
+        ],
+        treatment:[
+            "Thu nhập trung bình 12 - 15tr/tháng",
+            "Môi trường làm việc năng động, nhân sự trẻ , teamwork tốt, có nhiều cơ hội thăng tiến",
+            "Được thỏa sức học tập phát triển bản thân cũng như các kỹ năng chuyên môn",
+            "Chế độ bảo hiểm, phụ cấp đầy đủ",
+            "Được hưởng các chính sách phúc lợi theo quy định của công ty",
+            "Được đào tạo, nâng cao nghiệp vụ thường xuyên",
+            "Được hỗ trợ trau dồi thêm về chuyên môn và kỹ năng liên quan từ ban lãnh đạo công ty và những người có kinh nghiệm",
+            "Cung cấp trang thiết bị đầy đủ để phục vụ công việc"
+        ],
+    },
+    animator2D:{
+        salary:"8-15M",
+        quantity:"3",
+        date:"31/12/2024",
+        title:"Animator 2D",
+        description:[
+            "Lĩnh vực : Youtube 2D thị trường nước ngoài với đa nội dung",
+            "Dựng hoạt hình các nội dung có sẵn theo kịch bản",
+            "Định hướng nội dung, concept và bố cục, Edit hậu kỳ các video hoạt hình 2D"
+        ],
+        required:[
+            "Nam/Nữ tuổi từ 20-25",
+            "Biết sử dụng cơ bản một số phần mềm dựng hoạt hình: After Effect, Moho, ….",
+            "Tư duy sáng tạo, nắm bắt các nguyên lí chuyển động cơ bản.",
+            "Làm việc cẩn thận chỉn chu."
+        ],
+        treatment:[
+            "Thu nhập trung bình 12 - 15tr/tháng",
+            "Môi trường làm việc năng động, nhân sự trẻ , teamwork tốt, có nhiều cơ hội thăng tiến",
+            "Được thỏa sức học tập phát triển bản thân cũng như các kỹ năng chuyên môn",
+            "Chế độ bảo hiểm, phụ cấp đầy đủ",
+            "Được hưởng các chính sách phúc lợi theo quy định của công ty",
+            "Được hỗ trợ trau dồi thêm về chuyên môn và kỹ năng liên quan từ ban lãnh đạo công ty và\n" +
+            "những người có kinh nghiệm",
+            "Cung cấp trang thiết bị đầy đủ để phục vụ công việc"
+        ],
+    }
+}
 
 

@@ -116,7 +116,7 @@ const Contact = () => {
                                 </li>
                                 <li>
                   <span>
-                    <ILocate width="100%" height="100%"/>
+                    <ILocate color={"#000"} width="100%" height="100%"/>
                   </span>
                                     <p>
                                         <strong>Địa Chỉ</strong>

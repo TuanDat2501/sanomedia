@@ -1,8 +1,8 @@
 
 import React from 'react';
 interface props{
-    width?:string,
-    height?:string,
+    width?:string|number,
+    height?:string|number   ,
     color?:string
 }
 const ILocate = ({height,width,color}:props) => {

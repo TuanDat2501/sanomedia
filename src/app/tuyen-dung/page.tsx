@@ -27,6 +27,8 @@ import Image from "next/image";
 import IManager from "@/icon/IManager";
 import {router} from "next/client";
 import {useRouter} from "next/navigation";
+import IArtist from "@/icon/IArtist";
+import IAnimation from "@/icon/IAnimation";
 
 const TREATMENT_DATA = [
     {
@@ -212,23 +214,40 @@ const Recruitment = () => {
             <section className="recruiting">
                 <h1>Các vị trí đang tuyển tại Sano Media</h1>
                 <div className="position">
-                    <div className="item-position" onClick={()=>clickRecruiting('/tuyen-dung/benefit')}>
+                    <div className="item-position"
+                         onClick={() => clickRecruiting('/tuyen-dung/benefit?position=editor')}>
                         <div className="icon">
                             <IEditor width={isMobile ? 50 : 150} height={isMobile ? 50 : 150}></IEditor>
                         </div>
                         <text>Editor</text>
                     </div>
-                    <div className="item-position">
+                    <div className="item-position"
+                         onClick={() => clickRecruiting('/tuyen-dung/benefit?position=content')}>
                         <div className="icon">
                             <IContent width={isMobile ? 50 : 150} height={isMobile ? 50 : 150}/>
                         </div>
                         <text>Content</text>
                     </div>
-                    <div className="item-position">
+                    <div className="item-position"
+                         onClick={() => clickRecruiting('/tuyen-dung/benefit?position=manager')}>
                         <div className="icon">
                             <IManager width={isMobile ? 50 : 150} height={isMobile ? 50 : 150}/>
                         </div>
                         <text>Manager</text>
+                    </div>
+                    <div className="item-position"
+                         onClick={() => clickRecruiting('/tuyen-dung/benefit?position=artist')}>
+                        <div className="icon">
+                            <IArtist width={isMobile ? 50 : 150} height={isMobile ? 50 : 150}/>
+                        </div>
+                        <text>Artist 2D</text>
+                    </div>
+                    <div className="item-position"
+                         onClick={() => clickRecruiting('/tuyen-dung/benefit?position=animator')}>
+                        <div className="icon">
+                            <IAnimation width={isMobile ? 50 : 150} height={isMobile ? 50 : 150}/>
+                        </div>
+                        <text>Animator 2D</text>
                     </div>
                 </div>
             </section>
