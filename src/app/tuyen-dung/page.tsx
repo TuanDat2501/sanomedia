@@ -368,6 +368,8 @@ const Recruitment = () => {
                                     <option value="Editor">Editor</option>
                                     <option value="Content">Content</option>
                                     <option value="Manager">Manager</option>
+                                    <option value="Artist">Artist 2D</option>
+                                    <option value="Animator">Animator 2D</option>
                                 </select>
                             </div>
                         </div>

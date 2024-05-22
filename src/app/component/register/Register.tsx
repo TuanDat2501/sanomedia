@@ -1,5 +1,5 @@
 'use client'
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import './style.scss';
 import IUpload from "@/icon/IUpload";
 import ITick from "@/icon/ITick";
@@ -7,6 +7,9 @@ import ButtonRed from "@/app/component/button-red/ButtonRed";
 import ISend from "@/icon/ISend";
 import Toast from "@/app/component/toast/Toast";
 import emailjs from "@emailjs/browser";
+import {getDownloadURL, ref, uploadBytes} from "firebase/storage";
+import {storage} from "@/app/firebase";
+import {v4} from "uuid";
 const Register = () => {
     const [isLoadingFile, setIsLoadingFile] = useState(false)
     const [isLoadingFileIcon, setIsLoadingFileIcon] = useState(false)
@@ -22,6 +25,18 @@ const Register = () => {
     const [isShowToast, setIsShowToast] = useState(true);
     const [status, setStatus] = useState<string | null>(null)
     const [textToast, setTextToast] = useState("")
+    useEffect(() => {
+        if (file == null) return;
+        setIsLoadingFile(true);
+        const imageRef = ref(storage, `cv/${file.name + v4()}`);
+        uploadBytes(imageRef, file).then((snapshot) => {
+            getDownloadURL(snapshot.ref).then((url) => {
+                setIsLoadingFile(false);
+                setIsLoadingFileIcon(true);
+                setUrl(url);
+            });
+        });
+    }, [file]);
     const showToast = (status: string, text: string) => {
         setIsLoading(false);
         setStatus(status);
