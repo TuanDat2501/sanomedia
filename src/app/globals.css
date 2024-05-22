@@ -105,6 +105,10 @@ p{
   max-width: 1200px;
   margin: auto;
 }
+.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  background: var(--color-red);
+  color:#fff;
+}
 @media screen and (max-width: 430px) {
   h1{
     font-size: 24px;

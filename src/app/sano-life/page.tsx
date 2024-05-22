@@ -1,19 +1,32 @@
 'use client'
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import './style.scss'
 import IArrowRight from "@/icon/IArrowRight";
 import IFacebook1 from "@/icon/IFacebook1";
 import {NEWS_SANOLIFE_DATA1} from "@/constant/const";
 import {useParams, usePathname, useRouter, useSearchParams} from "next/navigation";
 import Image from "next/image";
+import Pagination from '@mui/material/Pagination';
 
 const SanoLife = () => {
+    const dataBlogs = NEWS_SANOLIFE_DATA1;
     const urlImg = "https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o";
     const router = useRouter();
     const pathname = usePathname();
     const searchParams = useSearchParams()
     const flag = searchParams.get('flag')
+    const [arr, setArr] = useState<any>([])
+    const [totalPage, setTotalPage] = useState(0)
+    const lengthPage = 4;
     useEffect(() => {
+        if (dataBlogs.length % 4 > 0) {
+            setTotalPage(Math.floor(dataBlogs.length / lengthPage) + 1);
+        }
+        let temp = [];
+        for (let i = 0; i < 4; i++) {
+            temp.push(dataBlogs[i]);
+        }
+        setArr(temp);
         if (flag == "1") {
             const elemt = document.getElementById("sano-blog");
             elemt && elemt.scrollIntoView({
@@ -22,11 +35,19 @@ const SanoLife = () => {
                 inline: 'center'
             });
         }
-    });
+    }, [dataBlogs, flag]);
     const navigate = (link: string) => {
         router.push(link);
     }
-    const arr = NEWS_SANOLIFE_DATA1;
+    const changePage = (e: any, currentPage: number) => {
+        let temp = [];
+        for (let i = currentPage * lengthPage - lengthPage; i < currentPage * lengthPage; i++) {
+            if(dataBlogs[i]){
+                temp.push(dataBlogs[i]);
+            }
+        }
+        setArr(temp)
+    }
     return (
         <div className="sano-wrapper">
             <section className="sano-life-img">
@@ -124,7 +145,7 @@ const SanoLife = () => {
             </section>
             <section className="sano-blog" id="sano-blog">
                 <div className="blogs">
-                    {arr.map(value => <>
+                    {arr.map((value: any) => <>
                         <div className="item-blog">
                             <Image width={350} height={350} quality={100} src={value.image} alt="news-1"
                                    data-aos="fade-right"/>
@@ -144,11 +165,16 @@ const SanoLife = () => {
                         </div>
                     </>)}
                 </div>
+                <div className="pagination">
+                    <Pagination count={totalPage} onChange={(event, page) => changePage(event, page)}/>
+                </div>
             </section>
             <section className="images-media">
                 <div className="images-media-wrapper">
                     <div className="sano-life-media" data-aos="flip-right">
-                        <Image width={350} height={350} src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-6.jpg?alt=media&token=b9af1082-eb4d-4909-a3d5-6ce112c21e38" alt="sanolife-6"/>
+                        <Image width={350} height={350}
+                               src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-6.jpg?alt=media&token=b9af1082-eb4d-4909-a3d5-6ce112c21e38"
+                               alt="sanolife-6"/>
                         <div className="overlay">
                             <text>Sano’s life <br/>qua các <br/>tấm ảnh</text>
                             <div className="link-media">
@@ -161,15 +187,25 @@ const SanoLife = () => {
                             </div>
                         </div>
                     </div>
-                    <Image width={1000} height={1000} src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-7.jpg?alt=media&token=912be56c-d37a-4e9d-8fd1-32d5287ad36d" alt="sanolife-7"
+                    <Image width={1000} height={1000}
+                           src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-7.jpg?alt=media&token=912be56c-d37a-4e9d-8fd1-32d5287ad36d"
+                           alt="sanolife-7"
                            data-aos="flip-right"/>
-                    <Image width={1000} height={1000} src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-8.jpg?alt=media&token=9f4fdac7-afa6-41c6-8d07-419030a65b5f" alt="sanolife-8"
+                    <Image width={1000} height={1000}
+                           src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-8.jpg?alt=media&token=9f4fdac7-afa6-41c6-8d07-419030a65b5f"
+                           alt="sanolife-8"
                            data-aos="flip-right"/>
-                    <Image width={1000} height={1000} src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-9.jpg?alt=media&token=195169de-1e83-4a51-91bd-759e06475cc3" alt="sanolife-9"
+                    <Image width={1000} height={1000}
+                           src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-9.jpg?alt=media&token=195169de-1e83-4a51-91bd-759e06475cc3"
+                           alt="sanolife-9"
                            data-aos="flip-left"/>
-                    <Image width={1000} height={1000} src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-10.jpg?alt=media&token=58b70130-1541-43a5-83d0-cd5d6422901e" alt="sanolife-10"
+                    <Image width={1000} height={1000}
+                           src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-10.jpg?alt=media&token=58b70130-1541-43a5-83d0-cd5d6422901e"
+                           alt="sanolife-10"
                            data-aos="flip-right"/>
-                    <Image width={1000} height={1000} src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-11.jpg?alt=media&token=b45d74b0-6d8b-4941-b42b-46ab4639051e" alt="sanolife-11"
+                    <Image width={1000} height={1000}
+                           src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-11.jpg?alt=media&token=b45d74b0-6d8b-4941-b42b-46ab4639051e"
+                           alt="sanolife-11"
                            data-aos="flip-left"/>
                 </div>
             </section>

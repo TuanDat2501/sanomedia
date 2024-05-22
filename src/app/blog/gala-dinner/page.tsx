@@ -6,7 +6,6 @@ import './style.scss';
 const GalaDinner = () => {
     const isMobile = useMediaQuery('(max-width: 430px)');
     return (
-
         <div style={{
             maxWidth: "1200px",
             marginLeft: "auto",

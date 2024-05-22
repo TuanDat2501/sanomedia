@@ -73,17 +73,20 @@
 
   .sano-blog {
     padding: 60px 120px;
-
+    .pagination{
+      display: flex;
+      justify-content: center;
+    }
     .blogs {
       display: grid;
       grid-template-columns: auto auto;
       grid-column-gap: 100px;
       grid-row-gap: 40px;
-
+      min-height: 320px;
       .item-blog {
         display: flex;
         gap: 5px;
-
+        max-height: 150px;
         img {
           margin-bottom: 10px;
           max-width: 150px;
@@ -94,6 +97,7 @@
           display: flex;
           flex-direction: column;
           justify-content: space-between;
+          max-height: 150px;
           .title-blog{
             h2{
               &:hover{
@@ -220,6 +224,22 @@
       .blogs {
         grid-template-columns: auto;
         grid-row-gap: 10px;
+        .item-blog{
+          .content-blog{
+            .title-blog{
+              h2{
+                font-size: 16px;
+                text-align: unset;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                max-width: 190px;
+                display: -webkit-box;
+              }
+            }
+          }
+        }
       }
     }
     .images-media {
