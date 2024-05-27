@@ -36,7 +36,7 @@ const Footer = () => {
                 <div className="contacts">
                     <div className="phone item-contacts">
                         <IPhone width={20} height={20}></IPhone>
-                        <text>033 576 4485</text>
+                        <text>0522214201</text>
                     </div>
                     <div className="email item-contacts">
                         <IEmail width={20} height={20}></IEmail>

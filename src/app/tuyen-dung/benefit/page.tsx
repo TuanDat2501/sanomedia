@@ -103,7 +103,7 @@ const Benefit = () => {
                 </div>
                 <div className="detail-contact">
                     <span><IPhone1 width="32px" height="32px"></IPhone1></span>
-                    <text>033 576 4485</text>
+                    <text>0522214201</text>
                 </div>
                 <p>Hoặc điền thông tin tại đây:</p>
                 <div className="btn-apply" onClick={clickShowPopup}>

@@ -164,7 +164,7 @@ const Contact = () => {
                                     <p>
                                         <strong>Điện thoại</strong>
                                         <br></br>
-                                        033 576 4485
+                                        0522214201
                                     </p>
                                 </li>
                                 <li>
