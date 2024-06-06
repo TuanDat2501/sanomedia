@@ -78,7 +78,7 @@ export const NEWS_SANOLIFE_DATA1 = [
 ]
 export const DATA_BENEFIT = {
     editor: {
-        salary: "8-15M",
+        salary: "12-15M",
         quantity: "3",
         date: "31/12/2024",
         title: "Editor",
@@ -94,8 +94,6 @@ export const DATA_BENEFIT = {
             "Làm việc cẩn thận chỉn chu."
         ],
         treatment: [
-            "Lương thử việc 6.000.000",
-            "Lương Chính thức 8.000.000+ thưởng (theo doanh số kênh + thưởng game thi đua) + lương thâm niên",
             "Thu nhập trung bình 12.000.000 - 15.000.000đ/tháng",
             "Môi trường làm việc năng động, nhân sự trẻ , teamwork tốt",
             "Được thỏa sức học tập phát triển bản thân cũng như các kỹ năng chuyên môn",
@@ -104,7 +102,7 @@ export const DATA_BENEFIT = {
         ]
     },
     content: {
-        salary: "8-15M",
+        salary: "12-15M",
         quantity: "3",
         date: "31/12/2024",
         title: "Content",
@@ -121,8 +119,6 @@ export const DATA_BENEFIT = {
             "Làm việc cẩn thận chỉn chu."
         ],
         treatment: [
-            "Lương thử việc 6.000.000",
-            "Lương Chính thức 8tr+ thưởng ( theo doanh số kênh + thưởng game thi đua + thưởng KPI)",
             "Mức thu nhập trung bình từ 13 -15tr/tháng",
             "Được làm việc trong môi trường genZ trẻ, chuyên nghiệp, năng động",
             "Được liên tục học tập phát triển bản thân và nâng cao kỹ năng chuyên môn",
@@ -135,7 +131,7 @@ export const DATA_BENEFIT = {
         title: "Quản lý"
     },
     artist2D: {
-        salary: "8-15M",
+        salary: "12-15M",
         quantity: "3",
         date: "31/12/2024",
         title: "Artist 2D",
@@ -162,7 +158,7 @@ export const DATA_BENEFIT = {
         ],
     },
     animator2D: {
-        salary: "8-15M",
+        salary: "12-15M",
         quantity: "3",
         date: "31/12/2024",
         title: "Animator 2D",
