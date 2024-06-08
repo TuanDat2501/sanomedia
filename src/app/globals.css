@@ -109,6 +109,9 @@ p{
   background: var(--color-red);
   color:#fff;
 }
+li{
+  color: #000;
+}
 @media screen and (max-width: 430px) {
   h1{
     font-size: 24px;
