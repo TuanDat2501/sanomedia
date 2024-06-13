@@ -1,5 +1,5 @@
 'use client'
-import React, {useEffect, useRef, useState} from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './style.scss'
 import IGraduate from "@/icon/IGraduate";
 import ButtonRed from "@/app/component/button-red/ButtonRed";
@@ -15,18 +15,18 @@ import {
     listAll,
     list,
 } from "firebase/storage";
-import {storage} from "@/app/firebase";
-import {v4} from "uuid";
+import { storage } from "@/app/firebase";
+import { v4 } from "uuid";
 import ITick from "@/icon/ITick";
 import Toast from "@/app/component/toast/Toast";
-import {useMediaQuery} from "usehooks-ts";
+import { useMediaQuery } from "usehooks-ts";
 import IGift from "@/icon/IGift";
 import IHighFive from "@/icon/IHighFive";
 import ICreative from "@/icon/ICreative";
 import Image from "next/image";
 import IManager from "@/icon/IManager";
-import {router} from "next/client";
-import {useRouter} from "next/navigation";
+import { router } from "next/client";
+import { useRouter } from "next/navigation";
 import IArtist from "@/icon/IArtist";
 import IAnimation from "@/icon/IAnimation";
 
@@ -85,7 +85,7 @@ const Recruitment = () => {
     const leaveBtn = () => {
         setHover(false);
     }
-    const clickRecruiting = (path:string)=>{
+    const clickRecruiting = (path: string) => {
         router.push(path);
     }
     const showToast = (status: string, text: string) => {
@@ -181,7 +181,7 @@ const Recruitment = () => {
         <div className="main-recruitment">
             <section className="recruitment-content">
                 <div className="recruitment-content-text">
-                    <h1>Tuyển dụng <br/>Sano Media</h1>
+                    <h1>Tuyển dụng <br />Sano Media</h1>
                     <p>Trong suốt 07 năm hình thành và phát triển, Sano Media luôn mở rộng cánh cửa chào đón những nhân
                         sự xuất sắc để cùng đồng hành và chinh phục những đỉnh cao mới </p>
                     <p>Với môi trường làm việc năng động, trẻ trung và sáng tạo, chúng tôi tự hào mang đến cho các bạn
@@ -206,46 +206,46 @@ const Recruitment = () => {
                         <source src="./video/video.mp4"/>
                     </video>*/}
                     <iframe src="https://www.youtube.com/embed/o9UR4QiiiLA?si=GLuOK2U_Y6Ut4teg"
-                            title="YouTube video player"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
             </section>
             <section className="recruiting">
                 <h1>Các vị trí đang tuyển tại Sano Media</h1>
                 <div className="position">
                     <div className="item-position"
-                         onClick={() => clickRecruiting('/tuyen-dung/benefit?position=editor')}>
+                        onClick={() => clickRecruiting('/tuyen-dung/benefit?position=editor')}>
                         <div className="icon">
                             <IEditor width={isMobile ? 50 : 150} height={isMobile ? 50 : 150}></IEditor>
                         </div>
                         <text>Editor</text>
                     </div>
                     <div className="item-position"
-                         onClick={() => clickRecruiting('/tuyen-dung/benefit?position=content')}>
+                        onClick={() => clickRecruiting('/tuyen-dung/benefit?position=content')}>
                         <div className="icon">
-                            <IContent width={isMobile ? 50 : 150} height={isMobile ? 50 : 150}/>
+                            <IContent width={isMobile ? 50 : 150} height={isMobile ? 50 : 150} />
                         </div>
                         <text>Content</text>
                     </div>
                     <div className="item-position"
-                         onClick={() => clickRecruiting('/tuyen-dung/benefit?position=manager')}>
+                        onClick={() => clickRecruiting('/tuyen-dung/benefit?position=manager')}>
                         <div className="icon">
-                            <IManager width={isMobile ? 50 : 150} height={isMobile ? 50 : 150}/>
+                            <IManager width={isMobile ? 50 : 150} height={isMobile ? 50 : 150} />
                         </div>
                         <text>Manager</text>
                     </div>
                     <div className="item-position"
-                         onClick={() => clickRecruiting('/tuyen-dung/benefit?position=artist')}>
+                        onClick={() => clickRecruiting('/tuyen-dung/benefit?position=artist')}>
                         <div className="icon">
-                            <IArtist width={isMobile ? 50 : 150} height={isMobile ? 50 : 150}/>
+                            <IArtist width={isMobile ? 50 : 150} height={isMobile ? 50 : 150} />
                         </div>
                         <text>Artist 2D</text>
                     </div>
                     <div className="item-position"
-                         onClick={() => clickRecruiting('/tuyen-dung/benefit?position=animator')}>
+                        onClick={() => clickRecruiting('/tuyen-dung/benefit?position=animator')}>
                         <div className="icon">
-                            <IAnimation width={isMobile ? 50 : 150} height={isMobile ? 50 : 150}/>
+                            <IAnimation width={isMobile ? 50 : 150} height={isMobile ? 50 : 150} />
                         </div>
                         <text>Animator 2D</text>
                     </div>
@@ -258,7 +258,7 @@ const Recruitment = () => {
                     {dataTreatment.map(value =>
                         <>
                             <div className="item-treatment flex flex-col justify-center items-center gap-5"
-                                 data-aos={value.animation}>
+                                data-aos={value.animation}>
                                 <div className="flex flex-col justify-center items-center">
                                     <div className="icon">{value.icon}</div>
                                     <div className="treatment">{value.title}</div>
@@ -277,15 +277,15 @@ const Recruitment = () => {
                     <svg width="71" height="71" viewBox="0 0 71 71" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M69.8104 58.2733C71.7953 65.7367 65.0167 72.5663 57.6088 70.5664L7.9153 57.1512C0.507437 55.1514 -1.97373 45.8221 3.4492 40.3585L39.8274 3.70752C45.2503 -1.75609 54.5101 0.743688 56.4951 8.20711L69.8104 58.2733Z"
-                            fill="#D9D9D9" fillOpacity="0.38"/>
+                            fill="#D9D9D9" fillOpacity="0.38" />
                     </svg>
                 </div>
                 <div className="ellipse-3"></div>
                 <div className="subtract">
                     <svg width="96" height="101" viewBox="0 0 96 101" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fillRule="evenodd" clipRule="evenodd"
-                              d="M55.5639 0.285672C53.4282 1.08767 51.3289 2.07548 49.2868 3.25443C29.4377 14.7143 22.5249 39.9015 33.8468 59.5115C45.1686 79.1215 70.4377 85.7284 90.2868 74.2685C92.3289 73.0896 94.234 71.7654 95.9964 70.3168C91.8558 79.6553 84.8252 87.8141 75.3013 93.3127C51.3866 107.12 20.8071 98.9261 7 75.0115C-6.80713 51.0968 1.38665 20.5173 25.3013 6.71021C34.8252 1.21156 45.4062 -0.797717 55.5639 0.285672Z"
-                              fill="#D9D9D9" fillOpacity="0.35"/>
+                            d="M55.5639 0.285672C53.4282 1.08767 51.3289 2.07548 49.2868 3.25443C29.4377 14.7143 22.5249 39.9015 33.8468 59.5115C45.1686 79.1215 70.4377 85.7284 90.2868 74.2685C92.3289 73.0896 94.234 71.7654 95.9964 70.3168C91.8558 79.6553 84.8252 87.8141 75.3013 93.3127C51.3866 107.12 20.8071 98.9261 7 75.0115C-6.80713 51.0968 1.38665 20.5173 25.3013 6.71021C34.8252 1.21156 45.4062 -0.797717 55.5639 0.285672Z"
+                            fill="#D9D9D9" fillOpacity="0.35" />
                     </svg>
 
                 </div>
@@ -295,8 +295,8 @@ const Recruitment = () => {
                     <div className="item-feedback flex gap-3" data-aos="flip-down">
                         <div className="member-img">
                             <Image width={150} height={150} quality={100}
-                                   src={`${urlImg}/anh-sano4.png?alt=media&token=719da060-a6c2-4106-8daa-7d9f1150c04e`}
-                                   alt="newbie"/>
+                                src={`${urlImg}/anh-sano4.png?alt=media&token=719da060-a6c2-4106-8daa-7d9f1150c04e`}
+                                alt="newbie" />
                         </div>
                         <div className="info-feedback">
                             <div className="name-member">Nguyễn An Hướng - <span>Trưởng nhóm</span></div>
@@ -310,21 +310,20 @@ const Recruitment = () => {
                         <div className="info-feedback">
                             <div className="name-member name-right">Khổng Thị Yến - <span>Trưởng nhóm</span></div>
                             <div className="cmt-member">
-                                “ Sau tuần đầu tiên làm việc tại công ty, tôi cảm nhận được một môi trường làm việc
-                                chuyên nghiệp, thân thiện và đầy năng lượng tích cực. ”
+                                “ Công ty không chỉ cung cấp cho tôi một công việc ổn định mà còn tạo điều kiện để tôi học hỏi và phát triển bản thân qua các chương trình đào tạo và những thử thách mới. ”
                             </div>
                         </div>
                         <div className="member-img">
                             <Image width={150} height={150} quality={100}
-                                   src={`${urlImg}/anh-sano1.png?alt=media&token=33f9c068-8892-4e6a-abd4-b59d6642b10e`}
-                                   alt="newbie"/>
+                                src={`${urlImg}/anh-sano1.png?alt=media&token=33f9c068-8892-4e6a-abd4-b59d6642b10e`}
+                                alt="newbie" />
                         </div>
                     </div>
                     <div className="item-feedback flex gap-3" data-aos="flip-down">
                         <div className="member-img">
                             <Image width={150} height={150}
-                                   src={`${urlImg}/anh-sano2.png?alt=media&token=9c17b2e6-39f1-4eff-821d-2a85ebc5a73b`}
-                                   alt="newbie"/>
+                                src={`${urlImg}/anh-sano2.png?alt=media&token=9c17b2e6-39f1-4eff-821d-2a85ebc5a73b`}
+                                alt="newbie" />
                         </div>
                         <div className="info-feedback">
                             <div className="name-member">Ngô Văn Đức - <span>Editor</span></div>
@@ -346,19 +345,19 @@ const Recruitment = () => {
                             <label htmlFor="name">Họ tên</label>
                             <input id="name" type="text" placeholder="Họ và tên" onChange={(e) => {
                                 getValueInput(e, 1)
-                            }}/>
+                            }} />
                         </div>
                         <div className="container-input input-email flex flex-col gap-2 mb-2" data-aos="fade-left">
                             <label htmlFor="email">Email</label>
                             <input id="email" type="text" placeholder="Email" onChange={(e) => {
                                 getValueInput(e, 2)
-                            }}/>
+                            }} />
                         </div>
                         <div className="container-input input-email flex flex-col gap-2 mb-2" data-aos="fade-left">
                             <label htmlFor="email">Số điện thoại</label>
                             <input id="email" type="text" placeholder="Số điện thoại" onChange={(e) => {
                                 getValueInput(e, 5)
-                            }}/>
+                            }} />
                         </div>
                         <div className="container-input input-position flex flex-col gap-2 " data-aos="fade-right">
                             <label htmlFor="position">Vị trí quan tâm</label>
@@ -378,28 +377,28 @@ const Recruitment = () => {
                         <div className="container-input input-position flex flex-col gap-2 file" data-aos="fade-right">
                             <label htmlFor="position">CV</label>
                             <div className="input-file">
-                            <span>
-                                {!isLoadingFileIcon ? <IUpload width={50} height={50}></IUpload> :
-                                    <ITick width={50} height={50}></ITick>}
-                                {file ? <p>{file.name}</p> : <p>Chọn file CV của bạn</p>}
-                            </span>
+                                <span>
+                                    {!isLoadingFileIcon ? <IUpload width={50} height={50}></IUpload> :
+                                        <ITick width={50} height={50}></ITick>}
+                                    {file ? <p>{file.name}</p> : <p>Chọn file CV của bạn</p>}
+                                </span>
                                 <input id="position" type="file" placeholder="Vị trí bạn quan tâm" onChange={(e) => {
                                     getValueInput(e, 4)
-                                }}/>
+                                }} />
                             </div>
                         </div>
                         <div className="container-input textarea flex flex-col gap-2 mb-2" data-aos="fade-left">
                             <label htmlFor="message">Nội dung</label>
                             <textarea id="message" placeholder="Nội dung" onChange={(e) => {
                                 getValueInput(e, 6)
-                            }} rows={4} cols={20} style={{padding: "5px"}}></textarea>
+                            }} rows={4} cols={20} style={{ padding: "5px" }}></textarea>
                         </div>
                     </div>
                 </div>
                 <div className="container-input submit flex justify-center mt-4" data-aos="flip-up"
-                     onClick={sendEmail} onMouseEnter={hoverBtn} onMouseLeave={leaveBtn}>
-                    <ButtonRed disabled={isLoadingFile} text="Đăng ký" icon={<ISend hover={hover}/>}
-                               isLoading={isLoading}></ButtonRed>
+                    onClick={sendEmail} onMouseEnter={hoverBtn} onMouseLeave={leaveBtn}>
+                    <ButtonRed disabled={isLoadingFile} text="Đăng ký" icon={<ISend hover={hover} />}
+                        isLoading={isLoading}></ButtonRed>
                 </div>
                 {isShowToast && <Toast status={status} text={textToast}></Toast>}
             </section>
