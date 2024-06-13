@@ -75,7 +75,7 @@ const AboutMe = () => {
 
                     <div className="intro-content-img" data-aos="fade-up">
                         <div className="overlay"></div>
-                        <Image width={isMobile ? 430 : 1200} height={isMobile ? 430 : 1200} quality={100} src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/aboutme-1.jpg?alt=media&token=ac935808-4c4d-4b8f-9066-55221673cf00" alt="aboutme-1"/>
+                        <Image width={isMobile ? 430 : 1200} height={isMobile ? 430 : 1200} quality={100} src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/aboutme-1.jpg?alt=media&token=06d9330d-0129-43f4-a37f-1f4b98bc97db" alt="aboutme-1"/>
                     </div>
                     <div className="intro-content-text">
                         <h1>Chào mừng đến với Sano Media</h1>
@@ -95,7 +95,7 @@ const AboutMe = () => {
 
                     </div>
                     <div className="work-environment-img" data-aos="fade-left">
-                        <Image width={1000} height={1000} quality={100} src={`${urlImg}/Group412.jpg?alt=media&token=d25003fb-1882-4fc2-962b-43c560318b7b`} alt="Group-412"/>
+                        <Image width={1000} height={1000} quality={100} src={`${urlImg}/Group412.jpg?alt=media&token=30bd3578-1991-4691-b5a5-fcfd9f133036`} alt="Group-412"/>
                     </div>
                 </section>
                 <section className="present-data margin-center" ref={myRef}>
