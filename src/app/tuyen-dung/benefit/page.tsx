@@ -11,9 +11,10 @@ import ButtonRed from "@/app/component/button-red/ButtonRed";
 import Register from "@/app/component/register/Register";
 import {useMediaQuery} from "usehooks-ts";
 import {useParams, usePathname, useSearchParams} from "next/navigation";
-import {DATA_BENEFIT} from "@/constant/const";
+import {DATA_BENEFIT, EMAIL, SDT} from "@/constant/const";
 
 const Benefit = () => {
+    const email = EMAIL;
     const dataDefault = DATA_BENEFIT;
     const pathname = usePathname()
     const [isShowPopup, setIsShowPopup] = useState(false);
@@ -99,11 +100,11 @@ const Benefit = () => {
                 <p>Ứng viên có thể liên hệ và gửi thông tin qua: </p>
                 <div className="detail-contact">
                     <span><IEmail1></IEmail1></span>
-                    <text>vanns@sanogroup.tv</text>
+                    <text>{email}</text>
                 </div>
                 <div className="detail-contact">
                     <span><IPhone1 width="32px" height="32px"></IPhone1></span>
-                    <text>0522214201</text>
+                    <text>{SDT}</text>
                 </div>
                 <p>Hoặc điền thông tin tại đây:</p>
                 <div className="btn-apply" onClick={clickShowPopup}>

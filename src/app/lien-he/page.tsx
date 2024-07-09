@@ -10,8 +10,10 @@ import IEmail1 from "@/icon/IEmail1";
 import emailjs from "@emailjs/browser";
 import Toast from "@/app/component/toast/Toast";
 import Loading from "@/app/component/loading/Loading";
+import { EMAIL, SDT } from '@/constant/const';
 
 const Contact = () => {
+    const const_email = EMAIL
     const [name, setName] = useState()
     const [email, setEmail] = useState()
     const [phone, setPhone] = useState()
@@ -164,7 +166,7 @@ const Contact = () => {
                                     <p>
                                         <strong>Điện thoại</strong>
                                         <br></br>
-                                        0522214201
+                                       {SDT}
                                     </p>
                                 </li>
                                 <li>
@@ -184,7 +186,7 @@ const Contact = () => {
                                     <p>
                                         <strong>Email</strong>
                                         <br></br>
-                                        vanns@sanogroup.tv
+                                        {const_email}
                                     </p>
                                 </li>
                             </ul>

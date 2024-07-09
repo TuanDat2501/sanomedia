@@ -187,3 +187,5 @@ export const DATA_BENEFIT = {
 }
 
 
+export const SDT = "0522214201"
+export const EMAIL = "vanns@sanogroup.tv"

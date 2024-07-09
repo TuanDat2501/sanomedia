@@ -8,7 +8,9 @@ import IFacebook from "@/icon/IFacebook";
 import IYoutube from "@/icon/IYoutube";
 import Image from "next/image";
 import {usePathname, useRouter} from "next/navigation";
+import { SDT } from '@/constant/const';
 const Footer = () => {
+    const sdt = SDT;
     const router = useRouter();
     const pathname = usePathname()
     const [isBlog, setIsBlog] = useState<boolean|undefined>()
@@ -36,7 +38,7 @@ const Footer = () => {
                 <div className="contacts">
                     <div className="phone item-contacts">
                         <IPhone width={20} height={20}></IPhone>
-                        <text>0522214201</text>
+                        <text>{SDT}</text>
                     </div>
                     <div className="email item-contacts">
                         <IEmail width={20} height={20}></IEmail>

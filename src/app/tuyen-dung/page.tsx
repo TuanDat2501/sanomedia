@@ -205,10 +205,9 @@ const Recruitment = () => {
                     {/*<video controls>
                         <source src="./video/video.mp4"/>
                     </video>*/}
-                    <iframe src="https://www.youtube.com/embed/o9UR4QiiiLA?si=GLuOK2U_Y6Ut4teg"
-                        title="YouTube video player"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EPDgiaQfu08?si=GvfQ4m21LhIBlpRg" title="YouTube video player" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>    
                 </div>
             </section>
             <section className="recruiting">
