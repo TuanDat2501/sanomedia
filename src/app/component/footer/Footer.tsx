@@ -62,7 +62,7 @@ const Footer = () => {
                         <a href={"https://www.facebook.com/sanomediavn" } target="_blank" rel="noopener noreferrer"><IFacebook width={20} height={20}/></a>
                     </button>
                     <button className="btn-media btn-youtube">
-                        <a><IYoutube width={30} height={30}/></a>
+                        <a href={"https://www.youtube.com/@SanoMediaOfficial" } target="_blank" rel="noopener noreferrer"><IYoutube width={30} height={30}/></a>
                     </button>
                 </div>
             </div>
