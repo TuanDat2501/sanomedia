@@ -205,7 +205,7 @@ const Recruitment = () => {
                     {/*<video controls>
                         <source src="./video/video.mp4"/>
                     </video>*/}
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EPDgiaQfu08?si=GvfQ4m21LhIBlpRg" title="YouTube video player" 
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mATH-upcerU?si=lBN0-6o4wBj19HZI" title="YouTube video player" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                     referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>    
                 </div>
