@@ -75,7 +75,8 @@ const AboutMe = () => {
 
                     <div className="intro-content-img" data-aos="fade-up">
                         <div className="overlay"></div>
-                        <Image width={isMobile ? 430 : 1200} height={isMobile ? 430 : 1200} quality={100} src="./image/aboutme-1(1).webp" alt="aboutme-1"/>
+                        <Image width={isMobile ? 430 : 1200} height={isMobile ? 430 : 1200} quality={100} 
+                        src="./image/aboutme-1(1).webp" alt="aboutme-1"/>
                     </div>
                     <div className="intro-content-text">
                         <h1>Chào mừng đến với Sano Media</h1>
