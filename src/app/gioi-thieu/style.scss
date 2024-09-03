@@ -67,6 +67,7 @@ main {
       display: flex;
       margin-top: 20px;
       margin-bottom: 20px;
+      
 
       .work-environment-text {
         width: 40%;
@@ -322,7 +323,9 @@ main {
           position: unset;
           max-width: unset;
           width: 100%;
-
+          svg{
+            position: absolute;
+          }
           .overlay {
             display: none;
           }
