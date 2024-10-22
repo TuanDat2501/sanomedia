@@ -294,7 +294,7 @@ const Recruitment = () => {
                     <div className="item-feedback flex gap-3" data-aos="flip-down">
                         <div className="member-img">
                             <Image width={150} height={150} quality={100}
-                                src={`${urlImg}/anh-sano4.png?alt=media&token=719da060-a6c2-4106-8daa-7d9f1150c04e`}
+                                src="./image/anh-sano4.webp"
                                 alt="newbie" />
                         </div>
                         <div className="info-feedback">
@@ -314,14 +314,14 @@ const Recruitment = () => {
                         </div>
                         <div className="member-img">
                             <Image width={150} height={150} quality={100}
-                                src={`${urlImg}/anh-sano1.png?alt=media&token=33f9c068-8892-4e6a-abd4-b59d6642b10e`}
+                                src="./image/anh-sano1.webp"
                                 alt="newbie" />
                         </div>
                     </div>
                     <div className="item-feedback flex gap-3" data-aos="flip-down">
                         <div className="member-img">
                             <Image width={150} height={150}
-                                src={`${urlImg}/anh-sano2.png?alt=media&token=9c17b2e6-39f1-4eff-821d-2a85ebc5a73b`}
+                                src="./image/anh-sano2.webp"
                                 alt="newbie" />
                         </div>
                         <div className="info-feedback">
