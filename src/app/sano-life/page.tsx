@@ -147,7 +147,7 @@ const SanoLife = () => {
                 <div className="blogs">
                     {arr.map((value: any) => <>
                         <div className="item-blog">
-                            <Image width={350} height={350} quality={100} src={value.image} alt="news-1"
+                            <Image width={350} height={350} quality={70} src={value.image} alt="news-1"
                                    data-aos="fade-right"/>
                             <div className="content-blog">
                                 <div className="title-blog" onClick={() => navigate(`${value.link}`)}>
