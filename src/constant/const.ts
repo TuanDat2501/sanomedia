@@ -40,12 +40,28 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "/image/cuu-tro/image8.webp",
+        title: "Hành trình cứu trợ: Hiệp Hoà - Bắc Giang",
+        date: "12-09-2024",
+        subText: "Trong tinh thần “lá lành đùm lá rách,” công ty chúng tôi đã tổ chức chuyến đi cứu trợ vùng lũ với mong muốn chia sẻ khó khăn, giúp đỡ đồng bào tại các khu vực chịu ảnh hưởng nặng nề từ thiên tai. Đây không chỉ là hoạt động mang tính nhân văn mà còn thể hiện trách nhiệm xã hội của doanh nghiệp, góp phần lan tỏa những giá trị tích cực đến cộng đồng.",
+        link: "/blog/cuu-tro"
+    },
+    
+    {
+        image: "/image/cua-lo/image14.webp",
+        title: "Du lịch hằng năm: Cửa Lò - Nghệ An",
+        date: "14-08-2024",
+        subText: "Chuyến du lịch thường niên luôn là dịp để các thành viên trong công ty cùng nhau trải nghiệm những giây phút thư giãn, vui vẻ bên nhau. Năm nay, công ty chúng tôi đã chọn Cửa Lò - một trong những bãi biển đẹp và nổi tiếng nhất khu vực miền Trung, làm điểm đến. Hãy cùng khám phá những khoảnh khắc đáng nhớ trong chuyến hành trình này!",
+        link: "/blog/cua-lo"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/bonus%2Fimage1.jpg?alt=media&token=8551ac58-7729-4569-997e-80fa59b0c74a",
         title: "Chương Trình Khen Thưởng: Tôn Vinh Những Nỗ Lực Không Ngừng",
         date: "22-05-2024",
         subText: "Khen thưởng là một phần không thể thiếu trong văn hóa doanh nghiệp của Sano Media. Đây không chỉ là cách để công ty ghi nhận và tôn vinh những nỗ lực và thành tích của nhân viên mà còn là động lực thúc đẩy tinh thần làm việc và sự cống hiến của toàn bộ đội ngũ. Chương trình khen thưởng định kỳ đã trở thành một hoạt động quan trọng, mang lại nhiều giá trị tích cực cho cả công ty và nhân viên.",
         link: "/blog/bonus"
     },
+    
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-2.jpg?alt=media&token=20f283b4-87f9-47dd-87cc-d2ab55c3f47f",
         title: "Chương trình hoạt động: Gala Dinner",
