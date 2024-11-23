@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
             <div className="fanpage">
                 <iframe
-                    src="./image/logo123.webp"
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsanomediavn&tabs=timeline&width=340&height=70&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
                     width="340" height="auto" style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder="0"
                     allowFullScreen
                     allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
