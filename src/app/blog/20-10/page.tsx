@@ -65,7 +65,7 @@ const E2010 = () => {
             </div>
             <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                 alt={"image"} style={{ maxWidth: "1200px" }}
-                src="/image/cua-lo/image5.webp" />
+                src="/image/2010/image5.webp" />
             {/*  <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                 alt={"image"} style={{ maxWidth: "1200px" }}
                 src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/bonus%2F22-5%2Fimage8.jpg?alt=media&token=02ac3acb-db30-4420-a058-ed0b6a5ed070" />
@@ -79,16 +79,16 @@ const E2010 = () => {
             </div>
             <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                 alt={"image"} style={{ maxWidth: "1200px" }}
-                src="/image/cua-lo/image1.webp" />
+                src="/image/2010/image1.webp" />
                 <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                 alt={"image"} style={{ maxWidth: "1200px" }}
-                src="/image/cua-lo/image3.webp" />
+                src="/image/2010/image14.webp" />
                 <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                 alt={"image"} style={{ maxWidth: "1200px" }}
-                src="/image/cua-lo/image4.webp" />
+                src="/image/2010/image4.webp" />
                 <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                 alt={"image"} style={{ maxWidth: "1200px" }}
-                src="/image/cua-lo/image11.webp" />
+                src="/image/2010/image11.webp" />
             <div className="paragraph">
                 <h3>Kết Luận</h3>
                 <p>Party ngày 20/10 không chỉ là một bữa tiệc vui vẻ mà còn là cách để công ty thể hiện sự quan tâm, tôn vinh những giá trị của phụ nữ trong môi trường làm việc. Với không khí rộn ràng, những hoạt động ý nghĩa và những khoảnh khắc đáng nhớ, buổi tiệc đã để lại ấn tượng sâu sắc trong lòng mỗi nhân viên.</p>

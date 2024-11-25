@@ -40,7 +40,7 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
-        image: "/image/cuu-tro/image11.webp",
+        image: "/image/2010/image11.webp",
         title: "Chương Trình Party Ngày 20/10",
         date: "20-10-2024",
         subText: "Ngày 20/10 không chỉ là dịp đặc biệt để tôn vinh phụ nữ Việt Nam mà còn là cơ hội để các công ty thể hiện sự tri ân và ghi nhận đóng góp của những “bông hoa” rực rỡ trong đội ngũ nhân sự. Năm nay, công ty chúng tôi đã tổ chức một bữa tiệc ấm áp và đầy màu sắc để mừng ngày Phụ nữ Việt Nam, mang đến những kỷ niệm đáng nhớ cho toàn thể nhân viên.",
