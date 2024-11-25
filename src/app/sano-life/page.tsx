@@ -20,7 +20,10 @@ const SanoLife = () => {
     const lengthPage = 4;
     useEffect(() => {
         if (dataBlogs.length % 4 > 0) {
-            setTotalPage(Math.floor(dataBlogs.length / lengthPage) + 1);
+            setTotalPage(Math.floor(NEWS_SANOLIFE_DATA1.length / lengthPage) + 1);
+        }
+        if (dataBlogs.length % 4 == 0) {
+            setTotalPage(Math.floor(NEWS_SANOLIFE_DATA1.length / lengthPage));
         }
         let temp = [];
         for (let i = 0; i < 4; i++) {
@@ -143,10 +146,10 @@ const SanoLife = () => {
                         cực và gắn kết.” </p>
                 </div>
             </section>
-            <section className="sano-blog" id="sano-blog">
+            <section className="sano-blog" id="sano-blog1">
                 <div className="blogs">
                     {arr.map((value: any) => <>
-                        <div className="item-blog">
+                        <div key={value} className="item-blog">
                             <Image width={350} height={350} quality={70} src={value.image} alt="news-1"
                                    data-aos="fade-right"/>
                             <div className="content-blog">
