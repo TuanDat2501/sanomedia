@@ -113,7 +113,7 @@ const Contact = () => {
                                     <p>
                                         <strong>Tên Công ty</strong>
                                         <br></br>
-                                        Công Ty TNHH Sano Media Việt Nam
+                                        Công Ty Cổ Phần Sano Media Việt Nam
                                     </p>
                                 </li>
                                 <li>

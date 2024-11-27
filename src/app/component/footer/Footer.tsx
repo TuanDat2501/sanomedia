@@ -42,7 +42,7 @@ const Footer = () => {
                     </div>
                     <div className="email item-contacts">
                         <IEmail width={20} height={20}></IEmail>
-                        <text>vanns@sanogroup.tv</text>
+                        <text>sanomediavn@gmail.com</text>
                     </div>
                     <div className="address item-contacts">
                         <IAddress width={20} height={20}></IAddress>
