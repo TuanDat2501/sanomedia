@@ -40,6 +40,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2711%2F2024_11_27_08_18_IMG_3087.JPG?alt=media&token=178847e0-b3c2-4473-a3c7-fe74e2986065",
+        title: "Nhận thưởng hằng ngày",
+        date: "27-11-2024",
+        subText: "Nhận thưởng hằng ngày tại công ty không chỉ là một chính sách khích lệ mà còn là cách hiệu quả để thúc đẩy tinh thần làm việc, tạo động lực và xây dựng môi trường doanh nghiệp năng động. Vậy tại sao nhận thưởng hằng ngày lại quan trọng, và làm sao để áp dụng hiệu quả? Hãy cùng tìm hiểu qua bài viết này!",
+        link: "/blog/2711"
+    },
+    {
         image: "/image/2010/image11.webp",
         title: "Chương Trình Party Ngày 20/10",
         date: "20-10-2024",
