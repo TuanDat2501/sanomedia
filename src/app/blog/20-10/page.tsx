@@ -32,7 +32,7 @@ const E2010 = () => {
             <br />
             <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                 style={{ maxWidth: "1200px" }}
-                src="/image/2010/image12.webp"
+                src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2711%2F2024_10_18_17_13_IMG_2429.png?alt=media&token=8e698ecb-096d-4249-a79a-3bdec6a36e2a"
                 alt="image1" />
             <br />
             <div className="paragraph">
@@ -53,11 +53,7 @@ const E2010 = () => {
             </div> */}
             <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                 style={{ maxWidth: "1200px" }}
-                src="/image/2010/image15.webp"
-                alt="image1" />
-                <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
-                style={{ maxWidth: "1200px" }}
-                src="/image/2010/image14.webp"
+                src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2711%2FD78A837A-2EB7-4E81-952F-99339CA58CAD.JPG?alt=media&token=b163507d-184c-4241-9995-2dc063af0460"
                 alt="image1" />
             <div className="paragraph">
                 <h3>2. Lời Tri Ân Từ Ban Lãnh Đạo</h3>
@@ -79,10 +75,10 @@ const E2010 = () => {
             </div>
             <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                 alt={"image"} style={{ maxWidth: "1200px" }}
-                src="/image/2010/image1.webp" />
+                src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2711%2F2F18DB8A-A803-424E-BF9D-AD2B9EE76D9D.JPG?alt=media&token=cf5514a4-2957-4864-9f2e-0e6a881ad94b" />
                 <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                 alt={"image"} style={{ maxWidth: "1200px" }}
-                src="/image/2010/image14.webp" />
+                src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2711%2F53219CFC-C62C-4DAD-B4BD-F59403D7066C.JPG?alt=media&token=7e8b6684-0505-46f4-b93e-41bdd0389ead" />
                 <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                 alt={"image"} style={{ maxWidth: "1200px" }}
                 src="/image/2010/image4.webp" />

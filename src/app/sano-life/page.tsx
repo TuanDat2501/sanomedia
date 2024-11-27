@@ -80,7 +80,7 @@ const SanoLife = () => {
                     <div className="image-right image-sub">
                         <div className="image-right-top" data-aos="fade-left">
                             <Image width={250} height={300} quality={100}
-                                   src="./image/sanolife-2.webp"
+                                   src="./image/sanolife-16.webp"
                                    alt="sanolife-5"/>
                         </div>
                         <div className="image-right-bottom" data-aos="fade-left">
@@ -99,7 +99,7 @@ const SanoLife = () => {
                     </div>
                     <div className="image-two" data-aos="fade-left">
                         <Image width={450} height={300}
-                               src="./image/sanolife-2.webp"
+                               src="./image/sanolife-16.webp"
                                alt="sanolife-5"/>
                     </div>
                     <div className="image-sub">
@@ -125,7 +125,7 @@ const SanoLife = () => {
                     <div className="image-sub">
                         <div className="image" data-aos="fade-left">
                             <Image width={150} height={150}
-                                   src="./image/sanolife-2.webp"
+                                   src="./image/sanolife-16.webp"
                                    alt="sanolife-5"/>
                         </div>
                         <div className="image" data-aos="fade-right">

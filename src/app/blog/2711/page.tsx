@@ -26,7 +26,7 @@ const E2711 = () => {
             
             <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                 style={{ maxWidth: "1200px" }}
-                src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2711%2F2024_11_27_08_18_IMG_3087.JPG?alt=media&token=178847e0-b3c2-4473-a3c7-fe74e2986065"
+                src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2711%2F48463491-A3CB-4200-AFC5-2E5307789BB2.JPG?alt=media&token=3181daa8-03f3-486a-94ac-f7062d8f0af4"
                 alt="image1" />
             <br />
             <div className="paragraph">
@@ -57,10 +57,10 @@ const E2711 = () => {
                 <h3>2.3. Nâng Cao Hiệu Quả</h3>
                 <p>Với những mục tiêu ngắn hạn được khích lệ mỗi ngày, hiệu suất tổng thể của cả đội ngũ sẽ được cải thiện, góp phần thúc đẩy kết quả cho nhóm cũng như cả Công ty</p>
             </div>
-            {/*  <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
+             <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                 alt={"image"} style={{ maxWidth: "1200px" }}
-                src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/bonus%2F22-5%2Fimage8.jpg?alt=media&token=02ac3acb-db30-4420-a058-ed0b6a5ed070" />
-            <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
+                src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2711%2F2024_11_27_08_18_IMG_3087.png?alt=media&token=79940917-bd47-472f-b06a-0d50b73e538d" />
+            {/* <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                 alt={"image"} style={{ maxWidth: "1200px" }}
                 src="https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/bonus%2F22-5%2Fimage10.jpg?alt=media&token=61874af1-0fea-4cb9-b838-b020ca23793d" /> */}
             <div className="paragraph">
