@@ -40,6 +40,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F312%2F2024_12_03_08_15_IMG_3133.JPG?alt=media&token=fca7625b-fc4e-4a3d-a950-314e6b0ef4fc",
+        title: "Khen Thưởng Đội Ngũ Xuất Sắc Trong Ngày",
+        date: "03-12-2024",
+        subText: "Trong mỗi tổ chức, đội ngũ nhân viên là yếu tố quan trọng quyết định sự thành công và phát triển bền vững. Để ghi nhận những đóng góp xuất sắc và khích lệ tinh thần làm việc của nhân viên, việc tổ chức khen thưởng là một hoạt động không thể thiếu. Vào ngày đặc biệt này, công ty chúng tôi đã tổ chức lễ khen thưởng cho đội ngũ nhân viên xuất sắc, những người đã cống hiến không ngừng nghỉ để đưa công ty phát triển mạnh mẽ hơn.",
+        link: "/blog/3-12"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2711%2F2024_11_27_08_18_IMG_3087.png?alt=media&token=79940917-bd47-472f-b06a-0d50b73e538d",
         title: "Nhận thưởng hằng ngày",
         date: "27-11-2024",
