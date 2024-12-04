@@ -55,6 +55,14 @@ p{
 
   text-align: justify;
 }
+li{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #606060 !important;
+  margin-left: 30px;
+}
 .line{
   width: 45px;
   height: 5px;

@@ -40,6 +40,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F412%2Fz6095572829177_571f00a9e2280a2a1c7ba17ae9f84c0c.jpg?alt=media&token=7026f9ef-7e75-4773-bd0c-04a19cf4f44a",
+        title: "Tổ Chức Sinh Nhật Nhân Viên: Lan Toả Niềm Vui Gắn Kết",
+        date: "04-12-2024",
+        subText: "Hôm nay, công ty vui mừng tổ chức sinh nhật cho các bạn có ngày sinh trong ngày hôm nay! Đây không chỉ là dịp để cùng nhau chia sẻ niềm vui, mà còn là cơ hội gắn kết các thành viên trong đại gia đình Sano.",
+        link: "/blog/4-12"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F312%2F2024_12_03_08_15_IMG_3133.JPG?alt=media&token=fca7625b-fc4e-4a3d-a950-314e6b0ef4fc",
         title: "Khen Thưởng Đội Ngũ Xuất Sắc Trong Ngày",
         date: "03-12-2024",
