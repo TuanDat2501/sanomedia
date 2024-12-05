@@ -40,6 +40,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F512%2FSequence%2001_152.jpg?alt=media&token=555647c0-44c6-42fe-857a-2f3c88084d4b",
+        title: "Tập Thể Dục Đầu Giờ: Giải Pháp Tăng Cường Sức Khỏe Và Năng Suất Công Việc",
+        date: "05-12-2024",
+        subText: "Trong môi trường công sở hiện đại, sức khỏe và tinh thần của nhân viên ngày càng trở nên quan trọng. Một trong những phương pháp hiệu quả để cải thiện cả thể chất và tinh thần là tập thể dục đầu giờ. Hoạt động này không chỉ giúp nhân viên duy trì sức khỏe mà còn nâng cao hiệu quả công việc và tạo ra một không khí làm việc tích cực. Hãy cùng tìm hiểu những lợi ích và cách tổ chức hoạt động thể dục đầu giờ trong công ty.",
+        link: "/blog/5-12"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F412%2Fz6095572829177_571f00a9e2280a2a1c7ba17ae9f84c0c.jpg?alt=media&token=7026f9ef-7e75-4773-bd0c-04a19cf4f44a",
         title: "Tổ Chức Sinh Nhật Nhân Viên: Lan Toả Niềm Vui Gắn Kết",
         date: "04-12-2024",

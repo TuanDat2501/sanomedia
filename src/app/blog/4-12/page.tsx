@@ -31,7 +31,7 @@ const B412 = () => {
             <br /> */}
             <div className="paragraph">
                 <h2>1. Tại sao tổ chức sinh nhật lại quan trọng??</h2>
-                <p style={{fontSize:"16px",marginBottom:0}}>Tại Sano, chúng tôi luôn xem mỗi nhân viên là một phần không thể thiếu trong hành trình phát triển. Việc tổ chức sinh nhật không chỉ là cách thể hiện sự quan tâm mà còn giúp:</p>
+                <p style={{fontSize:"1px"}}>Tại Sano, chúng tôi luôn xem mỗi nhân viên là một phần không thể thiếu trong hành trình phát triển. Việc tổ chức sinh nhật không chỉ là cách thể hiện sự quan tâm mà còn giúp:</p>
                 <li>Xây dựng môi trường làm việc thân thiện, gắn bó.</li>
                 <li>Tạo động lực làm việc qua những niềm vui nhỏ hàng ngày.</li>
                 <li>Gắn kết mọi người, từ lãnh đạo đến nhân viên, qua những phút giây ấm áp bên nhau.</li>
