@@ -40,6 +40,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F612%2FScreenshot%202024-12-06%20093833.png?alt=media&token=566fe9d7-f4e1-4f10-b647-8b0323819cff",
+        title: "Tuyên bố đầu giờ của công ty",
+        date: "06-12-2024",
+        subText: "Tuyên bố đầu giờ là một phần quan trọng trong văn hóa và chiến lược hoạt động của bất kỳ công ty nào. Đây là một cơ hội tuyệt vời để khởi động ngày làm việc mới, tạo động lực cho nhân viên và nhấn mạnh những mục tiêu trọng yếu. Vậy tuyên bố đầu giờ có vai trò như thế nào và làm thế nào để thực hiện hiệu quả? Cùng tìm hiểu ngay trong bài viết này!",
+        link: "/blog/6-12"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F512%2FSequence%2001_152.jpg?alt=media&token=555647c0-44c6-42fe-857a-2f3c88084d4b",
         title: "Tập Thể Dục Đầu Giờ: Giải Pháp Tăng Cường Sức Khỏe Và Năng Suất Công Việc",
         date: "05-12-2024",

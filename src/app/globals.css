@@ -61,7 +61,7 @@ li{
   font-size: 16px;
   line-height: 19px;
   color: #606060 !important;
-
+  margin-left: 0;
 }
 .line{
   width: 45px;
