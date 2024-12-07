@@ -40,6 +40,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F712%2F2024_11_30_08_20_IMG_3114.JPG?alt=media&token=d1f8c5d6-9ef6-450f-af96-784abb1c2e7d",
+        title: "Tổ Chức Sinh Nhật Cho Nhân Viên: Tăng Cường Gắn Kết Và Động Lực Làm Việc",
+        date: "07-12-2024",
+        subText: "Sinh nhật là một dịp đặc biệt trong cuộc đời mỗi người, và đối với nhân viên trong một công ty, việc tổ chức sinh nhật có thể là một cách tuyệt vời để thể hiện sự quan tâm, tôn trọng và xây dựng văn hóa công ty gắn kết. Việc tổ chức sinh nhật cho nhân viên không chỉ giúp họ cảm thấy được đánh giá cao mà còn đóng góp vào một môi trường làm việc tích cực, nơi mà mọi người cảm thấy vui vẻ, động viên và có động lực làm việc hơn.",
+        link: "/blog/7-12"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F612%2FScreenshot%202024-12-06%20093833.png?alt=media&token=566fe9d7-f4e1-4f10-b647-8b0323819cff",
         title: "Tuyên bố đầu giờ của công ty",
         date: "06-12-2024",
