@@ -40,6 +40,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1012%2F01XL9932.JPG?alt=media&token=14a1019b-36cf-4cf8-9a72-5240011175f5",
+        title: "Chương Trình Đào Tạo Tại Sano - Phát Triển Kỹ Năng, Thúc Đẩy Sự Nghiệp",
+        date: "10-12-2024",
+        subText: "Tại Sano, chúng tôi luôn coi việc đào tạo và phát triển nhân viên là một yếu tố then chốt để xây dựng một đội ngũ vững mạnh. Chương trình đào tạo của chúng tôi không chỉ tập trung vào kỹ năng chuyên môn mà còn phát triển các kỹ năng mềm cần thiết cho sự nghiệp lâu dài. Hãy cùng tìm hiểu về các chương trình đào tạo đặc biệt tại công ty chúng tôi, những lợi ích mà bạn sẽ nhận được khi tham gia và lý do vì sao đây là một cơ hội tuyệt vời để phát triển nghề nghiệp.",
+        link: "/blog/10-12"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F712%2F2024_11_30_08_20_IMG_3114.JPG?alt=media&token=d1f8c5d6-9ef6-450f-af96-784abb1c2e7d",
         title: "Tổ Chức Sinh Nhật Cho Nhân Viên: Tăng Cường Gắn Kết Và Động Lực Làm Việc",
         date: "07-12-2024",
