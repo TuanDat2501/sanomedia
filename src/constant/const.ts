@@ -40,6 +40,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1112%2F01XL8936.JPG?alt=media&token=ddbbed67-bf9a-4aeb-83a8-b8db2482747c",
+        title: "Chơi Game Trong Buổi Đào Tạo: Cải Thiện Kỹ Năng, Tăng Cường Tinh Thần Đồng Đội",
+        date: "11-12-2024",
+        subText: "Trong môi trường làm việc hiện đại ngày nay, việc kết hợp giữa học hỏi và giải trí không chỉ giúp nâng cao hiệu quả công việc mà còn tạo ra một không khí làm việc thoải mái, năng động. Một trong những phương pháp đang được nhiều công ty áp dụng trong các buổi đào tạo chính là chơi game. Vậy, chơi game trong buổi đào tạo của công ty mang lại những lợi ích gì? Hãy cùng tìm hiểu trong bài viết này.",
+        link: "/blog/11-12"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1012%2F01XL9932.JPG?alt=media&token=14a1019b-36cf-4cf8-9a72-5240011175f5",
         title: "Chương Trình Đào Tạo Tại Sano - Phát Triển Kỹ Năng, Thúc Đẩy Sự Nghiệp",
         date: "10-12-2024",
