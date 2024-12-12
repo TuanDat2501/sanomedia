@@ -16,6 +16,7 @@ export const PRESENT_DATA = [
     }
 ]
 export const NEWS_SANOLIFE_DATA = [
+    
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-2.jpg?alt=media&token=20f283b4-87f9-47dd-87cc-d2ab55c3f47f",
         title: "Chương trình hoạt động: Gala Dinner",
@@ -39,6 +40,13 @@ export const NEWS_SANOLIFE_DATA = [
     }
 ]
 export const NEWS_SANOLIFE_DATA1 = [
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1212%2F2024_12_11_16_31_IMG_3232.JPG?alt=media&token=d6434130-9012-4ece-91ab-9572e8ff57f0",
+        title: "Tôn Vinh Những Nhân Viên Xuất Sắc",
+        date: "12-12-2024",
+        subText: "Trong môi trường công việc hiện đại, việc công nhận và khen thưởng những nỗ lực của nhân viên không chỉ tạo động lực mà còn đóng góp vào sự phát triển bền vững của công ty. Việc trao thưởng nhân viên xuất sắc hàng tháng là một chiến lược hiệu quả để thúc đẩy tinh thần làm việc và khuyến khích nhân viên đạt được những thành tích tốt hơn.",
+        link: "/blog/12-12"
+    },
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1112%2F01XL8936.JPG?alt=media&token=ddbbed67-bf9a-4aeb-83a8-b8db2482747c",
         title: "Chơi Game Trong Buổi Đào Tạo: Cải Thiện Kỹ Năng, Tinh Thần Đồng Đội",
