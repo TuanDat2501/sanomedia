@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1312%2F2024_12_13_08_19_IMG_3248.JPG?alt=media&token=4d49fd06-be20-4455-a656-9eeb27e871c7",
+        title: "Nhận Thưởng Hằng Ngày tại Công Ty",
+        date: "13-12-2024",
+        subText: "Trong môi trường kinh doanh hiện đại, việc duy trì động lực làm việc cho nhân viên là một trong những yếu tố quyết định sự thành công của doanh nghiệp. Chính sách nhận thưởng hằng ngày là một giải pháp hiệu quả,vừa giúp nâng cao tinh thần làm việc vừa cải thiện hiệu suất tổng thể.",
+        link: "/blog/13-12"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1212%2F2024_12_11_16_31_IMG_3232.JPG?alt=media&token=d6434130-9012-4ece-91ab-9572e8ff57f0",
         title: "Tôn Vinh Những Nhân Viên Xuất Sắc",
         date: "12-12-2024",
