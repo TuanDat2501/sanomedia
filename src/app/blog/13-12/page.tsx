@@ -19,6 +19,7 @@ const B1312 = () => {
     }}>
       <Head>
         <title>Nhận Thưởng Hằng Ngày tại Công Ty – Bí Quyết Nâng Cao Hiệu Suất Làm Việc</title>
+       
         <meta name="description" content="Khám phá lợi ích và cách triển khai chính sách nhận thưởng hằng ngày tại công ty để nâng cao động lực làm việc và hiệu quả kinh doanh." />
         <meta name="keywords" content="nhận thưởng hằng ngày, chính sách khen thưởng, động lực làm việc, hiệu quả công việc, văn hóa doanh nghiệp" />
       </Head>
@@ -26,6 +27,7 @@ const B1312 = () => {
         <article>
           <header>
             <h1>Nhận Thưởng Hằng Ngày tại Công Ty – Bí Quyết Nâng Cao Hiệu Suất Làm Việc</h1>
+            <h3 style={{ fontSize: "20px" }}>13-12-2024</h3>  
           </header>
           <br/>
           <section>

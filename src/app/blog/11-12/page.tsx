@@ -17,7 +17,7 @@ const B1112 = () => {
       padding: "15px"
     }}>
       <h1>Chơi Game Trong Buổi Đào Tạo: Cải Thiện Kỹ Năng, Tăng Cường Tinh Thần Đồng Đội</h1>
-
+      <h3 style={{ fontSize: "20px" }}>11-12-2024</h3>
       <p>
         Trong môi trường làm việc hiện đại ngày nay, việc kết hợp giữa học hỏi và giải trí không chỉ giúp nâng cao hiệu quả công việc mà còn tạo ra một không khí làm việc thoải mái, năng động. Một trong những phương pháp đang được nhiều công ty áp dụng trong các buổi đào tạo chính là chơi game. Vậy, chơi game trong buổi đào tạo của công ty mang lại những lợi ích gì? Hãy cùng tìm hiểu trong bài viết này.
       </p>

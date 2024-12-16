@@ -19,9 +19,11 @@ const B1212 = () => {
     }}>
       <Head> <title>Tôn Vinh Những Nhân Viên Xuất Sắc</title>
         <meta name="description" content="Bí Quyết Để Động Viên Và Phát Triển Tập Thể" />
+        
       </Head>
       <div className="container">
         <h1>Tôn Vinh Những Nhân Viên Xuất Sắc: Bí Quyết Để Động Viên Và Phát Triển Tập Thể</h1>
+        <h3 style={{ fontSize: "20px" }}>12-12-2024</h3>
         <p> Trong môi trường công việc hiện đại, việc công nhận và khen thưởng những nỗ lực của nhân viên không chỉ tạo động lực mà còn đóng góp vào sự phát triển bền vững của công ty. Việc trao thưởng nhân viên xuất sắc hàng tháng là một chiến lược hiệu quả để thúc đẩy tinh thần làm việc và khuyến khích nhân viên đạt được những thành tích tốt hơn. </p>
         <br />
         <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
