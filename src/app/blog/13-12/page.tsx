@@ -50,7 +50,7 @@ const B1312 = () => {
                   src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1312%2F2024_12_13_08_19_IMG_3241.JPG?alt=media&token=e94f7609-94c9-44df-9115-d17dadffbe46" />
           <br/>
           <section>
-            <h2>2. Lợi Ích Của Chính Sách Nhận Thưởng Hằng Ngày</h2>
+            <h2>2. Ý Nghĩa Của Chính Sách Nhận Thưởng Hằng Ngày</h2>
             <h3>2.1. Tăng Động Lực Làm Việc</h3>
             <p>
               Khi nhân viên cảm thấy những nỗ lực của mình được ghi nhận ngay lập tức, họ sẽ có động lực làm việc chăm
