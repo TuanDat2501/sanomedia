@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1612%2FUntitled123456789.png?alt=media&token=d6f539d9-f2f2-4d80-b081-9df44b54fb03",
+        title: "Khởi Đầu Tuần Mới Với Các Trò Chơi Đồng Đội",
+        date: "16-12-2024",
+        subText: "Thứ hai không nhất thiết phải là ngày uể oải và trở lại công việc một cách miễn cưỡng. Bằng cách đưa các trò chơi đồng đội vào thói quen của công ty, bạn có thể tiếp thêm năng lượng cho nhân viên và tạo ra một tinh thần hợp tác ngay từ đầu tuần.",
+        link: "/blog/16-12"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1312%2F2024_12_13_08_19_IMG_3248.JPG?alt=media&token=4d49fd06-be20-4455-a656-9eeb27e871c7",
         title: "Nhận Thưởng Hằng Ngày tại Công Ty",
         date: "13-12-2024",
