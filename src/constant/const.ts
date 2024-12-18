@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1812%2F01XL9749.JPG?alt=media&token=d8531a63-f1ea-4b2e-8e4e-043cd870d03b",
+        title: "Vinh Danh Team Chiến Thắng - Team Chất",
+        date: "18-12-2024",
+        subText: "Vào ngày 9 tháng 12, công ty chúng ta đã tổ chức một buổi đào tạo thành công với sự tham gia của tất cả các phòng ban. Trong buổi đào tạo, các thành viên đã được chia thành nhiều nhóm để tham gia một trò chơi thú vị nhằm thúc đẩy kỹ năng làm việc nhóm và sáng tạo.",
+        link: "/blog/18-12"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1712%2F2024_12_17_08_15_IMG_3279.JPG?alt=media&token=282c054b-e39f-4545-a968-fe38afc4d4cc",
         title: "Những Team Tiếp Tục Nhận Thưởng Ngày – Bí Quyết Thành Công",
         date: "17-12-2024",
