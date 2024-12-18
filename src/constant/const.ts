@@ -45,7 +45,7 @@ export const NEWS_SANOLIFE_DATA1 = [
         title: "Những Team Tiếp Tục Nhận Thưởng Ngày – Bí Quyết Thành Công",
         date: "17-12-2024",
         subText: "Trong bất kỳ doanh nghiệp nào, việc khen thưởng không chỉ mang ý nghĩa ghi nhận sự nỗ lực mà còn là yếu tố thúc đẩy hiệu suất làm việc. Những team liên tục nhận thưởng ngày tại công ty chính là minh chứng cho sự phối hợp hiệu quả và tinh thần làm việc xuất sắc. Hãy cùng tìm hiểu bí quyết thành công của họ qua bài viết dưới đây.",
-        link: "/blog/16-12"
+        link: "/blog/17-12"
     },
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1612%2FUntitled123456789.png?alt=media&token=d6f539d9-f2f2-4d80-b081-9df44b54fb03",
