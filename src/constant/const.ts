@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1912%2F01XL8982.JPG?alt=media&token=850e5eb1-0d2e-4656-bcbc-0b4cb5c59175",
+        title: "Trò Chơi Xây Dựng Đội Ngũ Trong Buổi Đào Tạo Công Ty",
+        date: "19-12-2024",
+        subText: "Trong buổi đào tạo gần đây tại công ty, chúng tôi đã triển khai trò chơi 'Vẽ cờ và slogan'. Đây là một hoạt động ngoài trời giúp tăng cường tinh thần đồng đội và phát triển kỹ năng lãnh đạo. Hãy cùng tìm hiểu xem trò chơi này đã mang lại những giá trị gì cho nhân viên.",
+        link: "/blog/19-12"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1812%2F01XL9749.JPG?alt=media&token=d8531a63-f1ea-4b2e-8e4e-043cd870d03b",
         title: "Vinh Danh Team Chiến Thắng - Team Chất",
         date: "18-12-2024",
