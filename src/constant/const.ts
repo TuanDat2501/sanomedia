@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2012%2F01XL9208.JPG?alt=media&token=e4cbaa95-b013-440f-87fb-76ae666c25a6",
+        title: "Tinh Thần Chơi Game Trong Buổi Đào Tạo Công Ty",
+        date: "20-12-2024",
+        subText: "Tinh thần chơi game đã trở thành một yếu tố quan trọng trong các buổi đào tạo công ty hiện đại. Các hoạt động này không chỉ mang lại niềm vui và giảm căng thẳng mà còn giúp xây dựng tinh thần đồng đội và phát triển kỹ năng quan trọng cho nhân viên.",
+        link: "/blog/20-12"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1912%2F01XL8982.JPG?alt=media&token=850e5eb1-0d2e-4656-bcbc-0b4cb5c59175",
         title: "Trò Chơi Xây Dựng Đội Ngũ Trong Buổi Đào Tạo Công Ty",
         date: "19-12-2024",

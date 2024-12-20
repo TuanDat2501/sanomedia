@@ -29,7 +29,7 @@ const B1912 = () => {
         <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                                                           alt={"image"} style={{ maxWidth: "1200px" }}
                                                           src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1912%2F01XL8982.JPG?alt=media&token=850e5eb1-0d2e-4656-bcbc-0b4cb5c59175" />
-        <h2>Lợi Ích Mang Lại</h2>
+        <h2>Ý Nghĩa Mang Lại</h2>
         <ul>
           <li><strong>Tăng Cường Tinh Thần Đồng Đội:</strong> Trò chơi yêu cầu sự phối hợp và hỗ trợ lẫn nhau, giúp nhân viên hiểu và tin tưởng lẫn nhau hơn.</li>
           <li><strong>Phát Triển Kỹ Năng Lãnh Đạo:</strong> Việc phân công nhiệm vụ và quản lý thời gian trong quá trình xây dựng giúp các nhân viên rèn luyện kỹ năng lãnh đạo.</li>
