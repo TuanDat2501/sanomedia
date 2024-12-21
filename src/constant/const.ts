@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2112%2FIMG_3007.jpg?alt=media&token=a56f0a75-a8bf-40df-89c7-393df5f8317c",
+        title: "Chuyến Thăm Quê Bác Hồ Của Công Ty Vào Buổi Chiều",
+        date: "21-12-2024",
+        subText: "Vào buổi chiều một ngày tháng 8, dưới ánh nắng dịu nhẹ và gió mát từ cánh đồng lúa, đoàn xe của công ty chúng tôi bắt đầu hành trình về quê Bác Hồ, làng Sen, xã Kim Liên, huyện Nam Đàn, tỉnh Nghệ An. Đây không chỉ là một chuyến tham quan mà còn là một hành trình tìm về cội nguồn, để mỗi nhân viên hiểu hơn về cuộc đời và sự nghiệp của Chủ tịch Hồ Chí Minh, vị lãnh tụ kính yêu của dân tộc.",
+        link: "/blog/21-12"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2012%2F01XL9208.JPG?alt=media&token=e4cbaa95-b013-440f-87fb-76ae666c25a6",
         title: "Tinh Thần Chơi Game Trong Buổi Đào Tạo Công Ty",
         date: "20-12-2024",
