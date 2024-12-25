@@ -48,6 +48,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/25-12"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2512%2FScreenshot%202024-12-25%20085234.png?alt=media&token=3a2021a1-e1b0-45fe-a40b-882f27401cf7",
+        title: "Trao Thưởng KPI Đầy Ấn Tượng Cho Team Nhân Viên Xuất Sắc",
+        date: "24-12-2024",
+        subText: "Trong một buổi chiều cuối năm đầy hân hoan, Công ty đã tổ chức lễ trao thưởng cho những đội ngũ nhân viên xuất sắc liên tục đạt được KPI trong năm qua. Sự kiện diễn ra tại hội trường chính của công ty, với sự tham dự của ban lãnh đạo và toàn thể nhân viên.",
+        link: "/blog/24-12"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2112%2FIMG_3007.jpg?alt=media&token=a56f0a75-a8bf-40df-89c7-393df5f8317c",
         title: "Chuyến Thăm Quê Bác Hồ Của Công Ty Vào Buổi Chiều",
         date: "21-12-2024",
