@@ -42,7 +42,7 @@ export const NEWS_SANOLIFE_DATA = [
 export const NEWS_SANOLIFE_DATA1 = [
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2512%2FScreenshot%202024-12-25%20085234.png?alt=media&token=3a2021a1-e1b0-45fe-a40b-882f27401cf7",
-        title: "Tặng Quà Giáng Sinh Cho Nhân Viên: Mang Lại Không Khí Ấm Áp và Trẻ Trung",
+        title: "Tặng Quà Giáng Sinh: Mang Lại Không Khí Ấm Áp và Trẻ Trung",
         date: "25-12-2024",
         subText: "Mùa Giáng Sinh đến cũng là thời điểm các công ty tổ chức những hoạt động nhằm tri ân và ghi nhận những đóng góp của nhân viên trong suốt một năm làm việc vất vả. Trong số đó, việc tặng quà Giáng Sinh cho nhân viên là một truyền thống không thể thiếu, mang lại không khí ấm áp và trẻ trung cho toàn thể công ty.",
         link: "/blog/25-12"

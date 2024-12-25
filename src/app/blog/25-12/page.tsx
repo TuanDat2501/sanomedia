@@ -18,7 +18,7 @@ const B2512 = () => {
       padding: "15px"
     }}>
       <Head> 
-        <title>Tặng Quà Giáng Sinh Cho Nhân Viên: Mang Lại Không Khí Ấm Áp và Trẻ Trung</title>
+        <title>Tặng Quà Giáng Sinh: Mang Lại Không Khí Ấm Áp và Trẻ Trung</title>
         <meta name="description" content="Trải nghiệm đáng nhớ về chuyến thăm quê Bác Hồ của công ty vào buổi chiều và những bài học ý nghĩa từ mảnh đất lịch sử này." />
       </Head>
       <div className="container">
