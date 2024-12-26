@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2612%2F01XL9208%20(1).JPG?alt=media&token=14cc20c0-cfd8-4f69-ba3d-b443dce8891c",
+        title: "Sức Mạnh Của Đoàn Kết Trong Chơi Game Đồng Đội Tại Buổi Đào Tạo",
+        date: "26-12-2024",
+        subText: "Trong bối cảnh doanh nghiệp ngày càng đề cao tinh thần làm việc nhóm và kỹ năng đoàn kết, những trò chơi đồng đội tại các buổi đào tạo đã trở thành phương pháp hiệu quả nhất. Trong buổi đào tạo gần đây của một công ty, trò chơi đồng đội đã giúp nhân viên nhận ra sức mạnh của đoàn kết và vai trò quan trọng của mỗi cá nhân trong tập thể.",
+        link: "/blog/26-12"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2512%2FScreenshot%202024-12-25%20085234.png?alt=media&token=3a2021a1-e1b0-45fe-a40b-882f27401cf7",
         title: "Tặng Quà Giáng Sinh: Mang Lại Không Khí Ấm Áp và Trẻ Trung",
         date: "25-12-2024",
