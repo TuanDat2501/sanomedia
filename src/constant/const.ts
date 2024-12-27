@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2712%2Fz6170144249872_7c4b9b8908c9b97e5bb1cacab9f386b5%20(2).jpg?alt=media&token=653e7035-fe9a-4249-8a21-7747e907a6d5",
+        title: "Tổ chức sinh nhật cho nhân viên",
+        date: "27-12-2024",
+        subText: "Trong môi trường công sở hiện đại, không khí sinh nhật tại công ty luôn là dịp để mọi người cùng hòa mình vào những giây phút trẻ trung và vui nhộn. Hãy tưởng tượng văn phòng thường ngày được biến hóa thành một không gian lễ hội, nơi đầy ắp tiếng cười, âm nhạc sôi động và những bất ngờ thú vị dành riêng cho nhân viên.",
+        link: "/blog/27-12"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2612%2F01XL9208%20(1).JPG?alt=media&token=14cc20c0-cfd8-4f69-ba3d-b443dce8891c",
         title: "Sức Mạnh Của Đoàn Kết Trong Chơi Game Đồng Đội Tại Buổi Đào Tạo",
         date: "26-12-2024",

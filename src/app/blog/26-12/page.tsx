@@ -35,7 +35,7 @@ const B2612 = () => {
         <p>Những kinh nghiệm đạt được từ trò chơi đồng đội không chỉ dừng lại tại buổi đào tạo, mà còn được áp dụng vào công việc hàng ngày. Nhân viên hiểu rõ hơn tầm quan trọng của việc cùng nhau hướng tới mục tiêu chung và đồng thời tôn trọng sự đóng góp của mỗi người.</p>
         <p>Trong thời đại kinh tế tri thức, đoàn kết và hợp tác không chỉ là điều kiện cần thiết, mà còn là yếu tố then chót để doanh nghiệp vượt qua mọi thách thức. Buổi đào tạo với trò chơi đồng đội chắc chắn sẽ là một bước tiến quan trọng trong việc đẩy mạnh tinh thần này.</p>
       </div>
-    </div>
+    </div> 
   );
 };
 
