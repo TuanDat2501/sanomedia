@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F3012%2FIMG_3382.JPG?alt=media&token=34cc9490-65e5-4124-a46a-f1ea166ae859",
+        title: "Tôn Vinh Nỗ Lực: Các Team Đạt Thưởng KPI Hằng Ngày",
+        date: "30-12-2024",
+        subText: "Trong môi trường làm việc hiện đại, hiệu suất và kết quả đạt được không chỉ phản ánh sự cống hiến của từng cá nhân mà còn là minh chứng cho sức mạnh của tinh thần làm việc nhóm. Để ghi nhận và khích lệ những nỗ lực đó, công ty đã triển khai chương trình thưởng KPI hằng ngày, giúp các team có thêm động lực đạt được mục tiêu chung.",
+        link: "/blog/30-12"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2712%2Fz6170144249872_7c4b9b8908c9b97e5bb1cacab9f386b5%20(2).jpg?alt=media&token=653e7035-fe9a-4249-8a21-7747e907a6d5",
         title: "Tổ chức sinh nhật cho nhân viên",
         date: "27-12-2024",
