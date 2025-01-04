@@ -41,12 +41,20 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0401%2FScreenshot%202025-01-04%20110749.png?alt=media&token=db3fe6c4-68b0-4a0d-963d-14ab47ce8b5f",
+        title: "Trao Thưởng Tết Dương Lịch",
+        date: "04-01-2024",
+        subText: "Không khí rộn ràng chào đón năm mới đã tràn ngập trong buổi lễ trao thưởng Tết Dương lịch của Công ty Sano, diễn ra vào chiều ngày 31/12 tại trụ sở chính. Đây là sự kiện thường niên nhằm tri ân những nỗ lực không ngừng nghỉ của toàn thể cán bộ, nhân viên trong suốt một năm qua, đồng thời tạo động lực để tập thể tiếp tục phấn đấu trong năm mới.",
+        link: "/blog/4-1"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F3012%2FIMG_3382.JPG?alt=media&token=34cc9490-65e5-4124-a46a-f1ea166ae859",
         title: "Tôn Vinh Nỗ Lực: Các Team Đạt Thưởng KPI Hằng Ngày",
         date: "30-12-2024",
         subText: "Trong môi trường làm việc hiện đại, hiệu suất và kết quả đạt được không chỉ phản ánh sự cống hiến của từng cá nhân mà còn là minh chứng cho sức mạnh của tinh thần làm việc nhóm. Để ghi nhận và khích lệ những nỗ lực đó, công ty đã triển khai chương trình thưởng KPI hằng ngày, giúp các team có thêm động lực đạt được mục tiêu chung.",
         link: "/blog/30-12"
     },
+    
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2712%2Fz6170144249872_7c4b9b8908c9b97e5bb1cacab9f386b5%20(2).jpg?alt=media&token=653e7035-fe9a-4249-8a21-7747e907a6d5",
         title: "Tổ chức sinh nhật cho nhân viên",
