@@ -41,9 +41,16 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0601%2F2025_01_04_08_18_IMG_3483.JPG?alt=media&token=e725918a-6306-4f9f-b97b-13e4504783b4",
+        title: "Không Khí Ấm Áp Trong Bữa Tiệc Sinh Nhật",
+        date: "06-01-2025",
+        subText: "Với mong muốn mang lại niềm vui và sự gắn kết cho nhân viên, Công ty Sano vừa tổ chức một bữa tiệc sinh nhật đặc biệt dành cho những thành viên có ngày sinh trong tháng. Sự kiện diễn ra trong không khí ấm cúng tại phòng họp lớn, nơi được trang trí rực rỡ với bóng bay, hoa tươi và một chiếc bánh sinh nhật lớn đầy màu sắc.",
+        link: "/blog/6-1"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0401%2FScreenshot%202025-01-04%20110749.png?alt=media&token=db3fe6c4-68b0-4a0d-963d-14ab47ce8b5f",
         title: "Trao Thưởng Tết Dương Lịch",
-        date: "04-01-2024",
+        date: "04-01-2025",
         subText: "Không khí rộn ràng chào đón năm mới đã tràn ngập trong buổi lễ trao thưởng Tết Dương lịch của Công ty Sano, diễn ra vào chiều ngày 31/12 tại trụ sở chính. Đây là sự kiện thường niên nhằm tri ân những nỗ lực không ngừng nghỉ của toàn thể cán bộ, nhân viên trong suốt một năm qua, đồng thời tạo động lực để tập thể tiếp tục phấn đấu trong năm mới.",
         link: "/blog/4-1"
     },

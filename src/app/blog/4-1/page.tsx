@@ -23,7 +23,7 @@ const B0401 = () => {
       </Head>
       <div className="container">
         <h1>Trao Thưởng Tết Dương Lịch</h1>
-        <h3 style={{ fontSize: "20px" }}>04-01-2024</h3>
+        <h3 style={{ fontSize: "20px" }}>04-01-2025</h3>
         <p>Không khí rộn ràng chào đón năm mới đã tràn ngập trong buổi lễ trao thưởng Tết Dương lịch của Công ty Sano, diễn ra vào chiều ngày 31/12 tại trụ sở chính. Đây là sự kiện thường niên nhằm tri ân những nỗ lực không ngừng nghỉ của toàn thể cán bộ, nhân viên trong suốt một năm qua, đồng thời tạo động lực để tập thể tiếp tục phấn đấu trong năm mới.</p>
         <p>Buổi trao thưởng bắt đầu với bài phát biểu đầy cảm hứng từ Phó Giám đốc điều hành công ty. Ông không chỉ chia sẻ về những thành tựu nổi bật mà công ty đạt được trong năm qua mà còn gửi lời cảm ơn chân thành đến từng nhân viên đã góp phần xây dựng một tập thể vững mạnh. "Những thành công của chúng ta không chỉ đến từ chiến lược hay tầm nhìn, mà còn là sự gắn bó, cống hiến của mỗi người trong đại gia đình Sano".</p>
         <video controls>
