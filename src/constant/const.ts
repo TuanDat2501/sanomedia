@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0701%2F472512121_597869219667534_7558363421309094289_n.jpg?alt=media&token=85f7dd3c-7eae-4ab6-8583-b5020f087907",
+        title: "Tuyên Dương Những Nhân Viên Xuất Sắc Tháng 12",
+        date: "07-01-2025",
+        subText: "Trong hành trình phát triển bền vững của công ty, những cá nhân xuất sắc luôn là nguồn động lực quan trọng, góp phần tạo nên những thành công đáng tự hào. Để tri ân những nỗ lực ấy, công ty Sano vừa tổ chức buổi lễ tuyên dương nhằm vinh danh các nhân viên tiêu biểu đã đạt được những thành tích vượt trội trong công việc.",
+        link: "/blog/7-1"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0601%2F2025_01_04_08_18_IMG_3483.JPG?alt=media&token=e725918a-6306-4f9f-b97b-13e4504783b4",
         title: "Không Khí Ấm Áp Trong Bữa Tiệc Sinh Nhật",
         date: "06-01-2025",
