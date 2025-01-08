@@ -16,7 +16,7 @@ export const PRESENT_DATA = [
     }
 ]
 export const NEWS_SANOLIFE_DATA = [
-    
+
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-2.jpg?alt=media&token=20f283b4-87f9-47dd-87cc-d2ab55c3f47f",
         title: "Chương trình hoạt động: Gala Dinner",
@@ -40,6 +40,13 @@ export const NEWS_SANOLIFE_DATA = [
     }
 ]
 export const NEWS_SANOLIFE_DATA1 = [
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0801%2Fz6207464626849_69dbef8e4ed1eb11b752895810d004c0.jpg?alt=media&token=8f754d80-79b9-4b20-9bf1-1be10d16edaa",
+        title: "Tuyên Dương Nhân Viên Đạt KPI Hằng Ngày Xuất Sắc",
+        date: "08-01-2025",
+        subText: "Để duy trì hiệu suất làm việc ổn định và đạt được các mục tiêu đã đề ra, việc ghi nhận và khích lệ nhân viên là yếu tố không thể thiếu. Vừa qua, công ty Sano đã tổ chức buổi tuyên dương nhằm vinh danh những nhân viên xuất sắc, luôn hoàn thành và vượt mức KPI hằng ngày.",
+        link: "/blog/8-1"
+    },
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0701%2F472512121_597869219667534_7558363421309094289_n.jpg?alt=media&token=85f7dd3c-7eae-4ab6-8583-b5020f087907",
         title: "Tuyên Dương Những Nhân Viên Xuất Sắc Tháng 12",
