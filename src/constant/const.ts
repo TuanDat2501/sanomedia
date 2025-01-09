@@ -41,7 +41,7 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
-        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0801%2Fz6207464626849_69dbef8e4ed1eb11b752895810d004c0.jpg?alt=media&token=8f754d80-79b9-4b20-9bf1-1be10d16edaa",
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0901%2F472718583_600007359453720_1304544409523081240_n.jpg?alt=media&token=071e3fd0-7b94-401e-839a-0bb2b2baee7d",
         title: "Đã bao lâu rồi bạn chưa chạy?",
         date: "09-01-2025",
         subText: "Chạy không chỉ là một bài tập thể dục, mà còn là cách để giải tỏa căng thẳng, làm mới bản thân và tăng cường sức khỏe. Và không chỉ là chạy bộ, mà chạy theo những ước mơ, những mục tiêu trong cuộc sống.",
