@@ -25,7 +25,7 @@ const B0701 = () => {
       <div className="container">
         <h1>
         Tuyên Dương Nhân Viên Đạt KPI Hằng Ngày Xuất Sắc</h1>
-        <h3 style={{ fontSize: "20px" }}>06-01-2025
+        <h3 style={{ fontSize: "20px" }}>08-01-2025
         </h3>
         <p>Để duy trì hiệu suất làm việc ổn định và đạt được các mục tiêu đã đề ra, việc ghi nhận và khích lệ nhân viên là yếu tố không thể thiếu. Vừa qua, công ty Sano đã tổ chức buổi tuyên dương nhằm vinh danh những nhân viên xuất sắc, luôn hoàn thành và vượt mức KPI hằng ngày.</p>
         <p>Những cá nhân được tuyên dương lần này là minh chứng cho tinh thần làm việc kỷ luật, năng động và tận tâm. Họ không chỉ đạt các chỉ số KPI một cách đều đặn mà còn luôn thể hiện thái độ làm việc tích cực, chủ động hỗ trợ đồng nghiệp và đóng góp vào hiệu quả chung của đội nhóm.</p>
