@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1301%2Fz6222844110433_be583c5eeac25aaa378c2f959e2fe0c1.jpg?alt=media&token=58f23bf9-2c7f-474d-91b0-ed16f3f61270",
+        title: "Các Thành Viên Xuất Sắc Được Vinh Danh Đầu Tuần",
+        date: "13-01-2025",
+        subText: "Sáng nay, tại văn phòng công ty Sano, buổi lễ chúc mừng và trao thưởng cho các thành viên xuất sắc đã diễn ra trong không khí ấm áp và đầy hứng khởi. Đây là hoạt động định kỳ nhằm vinh danh những cá nhân có thành tích nổi bật, thể hiện tinh thần làm việc vượt trội và góp phần vào sự phát triển chung của công ty.",
+        link: "/blog/13-1"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0901%2F472718583_600007359453720_1304544409523081240_n.jpg?alt=media&token=071e3fd0-7b94-401e-839a-0bb2b2baee7d",
         title: "Đã bao lâu rồi bạn chưa chạy?",
         date: "09-01-2025",
