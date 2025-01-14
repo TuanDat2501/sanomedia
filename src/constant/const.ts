@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1401%2FIMG_3222.jpg?alt=media&token=f8d5b5a8-12ed-4239-95e4-65c1e5119a62",
+        title: "Bạn Đã Bùng Nổ Năng Lượng Với Follow The Leader",
+        date: "14-01-2025",
+        subText: "Không có gì là không thể khi chúng ta cùng nhau tạo ra sức mạnh đoàn kết và sự quyết tâm. Hãy để mỗi buổi tập là một cú hích giúp bạn mạnh mẽ hơn, tự tin hơn và tiến xa hơn trong mọi thử thách!",
+        link: "/blog/14-1"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1301%2Fz6222844110433_be583c5eeac25aaa378c2f959e2fe0c1.jpg?alt=media&token=58f23bf9-2c7f-474d-91b0-ed16f3f61270",
         title: "Các Thành Viên Xuất Sắc Được Vinh Danh Đầu Tuần",
         date: "13-01-2025",
