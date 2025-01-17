@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1701%2F2025_01_16_08_20_IMG_0427.JPG?alt=media&token=16d384bd-3a29-4a04-ae83-f5fc0f49a286",
+        title: "Tổ chức sinh nhật cho nhân viên",
+        date: "17-01-2025",
+        subText: "Sinh nhật không chỉ là ngày đặc biệt đối với mỗi cá nhân mà còn là dịp để công ty thể hiện sự quan tâm đặc biệt tới nhân viên của mình. Mỗi năm, sinh nhật là cơ hội để ban lãnh đạo và đồng nghiệp cùng nhau gửi lời chúc tốt đẹp và những món quà ý nghĩa đến người được chúc mừng.",
+        link: "/blog/17-1"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1401%2FIMG_3222.jpg?alt=media&token=f8d5b5a8-12ed-4239-95e4-65c1e5119a62",
         title: "Bạn Đã Bùng Nổ Năng Lượng Với Follow The Leader",
         date: "14-01-2025",
