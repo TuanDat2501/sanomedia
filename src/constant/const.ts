@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2001%2F01XL0628.JPG?alt=media&token=01273345-8068-44e6-81a7-75a53499de26",
+        title: "Year-End Party: Niềm Vui Kết Nối Cuối Năm",
+        date: "20-01-2025",
+        subText: "Khi năm cũ khép lại, các công ty thường tổ chức buổi Year-End Party đặc biệt để tôn vinh những đóng góp của nhân viên và chào đón một năm mới đầy háo hức. Buổi tiệc mang không khí trẻ trung, vui tươi và ấm áp, góp phần tạo nên sự gắn kết giữa các thành viên trong tập thể.",
+        link: "/blog/20-1"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1701%2F2025_01_16_08_20_IMG_0427.JPG?alt=media&token=16d384bd-3a29-4a04-ae83-f5fc0f49a286",
         title: "Tổ chức sinh nhật cho nhân viên",
         date: "17-01-2025",
