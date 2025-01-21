@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2101%2F474758359_609566878497768_4707830142696738169_n.jpg?alt=media&token=6f4b20a0-7a15-47e6-b8c2-e504796a63f0",
+        title: "SANO MEDIA - Tôn Vinh Ngôi Sao Sáng 2024!",
+        date: "21-01-2025",
+        subText: "Chúng ta vừa trải qua một năm đầy thử thách và thành công! Hôm nay, Sano Media tự hào vinh danh những cá nhân và đội nhóm xuất sắc nhất, những người đã góp phần tạo nên dấu ấn không thể quên trong hành trình phát triển của công ty.",
+        link: "/blog/21-1"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2001%2F01XL0628.JPG?alt=media&token=01273345-8068-44e6-81a7-75a53499de26",
         title: "Year-End Party: Niềm Vui Kết Nối Cuối Năm",
         date: "20-01-2025",
