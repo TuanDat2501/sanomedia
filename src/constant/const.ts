@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2201%2F2025_01_22_08_16_IMG_0484.JPG?alt=media&token=080c46da-e19c-4370-8a42-cfa894d54fbe",
+        title: "Trao Thưởng Hằng Ngày Cho Nhân Viên",
+        date: "22-01-2025",
+        subText: "Trong hiện đại, việc duy trì động lực làm việc cho nhân viên là một thách thức lớn. Một trong những cách hiệu quả nhất để giữ tinh thần phấn khởi và sự cam kết từ nhân viên là áp dụng chương trình trao thưởng hằng ngày. Hãy cùng khám phá tại sao cách làm này lại mang lại hiệu quả và làm thế nào để triển khai thành công trong công ty của bạn.",
+        link: "/blog/22-1"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2101%2F474758359_609566878497768_4707830142696738169_n.jpg?alt=media&token=6f4b20a0-7a15-47e6-b8c2-e504796a63f0",
         title: "SANO MEDIA - Tôn Vinh Ngôi Sao Sáng 2024!",
         date: "21-01-2025",
