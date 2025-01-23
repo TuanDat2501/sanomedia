@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2301%2F474475334_610264188428037_6443892017258163620_n.jpg?alt=media&token=8e5b3fa6-4682-4902-a04c-6262ce8f08e3",
+        title: "Ai Là Người May Mắn Nhất YEP?",
+        date: "23-01-2025",
+        subText: "Trong không khí rộn ràng của những ngày cuối năm, buổi tiệc Year-End Party (YEP) của công ty đã diễn ra với nhiều bất ngờ và cảm xúc khó quên. Tâm điểm của đêm tiệc chính là phần công bố 'Ai là người may mắn nhất?'với những giải thưởng đặc biệt dành cho nhân viên.",
+        link: "/blog/23-1"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2201%2F2025_01_22_08_16_IMG_0484.JPG?alt=media&token=080c46da-e19c-4370-8a42-cfa894d54fbe",
         title: "Trao Thưởng Hằng Ngày Cho Nhân Viên",
         date: "22-01-2025",

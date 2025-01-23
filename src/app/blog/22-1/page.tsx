@@ -5,7 +5,7 @@ import './style.scss';
 import Image from "next/image";
 import { useMediaQuery } from "usehooks-ts";
 
-const E2201 = () => {
+const E2301 = () => {
     const isMobile = useMediaQuery('(max-width: 430px)');
     return (
         <div style={{
@@ -16,34 +16,37 @@ const E2201 = () => {
             marginBottom: "100px",
             padding: "15px"
         }}>
-            <h1>Trao Thưởng Hằng Ngày Cho Nhân Viên</h1>
-            <h3 style={{ fontSize: "20px" }}>22-1-2025</h3>
+            <h1>Ai Là Người May Mắn Nhất YEP?</h1>
+            <h3 style={{ fontSize: "20px" }}>23-1-2025</h3>
             <div className="paragraph">
-                <p>Trong hiện đại, việc duy trì động lực làm việc cho nhân viên là một thách thức lớn. Một trong những cách hiệu quả nhất để giữ tinh thần phấn khởi và sự cam kết từ nhân viên là áp dụng chương trình trao thưởng hằng ngày. Hãy cùng khám phá tại sao cách làm này lại mang lại hiệu quả và làm thế nào để triển khai thành công trong công ty của bạn.</p>
+                <p>Trong không khí rộn ràng của những ngày cuối năm, buổi tiệc Year-End Party (YEP) của công ty đã diễn ra với nhiều bất ngờ và cảm xúc khó quên. Tâm điểm của đêm tiệc chính là phần công bố "Ai là người may mắn nhất?" với những giải thưởng đặc biệt dành cho nhân viên.</p>
             </div>
             <div className="paragraph">
-                <p>Khi biết rằng công sức mình bỏ ra có thể được công nhận ngay lập tức, nhân viên sẽ cảm thấy hào hứng và có động lực hơn để hoàn thành tốt công việc. Những phần thưởng này không chỉ tạo ra niềm vui tức thời mà còn khuyến khích sự sáng tạo và đổi mới.</p>
-                <p>Bên cạnh đó, việc trao thưởng thường xuyên giúp củng cố văn hóa ghi nhận trong công ty, tạo ra một môi trường làm việc tích cực, nơi mọi đóng góp đều được tôn trọng. Khi cảm thấy được ghi nhận, nhân viên sẽ có xu hướng gắn bó lâu dài hơn với công ty, góp phần xây dựng một đội ngũ vững mạnh.</p>
+                <p>Không gian buổi tiệc được trang trí lộng lẫy, mang đậm sắc màu lễ hội. Từ khi bắt đầu, mọi người đã cùng nhau hòa mình vào những tiết mục văn nghệ sôi động và phần nhìn lại hành trình một năm đầy dấu ấn của công ty. Nhưng khoảnh khắc được chờ đợi nhất chính là khi chương trình quay số may mắn bắt đầu. Những ánh mắt háo hức, tiếng reo hò mỗi khi tên một người được xướng lên đã khiến không khí buổi tiệc thêm phần kịch tính.</p>
+                <p>Người may mắn nhất trong đêm YEP năm nay chính là chị Trịnh Thị Hiền, Trưởng phòng, người đã giành được giải thưởng lớn là một chỉ vàng. Khi tên chị được xướng lên, cả khán phòng bùng nổ tiếng vỗ tay và những lời chúc mừng. Chị Hằng không giấu được sự xúc động khi chia sẻ: "Tôi thực sự bất ngờ và rất vui khi trở thành người may mắn nhất trong đêm nay. Đây không chỉ là món quà giá trị mà còn là sự động viên lớn lao dành cho tôi sau một năm làm việc chăm chỉ."</p>
             </div>
             <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                 style={{ maxWidth: "1200px" }}
-                src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2201%2F2025_01_22_08_15_IMG_0480.JPG?alt=media&token=f40f2ca2-cb5a-4d9a-a705-281af0dd1938"
+                src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2301%2F474475334_610264188428037_6443892017258163620_n.jpg?alt=media&token=8e5b3fa6-4682-4902-a04c-6262ce8f08e3"
                 alt="image1" />
             <br />
+            <div className="paragraph">
+                <p>Buổi tiệc không chỉ là dịp để trao thưởng mà còn là cơ hội để mọi người gắn kết và chia sẻ những niềm vui cuối năm. Những câu chuyện bên bàn tiệc, những lời chúc tụng gửi trao đã tạo nên một bầu không khí gần gũi, đầy ắp tiếng cười. Đêm YEP khép lại với những kỷ niệm đẹp, những cảm xúc trọn vẹn và nguồn năng lượng tích cực để tất cả cùng hướng tới một năm mới với nhiều thành công hơn nữa.</p>
+            </div>
             <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                 style={{ maxWidth: "1200px" }}
-                src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2201%2F2025_01_22_08_16_IMG_0484.JPG?alt=media&token=080c46da-e19c-4370-8a42-cfa894d54fbe"
+                src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2301%2F474461797_610264401761349_6631118440650281072_n.jpg?alt=media&token=2daf91f9-0b4e-4731-b264-b09613b7c618"
                 alt="image1" />
-            <br />
-            <div className="paragraph">
-                <p>Các phần thưởng hằng ngày không cần quá lớn nhưng nên mang tính khích lệ và ý nghĩa. Chẳng hạn, thẻ quà tặng, một tách cà phê miễn phí, hay những vật dụng văn phòng dễ thương đều có thể trở thành động lực tuyệt vời.</p>
-            </div>
-         
-            <div className="paragraph">
-                <p>Chương trình trao thưởng hằng ngày không chỉ tạo động lực cho nhân viên mà còn xây dựng một văn hóa công ty tích cực và đoàn kết. Những phần thưởng nhỏ nhưng mang ý nghĩa lớn chính là chìa khóa để thúc đẩy hiệu suất làm việc và duy trì sự hài lòng trong công việc.</p>
-            </div>
+                <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
+                style={{ maxWidth: "1200px" }}
+                src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2301%2F474478192_610264245094698_8904530140588373474_n.jpg?alt=media&token=5b850811-0e0a-436d-8ed5-101d9a54fee8"
+                alt="image1" />
+                <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
+                style={{ maxWidth: "1200px" }}
+                src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2301%2F474578166_610264285094694_1836717089413918863_n.jpg?alt=media&token=8d4183ab-feb3-4ee8-a184-e5cdade0f0f5"
+                alt="image1" />
         </div>
     );
 };
 
-export default E2201;
+export default E2301;
