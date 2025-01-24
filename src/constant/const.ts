@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2401%2FScreenshot%202025-01-24%20111645.png?alt=media&token=2b907023-b345-49b0-b0fb-84d3f7a53339",
+        title: "Thưởng Tết Cuối Năm: Sự Trân Trọng Và Gắn Kết",
+        date: "24-01-2025",
+        subText: "Khi những ngày cuối năm gần kề, việc trao thưởng Tết trở thành một phần quan trọng trong văn hóa doanh nghiệp. Đây không chỉ là cách thể hiện sự ghi nhận đóng góp của nhân viên mà còn mang lại động lực lớn lao cho họ bước sang năm mới.",
+        link: "/blog/24-1"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2301%2F474475334_610264188428037_6443892017258163620_n.jpg?alt=media&token=8e5b3fa6-4682-4902-a04c-6262ce8f08e3",
         title: "Ai Là Người May Mắn Nhất YEP?",
         date: "23-01-2025",

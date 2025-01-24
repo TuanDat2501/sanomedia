@@ -5,7 +5,7 @@ import './style.scss';
 import Image from "next/image";
 import { useMediaQuery } from "usehooks-ts";
 
-const E2201 = () => {
+const E2301 = () => {
     const isMobile = useMediaQuery('(max-width: 430px)');
     return (
         <div style={{
@@ -17,7 +17,7 @@ const E2201 = () => {
             padding: "15px"
         }}>
             <h1>Trao Thưởng Hằng Ngày Cho Nhân Viên</h1>
-            <h3 style={{ fontSize: "20px" }}>22-1-2025</h3>
+            <h3 style={{ fontSize: "20px" }}>23-1-2025</h3>
             <div className="paragraph">
                 <p>Trong hiện đại, việc duy trì động lực làm việc cho nhân viên là một thách thức lớn. Một trong những cách hiệu quả nhất để giữ tinh thần phấn khởi và sự cam kết từ nhân viên là áp dụng chương trình trao thưởng hằng ngày. Hãy cùng khám phá tại sao cách làm này lại mang lại hiệu quả và làm thế nào để triển khai thành công trong công ty của bạn.</p>
             </div>
@@ -46,4 +46,4 @@ const E2201 = () => {
     );
 };
 
-export default E2201;
+export default E2301;
