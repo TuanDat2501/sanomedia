@@ -45,7 +45,7 @@ export const NEWS_SANOLIFE_DATA1 = [
         title: "Khai Xuân Rộn Ràng, Hào Khí Tại Công Ty",
         date: "04-02-2025",
         subText: "Sau kỳ nghỉ Tết ấm áp, buổi khai xuân tại công ty đã mang đến không khí vui tươi và hứng khởi cho toàn thể nhân viên. Mở đầu năm mới, Ban lãnh đạo công ty đã gửi những lời chúc tốt lành, chúc tất cả các nhân viên một năm mới tràn đầy sức khỏe, thành công và may mắn.",
-        link: "/blog/4-2"
+        link: "/blog/4-2-2025"
     },
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2401%2FScreenshot%202025-01-24%20111645.png?alt=media&token=2b907023-b345-49b0-b0fb-84d3f7a53339",

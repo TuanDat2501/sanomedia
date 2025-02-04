@@ -18,19 +18,19 @@ const B0401 = () => {
       padding: "15px"
     }}>
       <Head> 
-        <title>Khai Xuân Rộn Ràng, Hào Khí Tại Công Ty</title>
+        <title>Trao Thưởng Tết Dương Lịch</title>
         <meta name="description" content="Trải nghiệm đáng nhớ về chuyến thăm quê Bác Hồ của công ty vào buổi chiều và những bài học ý nghĩa từ mảnh đất lịch sử này." />
       </Head>
       <div className="container">
-        <h1>Khai Xuân Rộn Ràng, Hào Khí Tại Công Ty</h1>
-        <h3 style={{ fontSize: "20px" }}>04-02-2025</h3>
-        <p>Sau kỳ nghỉ Tết ấm áp, buổi khai xuân tại công ty đã mang đến không khí vui tươi và hứng khởi cho toàn thể nhân viên. Mở đầu năm mới, Ban lãnh đạo công ty đã gửi những lời chúc tốt lành, chúc tất cả các nhân viên một năm mới tràn đầy sức khỏe, thành công và may mắn.</p>
-        <p>Hoạt động xông đất của nhân viên đã tăng thêm phần phấn khí, đón nhận những điều tốt đẹp ngay từ những giây phút đầu tiên trở lại làm việc. Tiếp theo đó, mọi người hân hoan tham gia hoạt động hái lì xì, nhận những phong bao đỏ may mắn từ ban giám đốc và đồng nghiệp, mang theo hy vọng về một năm mới tài lộc và thành công.</p>
+        <h1>Trao Thưởng Tết Dương Lịch</h1>
+        <h3 style={{ fontSize: "20px" }}>04-01-2025</h3>
+        <p>Không khí rộn ràng chào đón năm mới đã tràn ngập trong buổi lễ trao thưởng Tết Dương lịch của Công ty Sano, diễn ra vào chiều ngày 31/12 tại trụ sở chính. Đây là sự kiện thường niên nhằm tri ân những nỗ lực không ngừng nghỉ của toàn thể cán bộ, nhân viên trong suốt một năm qua, đồng thời tạo động lực để tập thể tiếp tục phấn đấu trong năm mới.</p>
+        <p>Buổi trao thưởng bắt đầu với bài phát biểu đầy cảm hứng từ Phó Giám đốc điều hành công ty. Ông không chỉ chia sẻ về những thành tựu nổi bật mà công ty đạt được trong năm qua mà còn gửi lời cảm ơn chân thành đến từng nhân viên đã góp phần xây dựng một tập thể vững mạnh. "Những thành công của chúng ta không chỉ đến từ chiến lược hay tầm nhìn, mà còn là sự gắn bó, cống hiến của mỗi người trong đại gia đình Sano".</p>
         <video controls>
-          <source src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0402%2F0204(1).mp4?alt=media&token=a34a1186-217c-45ef-8281-076cf7c6815d" type="video/mp4" />
+          <source src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0401%2F0104(1).mp4?alt=media&token=c8ea740d-51d3-4d20-a27f-c5d347ff7ac3" type="video/mp4" />
         </video>
-        <p>Giây phút tất cả mọi người cùng nhau bật sâm panh chào mừng năm mới đã đẩy cảm xúc, khỏi đầu cho những tháng ngày làm việc hưng thịnh và phát triển. Trong khoảnh khắc đầy yêu thương đó, các nhân viên đã trao nhau những lời chúc tốt đẹp, khỏn gắn kết tinh thần đoàn kết và cùng nhau quyết tâm chinh phục những mục tiêu mới.</p>
-        <p>Buổi khai xuân đã trở thành một ký ức đẹp, mang đến sự phấn khí và tràn đầy năng lượng cho tất cả mọi người, đánh dấu một năm làm việc đầy thành công và phát triển rực rỡ.</p>
+        <p>Điểm nhấn của sự kiện là phần trao thưởng cho các cá nhân và tập thể xuất sắc. Những phần thưởng bao gồm tiền mặt, hiện vật giá trị, và các gói du lịch dành cho gia đình. Những gương mặt rạng rỡ bước lên sân khấu nhận thưởng không chỉ thể hiện sự tự hào cá nhân mà còn lan tỏa niềm vui đến toàn thể đồng nghiệp.</p>
+        <p>Kết thúc chương trình, ban lãnh đạo công ty gửi lời chúc mừng năm mới và khẳng định cam kết đồng hành cùng nhân viên trong hành trình chinh phục những mục tiêu mới. Những khoảnh khắc ấm áp, đoàn kết tại buổi lễ đã để lại dấu ấn sâu sắc, tiếp thêm động lực để toàn thể công ty bước vào năm mới với khí thế mạnh mẽ hơn bao giờ hết.</p>
 
       </div>
     </div> 
