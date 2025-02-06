@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0602%2F01XL0298.JPG?alt=media&token=47c237da-3387-4082-a67f-7ce45f810516",
+        title: "Recap Year End Party - Đại Tiệc Rộn Ràng, Cảm Xúc Tràn Đầy",
+        date: "06-02-2025",
+        subText: "Bầu không khí tại Year End Party của Sano Media thật sự bùng nổ và đáng nhớ! Chương trình được mở màn bằng những tiết mục văn nghệ sáng tạo, đầy năng lượng. Từ những màn nhảy sôi động đến những ca khúc tràn đầy cảm xúc, tất cả đã mang lại một dên dàn không thể tuyệt vời hơn.",
+        link: "/blog/6-2"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0502%2F2025_02_05_08_18_IMG_0504.JPG?alt=media&token=d0eec08b-3e34-4c41-b010-5fe85e76baac",
         title: "Trao Thưởng KPI - Vinh Danh Những Chiến Binh Xuất Sắc",
         date: "05-02-2025",
