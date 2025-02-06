@@ -364,7 +364,7 @@ export const DATA_BENEFIT = {
     editor: {
         salary: "12-15M",
         quantity: "3",
-        date: "31/12/2024",
+        date: "30/04/2025",
         title: "Editor",
         description: [
             "Dựng video, cắt ghép các video để tạo thành 1 video hoàn chỉnh theo kịch bản có sẵn , nguồn có sẵn.",
@@ -388,7 +388,7 @@ export const DATA_BENEFIT = {
     content: {
         salary: "12-15M",
         quantity: "3",
-        date: "31/12/2024",
+        date: "30/04/2025",
         title: "Content",
         description: [
             "Tìm nguồn, xây dựng kịch bản cho video đăng youtube.",
@@ -417,7 +417,7 @@ export const DATA_BENEFIT = {
     artist2D: {
         salary: "12-15M",
         quantity: "3",
-        date: "31/12/2024",
+        date: "30/04/2025",
         title: "Artist 2D",
         description: [
             "Lĩnh vực: Youtube 2D thị trường nước ngoài với đa nội dung",
@@ -444,7 +444,7 @@ export const DATA_BENEFIT = {
     animator2D: {
         salary: "12-15M",
         quantity: "3",
-        date: "31/12/2024",
+        date: "30/04/2025",
         title: "Animator 2D",
         description: [
             "Lĩnh vực : Youtube 2D thị trường nước ngoài với đa nội dung",
