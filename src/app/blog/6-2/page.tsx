@@ -6,7 +6,7 @@ import Image from "next/image";
 import { useMediaQuery } from "usehooks-ts";
 import Head from 'next/head';
 
-const B0502 = () => {
+const B0602 = () => {
   const isMobile = useMediaQuery('(max-width: 430px)');
   return (
     <div style={{
@@ -38,4 +38,4 @@ const B0502 = () => {
   );
 };
 
-export default B0502;
+export default B0602;
