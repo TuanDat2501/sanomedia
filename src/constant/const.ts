@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1002%2F476230260_622072770580512_3900962281634793666_n.jpg?alt=media&token=fec3c1b2-1b25-4471-bbf9-970fd1759461",
+        title: "Vinh Danh Nhân Sự Xuất Sắc Tháng",
+        date: "10-02-2025",
+        subText: "Không khí tại công ty hôm nay tràn ngập sự phấn khởi khi chương trình vinh danh Nhân Sự Xuất Sắc Tháng chính thức diễn ra! Đây là dịp đặc biệt để công ty ghi nhận và tôn vinh những cá nhân có thành tích vượt trội, cống hiến hết mình cho sự phát triển chung.",
+        link: "/blog/10-2"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0802%2Fz6296418027159_225527598f8d35bd628b44817d6dab7f.jpg?alt=media&token=d85ab0ea-9804-445a-8c7f-c5ee04e8b2bf",
         title: "Trao Thưởng KPI Tháng 1",
         date: "08-02-2025",
