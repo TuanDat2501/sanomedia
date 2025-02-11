@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2001%2F01XL0628.JPG?alt=media&token=01273345-8068-44e6-81a7-75a53499de26",
+        title: "Tinh Thần Đồng Đội - Sức Mạnh Vượt Mọi Giới Hạn",
+        date: "11-02-2025",
+        subText: "Các bạn còn nhớ không, khoảnh khắc chúng ta cùng hô vang 'Sano Media'. Khoảnh khắc ấy vẫn còn vẹn nguyên trong trái tim mỗi người – giây phút chúng ta cùng nhau hô vang cái tên ấy đầy tự hào!",
+        link: "/blog/11-2"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1002%2F476230260_622072770580512_3900962281634793666_n.jpg?alt=media&token=fec3c1b2-1b25-4471-bbf9-970fd1759461",
         title: "Vinh Danh Nhân Sự Xuất Sắc Tháng",
         date: "10-02-2025",
