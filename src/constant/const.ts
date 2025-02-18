@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1802%2FUntitled1231s.png?alt=media&token=e90ea4dc-5a10-4fd8-ae86-bee62ccf44e5",
+        title: "Cơ hội chỉ đến một lần - Gia nhập ngay Sanomedia!",
+        date: "18-02-2025",
+        subText: "Bạn đang tìm kiếm một môi trường làm việc sáng tạo, năng động và đầy thử thách? Bạn muốn phát triển bản thân trong một tập thể trẻ trung, chuyên nghiệp? Đừng bỏ lỡ cơ hội này – Sano Media đang tìm kiếm những chiến binh tài năng để cùng nhau tạo nên những dấu ấn bùng nổ!",
+        link: "/blog/18-2"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1702%2F2025_02_17_08_14_IMG_0522.JPG?alt=media&token=e8e950a0-33c9-4714-bf02-00ab39ee4d28",
         title: "Chúc Mừng Team Xuất Sắc - Đạt KPI Ngày",
         date: "17-02-2025",
