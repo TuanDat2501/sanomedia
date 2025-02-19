@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1902%2FIMG_7672.JPG?alt=media&token=e5fe4008-7bb4-4221-a27b-8821006c2745",
+        title: "Khi Có Ai Đó Hỏi: Đi Làm Có Gì Vui?",
+        date: "19-02-2025",
+        subText: "Nếu ai đó hỏi: 'Đi làm có gì vui?' thì hãy để chúng tôi kể cho bạn nghe về một buổi giao lưu siêu bùng nổ tại Sano Media!",
+        link: "/blog/19-2"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1802%2FUntitled1231s.png?alt=media&token=e90ea4dc-5a10-4fd8-ae86-bee62ccf44e5",
         title: "Cơ hội chỉ đến một lần - Gia nhập ngay Sanomedia!",
         date: "18-02-2025",
