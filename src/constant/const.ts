@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 export const NEWS_SANOLIFE_DATA1 = [
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2002%2F2025_02_20_08_13_IMG_0547.JPG?alt=media&token=0cb99377-8cef-4aaf-85a9-1f7dadd4dc9d",
+        title: "Vẽ Ước Mơ - Chạm Tới Tương Lai",
+        date: "21-02-2025",
+        subText: "Từng nét vẽ, từng màu sắc đều mang một ý nghĩa đặc biệt, thể hiện mục tiêu, hoài bão và tinh thần chiến đấu không ngừng nghỉ của mỗi team. Những lá cờ không chỉ đẹp mắt mà còn chứa đựng sự đoàn kết, niềm tin và ý chí vươn xa.",
+        link: "/blog/21-2"
+    },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2002%2F2025_02_20_08_13_IMG_0547.JPG?alt=media&token=0cb99377-8cef-4aaf-85a9-1f7dadd4dc9d",
         title: "Team Đạt KPI Hằng Ngày - Hướng Đến Triệu View & Doanh Thu Bùng Nổ",
         date: "20-02-2025",
         subText: "Hôm nay lại là một ngày rực rỡ khi chúng ta cùng vinh danh những team đã xuất sắc hoàn thành KPI hằng ngày! Không chỉ đơn thuần là những con số, đây chính là thành quả của sự nỗ lực bền bỉ, tinh thần đồng đội và chiến lược sáng tạo không ngừng nghỉ.",
