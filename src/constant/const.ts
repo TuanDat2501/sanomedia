@@ -41,6 +41,20 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2402%2FScreenshot%202025-02-24%20140241.png?alt=media&token=897377eb-a9e1-4116-a429-41bb9647ad68",
+        title: "Năng Lượng Mỗi Sáng - Khởi Động Ngày Mới Đầy Hứng Khởi!",
+        date: "24-02-2025",
+        subText: "Mỗi buổi sáng tại công ty không chỉ là khởi đầu cho một ngày làm việc mới mà còn là thời điểm để tất cả nhân viên cùng nhau nạp năng lượng, sẵn sàng bứt phá!",
+        link: "/blog/24-2"
+    },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2202%2F2025_02_22_08_15_IMG_0558.JPG?alt=media&token=378c4741-b485-426c-abc7-9d972c17ee32",
+        title: "Thưởng Nóng Cực Cháy - Cho Những Chiến Binh Xuất Sắc",
+        date: "22-02-2025",
+        subText: "Không gì tuyệt vời hơn khi những nỗ lực và cống hiến của anh chị em được ghi nhận một cách xứng đáng! Hôm nay, chúng ta cùng vinh danh những cá nhân xuất sắc với phần thưởng nóng cực cháy, dành riêng cho những nhân sự cực chất đã không ngừng bứt phá và đóng góp hết mình.",
+        link: "/blog/22-2"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2002%2F2025_02_20_08_13_IMG_0547.JPG?alt=media&token=0cb99377-8cef-4aaf-85a9-1f7dadd4dc9d",
         title: "Vẽ Ước Mơ - Chạm Tới Tương Lai",
         date: "21-02-2025",
