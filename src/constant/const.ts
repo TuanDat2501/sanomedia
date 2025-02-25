@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2502%2F481900531_634396969348092_1786859076189830839_n.jpg?alt=media&token=97ff24a3-a73e-471a-8cd5-19b782978954",
+        title: "Nhìn Lại 1 Hành Trình Đầy Cảm Hứng",
+        date: "25-02-2025",
+        subText: "Chúng tôi, những thành viên của Sano, luôn biết ơn và trân trọng sự nỗ lực không ngừng của các Sếp – những người không chỉ là người lãnh đạo mà còn là nguồn cảm hứng quý giá trong cuộc sống. Mỗi lời khuyên, mỗi chia sẻ chân thành từ Sếp chính là ngọn lửa sưởi ấm, giúp chúng tôi tự tin vượt qua thử thách và tiến bước vững chắc trên con đường phát triển.",
+        link: "/blog/25-2"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2402%2FScreenshot%202025-02-24%20140241.png?alt=media&token=897377eb-a9e1-4116-a429-41bb9647ad68",
         title: "Năng Lượng Mỗi Sáng - Khởi Động Ngày Mới Đầy Hứng Khởi!",
         date: "24-02-2025",
@@ -236,7 +243,7 @@ export const NEWS_SANOLIFE_DATA1 = [
         subText: "Trong môi trường làm việc hiện đại, hiệu suất và kết quả đạt được không chỉ phản ánh sự cống hiến của từng cá nhân mà còn là minh chứng cho sức mạnh của tinh thần làm việc nhóm. Để ghi nhận và khích lệ những nỗ lực đó, công ty đã triển khai chương trình thưởng KPI hằng ngày, giúp các team có thêm động lực đạt được mục tiêu chung.",
         link: "/blog/30-12"
     },
-    
+
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2712%2Fz6170144249872_7c4b9b8908c9b97e5bb1cacab9f386b5%20(2).jpg?alt=media&token=653e7035-fe9a-4249-8a21-7747e907a6d5",
         title: "Tổ chức sinh nhật cho nhân viên",
@@ -391,7 +398,7 @@ export const NEWS_SANOLIFE_DATA1 = [
         subText: "Trong tinh thần “lá lành đùm lá rách,” công ty chúng tôi đã tổ chức chuyến đi cứu trợ vùng lũ với mong muốn chia sẻ khó khăn, giúp đỡ đồng bào tại các khu vực chịu ảnh hưởng nặng nề từ thiên tai. Đây không chỉ là hoạt động mang tính nhân văn mà còn thể hiện trách nhiệm xã hội của doanh nghiệp, góp phần lan tỏa những giá trị tích cực đến cộng đồng.",
         link: "/blog/cuu-tro"
     },
-    
+
     {
         image: "/image/cua-lo/image14.webp",
         title: "Du lịch hằng năm: Cửa Lò - Nghệ An",
@@ -406,7 +413,7 @@ export const NEWS_SANOLIFE_DATA1 = [
         subText: "Khen thưởng là một phần không thể thiếu trong văn hóa doanh nghiệp của Sano Media. Đây không chỉ là cách để công ty ghi nhận và tôn vinh những nỗ lực và thành tích của nhân viên mà còn là động lực thúc đẩy tinh thần làm việc và sự cống hiến của toàn bộ đội ngũ. Chương trình khen thưởng định kỳ đã trở thành một hoạt động quan trọng, mang lại nhiều giá trị tích cực cho cả công ty và nhân viên.",
         link: "/blog/bonus"
     },
-    
+
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-2.jpg?alt=media&token=20f283b4-87f9-47dd-87cc-d2ab55c3f47f",
         title: "Chương trình hoạt động: Gala Dinner",
