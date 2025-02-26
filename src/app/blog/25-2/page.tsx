@@ -17,7 +17,7 @@ const E2502 = () => {
             padding: "15px"
         }}>
             <h1>Nhìn Lại 1 Hành Trình Đầy Cảm Hứng</h1>
-            <h3 style={{ fontSize: "20px" }}>24-2-2025</h3>
+            <h3 style={{ fontSize: "20px" }}>25-2-2025</h3>
             <div className="paragraph">
                 <p>Chúng tôi, những thành viên của Sano, luôn biết ơn và trân trọng sự nỗ lực không ngừng của các Sếp – những người không chỉ là người lãnh đạo mà còn là nguồn cảm hứng quý giá trong cuộc sống. Mỗi lời khuyên, mỗi chia sẻ chân thành từ Sếp chính là ngọn lửa sưởi ấm, giúp chúng tôi tự tin vượt qua thử thách và tiến bước vững chắc trên con đường phát triển.</p>
             </div>

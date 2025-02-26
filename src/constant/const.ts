@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2602%2Fimg2.jpg?alt=media&token=9711e482-47e0-4019-9e67-a5ed73fe1c76",
+        title: "Vinh Danh Nhân Viên Xuất Sắc – Thưởng KPI Mỗi Sáng!",
+        date: "26-02-2025",
+        subText: "Mỗi buổi sáng tại công ty không chỉ là thời điểm khởi động một ngày làm việc mới mà còn là khoảnh khắc vinh danh những cá nhân xuất sắc đã hoàn thành và vượt chỉ tiêu KPI. Đây chính là nguồn động lực mạnh mẽ giúp cả tập thể thêm hứng khởi, sẵn sàng bứt phá!",
+        link: "/blog/26-2"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2502%2F481900531_634396969348092_1786859076189830839_n.jpg?alt=media&token=97ff24a3-a73e-471a-8cd5-19b782978954",
         title: "Nhìn Lại 1 Hành Trình Đầy Cảm Hứng",
         date: "25-02-2025",
