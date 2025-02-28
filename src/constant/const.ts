@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2802%2F2025_02_28_08_11_IMG_0610.JPG?alt=media&token=b126f150-fc20-4b38-a781-a2d7488a1b77",
+        title: "Chúc mừng những gương mặt xuất sắc!",
+        date: "28-02-2025",
+        subText: "Mỗi buổi sáng tại công ty là một hành trình mới đầy cảm hứng, và hôm nay chúng ta cùng vinh danh những cá nhân xuất sắc đã chinh phục KPI với kết quả ấn tượng! Đây chính là những chiến binh không ngừng nỗ lực, đóng góp tích cực vào sự phát triển chung của đội nhóm.",
+        link: "/blog/28-2"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2602%2Fimg2.jpg?alt=media&token=9711e482-47e0-4019-9e67-a5ed73fe1c76",
         title: "Vinh Danh Nhân Viên Xuất Sắc – Thưởng KPI Mỗi Sáng!",
         date: "26-02-2025",
