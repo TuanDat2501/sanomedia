@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0303%2FScreenshot%202025-03-03%20135004.png?alt=media&token=40eba5a7-b165-46a7-995f-4efcbbe4501f",
+        title: "Ai Nói Đi Làm Là Căng Thẳng?",
+        date: "03-03-2025",
+        subText: "Mỗi buổi sáng tại công ty không chỉ là thời gian khởi động cho một ngày làm việc mới mà còn là cơ hội để anh chị em “xả stress” với những trò chơi đầu giờ đầy sôi động! Không khí rộn ràng, tiếng cười giòn tan và những pha xử lý 'đỉnh kout' đã khiến văn phòng trở nên náo nhiệt hơn bao giờ hết.",
+        link: "/blog/3-3"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2802%2F2025_02_28_08_11_IMG_0610.JPG?alt=media&token=b126f150-fc20-4b38-a781-a2d7488a1b77",
         title: "Chúc mừng những gương mặt xuất sắc!",
         date: "28-02-2025",
