@@ -6,7 +6,7 @@ import Image from "next/image";
 import { useMediaQuery } from "usehooks-ts";
 import Head from 'next/head';
 
-const B0303 = () => {
+const B0403 = () => {
   const isMobile = useMediaQuery('(max-width: 430px)');
   return (
     <div style={{
@@ -18,27 +18,26 @@ const B0303 = () => {
       padding: "15px"
     }}>
       <Head> 
-        <title>KAi Nói Đi Làm Là Căng Thẳng?</title>
+        <title>Tổng Kết Tháng Tại Sano Media</title>
         <meta name="description" content="Trải nghiệm đáng nhớ về chuyến thăm quê Bác Hồ của công ty vào buổi chiều và những bài học ý nghĩa từ mảnh đất lịch sử này." />
       </Head>
       <div className="container">
-        <h1>Ai Nói Đi Làm Là Căng Thẳng?</h1>
-        <h3 style={{ fontSize: "20px" }}>03-03-2025</h3>
-        <p>Mỗi buổi sáng tại công ty không chỉ là thời gian khởi động cho một ngày làm việc mới mà còn là cơ hội để anh chị em “xả stress” với những trò chơi đầu giờ đầy sôi động! Không khí rộn ràng, tiếng cười giòn tan và những pha xử lý "đỉnh kout" đã khiến văn phòng trở nên náo nhiệt hơn bao giờ hết.</p>
-        <p>Game đầu giờ – Khởi động ngày làm việc đầy hứng khởi!
-        Trước khi bước vào guồng quay công việc, các thành viên công ty sẽ cùng nhau tham gia những trò chơi vui nhộn, từ thử thách phản xạ nhanh, đoán chữ đến các màn đối kháng gay cấn. Đây không chỉ là phút giây thư giãn mà còn giúp gắn kết đội nhóm, nâng cao tinh thần làm việc.</p>
-        <p>Cạnh tranh sôi động – Giải thưởng hấp dẫn!
-        Không chỉ chơi cho vui, những trò chơi đầu giờ còn mang đến các phần thưởng siêu hấp dẫn dành cho người chiến thắng. Tinh thần thi đấu máu lửa, những chiến thuật đầy bất ngờ và những màn "lật kèo" ngoạn mục khiến ai cũng phấn khích!</p>
+        <h1>Tổng Kết Tháng Tại Sano Media</h1>
+        <h3 style={{ fontSize: "20px" }}>04-03-2025</h3>
+        <p>Tháng mới bắt đầu cũng là lúc chúng ta cùng nhau nhìn lại chặng đường đã qua và ăn mừng những thành quả đạt được. Tại Sano Media, tổng kết tháng không chỉ là những con số mà còn là dịp để cả team cùng quây quần bên nhau, tận hưởng một bữa tiệc nhỏ nhưng đầy ý nghĩa!</p>
+        <p>Tổng kết – Nhìn lại hành trình bứt phá!
+        Buổi tổng kết tháng là thời điểm để cùng nhau điểm lại những thành tựu nổi bật, ghi nhận sự cố gắng của từng cá nhân và đội nhóm. Những con số ấn tượng, những dự án thành công và cả những bài học quý giá đều được chia sẻ, giúp chúng ta ngày càng hoàn thiện hơn.</p>
+        <p>Bữa tiệc nhỏ – Niềm vui lớn!
+        Không thể thiếu trong buổi tổng kết chính là một bữa tiệc ấm cúng. Những món ăn ngon, tiếng cười rộn ràng, những câu chuyện dí dỏm khiến không khí trở nên gần gũi hơn bao giờ hết. Đây chính là khoảnh khắc để mọi người cùng thư giãn và gắn kết hơn sau một tháng làm việc hết mình.</p>
         <video controls>
-          <source src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0303%2F0301%20(1)(1).mp4?alt=media&token=5642c64d-4de4-451c-9107-8d1dfee05d75" type="video/mp4" />
+          <source src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0403%2F0303(1).mp4?alt=media&token=5b1251c1-bd3b-43cc-b980-74903d466746" type="video/mp4" />
         </video>
-        <p> Sẵn sàng bứt phá – Làm việc hiệu quả!
-        Sau những phút giây giải trí sảng khoái, tất cả cùng bước vào công việc với năng lượng tích cực, tinh thần thoải mái và sự tập trung cao độ. Ai nói đi làm là căng thẳng khi mỗi ngày đều bắt đầu với niềm vui?</p>
-        <p>Cùng nhau chinh phục KPI với tinh thần thoải mái và đầy hứng khởi nào! </p>
-        <p>Sano Media – Làm hết sức, vui hết mình!</p>
+        <p> Vinh danh những cá nhân xuất sắc!
+        Buổi tổng kết tháng cũng là lúc công ty vinh danh những cá nhân có thành tích nổi bật. Những tràng pháo tay vang lên, những phần thưởng xứng đáng được trao tay – tất cả là lời khích lệ cho sự nỗ lực không ngừng nghỉ.</p>
+        <p>Tháng mới đã đến, cùng nhau tiếp tục bứt phá và chinh phục những cột mốc mới tại Sano Media nhé! </p>
       </div>
     </div> 
   );
 };
 
-export default B0303;
+export default B0403;
