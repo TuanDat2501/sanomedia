@@ -41,8 +41,15 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1002%2F476832880_622072637247192_6886673769675255046_n.jpg?alt=media&token=ec971bac-6799-4fff-83b2-4fd5db0d71d6",
+        title: "Vinh Danh Những Chiến Binh Xuất Sắc Nhất Tháng",
+        date: "05-03-2025",
+        subText: "Mỗi tháng trôi qua là một hành trình đầy thử thách, và hôm nay, chúng ta cùng vinh danh những chiến binh xuất sắc nhất – những người đã không ngừng nỗ lực, vượt qua mọi giới hạn để đạt được thành tích ấn tượng nhất!",
+        link: "/blog/5-3"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0403%2Fz6368694692552_0ba5104bbccc14d3aa8dd55d3eeac767.jpg?alt=media&token=16622589-1749-4110-8aaa-d8102e611218",
-        title: "ATổng Kết Tháng Tại Sano Media",
+        title: "Tổng Kết Tháng Tại Sano Media",
         date: "04-03-2025",
         subText: "Tháng mới bắt đầu cũng là lúc chúng ta cùng nhau nhìn lại chặng đường đã qua và ăn mừng những thành quả đạt được. Tại Sano Media, tổng kết tháng không chỉ là những con số mà còn là dịp để cả team cùng quây quần bên nhau, tận hưởng một bữa tiệc nhỏ nhưng đầy ý nghĩa!",
         link: "/blog/4-3"
