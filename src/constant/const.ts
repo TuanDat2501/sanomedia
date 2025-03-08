@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0803%2F2025_03_08_08_13_IMG_0665.JPG?alt=media&token=ace5ed8b-93f4-45b1-91d1-d7babef542cf",
+        title: "Ngày 8/3: Tặng Quà, Tặng Yêu Thương",
+        date: "08-03-2025",
+        subText: "Ngày Quốc tế Phụ nữ 8/3 là dịp đặc biệt để tôn vinh phái đẹp – những người luôn cống hiến và lan tỏa nguồn năng lượng tích cực. Tại công ty, không khí ngày hôm nay ngập tràn niềm vui và bất ngờ khi các chị em được nhận những món quà đầy ý nghĩa từ đồng nghiệp và ban lãnh đạo.",
+        link: "/blog/8-3"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1002%2F476832880_622072637247192_6886673769675255046_n.jpg?alt=media&token=ec971bac-6799-4fff-83b2-4fd5db0d71d6",
         title: "Vinh Danh Những Chiến Binh Xuất Sắc Nhất Tháng",
         date: "05-03-2025",
