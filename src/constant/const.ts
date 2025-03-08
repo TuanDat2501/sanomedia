@@ -41,7 +41,7 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 export const NEWS_SANOLIFE_DATA1 = [
     {
-        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0803%2F2025_03_08_08_13_IMG_0665.JPG?alt=media&token=ace5ed8b-93f4-45b1-91d1-d7babef542cf",
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0803%2Fz6385480854801_f21fb09da7cfacb45baec2fdf62f7caf.jpg?alt=media&token=59dfb03c-157a-4f01-95e4-abddf76e424a",
         title: "Ngày 8/3: Tặng Quà, Tặng Yêu Thương",
         date: "08-03-2025",
         subText: "Ngày Quốc tế Phụ nữ 8/3 là dịp đặc biệt để tôn vinh phái đẹp – những người luôn cống hiến và lan tỏa nguồn năng lượng tích cực. Tại công ty, không khí ngày hôm nay ngập tràn niềm vui và bất ngờ khi các chị em được nhận những món quà đầy ý nghĩa từ đồng nghiệp và ban lãnh đạo.",

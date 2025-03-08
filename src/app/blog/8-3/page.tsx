@@ -27,7 +27,7 @@ const B0803 = () => {
         <p>Ngày Quốc tế Phụ nữ 8/3 là dịp đặc biệt để tôn vinh phái đẹp – những người luôn cống hiến và lan tỏa nguồn năng lượng tích cực. Tại công ty, không khí ngày hôm nay ngập tràn niềm vui và bất ngờ khi các chị em được nhận những món quà đầy ý nghĩa từ đồng nghiệp và ban lãnh đạo.</p>
         <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                                 alt={"image"} style={{ maxWidth: "1200px" }}
-                                src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0803%2F2025_03_08_08_13_IMG_0665.JPG?alt=media&token=ace5ed8b-93f4-45b1-91d1-d7babef542cf" />
+                                src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0803%2Fz6385480854801_f21fb09da7cfacb45baec2fdf62f7caf.jpg?alt=media&token=59dfb03c-157a-4f01-95e4-abddf76e424a" />
         <p>Những món quà thay lời tri ân
         Những phần quà xinh xắn, những bó hoa tươi thắm được trao tận tay như một lời cảm ơn chân thành dành cho những người phụ nữ tuyệt vời. Không chỉ là quà tặng, đó còn là sự trân trọng, là lời chúc cho một ngày 8/3 ngập tràn niềm vui và hạnh phúc.</p>
 
