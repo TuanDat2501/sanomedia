@@ -39,7 +39,15 @@ export const NEWS_SANOLIFE_DATA = [
         subText: "Không chỉ là một công ty, chúng ta là một đại gia đình đang cùng nhau trải qua những khoảnh khắc đáng nhớ và thú vị! Vừa qua, SANO Media Việt Nam đã tổ chức một chuyến đi hoạt động Team Building kết hợp chạy Marathon 21km tại Hạ Long.",
     }
 ]
+
 export const NEWS_SANOLIFE_DATA1 = [
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1303%2FScreenshot%202025-03-13%20101842.png?alt=media&token=6ab95a80-558e-44ad-8ddb-7e911eb08297",
+        title: "Nhìn lại 8/3 Tràn Đầy Yêu Thương, Vui Vẻ",
+        date: "13-03-2025",
+        subText: "Ngày Quốc tế Phụ nữ 8/3 đã khép lại nhưng những khoảnh khắc ấm áp và tràn đầy niềm vui vẫn còn đọng lại trong lòng mỗi người. Hãy cùng nhìn lại một ngày đặc biệt với thật nhiều tiếng cười, những món quà ý nghĩa và những lời chúc chân thành dành tặng cho phái đẹp!",
+        link: "/blog/13-3"
+    },
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0803%2Fz6385480854801_f21fb09da7cfacb45baec2fdf62f7caf.jpg?alt=media&token=59dfb03c-157a-4f01-95e4-abddf76e424a",
         title: "Ngày 8/3: Tặng Quà, Tặng Yêu Thương",
