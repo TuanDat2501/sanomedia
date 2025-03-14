@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1403%2F484642183_646703864784069_1405889446189864779_n.jpg?alt=media&token=ed834d36-7947-4017-9140-473ebd998ff7",
+        title: "Cuối Tuần Rồi, Bùng Nổ Gì Chưa Người Đẹp?",
+        date: "14-03-2025",
+        subText: "Mỗi ngày, bạn có thể chọn là một người bình thường hoặc là một người chiến thắng. Bạn có thể chọn ngủ thêm 5 phút hoặc là thức dậy và tạo ra điều gì đó phi thường. Bạn có thể chọn bỏ cuộc hoặc tiếp tục chiến đấu, vì chiến đấu chính là bản năng của một chiến binh!",
+        link: "/blog/14-3"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1303%2FScreenshot%202025-03-13%20101842.png?alt=media&token=6ab95a80-558e-44ad-8ddb-7e911eb08297",
         title: "Nhìn lại 8/3 Tràn Đầy Yêu Thương, Vui Vẻ",
         date: "13-03-2025",
