@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1503%2F01XL8992.jpg?alt=media&token=c8fd51d6-8764-45ae-b096-ca98a8bbd39d",
+        title: "Môi Trường Làm Việc Sáng Tạo tại Sano Media Việt Nam",
+        date: "15-03-2025",
+        subText: "Sano Media Việt Nam là một đơn vị tiên phong trong lĩnh vực truyền thông số và sản xuất nội dung sáng tạo. Với sứ mệnh tạo ra những sản phẩm truyền thông chất lượng, công ty không ngừng đổi mới để mang đến những nội dung hấp dẫn và có giá trị cho khán giả. Sano Media hiểu rằng môi trường làm việc có tác động trực tiếp đến khả năng sáng tạo của nhân viên. Do đó, công ty đã đầu tư vào một không gian làm việc mở, hiện đại và đầy tính sáng tạo. Các khu vực làm việc được thiết kế thoải mái với nhiều không gian xanh, khu vực thư giãn, giúp nhân viên có thể tái tạo năng lượng và tìm cảm hứng bất cứ lúc nào.",
+        link: "/blog/15-3"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1403%2F484642183_646703864784069_1405889446189864779_n.jpg?alt=media&token=ed834d36-7947-4017-9140-473ebd998ff7",
         title: "Cuối Tuần Rồi, Bùng Nổ Gì Chưa Người Đẹp?",
         date: "14-03-2025",
