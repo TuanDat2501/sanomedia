@@ -25,7 +25,7 @@ const B1703 = () => {
       <div className="container">
         <h1>
         Sano Media Việt Nam – Định Hướng Phát Triển và Tầm Nhìn Tương Lai</h1>
-        <h3 style={{ fontSize: "20px" }}>15-03-2025
+        <h3 style={{ fontSize: "20px" }}>17-03-2025
         </h3>
         <p>Trong bối cảnh ngành truyền thông số không ngừng thay đổi, Sano Media Việt Nam đã xây dựng một chiến lược phát triển rõ ràng để thích ứng với xu hướng mới và mở rộng tầm ảnh hưởng của mình. Với mục tiêu trở thành đơn vị tiên phong trong lĩnh vực sáng tạo nội dung và truyền thông số, Sano Media không ngừng đổi mới để mang đến những sản phẩm chất lượng, giá trị và phù hợp với thị hiếu của khán giả hiện đại.</p>
         <p>Một trong những định hướng phát triển quan trọng của Sano Media là mở rộng nền tảng nội dung đa dạng trên nhiều kênh truyền thông. Công ty không chỉ tập trung vào YouTube hay Facebook mà còn đẩy mạnh sự hiện diện trên TikTok, Instagram và các nền tảng mới nổi. Điều này giúp tiếp cận nhiều nhóm đối tượng khác nhau và tối ưu hóa hiệu quả truyền thông.</p>
