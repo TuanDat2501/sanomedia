@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0403%2FScreenshot%202025-03-17%20141724.png?alt=media&token=b54e40ef-3dfc-4b4a-910d-4abc50f476e6",
+        title: "Sano Media Việt Nam – Định Hướng Phát Triển và Tầm Nhìn Tương Lai",
+        date: "17-03-2025",
+        subText: "Trong bối cảnh ngành truyền thông số không ngừng thay đổi, Sano Media Việt Nam đã xây dựng một chiến lược phát triển rõ ràng để thích ứng với xu hướng mới và mở rộng tầm ảnh hưởng của mình. Với mục tiêu trở thành đơn vị tiên phong trong lĩnh vực sáng tạo nội dung và truyền thông số, Sano Media không ngừng đổi mới để mang đến những sản phẩm chất lượng, giá trị và phù hợp với thị hiếu của khán giả hiện đại.",
+        link: "/blog/17-3"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1503%2F01XL8992.jpg?alt=media&token=c8fd51d6-8764-45ae-b096-ca98a8bbd39d",
         title: "Môi Trường Làm Việc Sáng Tạo tại Sano Media Việt Nam",
         date: "15-03-2025",
