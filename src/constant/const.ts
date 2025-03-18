@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1803%2F01XL0281.jpg?alt=media&token=343a5e13-a229-496d-afde-a25586906ea4",
+        title: "Môi Trường Trẻ Trung và Năng Động tại Sano Media Việt Nam",
+        date: "18-03-2025",
+        subText: "Sano Media Việt Nam không chỉ là một công ty truyền thông sáng tạo mà còn là nơi làm việc lý tưởng cho những ai yêu thích sự đổi mới và năng động. Với tinh thần trẻ trung và cởi mở, công ty luôn khuyến khích nhân viên phát huy hết khả năng của mình, góp phần tạo nên những sản phẩm nội dung chất lượng và mang tính đột phá.",
+        link: "/blog/18-3"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0403%2FScreenshot%202025-03-17%20141724.png?alt=media&token=b54e40ef-3dfc-4b4a-910d-4abc50f476e6",
         title: "Sano Media Việt Nam – Định Hướng Phát Triển và Tầm Nhìn Tương Lai",
         date: "17-03-2025",
