@@ -19,13 +19,13 @@ const B1803 = () => {
     }}>
       <Head>
         <title>
-        Môi Trường Trẻ Trung và Năng Động tại Sano Media Việt Nam</title>
+        Sano Media Việt Nam – Đoàn Kết và Phát Triển Không Ngừng</title>
         <meta name="description" content="Trải nghiệm đáng nhớ về chuyến thăm quê Bác Hồ của công ty vào buổi chiều và những bài học ý nghĩa từ mảnh đất lịch sử này." />
       </Head>
       <div className="container">
         <h1>
-        Môi Trường Trẻ Trung và Năng Động tại Sano Media Việt Nam</h1>
-        <h3 style={{ fontSize: "20px" }}>18-03-2025
+        Sano Media Việt Nam – Đoàn Kết và Phát Triển Không Ngừng</h1>
+        <h3 style={{ fontSize: "20px" }}>20-03-2025
         </h3>
         <p>Sano Media Việt Nam không chỉ là một công ty truyền thông sáng tạo mà còn là nơi làm việc lý tưởng cho những ai yêu thích sự đổi mới và năng động. Với tinh thần trẻ trung và cởi mở, công ty luôn khuyến khích nhân viên phát huy hết khả năng của mình, góp phần tạo nên những sản phẩm nội dung chất lượng và mang tính đột phá.</p>
         <p>Môi trường làm việc tại Sano Media được thiết kế theo phong cách hiện đại, tối ưu không gian mở để khuyến khích sự giao tiếp và hợp tác giữa các đội nhóm. Tại đây, mỗi nhân viên đều có thể thoải mái chia sẻ ý tưởng, đóng góp sáng kiến mà không bị giới hạn bởi bất kỳ khuôn khổ nào. Điều này giúp tạo ra một không khí làm việc sáng tạo, đầy cảm hứng và năng lượng tích cực.</p>

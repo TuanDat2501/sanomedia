@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2103%2F01XL0265.jpg?alt=media&token=60acb0e3-c679-4b10-aef9-ab1c99d6c4c3",
+        title: "Sano Media Việt Nam – Đoàn Kết và Phát Triển Không Ngừng",
+        date: "21-03-2025",
+        subText: "Tại Sano Media Việt Nam, tinh thần đoàn kết và không ngừng phát triển bản thân là hai yếu tố cốt lõi giúp công ty vươn xa trong ngành truyền thông số. Với đội ngũ nhân sự trẻ trung, sáng tạo và luôn hỗ trợ lẫn nhau, Sano Media đã xây dựng một môi trường làm việc gắn kết, nơi mỗi cá nhân đều có cơ hội phát triển và đóng góp vào thành công chung.",
+        link: "/blog/21-3"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1803%2F01XL0281.jpg?alt=media&token=343a5e13-a229-496d-afde-a25586906ea4",
         title: "Môi Trường Trẻ Trung và Năng Động tại Sano Media Việt Nam",
         date: "18-03-2025",
