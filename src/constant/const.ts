@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2203%2F01XL9074.jpg?alt=media&token=ee39b041-707d-4bb6-b9c3-2da5d658cd87",
+        title: "Sano Media Việt Nam – Sáng Tạo Là Nền Tảng Thành Công",
+        date: "22-03-2025",
+        subText: "Trong lĩnh vực truyền thông, sáng tạo chính là yếu tố cốt lõi giúp doanh nghiệp tạo ra sự khác biệt và chinh phục khán giả. Tại Sano Media Việt Nam, tinh thần sáng tạo không chỉ là một giá trị cốt lõi mà còn là kim chỉ nam cho mọi hoạt động của công ty. Đội ngũ tại Sano Media không ngừng đổi mới, tìm kiếm ý tưởng độc đáo để mang đến những sản phẩm chất lượng, hấp dẫn và đậm dấu ấn riêng.",
+        link: "/blog/22-3"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2103%2F01XL0265.jpg?alt=media&token=60acb0e3-c679-4b10-aef9-ab1c99d6c4c3",
         title: "Sano Media Việt Nam – Đoàn Kết và Phát Triển Không Ngừng",
         date: "21-03-2025",
