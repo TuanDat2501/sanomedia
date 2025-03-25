@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/455817447_499605679493889_385086096986158533_n.jpg?alt=media&token=0a6a8c29-9c70-44bd-b584-13ef4e45c2fd",
+        title: "Sano Media Việt Nam – Đổi Mới Không Ngừng Vì Thành Công Bền Vững",
+        date: "24-03-2025",
+        subText: "Trong một thế giới truyền thông không ngừng thay đổi, sự đổi mới chính là chìa khóa giúp doanh nghiệp duy trì vị thế và phát triển bền vững. Tại Sano Media Việt Nam, đổi mới không chỉ là một chiến lược mà còn là tư duy cốt lõi, giúp công ty tạo ra những sản phẩm sáng tạo, đón đầu xu hướng và mang lại giá trị thực sự cho khách hàng.",
+        link: "/blog/24-3"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2203%2F01XL9074.jpg?alt=media&token=ee39b041-707d-4bb6-b9c3-2da5d658cd87",
         title: "Sano Media Việt Nam – Sáng Tạo Là Nền Tảng Thành Công",
         date: "22-03-2025",
