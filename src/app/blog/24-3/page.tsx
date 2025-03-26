@@ -25,7 +25,7 @@ const B2403 = () => {
       <div className="container">
         <h1>
           Sano Media Việt Nam – Đổi Mới Không Ngừng Vì Thành Công Bền Vững</h1>
-        <h3 style={{ fontSize: "20px" }}>21-03-2025
+        <h3 style={{ fontSize: "20px" }}>24-03-2025
         </h3>
         <p>Trong một thế giới truyền thông không ngừng thay đổi, sự đổi mới chính là chìa khóa giúp doanh nghiệp duy trì vị thế và phát triển bền vững. Tại Sano Media Việt Nam, đổi mới không chỉ là một chiến lược mà còn là tư duy cốt lõi, giúp công ty tạo ra những sản phẩm sáng tạo, đón đầu xu hướng và mang lại giá trị thực sự cho khách hàng.</p>
         <p>Sano Media luôn cập nhật những công nghệ và phương pháp truyền thông mới nhất, đảm bảo mỗi sản phẩm đều đáp ứng được nhu cầu đa dạng của thị trường. Công ty đầu tư mạnh vào hệ thống công nghệ hiện đại, từ sản xuất nội dung đến phân tích dữ liệu, giúp tối ưu hóa hiệu quả truyền thông cho khách hàng.</p>
