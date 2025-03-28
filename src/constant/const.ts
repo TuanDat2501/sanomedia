@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2803%2F01XL0264.jpg?alt=media&token=aed2f0c4-d27f-4857-9b81-ca0f99073c40",
+        title: "Sano Media Việt Nam – Nơi Hội Tụ Đam Mê Và Sáng Tạo",
+        date: "28-03-2025",
+        subText: "Sano Media Việt Nam không chỉ là một công ty truyền thông mà còn là một ngôi nhà chung của những con người đam mê sáng tạo. Tại đây, mỗi thành viên đều được khuyến khích thể hiện cá tính, đổi mới tư duy và cùng nhau tạo ra những sản phẩm truyền thông chất lượng, góp phần nâng tầm thương hiệu và nội dung số.",
+        link: "/blog/28-3"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/456457605_502764735844650_827711997439719184_n.jpg?alt=media&token=9b18ee22-8842-454c-8896-c119131d37d7",
         title: "Sano Media Việt Nam – Hành Trình Xây Dựng Và Phát Triển",
         date: "26-03-2025",
