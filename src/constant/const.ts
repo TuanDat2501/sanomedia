@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL8986.jpg?alt=media&token=6f269bad-3673-4b1e-9729-545c3d41630f",
+        title: "Sano Media Việt Nam – Văn Hóa Doanh Nghiệp Gắn Kết Và Sáng Tạo",
+        date: "29-03-2025",
+        subText: "Tại Sano Media Việt Nam, văn hóa doanh nghiệp không chỉ là một yếu tố bổ trợ mà chính là nền tảng vững chắc giúp công ty phát triển bền vững. Với tinh thần gắn kết và sáng tạo, Sano Media luôn tạo ra một môi trường làm việc chuyên nghiệp, nơi mỗi nhân viên đều có cơ hội thể hiện bản thân, đóng góp ý tưởng và cùng nhau xây dựng những giá trị ý nghĩa.",
+        link: "/blog/29-3"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2803%2F01XL0264.jpg?alt=media&token=aed2f0c4-d27f-4857-9b81-ca0f99073c40",
         title: "Sano Media Việt Nam – Nơi Hội Tụ Đam Mê Và Sáng Tạo",
         date: "28-03-2025",
