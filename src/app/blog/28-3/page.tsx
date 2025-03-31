@@ -25,7 +25,7 @@ const B2803 = () => {
       <div className="container">
         <h1>
         Sano Media Việt Nam – Nơi Hội Tụ Đam Mê Và Sáng Tạo</h1>
-        <h3 style={{ fontSize: "20px" }}>25-03-2025
+        <h3 style={{ fontSize: "20px" }}>28-03-2025
         </h3>
         <p>Sano Media Việt Nam không chỉ là một công ty truyền thông mà còn là một ngôi nhà chung của những con người đam mê sáng tạo. Tại đây, mỗi thành viên đều được khuyến khích thể hiện cá tính, đổi mới tư duy và cùng nhau tạo ra những sản phẩm truyền thông chất lượng, góp phần nâng tầm thương hiệu và nội dung số.</p>
         <p>Với đội ngũ trẻ trung, nhiệt huyết, Sano Media luôn không ngừng khám phá những ý tưởng mới, thử nghiệm những xu hướng tiên tiến để mang đến những sản phẩm đột phá. Công ty không chỉ tập trung vào công nghệ mà còn đề cao sự sáng tạo trong cách tiếp cận, giúp từng nội dung trở nên hấp dẫn, thu hút và có giá trị.</p>
