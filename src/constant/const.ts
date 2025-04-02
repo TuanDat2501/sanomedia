@@ -43,6 +43,13 @@ export const NEWS_SANOLIFE_DATA = [
 export const NEWS_SANOLIFE_DATA1 = [
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL0281.jpg?alt=media&token=880f93e3-6327-4adb-a4a2-02f211080986",
+        title: "Sano Media Việt Nam – Hành Trình Phát Triển Của Mỗi Nhân Viên",
+        date: "02-04-2025",
+        subText: "Tại Sano Media Việt Nam, mỗi nhân viên đều có một hành trình phát triển riêng, đầy thử thách nhưng cũng ngập tràn cơ hội. Công ty luôn đặt sự trưởng thành của đội ngũ làm trọng tâm, tạo điều kiện để mỗi cá nhân không ngừng vươn lên và phát triển bản thân.",
+        link: "/blog/2-4"
+    },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL9917.jpg?alt=media&token=9b5a2889-e566-4451-a46c-2e574746157d",
         title: "Sano Media Việt Nam – Đổi Mới Sáng Tạo Là Chìa Khóa Thành Công",
         date: "01-04-2025",
         subText: "Trong thời đại số hóa, đổi mới sáng tạo không chỉ là một lợi thế cạnh tranh mà còn là yếu tố sống còn đối với doanh nghiệp. Tại Sano Media Việt Nam, sáng tạo luôn được đặt lên hàng đầu, trở thành động lực thúc đẩy công ty phát triển và khẳng định vị thế trong ngành truyền thông.",
