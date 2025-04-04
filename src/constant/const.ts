@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0404%2FScreenshot%202025-04-04%20085152.png?alt=media&token=78207344-cd29-4c72-bfb1-7a267bc495e5",
+        title: "Mời Bạn Ghé Thăm 'Cuộc Đại Chiến' Của Đại Gia Đình Sano Media",
+        date: "03-04-2025",
+        subText: "Chào tháng 4 bằng năng lượng rực rỡ và không khí sôi động, Sano Media chính thức phát động minigame nội bộ với tên gọi cực “chiến”: “CUỘC ĐẠI CHIẾN – AI LÀ CHIẾN THẦN THẬT SỰ?”",
+        link: "/blog/3-4"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL0281.jpg?alt=media&token=880f93e3-6327-4adb-a4a2-02f211080986",
         title: "Sano Media Việt Nam – Hành Trình Phát Triển Của Mỗi Nhân Viên",
         date: "02-04-2025",
