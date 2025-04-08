@@ -6,7 +6,7 @@ import Image from "next/image";
 import { useMediaQuery } from "usehooks-ts";
 import Head from 'next/head';
 
-const B0104 = () => {
+const B0404 = () => {
   const isMobile = useMediaQuery('(max-width: 430px)');
   return (
     <div style={{
@@ -25,20 +25,23 @@ const B0104 = () => {
       <div className="container">
         <h1>
         Sano Media Việt Nam – Đổi Mới Sáng Tạo Là Chìa Khóa Thành Công</h1>
-        <h3 style={{ fontSize: "20px" }}>01-04-2025
+        <h3 style={{ fontSize: "20px" }}>04-04-2025
         </h3>
-        <p>Trong thời đại số hóa, đổi mới sáng tạo không chỉ là một lợi thế cạnh tranh mà còn là yếu tố sống còn đối với doanh nghiệp. Tại Sano Media Việt Nam, sáng tạo luôn được đặt lên hàng đầu, trở thành động lực thúc đẩy công ty phát triển và khẳng định vị thế trong ngành truyền thông.</p>
-        <p>Sano Media không ngừng tìm kiếm những ý tưởng mới, áp dụng công nghệ hiện đại và thử nghiệm các phương pháp truyền thông tiên tiến để mang đến những sản phẩm chất lượng cao. Mỗi dự án đều là sự kết hợp giữa tư duy đổi mới và chiến lược tối ưu, giúp khách hàng đạt được hiệu quả truyền thông tốt nhất.</p>
+        <p>Một tháng làm việc chăm chỉ đã khép lại, và đây là lúc chúng ta cùng vinh danh những cá nhân đã tỏa sáng với thành tích nổi bật, tinh thần làm việc chuyên nghiệp và đóng góp tích cực cho tập thể.</p>
+        <p>Xin chúc mừng những “gương mặt vàng” của đại gia đình Sano Media! Các bạn chính là nguồn cảm hứng và là minh chứng cho tinh thần: nỗ lực không ngừng – thành công xứng đáng.</p>
        <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                        style={{ maxWidth: "1200px" }}
-                       src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL0281.jpg?alt=media&token=880f93e3-6327-4adb-a4a2-02f211080986"
+                       src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/488150480_663049453149510_8687558787945054165_n.jpg?alt=media&token=4f4d6023-dadd-45ad-a67e-aee323b74cef"
                        alt="image1" />
-        <p>Công ty khuyến khích nhân viên tư duy đột phá, dám thử nghiệm và không ngại thất bại. Các chương trình đào tạo, hội thảo nội bộ và hoạt động sáng tạo được tổ chức thường xuyên nhằm tạo điều kiện để đội ngũ phát triển tư duy linh hoạt và luôn bắt kịp xu hướng mới nhất.</p>
-        <p>Bên cạnh đó, Sano Media còn hợp tác với nhiều đối tác chiến lược, học hỏi từ các chuyên gia hàng đầu để nâng cao chất lượng dịch vụ. Nhờ sự đổi mới liên tục, công ty luôn mang đến những giải pháp sáng tạo, giúp khách hàng xây dựng thương hiệu mạnh mẽ và thu hút sự chú ý của công chúng.</p>
-        <p>Với tầm nhìn xa và cam kết không ngừng đổi mới, Sano Media Việt Nam đang vững bước trên hành trình chinh phục những đỉnh cao mới trong ngành truyền thông. Sáng tạo chính là chìa khóa giúp công ty tiếp tục phát triển và mang lại giá trị bền vững cho khách hàng cũng như cộng đồng.</p>
+                       <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
+                       style={{ maxWidth: "1200px" }}
+                       src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/488224276_663049209816201_8108609259275981142_n.jpg?alt=media&token=53bb3bbd-3cea-40b0-81e6-9814ae57c8e4"
+                       alt="image1" />
+        <p>Tại Sano, thành công không đến từ một cá nhân, mà là sự cộng hưởng từ tinh thần đồng đội, hỗ trợ nhau cùng tiến lên. Mỗi người xuất sắc được vinh danh hôm nay không chỉ vì kết quả, mà còn vì sự nỗ lực bền bỉ, thái độ tích cực và tinh thần “làm hết mình – chơi nhiệt tình”.</p>
+        <p>Cảm ơn vì đã truyền cảm hứng, lan tỏa tinh thần tích cực đến mọi người xung quanh. Chúc các bạn tiếp tục phát huy, bứt phá hơn nữa trong tháng tới!</p>
       </div>
     </div>
   );
 };
 
-export default B0104;
+export default B0404;

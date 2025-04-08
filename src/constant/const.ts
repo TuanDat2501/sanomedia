@@ -42,10 +42,10 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
-        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0404%2FScreenshot%202025-04-04%20085152.png?alt=media&token=78207344-cd29-4c72-bfb1-7a267bc495e5",
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/488150480_663049453149510_8687558787945054165_n.jpg?alt=media&token=4f4d6023-dadd-45ad-a67e-aee323b74cef",
         title: "Chúc Mừng Các Nhân Sự Xuất Sắc Tháng!",
         date: "04-04-2025",
-        subText: "Chào tháng 4 bằng năng lượng rực rỡ và không khí sôi động, Sano Media chính thức phát động minigame nội bộ với tên gọi cực “chiến”: “CUỘC ĐẠI CHIẾN – AI LÀ CHIẾN THẦN THẬT SỰ?”",
+        subText: "Một tháng làm việc chăm chỉ đã khép lại, và đây là lúc chúng ta cùng vinh danh những cá nhân đã tỏa sáng với thành tích nổi bật, tinh thần làm việc chuyên nghiệp và đóng góp tích cực cho tập thể.",
         link: "/blog/4-4"
     },
     {
