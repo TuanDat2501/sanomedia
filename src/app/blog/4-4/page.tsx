@@ -24,7 +24,7 @@ const B0404 = () => {
       </Head>
       <div className="container">
         <h1>
-        Sano Media Việt Nam – Đổi Mới Sáng Tạo Là Chìa Khóa Thành Công</h1>
+        Chúc Mừng Các Nhân Sự Xuất Sắc Tháng!</h1>
         <h3 style={{ fontSize: "20px" }}>04-04-2025
         </h3>
         <p>Một tháng làm việc chăm chỉ đã khép lại, và đây là lúc chúng ta cùng vinh danh những cá nhân đã tỏa sáng với thành tích nổi bật, tinh thần làm việc chuyên nghiệp và đóng góp tích cực cho tập thể.</p>
