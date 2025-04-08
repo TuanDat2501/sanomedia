@@ -30,7 +30,7 @@ const B0204 = () => {
         <p>Ngay từ khi gia nhập Sano Media, mỗi nhân viên đều được đào tạo bài bản, tiếp cận với những kiến thức mới nhất trong lĩnh vực truyền thông. Công ty không chỉ cung cấp công cụ làm việc mà còn mang đến môi trường học hỏi, giúp từng cá nhân nâng cao kỹ năng chuyên môn, phát triển tư duy sáng tạo và rèn luyện tinh thần trách nhiệm.</p>
        <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                        style={{ maxWidth: "1200px" }}
-                       src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL0281.jpg?alt=media&token=880f93e3-6327-4adb-a4a2-02f211080986"
+                       src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL0263.jpg?alt=media&token=461ce1ee-bb0e-4993-8df6-cd861d5c79fa"
                        alt="image1" />
         <p>Không chỉ có những lộ trình thăng tiến rõ ràng, Sano Media còn khuyến khích nhân viên tự định hướng con đường phát triển của mình. Dù là một chuyên viên trẻ đang chập chững bước vào nghề hay một quản lý dày dặn kinh nghiệm, mỗi người đều được tạo điều kiện để khám phá tiềm năng, thử nghiệm những ý tưởng mới và không ngừng nâng cao giá trị bản thân.</p>
         <p>Tinh thần học hỏi và phát triển không chỉ đến từ cá nhân mà còn từ sự hỗ trợ của cả tập thể. Các buổi đào tạo nội bộ, hội thảo chuyên môn, và những buổi chia sẻ kinh nghiệm từ các chuyên gia trong ngành giúp đội ngũ luôn cập nhật xu hướng và cải thiện kỹ năng không ngừng. Những thử thách mới không còn là rào cản mà trở thành cơ hội để mỗi nhân viên bứt phá, khẳng định bản thân và đóng góp cho sự phát triển chung của công ty.</p>
