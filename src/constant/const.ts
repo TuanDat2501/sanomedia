@@ -42,6 +42,20 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/z6207464615119_10b9e9473c03fd46cb3046cc1393ac0d.jpg?alt=media&token=5b014d9b-86aa-4374-8f92-09d890e18a51",
+        title: "Vinh Danh Những Chiến Binh Xuất Sắc",
+        date: "09-04-2025",
+        subText: "Một tập thể vững mạnh không thể thiếu những cá nhân nỗ lực bền bỉ – và tại Sano Media, chúng tôi luôn ghi nhớ điều đó.",
+        link: "/blog/9-4"
+    },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL9054.jpg?alt=media&token=b540dc8f-7e11-4d3b-a404-b277136715c7",
+        title: "Khi Sáng Tạo Không Có Giới Hạn - Câu Chuyện Đằng Sau Mỗi Sản Phẩm",
+        date: "08-04-2025",
+        subText: "Tại Sano Media, mỗi sản phẩm không chỉ là một video, một nội dung truyền thông – mà là kết quả của hàng giờ đồng hồ sáng tạo, cộng hưởng trí tuệ và đam mê từ cả một đội ngũ.",
+        link: "/blog/8-4"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/488150480_663049453149510_8687558787945054165_n.jpg?alt=media&token=4f4d6023-dadd-45ad-a67e-aee323b74cef",
         title: "Chúc Mừng Các Nhân Sự Xuất Sắc Tháng!",
         date: "04-04-2025",
