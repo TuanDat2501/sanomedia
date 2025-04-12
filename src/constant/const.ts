@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/455817447_499605679493889_385086096986158533_n.jpg?alt=media&token=0a6a8c29-9c70-44bd-b584-13ef4e45c2fd",
+        title: "Sano Media – Nơi Mỗi Người Đều Là Một Mảnh Ghép Quan Trọng",
+        date: "10-04-2025",
+        subText: "Sano Media là nơi mỗi người đều có thể tìm thấy giá trị của chính mình.",
+        link: "/blog/10-4"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/z6207464615119_10b9e9473c03fd46cb3046cc1393ac0d.jpg?alt=media&token=5b014d9b-86aa-4374-8f92-09d890e18a51",
         title: "Vinh Danh Những Chiến Binh Xuất Sắc",
         date: "09-04-2025",
