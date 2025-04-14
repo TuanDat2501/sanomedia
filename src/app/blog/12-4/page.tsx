@@ -25,7 +25,7 @@ const B1204 = () => {
       <div className="container">
         <h1>
         Sano Media – Nơi Tài Năng Không Bị Bỏ Lỡ</h1>
-        <h3 style={{ fontSize: "20px" }}>10-04-2025
+        <h3 style={{ fontSize: "20px" }}>12-04-2025
         </h3>
         <p>Ở Sano Media, chúng tôi tin rằng mỗi cá nhân đều mang trong mình một ngọn lửa riêng biệt – một tài năng, một thế mạnh, hay thậm chí là một góc nhìn khác biệt có thể tạo nên giá trị cho cả tập thể.</p>
         <p>Không cần phải là người có kinh nghiệm dày dạn, cũng không nhất thiết phải sở hữu bảng thành tích quá “khủng”. Chỉ cần bạn chịu học, dám thử và sẵn sàng tiến lên, Sano luôn có cách để nhìn thấy và trao cơ hội phát triển cho bạn.</p>
