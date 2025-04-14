@@ -31,7 +31,7 @@ const B1204 = () => {
         <p>Không cần phải là người có kinh nghiệm dày dạn, cũng không nhất thiết phải sở hữu bảng thành tích quá “khủng”. Chỉ cần bạn chịu học, dám thử và sẵn sàng tiến lên, Sano luôn có cách để nhìn thấy và trao cơ hội phát triển cho bạn.</p>
        <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                        style={{ maxWidth: "1200px" }}
-                       src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_5433.JPG?alt=media&token=42a5e3d8-bbc4-48af-b4d2-156e13920385"
+                       src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_5435.JPG?alt=media&token=2aac6813-8c3f-45f2-b546-24c2e868ca6b"
                        alt="image1" />
                   
         <p>Chúng tôi không “đóng khung” nhân sự theo vị trí, mà khuyến khích họ bước ra khỏi vùng an toàn, đề xuất sáng kiến, thử nghiệm cái mới và tạo ra dấu ấn riêng. Rất nhiều thành viên tại Sano đã từng bắt đầu với vai trò nhỏ, nhưng bằng sự chủ động và quyết tâm, họ đã tiến xa hơn mong đợi – trở thành những người dẫn dắt dự án, những nhân tố cốt lõi trong đội ngũ.</p>

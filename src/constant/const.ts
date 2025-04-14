@@ -42,7 +42,7 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
-        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_5433.JPG?alt=media&token=42a5e3d8-bbc4-48af-b4d2-156e13920385",
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_5435.JPG?alt=media&token=2aac6813-8c3f-45f2-b546-24c2e868ca6b",
         title: "Sano Media – Nơi Tài Năng Không Bị Bỏ Lỡ",
         date: "12-04-2025",
         subText: "Ở Sano Media, chúng tôi tin rằng mỗi cá nhân đều mang trong mình một ngọn lửa riêng biệt – một tài năng, một thế mạnh, hay thậm chí là một góc nhìn khác biệt có thể tạo nên giá trị cho cả tập thể.",
