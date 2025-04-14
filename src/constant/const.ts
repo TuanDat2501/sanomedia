@@ -42,6 +42,20 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_5433.JPG?alt=media&token=42a5e3d8-bbc4-48af-b4d2-156e13920385",
+        title: "Sano Media – Nơi Tài Năng Không Bị Bỏ Lỡ",
+        date: "12-04-2025",
+        subText: "Ở Sano Media, chúng tôi tin rằng mỗi cá nhân đều mang trong mình một ngọn lửa riêng biệt – một tài năng, một thế mạnh, hay thậm chí là một góc nhìn khác biệt có thể tạo nên giá trị cho cả tập thể.",
+        link: "/blog/12-4"
+    },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL8992.jpg?alt=media&token=ddb430a0-4db2-4c84-9ab5-8894593cda2f",
+        title: "Văn Hóa Góp Ý – Sano Media Không Ngại Thẳng Thắn",
+        date: "11-04-2025",
+        subText: "Tại Sano Media, chúng tôi tin rằng: sự thẳng thắn là khởi đầu của tiến bộ. Chính vì vậy, văn hóa góp ý luôn được đề cao và duy trì như một phần không thể thiếu trong mọi hoạt động của công ty.",
+        link: "/blog/11-4"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/455817447_499605679493889_385086096986158533_n.jpg?alt=media&token=0a6a8c29-9c70-44bd-b584-13ef4e45c2fd",
         title: "Sano Media – Nơi Mỗi Người Đều Là Một Mảnh Ghép Quan Trọng",
         date: "10-04-2025",
