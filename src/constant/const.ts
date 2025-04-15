@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0303%2FScreenshot%202025-03-03%20135004.png?alt=media&token=40eba5a7-b165-46a7-995f-4efcbbe4501f",
+        title: "Sano Media – Là Nhà Khi Mình Cần Một Gia Đình",
+        date: "14-04-2025",
+        subText: "Có bao giờ bạn cảm thấy… nơi làm việc cũng có thể mang đến cảm giác như một gia đình?",
+        link: "/blog/14-4"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_5435.JPG?alt=media&token=2aac6813-8c3f-45f2-b546-24c2e868ca6b",
         title: "Sano Media – Nơi Tài Năng Không Bị Bỏ Lỡ",
         date: "12-04-2025",

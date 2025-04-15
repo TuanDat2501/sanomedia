@@ -6,7 +6,7 @@ import Image from "next/image";
 import { useMediaQuery } from "usehooks-ts";
 import Head from 'next/head';
 
-const B1204 = () => {
+const B1404 = () => {
   const isMobile = useMediaQuery('(max-width: 430px)');
   return (
     <div style={{
@@ -19,26 +19,26 @@ const B1204 = () => {
     }}>
       <Head>
         <title>
-        Sano Media – Nơi Tài Năng Không Bị Bỏ Lỡ</title>
+        Sano Media – Là Nhà Khi Mình Cần Một Gia Đình</title>
         <meta name="description" content="Trải nghiệm đáng nhớ về chuyến thăm quê Bác Hồ của công ty vào buổi chiều và những bài học ý nghĩa từ mảnh đất lịch sử này." />
       </Head>
       <div className="container">
         <h1>
-        Sano Media – Nơi Tài Năng Không Bị Bỏ Lỡ</h1>
-        <h3 style={{ fontSize: "20px" }}>10-04-2025
+        Sano Media – Là Nhà Khi Mình Cần Một Gia Đình</h1>
+        <h3 style={{ fontSize: "20px" }}>14-04-2025
         </h3>
-        <p>Ở Sano Media, chúng tôi tin rằng mỗi cá nhân đều mang trong mình một ngọn lửa riêng biệt – một tài năng, một thế mạnh, hay thậm chí là một góc nhìn khác biệt có thể tạo nên giá trị cho cả tập thể.</p>
-        <p>Không cần phải là người có kinh nghiệm dày dạn, cũng không nhất thiết phải sở hữu bảng thành tích quá “khủng”. Chỉ cần bạn chịu học, dám thử và sẵn sàng tiến lên, Sano luôn có cách để nhìn thấy và trao cơ hội phát triển cho bạn.</p>
-       <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
-                       style={{ maxWidth: "1200px" }}
-                       src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_5435.JPG?alt=media&token=2aac6813-8c3f-45f2-b546-24c2e868ca6b"
-                       alt="image1" />
+        <p>Có bao giờ bạn cảm thấy… nơi làm việc cũng có thể mang đến cảm giác như một gia đình?</p>
+        <p>Tại Sano Media, chúng tôi không chỉ cùng nhau làm việc, mà còn cùng nhau chia sẻ – từ những khoảnh khắc thành công rực rỡ, cho đến cả những ngày “mệt mỏi chẳng muốn nói gì”. Ở đây, bạn không bao giờ phải đối mặt với khó khăn một mình, vì luôn có đồng nghiệp sẵn sàng ngồi cạnh, lắng nghe, và hỗ trợ hết mình.</p>
+        <video controls>
+          <source src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0303%2F0301%20(1)(1).mp4?alt=media&token=5642c64d-4de4-451c-9107-8d1dfee05d75" type="video/mp4" />
+        </video>
                   
-        <p>Chúng tôi không “đóng khung” nhân sự theo vị trí, mà khuyến khích họ bước ra khỏi vùng an toàn, đề xuất sáng kiến, thử nghiệm cái mới và tạo ra dấu ấn riêng. Rất nhiều thành viên tại Sano đã từng bắt đầu với vai trò nhỏ, nhưng bằng sự chủ động và quyết tâm, họ đã tiến xa hơn mong đợi – trở thành những người dẫn dắt dự án, những nhân tố cốt lõi trong đội ngũ.</p>
-        <p>Sano Media không phải là nơi bạn chỉ “đi làm rồi về”. Đây là nơi bạn được lắng nghe, được phát triển và được tin tưởng. Tài năng của bạn, dù ở bất kỳ hình thức nào – sẽ luôn được trân trọng và nuôi dưỡng.</p>
+        <p>Là những bữa trưa vội nhưng ấm áp tiếng cười. Là lời động viên nhẹ nhàng vào những ngày “chạy deadline mệt lả”. Là một cái ôm, một tin nhắn hỏi thăm, hay chỉ đơn giản là một ánh mắt hiểu ý nhau khi bạn cần “nghỉ một nhịp”.</p>
+        <p>Chúng tôi không hoàn hảo, nhưng chúng tôi đủ chân thành để yêu quý nhau như những người thân ruột thịt. Mỗi người là một mảnh ghép, và khi gắn kết lại, chúng tôi trở thành một tập thể mạnh mẽ – một đại gia đình thật sự.</p>
+        <p>Với Sano, đi làm không chỉ là công việc – đó là một hành trình sống, học hỏi, và lớn lên cùng nhau.</p>
       </div>
     </div>
   );
 };
 
-export default B1204;
+export default B1404;
