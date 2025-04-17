@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL9751.jpg?alt=media&token=dca7eb22-e0fb-4a4c-9fdb-dcb76fb23617",
+        title: "Sano Media – Những Kết Nối Làm Nên Sức Mạnh Tập Thể",
+        date: "15-04-2025",
+        subText: "Ở một nơi mà deadline luôn kề bên, brief đôi khi “xoắn não”, và lịch họp dày như mưa mùa hạ – vẫn luôn có điều gì đó khiến mỗi ngày tại Sano Media trở nên đặc biệt.",
+        link: "/blog/15-4"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0303%2FScreenshot%202025-03-03%20135004.png?alt=media&token=40eba5a7-b165-46a7-995f-4efcbbe4501f",
         title: "Sano Media – Là Nhà Khi Mình Cần Một Gia Đình",
         date: "14-04-2025",
