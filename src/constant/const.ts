@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL0264%20(1).jpg?alt=media&token=dd1c8719-2bf2-4803-b1d0-e2dfc68f8313",
+        title: "Cùng Nhau Vượt Sóng – Tinh Thần Chiến Binh Nhà Sano",
+        date: "16-04-2025",
+        subText: "Không phải lúc nào hành trình cũng êm ả, không phải mọi dự án đều suôn sẻ từ đầu. Nhưng điều khiến Sano Media luôn tiến về phía trước – chính là tinh thần chiến binh luôn bùng cháy trong mỗi thành viên.",
+        link: "/blog/16-4"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL9751.jpg?alt=media&token=dca7eb22-e0fb-4a4c-9fdb-dcb76fb23617",
         title: "Sano Media – Những Kết Nối Làm Nên Sức Mạnh Tập Thể",
         date: "15-04-2025",
