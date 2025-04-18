@@ -6,7 +6,7 @@ import Image from "next/image";
 import { useMediaQuery } from "usehooks-ts";
 import Head from 'next/head';
 
-const B1604 = () => {
+const B1704 = () => {
   const isMobile = useMediaQuery('(max-width: 430px)');
   return (
     <div style={{
@@ -25,7 +25,7 @@ const B1604 = () => {
       <div className="container">
         <h1>
         Làm Việc Ở Sano – Một Chặng Đường, Nhiều Hành Trình</h1>
-        <h3 style={{ fontSize: "20px" }}>16-04-2025
+        <h3 style={{ fontSize: "20px" }}>17-04-2025
         </h3>
         <p>Không ai giống ai, và ở Sano Media, mỗi người đều đang viết một hành trình riêng.</p>
         <p>Có người ngày đầu đến đây còn chưa biết “content là gì”, giờ đã tự tin brainstorm như vũ bão. Có người từng rụt rè trong các buổi họp, giờ thành “chủ xị” trình bày dự án cả team. Có bạn chuyển từ vị trí thực tập sang nhân viên chính thức, rồi vươn lên làm leader – tất cả đều bắt đầu từ những điều rất nhỏ.</p>
@@ -41,4 +41,4 @@ const B1604 = () => {
   );
 };
 
-export default B1604;
+export default B1704;
