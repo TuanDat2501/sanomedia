@@ -42,7 +42,7 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
-        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/490267198_669673089153813_8648893672316917879_n.jpg?alt=media&token=d21ecc5f-2217-4b4c-8676-d6bbacdb578e",
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL0264%20(1).jpg?alt=media&token=dd1c8719-2bf2-4803-b1d0-e2dfc68f8313",
         title: "Làm Việc Ở Sano – Một Chặng Đường, Nhiều Hành Trình",
         date: "17-04-2025",
         subText: "Không ai giống ai, và ở Sano Media, mỗi người đều đang viết một hành trình riêng.",
