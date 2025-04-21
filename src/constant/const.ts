@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1804%2Fz6503760870187_3f650fca365f5161cbb486ae1fe1f6d7.jpg?alt=media&token=1898ad00-e427-4b4a-ba44-4fd52a8d47aa",
+        title: "Bee Matching 2025 - Nối Liền Tương Lai Cùng Sự Nghiệp",
+        date: "18-04-2025",
+        subText: "𝐒𝐚𝐧𝐨 𝐌𝐞𝐝𝐢𝐚 tự hào là đối tác đồng hành cùng Cao đẳng FPT Polytechnic Hà Nam trong Ngày hội phỏng vấn '𝐁𝐞𝐞 𝐌𝐚𝐭𝐜𝐡𝐢𝐧𝐠 𝟐𝟎𝟐𝟓', sự kiện đặc biệt tạo cơ hội cho sinh viên khám phá và kết nối trực tiếp với các cơ hội nghề nghiệp trong ngành truyền thông.",
+        link: "/blog/18-4"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL0264%20(1).jpg?alt=media&token=dd1c8719-2bf2-4803-b1d0-e2dfc68f8313",
         title: "Làm Việc Ở Sano – Một Chặng Đường, Nhiều Hành Trình",
         date: "17-04-2025",
