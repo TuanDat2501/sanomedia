@@ -41,6 +41,14 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 
 export const NEWS_SANOLIFE_DATA1 = [
+    
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/Screenshot%202025-04-22%20144547.png?alt=media&token=720301ec-541c-4fed-81b7-d7f16f4b95c8",
+        title: "Một Ngày Ở Sano Media – Không Chỉ Là Làm Việc",
+        date: "19-04-2025",
+        subText: "Nếu hỏi “Một ngày ở Sano Media như thế nào?”, có lẽ câu trả lời sẽ không chỉ gói gọn trong từ “bận rộn”. Bởi với chúng mình, mỗi ngày đi làm đều là một hành trình với đủ cung bậc cảm xúc – từ tiếng cười, những buổi brainstorm bùng nổ, đến cả những phút trầm lắng cùng nhau nhìn lại. ",
+        link: "/blog/19-4"
+    },
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1804%2Fz6503760870187_3f650fca365f5161cbb486ae1fe1f6d7.jpg?alt=media&token=1898ad00-e427-4b4a-ba44-4fd52a8d47aa",
         title: "Bee Matching 2025 - Nối Liền Tương Lai Cùng Sự Nghiệp",
