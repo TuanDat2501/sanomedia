@@ -41,7 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 
 export const NEWS_SANOLIFE_DATA1 = [
-    
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2209%2FScreenshot%202025-04-23%20095003.png?alt=media&token=648efd3c-733c-443c-8faf-de1a66a33e36",
+        title: "Một Ngày Ở Sano Media – Không Chỉ Là Làm Việc",
+        date: "22-04-2025",
+        subText: "Nếu hỏi “Một ngày ở Sano Media như thế nào?”, có lẽ câu trả lời sẽ không chỉ gói gọn trong từ “bận rộn”. Bởi với chúng mình, mỗi ngày đi làm đều là một hành trình với đủ cung bậc cảm xúc – từ tiếng cười, những buổi brainstorm bùng nổ, đến cả những phút trầm lắng cùng nhau nhìn lại. ",
+        link: "/blog/22-4"
+    },
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/Screenshot%202025-04-22%20144547.png?alt=media&token=720301ec-541c-4fed-81b7-d7f16f4b95c8",
         title: "Một Ngày Ở Sano Media – Không Chỉ Là Làm Việc",
