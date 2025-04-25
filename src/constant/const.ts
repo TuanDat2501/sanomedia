@@ -42,10 +42,17 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
-        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2209%2FScreenshot%202025-04-23%20095003.png?alt=media&token=648efd3c-733c-443c-8faf-de1a66a33e36",
-        title: "Một Ngày Ở Sano Media – Không Chỉ Là Làm Việc",
-        date: "22-04-2025",
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL0264%20(1).jpg?alt=media&token=dd1c8719-2bf2-4803-b1d0-e2dfc68f8313",
+        title: "Teamwork Tạo Nên Sức Mạnh – Ở Sano Là Cùng Nhau “Cân” Mọi Thử Thách!",
+        date: "23-04-2025",
         subText: "Nếu hỏi “Một ngày ở Sano Media như thế nào?”, có lẽ câu trả lời sẽ không chỉ gói gọn trong từ “bận rộn”. Bởi với chúng mình, mỗi ngày đi làm đều là một hành trình với đủ cung bậc cảm xúc – từ tiếng cười, những buổi brainstorm bùng nổ, đến cả những phút trầm lắng cùng nhau nhìn lại. ",
+        link: "/blog/23-4"
+    },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2209%2FScreenshot%202025-04-23%20095003.png?alt=media&token=648efd3c-733c-443c-8faf-de1a66a33e36",
+        title: "Một Buổi Sáng Thường Ngày Tại Sano Media Diễn Ra Như Thế Nào?",
+        date: "22-04-2025",
+        subText: "Tại Sano Media, mỗi buổi sáng không chỉ là thời gian bắt đầu công việc, mà còn là khoảnh khắc toàn thể đội ngũ cùng nhau khởi động ngày mới đầy năng lượng! ",
         link: "/blog/22-4"
     },
     {
