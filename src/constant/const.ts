@@ -18,7 +18,7 @@ export const PRESENT_DATA = [
 export const NEWS_SANOLIFE_DATA = [
 
     {
-        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-4959a.appspot.com/o/sanolife-2.jpg?alt=media&token=20f283b4-87f9-47dd-87cc-d2ab55c3f47f",
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2712%2Fz6170144249872_7c4b9b8908c9b97e5bb1cacab9f386b5%20(2).jpg?alt=media&token=653e7035-fe9a-4249-8a21-7747e907a6d5",
         title: "Chương trình hoạt động: Gala Dinner",
         date: "05-02-2024",
         subText: "Một đêm tiệc đầy niềm vui và ý nghĩa khi toàn thể nhân sự Công ty cùng gia đình cùng nhau nhìn lại hành trình một năm đầy biến động nhưng cũng không kém phần rực rỡ của Sano Media. Để rồi sau đó những giải thưởng vinh danh các cá nhân, tập thể xuất sắc trong năm qua đã được hô vang.",
@@ -41,6 +41,13 @@ export const NEWS_SANOLIFE_DATA = [
 ]
 
 export const NEWS_SANOLIFE_DATA1 = [
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL0264%20(1).jpg?alt=media&token=dd1c8719-2bf2-4803-b1d0-e2dfc68f8313",
+        title: "Sano Media Không Chỉ Là Nơi Làm Việc – Đó Là Một Gia Đình",
+        date: "24-04-2025",
+        subText: "Ở Sano Media, người ta không chỉ đến công ty để làm việc. Mà đến để kết nối, chia sẻ và cùng nhau trưởng thành.",
+        link: "/blog/24-4"
+    },
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL0264%20(1).jpg?alt=media&token=dd1c8719-2bf2-4803-b1d0-e2dfc68f8313",
         title: "Teamwork Tạo Nên Sức Mạnh – Ở Sano Là Cùng Nhau “Cân” Mọi Thử Thách!",
