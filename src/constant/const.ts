@@ -42,8 +42,15 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/Untitled.png?alt=media&token=d8fc4125-d415-4b46-8655-3014cef899c9",
+        title: "Sano Media – Mỗi Ngày Là Một Hành Trình Mới",
+        date: "26-04-2025",
+        subText: "Tại Sano Media, mỗi ngày không chỉ đơn thuần là đi làm – đó là một hành trình mới, đầy cảm hứng và khám phá.",
+        link: "/blog/26-4"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL0263.jpg?alt=media&token=461ce1ee-bb0e-4993-8df6-cd861d5c79fa",
-        title: "Sano Media Không Chỉ Là Nơi Làm Việc – Đó Là Một Gia Đình",
+        title: "Chia sẻ là sức mạnh – văn hóa đặc trưng tại Sano Media",
         date: "25-04-2025",
         subText: "Ở Sano Media, chúng tôi tin rằng: khi một người chia sẻ, cả đội sẽ phát triển.",
         link: "/blog/25-4"
