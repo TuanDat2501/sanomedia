@@ -100,11 +100,11 @@ const Benefit = () => {
                 <p>Ứng viên có thể liên hệ và gửi thông tin qua: </p>
                 <div className="detail-contact">
                     <span><IEmail1></IEmail1></span>
-                    <text>{email}</text>
+                    <text color='#000'>{email}</text>
                 </div>
                 <div className="detail-contact">
                     <span><IPhone1 width="32px" height="32px"></IPhone1></span>
-                    <text>{SDT}</text>
+                    <text color='#000'>{SDT}</text>
                 </div>
                 <p>Hoặc điền thông tin tại đây:</p>
                 <div className="btn-apply" onClick={clickShowPopup}>

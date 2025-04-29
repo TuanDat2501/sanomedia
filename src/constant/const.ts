@@ -72,7 +72,7 @@ export const NEWS_SANOLIFE_DATA1 = [
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2209%2FScreenshot%202025-04-23%20095003.png?alt=media&token=648efd3c-733c-443c-8faf-de1a66a33e36",
         title: "Một Buổi Sáng Thường Ngày Tại Sano Media Diễn Ra Như Thế Nào?",
-        date: "22-04-2025",
+        date: "22-04-2025", 
         subText: "Tại Sano Media, mỗi buổi sáng không chỉ là thời gian bắt đầu công việc, mà còn là khoảnh khắc toàn thể đội ngũ cùng nhau khởi động ngày mới đầy năng lượng! ",
         link: "/blog/22-4"
     },
@@ -722,7 +722,7 @@ export const DATA_BENEFIT = {
     editor: {
         salary: "12-15M",
         quantity: "3",
-        date: "30/04/2025",
+        date: "30/6/2025",
         title: "Editor",
         description: [
             "Dựng video, cắt ghép các video để tạo thành 1 video hoàn chỉnh theo kịch bản có sẵn , nguồn có sẵn.",
@@ -746,7 +746,7 @@ export const DATA_BENEFIT = {
     content: {
         salary: "12-15M",
         quantity: "3",
-        date: "30/04/2025",
+        date: "30/6/2025",
         title: "Content",
         description: [
             "Tìm nguồn, xây dựng kịch bản cho video đăng youtube.",
@@ -775,7 +775,7 @@ export const DATA_BENEFIT = {
     artist2D: {
         salary: "12-15M",
         quantity: "3",
-        date: "30/04/2025",
+        date: "30/6/2025",
         title: "Artist 2D",
         description: [
             "Lĩnh vực: Youtube 2D thị trường nước ngoài với đa nội dung",
@@ -802,7 +802,7 @@ export const DATA_BENEFIT = {
     animator2D: {
         salary: "12-15M",
         quantity: "3",
-        date: "30/04/2025",
+        date: "30/6/2025",
         title: "Animator 2D",
         description: [
             "Lĩnh vực : Youtube 2D thị trường nước ngoài với đa nội dung",
