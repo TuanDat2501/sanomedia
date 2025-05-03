@@ -33,7 +33,7 @@ const B0205 = () => {
 
          <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                                 alt={"image"} style={{ maxWidth: "1200px" }}
-                                src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0205%2F494666521_684116971042758_587725824222761036_n.jpg?alt=media&token=7bf6e2cf-6c49-458c-bc5f-093d71802bde" />
+                                src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0205%2F494419427_684116981042757_2035289550162444142_n.jpg?alt=media&token=ade58b5f-01e6-4ae3-b6a3-d404160c7e60" />
         <p>Tự hào là 1 Sanoers – Tự hào là người Việt Nam!</p>
       </div>
     </div>
