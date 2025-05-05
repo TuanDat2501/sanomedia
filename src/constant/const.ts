@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-2.jpg?alt=media&token=6aa8e90a-4a38-4c50-b910-6c0f5155c1d3",
+        title: "Cùng Nhìn Lại Những Khoảnh Khắc Đáng Nhớ Của Sano Media",
+        date: "04-05-2025",
+        subText: "Hành trình phát triển không chỉ được đo bằng những con số, mà còn bằng những khoảnh khắc – những giây phút gắn kết, cùng nhau vượt qua khó khăn và lan tỏa năng lượng tích cực trong đại gia đình Sano Media.",
+        link: "/blog/4-5"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0205%2F494419427_684116981042757_2035289550162444142_n.jpg?alt=media&token=ade58b5f-01e6-4ae3-b6a3-d404160c7e60",
         title: "Sano Media | Kỷ niệm ngày Giải phóng miền Nam 30/4",
         date: "02-05-2025",
