@@ -42,6 +42,27 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-4.jpg?alt=media&token=b69f2ec8-9c72-44a0-bbb0-edb7f3a5cdfc",
+        title: "Cùng nhìn lại những khoảnh khắc đáng nhớ của Sano Media",
+        date: "07-05-2025",
+        subText: "Tại Sano Media, chúng tôi tin rằng: Công việc sẽ nhẹ nhàng hơn khi ta có những người đồng hành tuyệt vời.",
+        link: "/blog/7-5"
+    },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/Screenshot%202025-05-07%20085658.png?alt=media&token=e95dd08c-6095-4316-a049-aa51cca5053c",
+        title: "Nghiêm túc trong công việc – Hết mình trong vui chơi",
+        date: "06-05-2025",
+        subText: "Tại Sano Media, chúng tôi tin rằng một môi trường làm việc lý tưởng không chỉ cần hiệu quả mà còn phải tràn đầy cảm hứng. Vì vậy, bên cạnh tinh thần làm việc nghiêm túc, đội ngũ Sano cũng luôn biết cách “xả hơi” đúng lúc để nạp lại năng lượng.",
+        link: "/blog/6-5"
+    },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/Screenshot%202025-05-07%20083404.png?alt=media&token=5d0d0d48-9ad2-485f-bcff-34ccdad313ec",
+        title: "Văn Phòng Sano Media – Không Gian Truyền Cảm Hứng Mỗi Ngày",
+        date: "05-05-2025",
+        subText: "Bước chân vào văn phòng của Sano Media, bạn sẽ không chỉ thấy bàn ghế hay máy tính – mà còn cảm nhận được một nguồn năng lượng trẻ trung, sáng tạo và tràn đầy cảm hứng.",
+        link: "/blog/5-5"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-2.jpg?alt=media&token=6aa8e90a-4a38-4c50-b910-6c0f5155c1d3",
         title: "Cùng Nhìn Lại Những Khoảnh Khắc Đáng Nhớ Của Sano Media",
         date: "04-05-2025",
