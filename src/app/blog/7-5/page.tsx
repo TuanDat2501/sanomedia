@@ -26,7 +26,7 @@ const B0705 = () => {
         <h1>
           Cùng nhìn lại những khoảnh khắc đáng nhớ của Sano Media
         </h1>
-        <h3 style={{ fontSize: "20px" }}>04-05-2025
+        <h3 style={{ fontSize: "20px" }}>07-05-2025
         </h3>
         <p>Tại Sano Media, chúng tôi tin rằng: Công việc sẽ nhẹ nhàng hơn khi ta có những người đồng hành tuyệt vời.</p>
         <p>Không chỉ cùng nhau “chiến đấu” trong từng dự án, từng deadline gấp rút, mà những giờ phút ăn trưa, những trận cười trong phòng họp hay những buổi liên hoan ấm cúng… đều là chất keo kết nối các thành viên lại với nhau.</p>

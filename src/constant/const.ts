@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-6.jpg?alt=media&token=67dd0c01-4c4b-41ea-9943-8f154203eb89",
+        title: "Sano Media – Hành trình kiến tạo giá trị khác biệt",
+        date: "08-05-2025",
+        subText: "Trong một thị trường truyền thông ngày càng cạnh tranh và đổi thay chóng mặt, Sano Media vẫn luôn giữ cho mình một định hướng rõ ràng: không ngừng đổi mới, không ngừng tạo giá trị – và quan trọng nhất, luôn lấy con người làm trung tâm.",
+        link: "/blog/8-5"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-4.jpg?alt=media&token=b69f2ec8-9c72-44a0-bbb0-edb7f3a5cdfc",
         title: "Cùng nhìn lại những khoảnh khắc đáng nhớ của Sano Media",
         date: "07-05-2025",
