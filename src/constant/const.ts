@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/sanolife-5.webp?alt=media&token=af2737be-10ec-42b3-834f-4af1be3ea63a",
+        title: "Sano Media - Nơi tinh thần đội ngũ lên ngôi",
+        date: "09-05-2025",
+        subText: "Tại Sano Media, mỗi cá nhân là một mảnh ghép quan trọng, nhưng chính sức mạnh của tinh thần đồng đội đã tạo nên sự khác biệt. Chúng tôi không chỉ làm việc với nhau, mà còn cùng nhau phát triển và tạo ra những giá trị chung bền vững.",
+        link: "/blog/9-5"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-6.jpg?alt=media&token=67dd0c01-4c4b-41ea-9943-8f154203eb89",
         title: "Sano Media – Hành trình kiến tạo giá trị khác biệt",
         date: "08-05-2025",
