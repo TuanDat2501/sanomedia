@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F490267198_669673089153813_8648893672316917879_n.jpg?alt=media&token=bd01a1ff-6154-48a1-aa12-00a917c0c4d0",
+        title: "Sano Media - Khi Mỗi Ngày Đi Làm Là Một Niềm Vui",
+        date: "12-05-2025",
+        subText: "Có bao giờ bạn nghĩ: “Giá mà sáng nào thức dậy cũng háo hức đi làm như thể đi chơi”? Ở Sano Media, điều đó không phải là viển vông – mà là cảm giác rất thật của nhiều thành viên trong đại gia đình này.",
+        link: "/blog/12-5"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/sanolife-5.webp?alt=media&token=af2737be-10ec-42b3-834f-4af1be3ea63a",
         title: "Sano Media - Nơi tinh thần đội ngũ lên ngôi",
         date: "09-05-2025",
