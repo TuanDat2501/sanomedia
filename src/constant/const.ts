@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/455817447_499605679493889_385086096986158533_n.jpg?alt=media&token=0a6a8c29-9c70-44bd-b584-13ef4e45c2fd",
+        title: "Sano Media Và Bí Quyết Giữ Chân Nhân Sự Trẻ",
+        date: "13-05-2025",
+        subText: "Giữ chân nhân sự trẻ chưa bao giờ là chuyện dễ. Họ năng động, thích thử thách, và luôn tìm kiếm những giá trị mới mẻ trong công việc – không chỉ là lương hay chức danh. Thế nhưng, Sano Media lại là nơi mà rất nhiều bạn trẻ lựa chọn gắn bó lâu dài. Vì sao?",
+        link: "/blog/13-5"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F490267198_669673089153813_8648893672316917879_n.jpg?alt=media&token=bd01a1ff-6154-48a1-aa12-00a917c0c4d0",
         title: "Sano Media - Khi Mỗi Ngày Đi Làm Là Một Niềm Vui",
         date: "12-05-2025",
