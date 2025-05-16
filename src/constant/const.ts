@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/456457605_502764735844650_827711997439719184_n%20(1).jpg?alt=media&token=d4548123-785e-4969-9ba7-63b51956f0c2",
+        title: "Đội Ngũ Sano Media – Mỗi Người Một Màu, Góp Lại Thành Cầu Vồng",
+        date: "14-05-2025",
+        subText: "Nếu hỏi điều gì tạo nên sức mạnh đặc biệt của Sano Media, thì đó chắc chắn là: con người – những cá nhân đầy màu sắc, cá tính nhưng luôn sẵn sàng hòa hợp và hỗ trợ nhau như một tập thể thực sự.",
+        link: "/blog/14-5"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/455817447_499605679493889_385086096986158533_n.jpg?alt=media&token=0a6a8c29-9c70-44bd-b584-13ef4e45c2fd",
         title: "Sano Media Và Bí Quyết Giữ Chân Nhân Sự Trẻ",
         date: "13-05-2025",
