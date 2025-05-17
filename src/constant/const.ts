@@ -42,6 +42,20 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/31123124.png?alt=media&token=57f98972-6c45-4cd1-8867-fec0dd03e20f",
+        title: "Ở Sano Media – Không Chỉ Là Làm Việc, Mà Là Sống Hết Mình!",
+        date: "17-05-2025",
+        subText: "Tại Sano Media, công việc không chỉ gói gọn trong deadline hay KPI – mà còn là những khoảnh khắc sống trọn vẹn, nơi mỗi thành viên đều tìm thấy niềm vui và cảm hứng mỗi ngày.",
+        link: "/blog/17-5"
+    },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-3.jpg?alt=media&token=497c672e-9c11-452f-9273-34131251ed84",
+        title: "Sano Media - Nơi Mỗi Ý Tưởng Đều Được Lắng Nghe",
+        date: "15-05-2025",
+        subText: "Ở một môi trường truyền thông – sáng tạo như Sano Media, ý tưởng là “tài sản quý giá” nhất. Và tại đây, mỗi cá nhân – dù là nhân viên mới, thực tập sinh hay quản lý kỳ cựu – đều có quyền cất lên tiếng nói, chia sẻ quan điểm và đóng góp góc nhìn riêng.",
+        link: "/blog/15-5"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/456457605_502764735844650_827711997439719184_n%20(1).jpg?alt=media&token=d4548123-785e-4969-9ba7-63b51956f0c2",
         title: "Đội Ngũ Sano Media – Mỗi Người Một Màu, Góp Lại Thành Cầu Vồng",
         date: "14-05-2025",
