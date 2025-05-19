@@ -42,6 +42,13 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1905%2Fz6615846843455_ace06ba6491e4fb217ac3f5f593a99ae.jpg?alt=media&token=13842f37-87a4-45d4-9df5-9f0edfb9268e",
+        title: "Lễ khởi công - Trường đẹp cho em",
+        date: "19-05-2025",
+        subText: "Hành trình gieo mầm hy vọng của Sano Media tại điểm trường Mường Lống 02, xã Mường Lống, huyện Kỳ Sơn, tỉnh Nghệ An",
+        link: "/blog/19-5"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/31123124.png?alt=media&token=57f98972-6c45-4cd1-8867-fec0dd03e20f",
         title: "Ở Sano Media – Không Chỉ Là Làm Việc, Mà Là Sống Hết Mình!",
         date: "17-05-2025",
