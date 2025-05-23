@@ -42,19 +42,27 @@ export const NEWS_SANOLIFE_DATA = [
 
 export const NEWS_SANOLIFE_DATA1 = [
     {
-        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/Screenshot%202025-05-22%20144133.png?alt=media&token=bcf6ce8f-95b9-4519-81e9-e484ce53207c",
-        title: "Một Ngày Ở Sano Media – Nơi Cảm Hứng Bắt Đầu Từ Những Điều Bình Dị",
-        date: "20-05-2025",
-        subText: "Không cần những sự kiện hoành tráng hay lễ lạt rộn ràng, mỗi ngày tại Sano Media Việt Nam đều là một hành trình đặc biệt – nơi công việc không chỉ đơn thuần là nhiệm vụ, mà là cảm hứng, là đam mê, là động lực cùng nhau đi xa hơn.",
-        link: "/blog/20-5"
-    },
-    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1905%2Fz6615846843455_ace06ba6491e4fb217ac3f5f593a99ae.jpg?alt=media&token=13842f37-87a4-45d4-9df5-9f0edfb9268e",
         title: "Lễ khởi công - Trường đẹp cho em",
         date: "19-05-2025",
         subText: "Hành trình gieo mầm hy vọng của Sano Media tại điểm trường Mường Lống 02, xã Mường Lống, huyện Kỳ Sơn, tỉnh Nghệ An",
         link: "/blog/19-5"
     },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-3.jpg?alt=media&token=497c672e-9c11-452f-9273-34131251ed84",
+        title: "Sức Mạnh Của Giao Tiếp Nội Bộ – Bí Quyết Kết Nối Mọi Người Tại Sano Media",
+        date: "21-05-2025",
+        subText: "Tại Sano Media Việt Nam, chúng tôi tin rằng: một tổ chức phát triển bền vững không chỉ dựa vào năng lực cá nhân, mà còn đến từ sức mạnh kết nối giữa các thành viên.",
+        link: "/blog/21-5"
+    },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/Screenshot%202025-05-22%20144133.png?alt=media&token=bcf6ce8f-95b9-4519-81e9-e484ce53207c",
+        title: "Một Ngày Ở Sano Media – Nơi Cảm Hứng Bắt Đầu Từ Những Điều Bình Dị",
+        date: "20-05-2025",
+        subText: "Không cần những sự kiện hoành tráng hay lễ lạt rộn ràng, mỗi ngày tại Sano Media Việt Nam đều là một hành trình đặc biệt – nơi công việc không chỉ đơn thuần là nhiệm vụ, mà là cảm hứng, là đam mê, là động lực cùng nhau đi xa hơn.",
+        link: "/blog/20-5"
+    },
+    
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/31123124.png?alt=media&token=57f98972-6c45-4cd1-8867-fec0dd03e20f",
         title: "Ở Sano Media – Không Chỉ Là Làm Việc, Mà Là Sống Hết Mình!",
