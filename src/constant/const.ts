@@ -49,6 +49,20 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/499970425_698257209628734_5679443522334471592_n.jpg?alt=media&token=937e7930-7b0b-4408-9262-bb3d49b68b14",
+        title: "Khi Đam Mê Gặp Đúng Nơi – Chuyện Ở Sano Media",
+        date: "23-05-2025",
+        subText: "Tại Sano Media, câu trả lời hiện lên rất rõ ràng: đó là sự bùng nổ. Là năng lượng. Là những giá trị thật sự.",
+        link: "/blog/23-5"
+    },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL0281.jpg?alt=media&token=0d3ee022-cb67-4db1-9921-123fd7cf8384",
+        title: "Gen Z ở Sano Media: Sáng tạo, bùng nổ, và không ngừng khác biệt!",
+        date: "22-05-2025",
+        subText: "Không ngại thử thách, không sợ khác biệt, và luôn tràn đầy năng lượng – đó chính là tinh thần của những người trẻ Gen Z đang góp phần tạo nên một Sano Media không ngừng chuyển động.",
+        link: "/blog/22-5"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-3.jpg?alt=media&token=497c672e-9c11-452f-9273-34131251ed84",
         title: "Sức Mạnh Của Giao Tiếp Nội Bộ – Bí Quyết Kết Nối Mọi Người Tại Sano Media",
         date: "21-05-2025",
