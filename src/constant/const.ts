@@ -49,7 +49,7 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
         {
-        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/499970425_698257209628734_5679443522334471592_n.jpg?alt=media&token=937e7930-7b0b-4408-9262-bb3d49b68b14",
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2805%2F456700735_504077172380073_7287893856803490776_n.jpg?alt=media&token=cefd6866-e64f-4ec1-95cd-801d5974af74",
         title: "Hội Đồng Đam Mê – Những Người Thắp Lửa Từ Bên Trong",
         date: "26-05-2025",
         subText: "Không cần danh hiệu “sếp lớn”, cũng chẳng cần tiếng vỗ tay rầm rộ, ở Sano Media luôn có một nhóm người đặc biệt – những “hội viên” thầm lặng của Hội Đồng Đam Mê.",
