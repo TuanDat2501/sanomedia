@@ -48,7 +48,14 @@ export const NEWS_SANOLIFE_DATA1 = [
         subText: "Hành trình gieo mầm hy vọng của Sano Media tại điểm trường Mường Lống 02, xã Mường Lống, huyện Kỳ Sơn, tỉnh Nghệ An",
         link: "/blog/19-5"
     },
-        {
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/Screenshot%202025-05-30%20090051.png?alt=media&token=0b92a78a-ea19-479f-86fb-deb1345996c0",
+        title: "Làm hết mình – Không chỉ vì deadline!",
+        date: "27-05-2025",
+        subText: "Trong thế giới truyền thông tốc độ cao như ở Sano Media, mỗi ngày trôi qua không chỉ là một cuộc chạy đua với deadline. Đó còn là hành trình mà mỗi thành viên đang tự “chạy đua” với chính mình – để làm tốt hơn, sáng tạo hơn, và không ngừng vượt giới hạn.",
+        link: "/blog/27-5"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2805%2F456700735_504077172380073_7287893856803490776_n.jpg?alt=media&token=cefd6866-e64f-4ec1-95cd-801d5974af74",
         title: "Hội Đồng Đam Mê – Những Người Thắp Lửa Từ Bên Trong",
         date: "26-05-2025",
@@ -83,7 +90,7 @@ export const NEWS_SANOLIFE_DATA1 = [
         subText: "Không cần những sự kiện hoành tráng hay lễ lạt rộn ràng, mỗi ngày tại Sano Media Việt Nam đều là một hành trình đặc biệt – nơi công việc không chỉ đơn thuần là nhiệm vụ, mà là cảm hứng, là đam mê, là động lực cùng nhau đi xa hơn.",
         link: "/blog/20-5"
     },
-    
+
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/31123124.png?alt=media&token=57f98972-6c45-4cd1-8867-fec0dd03e20f",
         title: "Ở Sano Media – Không Chỉ Là Làm Việc, Mà Là Sống Hết Mình!",
@@ -199,7 +206,7 @@ export const NEWS_SANOLIFE_DATA1 = [
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2209%2FScreenshot%202025-04-23%20095003.png?alt=media&token=648efd3c-733c-443c-8faf-de1a66a33e36",
         title: "Một Buổi Sáng Thường Ngày Tại Sano Media Diễn Ra Như Thế Nào?",
-        date: "22-04-2025", 
+        date: "22-04-2025",
         subText: "Tại Sano Media, mỗi buổi sáng không chỉ là thời gian bắt đầu công việc, mà còn là khoảnh khắc toàn thể đội ngũ cùng nhau khởi động ngày mới đầy năng lượng! ",
         link: "/blog/22-4"
     },
