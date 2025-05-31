@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL9917.jpg?alt=media&token=9b5a2889-e566-4451-a46c-2e574746157d",
+        title: "Ở Sano Media, chúng ta không chỉ đi làm – chúng ta đang xây giấc mơ.",
+        date: "29-05-2025",
+        subText: "Có thể mỗi sáng bạn đến công ty với chiếc balo lỉnh kỉnh, cốc cà phê còn chưa uống cạn, và cả đống deadline chờ sẵn. Nhưng tại Sano Media, mọi thứ không dừng lại ở công việc.",
+        link: "/blog/29-5"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL0264%20(1).jpg?alt=media&token=9ddef43c-ea94-4d90-a1ee-e6157ccbbf6d",
         title: "Ở Sano, không ai là người đứng ngoài cuộc chơi!",
         date: "28-05-2025",
