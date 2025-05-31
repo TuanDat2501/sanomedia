@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL0264%20(1).jpg?alt=media&token=9ddef43c-ea94-4d90-a1ee-e6157ccbbf6d",
+        title: "Ở Sano, không ai là người đứng ngoài cuộc chơi!",
+        date: "28-05-2025",
+        subText: "Sano Media không chỉ là nơi làm việc – mà là một cuộc chơi sáng tạo mà ai cũng có “slot”. Dù bạn là editor thức đêm dựng từng frame, hay là content ngồi bóp trán tìm idea cho một caption viral, thì bạn đều đang góp phần tạo nên điều gì đó tuyệt vời hơn bản thân mình.",
+        link: "/blog/28-5"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/Screenshot%202025-05-30%20090051.png?alt=media&token=0b92a78a-ea19-479f-86fb-deb1345996c0",
         title: "Làm hết mình – Không chỉ vì deadline!",
         date: "27-05-2025",
