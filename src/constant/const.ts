@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL0281.jpg?alt=media&token=0d3ee022-cb67-4db1-9921-123fd7cf8384",
+        title: "Chọn làm ở Sano – Là chọn tinh thần máu chiến!",
+        date: "03-06-2025",
+        subText: "Bạn có thể tìm thấy hàng trăm môi trường công sở “an toàn, nhàn tênh”. Nhưng nếu bạn muốn được sống trọn từng phút trong công việc, thì Sano Media chính là nơi dành cho bạn.",
+        link: "/blog/3-6"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL9917.jpg?alt=media&token=9b5a2889-e566-4451-a46c-2e574746157d",
         title: "Ở Sano Media, chúng ta không chỉ đi làm – chúng ta đang xây giấc mơ.",
         date: "29-05-2025",

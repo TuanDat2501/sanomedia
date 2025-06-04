@@ -39,6 +39,6 @@ const B2905 = () => {
       </div>
     </div>
   );
-};
+};  
 
 export default B2905;
