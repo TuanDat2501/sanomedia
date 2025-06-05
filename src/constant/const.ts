@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL8986%20(1).jpg?alt=media&token=854ffa17-14df-4638-8817-0f1aa5464243",
+        title: "Làm việc cùng nhau – Làm nên chuyện lớn!",
+        date: "04-06-2025",
+        subText: "Tại Sano Media, chúng tôi tin rằng: 'Một người giỏi có thể đi nhanh, nhưng một tập thể đoàn kết sẽ đi thật xa.'",
+        link: "/blog/4-6"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL0281.jpg?alt=media&token=0d3ee022-cb67-4db1-9921-123fd7cf8384",
         title: "Chọn làm ở Sano – Là chọn tinh thần máu chiến!",
         date: "03-06-2025",
