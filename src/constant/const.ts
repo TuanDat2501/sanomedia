@@ -49,6 +49,20 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-2.jpg?alt=media&token=6aa8e90a-4a38-4c50-b910-6c0f5155c1d3",
+        title: "Ở Sano, chúng ta không chỉ là đồng nghiệp – Chúng ta là một đội!",
+        date: "06-06-2025",
+        subText: "Có một điều đặc biệt tại Sano Media: bạn sẽ không bao giờ cảm thấy lạc lõng. Từ giây phút đầu tiên gia nhập đại gia đình này, bạn sẽ cảm nhận được sự ấm áp, hỗ trợ và kết nối – điều mà không phải nơi làm việc nào cũng có thể mang lại.",
+        link: "/blog/6-6"
+    },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL0264.jpg?alt=media&token=d2275460-2836-4404-949a-e394ef227253",
+        title: "Tinh thần Sano: Năng lượng, Sáng tạo và Chinh phục thử thách!",
+        date: "05-06-2025",
+        subText: "Sano Media không chỉ là nơi làm việc, mà là ngọn lửa khơi dậy đam mê và sáng tạo mỗi ngày. Mỗi thành viên ở đây đều mang trong mình một năng lượng bùng nổ, luôn sẵn sàng đón nhận và vượt qua mọi thử thách.",
+        link: "/blog/5-6"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL8986%20(1).jpg?alt=media&token=854ffa17-14df-4638-8817-0f1aa5464243",
         title: "Làm việc cùng nhau – Làm nên chuyện lớn!",
         date: "04-06-2025",
