@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_0902.JPG?alt=media&token=b343e164-e65f-488d-81d7-a4228bc28892",
+        title: "VINH DANH TEAM 'CHIẾN THẦN DOANH THU' – THÁNG NÀY AI ĐÂY?",
+        date: "09-06-2025",
+        subText: "Tháng Năm, không thể không gọi tên Team Nova – những chiến binh đã bứt phá cực mạnh và chạm đỉnh doanh thu cao nhất toàn công ty!",
+        link: "/blog/9-6"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-2.jpg?alt=media&token=6aa8e90a-4a38-4c50-b910-6c0f5155c1d3",
         title: "Ở Sano, chúng ta không chỉ là đồng nghiệp – Chúng ta là một đội!",
         date: "06-06-2025",
