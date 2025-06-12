@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/sanolife-14.webp?alt=media&token=96f72776-45d7-4e83-a415-3cb542d78cef",
+        title: "Sano Media – Nhân Viên Là Giá Trị Cốt Lõi",
+        date: "12-06-2025",
+        subText: "Tại Sano Media, con người không chỉ là tài sản quý giá nhất – mà còn là nguồn cảm hứng bất tận cho mọi hành trình phát triển. Mỗi cá nhân, dù ở bất kỳ vị trí nào, đều là một mảnh ghép quan trọng góp phần tạo nên bức tranh rực rỡ của tập thể.",
+        link: "/blog/12-6"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_0902.JPG?alt=media&token=b343e164-e65f-488d-81d7-a4228bc28892",
         title: "VINH DANH TEAM 'CHIẾN THẦN DOANH THU' – THÁNG NÀY AI ĐÂY?",
         date: "09-06-2025",
