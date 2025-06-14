@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/z6696470044742_1443cf1654fec4247daa53b2a2ebd0d7.jpg?alt=media&token=7dd4f3a9-cf6a-48fe-94ed-11b44d96ad2d",
+        title: "Mừng Sinh Nhật 'Thủ Lĩnh Nhân Sự' - Người Giữ Lửa Của Sano Media",
+        date: "13-06-2025",
+        subText: "Không khí tại Sano Media hôm nay rộn ràng và ấm áp hơn hẳn thường lệ, bởi cả công ty vừa cùng nhau tạo bất ngờ nhỏ nhưng đầy yêu thương dành cho một người đặc biệt – Trưởng phòng Nhân sự đáng mến của nhà Sano!",
+        link: "/blog/13-6"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/sanolife-14.webp?alt=media&token=96f72776-45d7-4e83-a415-3cb542d78cef",
         title: "Sano Media – Nhân Viên Là Giá Trị Cốt Lõi",
         date: "12-06-2025",
