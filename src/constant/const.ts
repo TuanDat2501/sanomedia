@@ -48,6 +48,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         subText: "Hành trình gieo mầm hy vọng của Sano Media tại điểm trường Mường Lống 02, xã Mường Lống, huyện Kỳ Sơn, tỉnh Nghệ An",
         link: "/blog/19-5"
     },
+     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/Screenshot%202025-06-18%20160607.png?alt=media&token=eb8bdfd7-9cff-4b1c-942a-f526336fae8d",
+        title: "Chơi Hết Minh – Gắn Kết Hết Sức: Buổi Game Gắn Kết Đội Ngũ Nhà Sano!",
+        date: "18-06-2025",
+        subText: "Không chỉ là những người đồng nghiệp cùng nhau “chiến đấu” trong công việc, các thành viên của Sano Media còn là một team ăn ý cả trong… các trận game siêu hài hước và “náo loạn”!",
+        link: "/blog/18-6"
+    },
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/z6696470044742_1443cf1654fec4247daa53b2a2ebd0d7.jpg?alt=media&token=7dd4f3a9-cf6a-48fe-94ed-11b44d96ad2d",
         title: "Mừng Sinh Nhật 'Thủ Lĩnh Nhân Sự' - Người Giữ Lửa Của Sano Media",
