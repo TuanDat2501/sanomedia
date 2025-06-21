@@ -48,6 +48,20 @@ export const NEWS_SANOLIFE_DATA1 = [
         subText: "Hành trình gieo mầm hy vọng của Sano Media tại điểm trường Mường Lống 02, xã Mường Lống, huyện Kỳ Sơn, tỉnh Nghệ An",
         link: "/blog/19-5"
     },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/image8.jpg?alt=media&token=87207162-79af-46fd-9f05-91f25403d9e1",
+        title: "Mỗi Dự Án – Một Hành Trình Khám Phá",
+        date: "21-06-2025",
+        subText: "Ở Sano Media, mỗi dự án không chỉ là công việc – mà là hành trình khám phá và vượt giới hạn.",
+        link: "/blog/21-6"
+    },
+     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/Screenshot%202025-06-21%20091059.png?alt=media&token=8619bbc2-ad20-4e7d-82fa-1d90bcba144f",
+        title: "Nhiệt Huyết 200% – Tinh Thần Làm Hết Mình Của Nhà Sano!",
+        date: "20-06-2025",
+        subText: "Tại Sano Media, công việc không đơn thuần là hoàn thành deadline hay xử lý checklist – mà là hành trình tạo ra giá trị bằng đam mê, sáng tạo và tinh thần máu lửa.",
+        link: "/blog/20-6"
+    },
      {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/Screenshot%202025-06-18%20160607.png?alt=media&token=eb8bdfd7-9cff-4b1c-942a-f526336fae8d",
         title: "Chơi Hết Minh – Gắn Kết Hết Sức: Buổi Game Gắn Kết Đội Ngũ Nhà Sano!",
