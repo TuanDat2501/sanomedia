@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_0954.JPG?alt=media&token=dc23c855-7e51-4cb1-aaaf-54fc7fa957db",
+        title: "Vinh Danh Team 'Sáng Tạo Không Ngừng - Chiến Thắng Mỗi Ngày'!",
+        date: "25-06-2025",
+        subText: "Một tràng pháo tay thật lớn gửi đến team đã xuất sắc giành giải thưởng hiệu suất hằng ngày của Sano Media! ",
+        link: "/blog/25-6"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/image8.jpg?alt=media&token=87207162-79af-46fd-9f05-91f25403d9e1",
         title: "Mỗi Dự Án – Một Hành Trình Khám Phá",
         date: "21-06-2025",

@@ -18,21 +18,22 @@ const B2106 = () => {
       padding: "15px"
     }}>
       <Head>
-        <title>Nhiệt Huyết 200% – Tinh Thần Làm Hết Mình Của Nhà Sano!</title>
+        <title>VINH DANH TEAM “SÁNG CHẾ KHÔNG NGHỈ – CHIẾN THẮNG MỖI NGÀY”!</title>
         
       </Head>
       <div className="container">
-        <h1>Mỗi Dự Án – Một Hành Trình Khám Phá</h1>
+        <h1>Vinh Danh Team "Sáng Tạo Không Ngừng - Chiến Thắng Mỗi Ngày"!</h1>
         <h3 style={{ fontSize: "20px" }}>21-06-2025</h3>
-        <p>Ở Sano Media, mỗi dự án không chỉ là công việc – mà là hành trình khám phá và vượt giới hạn.</p>
-        <p>Từ những buổi brainstorming kéo dài hàng giờ,Đến những ngày  chỉnh sửa xuyên đêm, Tất cả không làm chùn bước tinh thần của đội ngũ – mà càng khiến mọi người thêm gắn bó và thấu hiểu giá trị của sự sáng tạo chân thực.</p>
-        <p>Chúng tôi không ngại thử cái mới, không sợ sai – vì chính trong những lần "vấp ngã" ấy, chúng tôi tìm thấy những ý tưởng bứt phá. Và rồi, khi sản phẩm cuối cùng được hoàn thiện, cả team lại cùng nhau vỡ òa trong niềm vui, tự hào vì một hành trình "điên rồ" nữa đã được chinh phục.</p>
+        <p>Một tràng pháo tay thật lớn gửi đến team đã xuất sắc giành giải thưởng hiệu suất hằng ngày của Sano Media! </p>
+        <p>Không chỉ hoàn thành xuất sắc chỉ tiêu, các thành viên của team còn thể hiện tinh thần chủ động, sáng tạo và làm việc “nhiệt hơn cái nắng tháng 6” 🌞. Từ những deadline gấp rút, brief khó nhằn cho tới các ý tưởng viral "chạm nóc" – team luôn sẵn sàng bật mood “chiến thần” và cùng nhau bứt phá.</p>
+        <p>Và phần thưởng cho những nỗ lực không ngừng ấy chính là… combo năng lượng đến từ Sano Media – để tiếp thêm lửa cho chặng đường tiếp theo!</p>
         <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
           style={{ maxWidth: "1200px" }}
-          src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/image8.jpg?alt=media&token=87207162-79af-46fd-9f05-91f25403d9e1"
+          src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_0954.JPG?alt=media&token=dc23c855-7e51-4cb1-aaaf-54fc7fa957db"
           alt="image1" />
         <br />
-        <p>Bởi vì tại Sano, làm dự án không chỉ là “xong việc” – mà là để trưởng thành, để kết nối và để tạo nên điều khác biệt.</p>
+        <p>Tại Sano, mỗi ngày đều là một cơ hội để toả sáng. Chúng tôi tin rằng thành tích không nằm ở cuối con đường, mà chính là hành trình nỗ lực mỗi ngày của từng cá nhân, từng team.</p>
+        <p>Và bạn thì sao?Đã sẵn sàng “on top” trong bảng vàng ngày mai chưa?</p>
       </div>
     </div>
   );
