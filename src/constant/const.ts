@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_0963.JPG?alt=media&token=bcbad5ff-58b6-45cc-a140-7101610fdffa",
+        title: "Team Nhà Mình Lại Tiếp Tục “Ôm Quà” – Bắt Đầu Một Tháng Mới Đầy Rực Rỡ!",
+        date: "28-06-2025",
+        subText: "Chúng ta lại tiếp tục gọi tên những đội nhóm siêu đỉnh của đại gia đình Sano Media – những team đã xuất sắc duy trì hiệu suất làm việc tuyệt vời và liên tục nhận thưởng hằng ngày!",
+        link: "/blog/28-6"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/Screenshot%202025-06-18%20160607.png?alt=media&token=eb8bdfd7-9cff-4b1c-942a-f526336fae8d",
         title: "Sano Media - Làm Nghiêm Túc, Vui Nghiệp Dư!",
         date: "26-06-2025",
