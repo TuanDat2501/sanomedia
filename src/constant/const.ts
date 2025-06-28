@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/Screenshot%202025-06-18%20160607.png?alt=media&token=eb8bdfd7-9cff-4b1c-942a-f526336fae8d",
+        title: "Sano Media - Làm Nghiêm Túc, Vui Nghiệp Dư!",
+        date: "26-06-2025",
+        subText: "Nếu ai nghĩ làm việc ở Sano Media là ngày ngày cắm mặt vào màn hình thì… đúng rồi, nhưng mà còn rất nhiều tiếng cười và “trò con bò” phía sau nữa!",
+        link: "/blog/26-6"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_0954.JPG?alt=media&token=dc23c855-7e51-4cb1-aaaf-54fc7fa957db",
         title: "Vinh Danh Team 'Sáng Tạo Không Ngừng - Chiến Thắng Mỗi Ngày'!",
         date: "25-06-2025",
