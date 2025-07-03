@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/DSC08413.JPG?alt=media&token=3096ad47-49ec-4ccf-8e57-0e4f54254429",
+        title: "Liên Hoan Cuối Tháng – Cùng Nhau Ăn Mừng, Cùng Nhau Vinh Danh! ",
+        date: "01-07-2025",
+        subText: "Cuối tháng – không chỉ là thời điểm khép lại một hành trình làm việc, mà còn là dịp để cả đại gia đình Sano Media cùng nhau 'dừng chân', nhìn lại và ăn mừng những kết quả tuyệt vời đã đạt được.",
+        link: "/blog/1-7"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_0963.JPG?alt=media&token=bcbad5ff-58b6-45cc-a140-7101610fdffa",
         title: "Team Nhà Mình Lại Tiếp Tục “Ôm Quà” – Bắt Đầu Một Tháng Mới Đầy Rực Rỡ!",
         date: "28-06-2025",
