@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-3.jpg?alt=media&token=497c672e-9c11-452f-9273-34131251ed84",
+        title: "Sano Media - Văn hóa giao tiếp cởi mở, lắng nghe và thấu hiểu",
+        date: "03-07-2025",
+        subText: "Tại Sano Media, chúng tôi tin rằng một môi trường làm việc hiệu quả không chỉ đến từ những quy trình chuẩn chỉnh, mà còn bắt nguồn từ cách con người giao tiếp và kết nối với nhau mỗi ngày. Văn hóa giao tiếp cởi mở và lắng nghe đã trở thành một phần cốt lõi, tạo nên sự khác biệt trong cách chúng tôi làm việc và phát triển.",
+        link: "/blog/3-7"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/DSC08413.JPG?alt=media&token=3096ad47-49ec-4ccf-8e57-0e4f54254429",
         title: "Liên Hoan Cuối Tháng – Cùng Nhau Ăn Mừng, Cùng Nhau Vinh Danh! ",
         date: "01-07-2025",
