@@ -50,6 +50,13 @@ export const NEWS_SANOLIFE_DATA1 = [
     },
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-3.jpg?alt=media&token=497c672e-9c11-452f-9273-34131251ed84",
+        title: "Vinh danh Team Xuất Sắc Nhận Thưởng Hằng Ngày",
+        date: "07-07-2025",
+        subText: "Không khí tại Sano Media hôm nay lại sôi động hơn bao giờ hết khi một lần nữa, giải thưởng team xuất sắc trong ngày đã gọi tên những chiến binh nhiệt huyết và bền bỉ nhất!",
+        link: "/blog/7-7"
+    },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-3.jpg?alt=media&token=497c672e-9c11-452f-9273-34131251ed84",
         title: "Sano Media - Văn hóa giao tiếp cởi mở, lắng nghe và thấu hiểu",
         date: "03-07-2025",
         subText: "Tại Sano Media, chúng tôi tin rằng một môi trường làm việc hiệu quả không chỉ đến từ những quy trình chuẩn chỉnh, mà còn bắt nguồn từ cách con người giao tiếp và kết nối với nhau mỗi ngày. Văn hóa giao tiếp cởi mở và lắng nghe đã trở thành một phần cốt lõi, tạo nên sự khác biệt trong cách chúng tôi làm việc và phát triển.",
