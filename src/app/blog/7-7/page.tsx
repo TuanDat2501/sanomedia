@@ -32,7 +32,7 @@ const B0707 = () => {
         <p>Dù chỉ là một “cuộc đua” trong ngày, nhưng tinh thần làm việc của cả team lại bùng nổ như thể đây là chặng cuối của một chiến dịch lớn. Từ sự phối hợp nhịp nhàng, sự chủ động trong từng đầu việc đến tinh thần hỗ trợ nhau không ngơi nghỉ – mọi thứ đều tạo nên một “cú nước rút” vô cùng ấn tượng.</p>
         <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
           style={{ maxWidth: "1200px" }}
-          src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-3.jpg?alt=media&token=497c672e-9c11-452f-9273-34131251ed84"
+          src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_1005.JPG?alt=media&token=67a6768f-d7e2-4ce2-9181-b4b7aa2742aa"
           alt="image1" />
         <p>Giải thưởng hôm nay không chỉ là một phần quà nhỏ, mà còn là sự ghi nhận xứng đáng cho nỗ lực của cả đội. Đó là lời cảm ơn gửi đến những con người luôn làm việc với 200% năng lượng, không ngại khó, không ngại khổ, chỉ ngại không tiến lên!</p>
         <p>Xin chúc mừng team đã xuất sắc về đích hôm nay! Và nếu bạn đang đọc bài viết này, hãy nhớ rằng: ngày mai, bảng vàng rất có thể sẽ gọi tên team của bạn đấy!</p>

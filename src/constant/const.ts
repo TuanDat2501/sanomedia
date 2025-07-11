@@ -49,7 +49,14 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
-        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-3.jpg?alt=media&token=497c672e-9c11-452f-9273-34131251ed84",
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-4.jpg?alt=media&token=b69f2ec8-9c72-44a0-bbb0-edb7f3a5cdfc",
+        title: "Trưởng thành từng ngày trong đại gia đình Sano Media",
+        date: "09-07-2025",
+        subText: "Trưởng thành không chỉ nằm ở tuổi tác, mà còn được đo bằng những bước tiến trong công việc, trong cách ta đối mặt với thử thách – và ở Sano Media, hành trình trưởng thành ấy luôn có đồng đội sát cánh bên cạnh.",
+        link: "/blog/9-7"
+    },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_1005.JPG?alt=media&token=67a6768f-d7e2-4ce2-9181-b4b7aa2742aa",
         title: "Vinh danh Team Xuất Sắc Nhận Thưởng Hằng Ngày",
         date: "07-07-2025",
         subText: "Không khí tại Sano Media hôm nay lại sôi động hơn bao giờ hết khi một lần nữa, giải thưởng team xuất sắc trong ngày đã gọi tên những chiến binh nhiệt huyết và bền bỉ nhất!",
