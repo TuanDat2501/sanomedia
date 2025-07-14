@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL0281.jpg?alt=media&token=0d3ee022-cb67-4db1-9921-123fd7cf8384",
+        title: "Sano Media - Không gian trẻ trung, cảm hứng mỗi ngày",
+        date: "11-07-2025",
+        subText: "Một ngày làm việc tại Sano Media không bắt đầu bằng tiếng gõ bàn phím, mà bằng tiếng cười rôm rả, một bài nhạc chill nhẹ buổi sáng, và năng lượng lan tỏa từ khắp mọi góc văn phòng.",
+        link: "/blog/11-7"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-4.jpg?alt=media&token=b69f2ec8-9c72-44a0-bbb0-edb7f3a5cdfc",
         title: "Trưởng thành từng ngày trong đại gia đình Sano Media",
         date: "09-07-2025",
