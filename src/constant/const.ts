@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_1004.JPG?alt=media&token=6915e005-ad04-4e2a-9056-23f8ff1c8860",
+        title: "Team Nhận Thưởng Hằng Ngày – Vinh Danh Những Nỗ Lực Không Ngừng!",
+        date: "13-07-2025",
+        subText: "Ở Sano Media, chúng tôi không đợi đến cuối tháng mới vinh danh, vì mỗi ngày trôi qua đều đáng để ghi nhận!",
+        link: "/blog/13-7"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL0281.jpg?alt=media&token=0d3ee022-cb67-4db1-9921-123fd7cf8384",
         title: "Sano Media - Không gian trẻ trung, cảm hứng mỗi ngày",
         date: "11-07-2025",
@@ -111,14 +118,14 @@ export const NEWS_SANOLIFE_DATA1 = [
         subText: "Ở Sano Media, mỗi dự án không chỉ là công việc – mà là hành trình khám phá và vượt giới hạn.",
         link: "/blog/21-6"
     },
-     {
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/Screenshot%202025-06-21%20091059.png?alt=media&token=8619bbc2-ad20-4e7d-82fa-1d90bcba144f",
         title: "Nhiệt Huyết 200% – Tinh Thần Làm Hết Mình Của Nhà Sano!",
         date: "20-06-2025",
         subText: "Tại Sano Media, công việc không đơn thuần là hoàn thành deadline hay xử lý checklist – mà là hành trình tạo ra giá trị bằng đam mê, sáng tạo và tinh thần máu lửa.",
         link: "/blog/20-6"
     },
-     {
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/Screenshot%202025-06-18%20160607.png?alt=media&token=eb8bdfd7-9cff-4b1c-942a-f526336fae8d",
         title: "Chơi Hết Minh – Gắn Kết Hết Sức: Buổi Game Gắn Kết Đội Ngũ Nhà Sano!",
         date: "18-06-2025",
