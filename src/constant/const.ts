@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_1074.JPG?alt=media&token=34c93b2b-da15-4052-b6a7-45c5c5f3b00d",
+        title: "Tháng 7 rực rỡ – Chúc mừng sinh nhật các thành viên nhà Sano!",
+        date: "16-07-2025",
+        subText: "Tháng 7 về mang theo nắng vàng, mang theo cả những lời chúc ngọt ngào nhất dành cho các thành viên đặc biệt của Sano Media!",
+        link: "/blog/16-7"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_1004.JPG?alt=media&token=6915e005-ad04-4e2a-9056-23f8ff1c8860",
         title: "Team Nhận Thưởng Hằng Ngày – Vinh Danh Những Nỗ Lực Không Ngừng!",
         date: "13-07-2025",
