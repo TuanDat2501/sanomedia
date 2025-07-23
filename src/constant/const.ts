@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_0982.JPG?alt=media&token=931228bf-b537-48e5-8360-8f5c7ece7a7f",
+        title: "Vinh danh đội nhóm xuất sắc – Chiến thần của ngày hôm nay là ai?",
+        date: "22-07-2025",
+        subText: "Chỉ cần nghe thôi là biết hôm nay đội nào đang “làm chủ cuộc chơi” rồi! Sano Media xin chúc mừng đội nhóm xuất sắc nhất ngày – những người không chỉ hoàn thành công việc mà còn truyền lửa và cảm hứng cho cả văn phòng.",
+        link: "/blog/22-7"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_1074.JPG?alt=media&token=34c93b2b-da15-4052-b6a7-45c5c5f3b00d",
         title: "Tháng 7 rực rỡ – Chúc mừng sinh nhật các thành viên nhà Sano!",
         date: "16-07-2025",
