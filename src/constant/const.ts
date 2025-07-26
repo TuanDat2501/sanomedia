@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL8986%20(1).jpg?alt=media&token=854ffa17-14df-4638-8817-0f1aa5464243",
+        title: "Sano Media – Nơi Tinh Thần Trẻ Trung Luôn Cháy Bỏng! ",
+        date: "24-07-2025",
+        subText: "Nếu bạn từng bước vào văn phòng Sano Media, điều đầu tiên bạn cảm nhận được không phải là tiếng gõ phím hay ánh đèn màn hình… mà là năng lượng tươi mới, sôi động lan tỏa khắp không gian!",
+        link: "/blog/24-7"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_0982.JPG?alt=media&token=931228bf-b537-48e5-8360-8f5c7ece7a7f",
         title: "Vinh danh đội nhóm xuất sắc – Chiến thần của ngày hôm nay là ai?",
         date: "22-07-2025",

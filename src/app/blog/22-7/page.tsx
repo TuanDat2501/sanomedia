@@ -19,24 +19,25 @@ const B2207 = () => {
     }}>
       <Head>
         <title>
-         Tháng 7 rực rỡ – Chúc mừng sinh nhật các thành viên nhà Sano!</title>
+         Sano Media – Nơi Tinh Thần Trẻ Trung Luôn Cháy Bỏng!</title>
         <meta name="description" content="Trải nghiệm đáng nhớ về chuyến thăm quê Bác Hồ của công ty vào buổi chiều và những bài học ý nghĩa từ mảnh đất lịch sử này." />
       </Head>
       <div className="container">
         <h1>
-         Vinh danh đội nhóm xuất sắc – Chiến thần của ngày hôm nay là ai?
+        Sano Media – Nơi Tinh Thần Trẻ Trung Luôn Cháy Bỏng!
         </h1>
         <h3 style={{ fontSize: "20px" }}>22-07-2025
         </h3>
-        <p>Chỉ cần nghe thôi là biết hôm nay đội nào đang “làm chủ cuộc chơi” rồi! Sano Media xin chúc mừng đội nhóm xuất sắc nhất ngày – những người không chỉ hoàn thành công việc mà còn truyền lửa và cảm hứng cho cả văn phòng.</p>
-        <p> Với tinh thần không ngừng tiến về phía trước, các thành viên trong team đã phối hợp ăn ý, chủ động, linh hoạt và đầy sáng tạo để đạt hiệu suất vượt kỳ vọng. Từ lên ý tưởng, triển khai đến chốt kết quả – mọi bước đều thể hiện tinh thần làm việc chuyên nghiệp, chủ động và đầy máu lửa!</p>
-        <p>Phần thưởng trong ngày hôm nay chính là sự ghi nhận xứng đáng cho nỗ lực bền bỉ, tinh thần đồng đội và kết quả tuyệt vời mà cả team đã mang lại.</p>
+        <p><b>Trẻ trung không chỉ là độ tuổi – mà là thái độ sống!: </b></p>
+        <p>Tại Sano, mỗi thành viên mang trong mình tinh thần Gen Z: dám nghĩ – dám làm – dám bùng nổ. Từ những ý tưởng “không tưởng” đến những cuộc họp cười ra nước mắt, tất cả đều là chất liệu tạo nên một môi trường không bao giờ nhàm chán.</p>
+        <b>Làm việc hiện đại – Sống hết mình!</b>
+        <p>Ở Sano, tinh thần trẻ trung không đến từ decor, mà đến từ cách chúng tôi kết nối, sáng tạo và truyền cảm hứng cho nhau mỗi ngày. Có thể bạn 25 tuổi, hoặc 35 tuổi – điều quan trọng là bạn dám bước ra khỏi vùng an toàn và không ngừng mới mẻ chính mình.</p>
         <Image loading="lazy" width={isMobile ? 430 : 1000} height={isMobile ? 430 : 1000} quality={100}
                                 style={{ maxWidth: "1200px" }}
-                                src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_0982.JPG?alt=media&token=931228bf-b537-48e5-8360-8f5c7ece7a7f"
+                                src="https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL8986%20(1).jpg?alt=media&token=854ffa17-14df-4638-8817-0f1aa5464243"
                                 alt="image1" />
-        <p>Không chỉ là một phần thưởng nhỏ, mà đó là động lực lớn để tất cả chúng ta cùng nhau nỗ lực hơn mỗi ngày, vì một tập thể không ai bị bỏ lại phía sau – nơi ai cũng có cơ hội tỏa sáng!</p>
-        <p>Và nếu hôm nay chưa phải là tên bạn, đừng vội nản nhé – mỗi ngày là một cơ hội mới để cùng nhau “bật mood”, “bật performance” và “bật dậy” trên hành trình chinh phục mục tiêu.</p>
+        <p>Vì vậy, nếu bạn đang tìm kiếm một nơi làm việc “xịn”, con người “xịn” và vibe thì “rất gì và này nọ”, thì… Sano Media chính là điểm hẹn lý tưởng!</p>
+        <b>Sano Media – Làm hết mình, sống chất từng khoảnh khắc!</b>
       </div>
     </div>
   );
