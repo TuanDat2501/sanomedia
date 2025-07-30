@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_0999.JPG?alt=media&token=4280e072-83ac-411f-9fb4-6e3608831b79",
+        title: "Vinh danh team đạt KPI ngày – Chinh phục mục tiêu mỗi ngày!",
+        date: "29-07-2025",
+        subText: "Không cần đợi đến cuối tháng, tại Sano Media, mọi nỗ lực đều xứng đáng được ghi nhận ngay hôm nay!",
+        link: "/blog/29-7"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL8986%20(1).jpg?alt=media&token=854ffa17-14df-4638-8817-0f1aa5464243",
         title: "Sano Media – Nơi Tinh Thần Trẻ Trung Luôn Cháy Bỏng! ",
         date: "24-07-2025",
