@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/Screenshot%202025-05-22%20144133.png?alt=media&token=bcf6ce8f-95b9-4519-81e9-e484ce53207c",
+        title: "Vinh danh team đạt KPI ngày – Chinh phục mục tiêu mỗi ngày!",
+        date: "31-07-2025",
+        subText: "Tại Sano Media, mỗi ngày làm việc không chỉ đơn thuần là “cắm cúi làm việc”, mà là một hành trình chinh phục mục tiêu bằng tinh thần máu lửa và trẻ trung của cả team!",
+        link: "/blog/31-7"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_0999.JPG?alt=media&token=4280e072-83ac-411f-9fb4-6e3608831b79",
         title: "Vinh danh team đạt KPI ngày – Chinh phục mục tiêu mỗi ngày!",
         date: "29-07-2025",
