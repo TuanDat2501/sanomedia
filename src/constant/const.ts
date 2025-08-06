@@ -49,8 +49,15 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL8986.jpg?alt=media&token=6f269bad-3673-4b1e-9729-545c3d41630f",
+        title: "Khi Sức Mạnh Teamwork Giúp Sano Media Vượt Qua Mọi Deadline!",
+        date: "05-08-2025",
+        subText: "Trong thế giới agency, deadline luôn là “áp lực vô hình” đè nặng lên từng chiến dịch. Nhưng tại Sano Media, chúng mình không để deadline trở thành nỗi sợ hãi – bởi vì chúng mình có TEAMWORK.",
+        link: "/blog/5-8"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/Screenshot%202025-05-22%20144133.png?alt=media&token=bcf6ce8f-95b9-4519-81e9-e484ce53207c",
-        title: "Vinh danh team đạt KPI ngày – Chinh phục mục tiêu mỗi ngày!",
+        title: "Một ngày Làm Việc Tràn năng Lượng Tại Sano Media",
         date: "31-07-2025",
         subText: "Tại Sano Media, mỗi ngày làm việc không chỉ đơn thuần là “cắm cúi làm việc”, mà là một hành trình chinh phục mục tiêu bằng tinh thần máu lửa và trẻ trung của cả team!",
         link: "/blog/31-7"
