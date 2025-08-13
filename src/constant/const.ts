@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-3.jpg?alt=media&token=497c672e-9c11-452f-9273-34131251ed84",
+        title: "Tự Giác – Tự Giỏi – Tự Tỏa Sáng: Chất riêng của người Sano!",
+        date: "07-08-2025",
+        subText: "Tại Sano Media, không ai cần phải đợi ai nhắc việc, chẳng cần deadline dí sát mới chịu chạy – bởi vì mỗi thành viên đều là “chiến binh chủ động”!",
+        link: "/blog/7-8"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL8986.jpg?alt=media&token=6f269bad-3673-4b1e-9729-545c3d41630f",
         title: "Khi Sức Mạnh Teamwork Giúp Sano Media Vượt Qua Mọi Deadline!",
         date: "05-08-2025",
