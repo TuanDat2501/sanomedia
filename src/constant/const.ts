@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/Screenshot%202025-08-15%20104924.png?alt=media&token=4a16b3ff-8580-45a9-baa7-dd98b0f7879f",
+        title: "Năng Lượng Tích Cực – Vũ Khí Bí Mật Của Sano Media",
+        date: "09-08-2025",
+        subText: "Ở Sano Media, mỗi buổi sáng bắt đầu không chỉ bằng tiếng “chào” thân thiện, mà còn bằng nụ cười và nguồn năng lượng tích cực lan tỏa khắp văn phòng.",
+        link: "/blog/9-8"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-3.jpg?alt=media&token=497c672e-9c11-452f-9273-34131251ed84",
         title: "Tự Giác – Tự Giỏi – Tự Tỏa Sáng: Chất riêng của người Sano!",
         date: "07-08-2025",
