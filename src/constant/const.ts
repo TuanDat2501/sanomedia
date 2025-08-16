@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/z6895496815749_ec6ced11e1d8de791b7553f1d51067ea.jpg?alt=media&token=370e228e-ce71-4ec9-90ce-e023cdb376ea",
+        title: "Sinh Nhật CEO – Khoảnh Khắc Ấm Áp Tại Sano Media",
+        date: "11-08-2025",
+        subText: "Hôm nay, đại gia đình Sano Media đã cùng nhau tổ chức một buổi sinh nhật nhỏ nhưng đầy ấm áp dành cho CEO của công ty – người luôn dẫn dắt, truyền cảm hứng và đồng hành cùng chúng ta trên mọi chặng đường.",
+        link: "/blog/11-8"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/Screenshot%202025-08-15%20104924.png?alt=media&token=4a16b3ff-8580-45a9-baa7-dd98b0f7879f",
         title: "Năng Lượng Tích Cực – Vũ Khí Bí Mật Của Sano Media",
         date: "09-08-2025",
