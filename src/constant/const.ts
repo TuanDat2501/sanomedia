@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/z6895496815586_f3e4e144f6c55c193ba2fd873b364cf8.jpg?alt=media&token=31e5a48a-2e59-4107-86aa-089794f09fca",
+        title: "Vinh Danh Team Xuất Sắc – Chinh Phục KPI Ngày!",
+        date: "13-08-2025",
+        subText: "Mỗi ngày tại Sano Media đều là một chặng đua đầy thử thách. Và hôm nay, chúng ta cùng chúc mừng team đã bứt phá ngoạn mục, hoàn thành KPI ngày với kết quả ấn tượng!",
+        link: "/blog/13-8"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/z6895496815749_ec6ced11e1d8de791b7553f1d51067ea.jpg?alt=media&token=370e228e-ce71-4ec9-90ce-e023cdb376ea",
         title: "Sinh Nhật CEO – Khoảnh Khắc Ấm Áp Tại Sano Media",
         date: "11-08-2025",
