@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_7007.JPG?alt=media&token=ad400a68-24f5-4142-8ad5-93ed3353f40d",
+        title: "Mừng Sinh Nhật Tháng 8 – Gửi Trao Yêu Thương",
+        date: "19-08-2025",
+        subText: "Tháng 8 ghé qua mang theo nắng vàng và những lời chúc tốt đẹp nhất dành cho các thành viên có ngày sinh trong tháng. Hôm nay, đại gia đình Sano Media đã cùng nhau quây quần, tổ chức một buổi sinh nhật ấm áp và tràn đầy tiếng cười.",
+        link: "/blog/19-8"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/z6895496815586_f3e4e144f6c55c193ba2fd873b364cf8.jpg?alt=media&token=31e5a48a-2e59-4107-86aa-089794f09fca",
         title: "Vinh Danh Team Xuất Sắc – Chinh Phục KPI Ngày!",
         date: "13-08-2025",
