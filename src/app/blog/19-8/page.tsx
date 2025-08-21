@@ -19,12 +19,12 @@ const B1908 = () => {
     }}>
       <Head>
         <title>
-         ừng Sinh Nhật Tháng 8 – Gửi Trao Yêu Thương</title>
+         Mừng Sinh Nhật Tháng 8 – Gửi Trao Yêu Thương</title>
         <meta name="description" content="Trải nghiệm đáng nhớ về chuyến thăm quê Bác Hồ của công ty vào buổi chiều và những bài học ý nghĩa từ mảnh đất lịch sử này." />
       </Head>
       <div className="container">
         <h1>
-         ừng Sinh Nhật Tháng 8 – Gửi Trao Yêu Thương
+         Mừng Sinh Nhật Tháng 8 – Gửi Trao Yêu Thương
         </h1>
         <h3 style={{ fontSize: "20px" }}>19-08-2025
         </h3>
