@@ -48,6 +48,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         subText: "Hành trình gieo mầm hy vọng của Sano Media tại điểm trường Mường Lống 02, xã Mường Lống, huyện Kỳ Sơn, tỉnh Nghệ An",
         link: "/blog/19-5"
     },
+    { 
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_1416.JPG?alt=media&token=9539cd19-9c47-49c1-84b0-5e9ea54de9cf",
+        title: "Một Trận Đấu – Ba Màu Áo – Một Tinh Thần",
+        date: "28-08-2025",
+        subText: "Vừa qua, FC Sano Media, FC Padoma Media Việt Nam và FC Lý Bá Thiện đã có buổi giao lưu bóng đá đầy kịch tính tại Bắc Ninh.",
+        link: "/blog/28-8"
+    },
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_1416.JPG?alt=media&token=9539cd19-9c47-49c1-84b0-5e9ea54de9cf",
         title: "Khi Nỗ Lực Được Đền Đáp – Thưởng Ngày Cho Team Xuất Sắc!",
