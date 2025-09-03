@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     { 
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/z6942980230554_85e21865adf93815b8d73fb15177c5f4.jpg?alt=media&token=3932b529-a77b-4e56-9d93-d6cf7c9b356b",
+        title: "Chào Mừng Ngày Quốc Khánh Việt Nam (2/9/1945 – 2/9/2025)",
+        date: "02-09-2025",
+        subText: "Ngày 2/9 hằng năm là một dấu mốc lịch sử thiêng liêng của dân tộc Việt Nam – ngày mà bản Tuyên ngôn Độc lập được vang lên tại Quảng trường Ba Đình lịch sử, khai sinh nước Việt Nam Dân chủ Cộng hòa. Từ giây phút ấy, dân tộc ta chính thức bước sang một trang mới: độc lập, tự do và quyền làm chủ đất nước thuộc về nhân dân.",
+        link: "/blog/2-9"
+    },
+    { 
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/IMG_1416.JPG?alt=media&token=9539cd19-9c47-49c1-84b0-5e9ea54de9cf",
         title: "Một Trận Đấu – Ba Màu Áo – Một Tinh Thần",
         date: "28-08-2025",
