@@ -48,6 +48,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         subText: "Hành trình gieo mầm hy vọng của Sano Media tại điểm trường Mường Lống 02, xã Mường Lống, huyện Kỳ Sơn, tỉnh Nghệ An",
         link: "/blog/19-5"
     },
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/z6978447369422_9759f3f9dee3b478048caccc696528e6.jpg?alt=media&token=cf23c0d6-3f8f-40cc-8b94-5925a4a11e07",
+        title: "Vinh Danh Những Team Xuất Sắc Nhất Tháng!",
+        date: "05-09-2025",
+        subText: "Một tháng nỗ lực đã khép lại và giờ là lúc cùng nhìn lại những dấu ấn tuyệt vời mà các team tại Sano Media đã tạo nên. Với tinh thần làm việc bền bỉ, sáng tạo không ngừng và sự phối hợp ăn ý, các team xuất sắc nhất tháng đã chính thức được vinh danh cùng phần thưởng xứng đáng!",
+        link: "/blog/5-9"
+    },
     { 
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/z6942980230554_85e21865adf93815b8d73fb15177c5f4.jpg?alt=media&token=3932b529-a77b-4e56-9d93-d6cf7c9b356b",
         title: "Chào Mừng Ngày Quốc Khánh Việt Nam (2/9/1945 – 2/9/2025)",
