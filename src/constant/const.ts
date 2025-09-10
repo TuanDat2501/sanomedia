@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/01XL0264.jpg?alt=media&token=d2275460-2836-4404-949a-e394ef227253",
+        title: "Sano Media – Nơi Công Việc Và Niềm Vui Gặp Nhau",
+        date: "09-09-2025",
+        subText: "Tại Sano Media, chúng mình luôn tin rằng: một môi trường làm việc lý tưởng không chỉ là nơi hoàn thành KPI, mà còn là nơi mỗi người được sống vui, sống hết mình cùng đồng đội.",
+        link: "/blog/9-9"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/z6978447369422_9759f3f9dee3b478048caccc696528e6.jpg?alt=media&token=cf23c0d6-3f8f-40cc-8b94-5925a4a11e07",
         title: "Vinh Danh Những Team Xuất Sắc Nhất Tháng!",
         date: "05-09-2025",
