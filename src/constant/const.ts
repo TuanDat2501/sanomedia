@@ -48,7 +48,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         subText: "Hành trình gieo mầm hy vọng của Sano Media tại điểm trường Mường Lống 02, xã Mường Lống, huyện Kỳ Sơn, tỉnh Nghệ An",
         link: "/blog/19-5"
     },
-
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/550453883_796375709816883_2795612903546680692_n.jpg?alt=media&token=c77df62c-c801-4f2f-9c2a-86dc3516e391",
+        title: "Kết nối – Hợp Tác – Phát Triển",
+        date: "23-09-2025",
+        subText: "Trong hành trình phát triển, Sano Media luôn đề cao tinh thần kết nối và hợp tác để tạo ra những giá trị bền vững. Và một trong những cột mốc ý nghĩa chính là sự đồng hành cùng Dahota Group – đối tác chiến lược, cùng nhau hướng tới những thành công mới.",
+        link: "/blog/23-9"
+    },
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/542135843_779367741517680_6930047670904673805_n.jpg?alt=media&token=741cf162-94f4-4285-ad4c-ea666c666802",
         title: "Sano Media – Nơi Mỗi Người Là Một Ngôi Sao",
