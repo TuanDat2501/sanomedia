@@ -6,7 +6,7 @@ import Image from "next/image";
 import { useMediaQuery } from "usehooks-ts";
 import Head from 'next/head';
 
-const B2907 = () => {
+const B2909 = () => {
   const isMobile = useMediaQuery('(max-width: 430px)');
   return (
     <div style={{
@@ -26,7 +26,7 @@ const B2907 = () => {
         <h1>
           Sano Media – Hành trình du lịch đầy kỷ niệm và gắn kết
         </h1>
-        <h3 style={{ fontSize: "20px" }}>29-07-2025
+        <h3 style={{ fontSize: "20px" }}>29-09-2025
         </h3>
         <p>Một chuyến đi không chỉ để thư giãn mà còn để sẻ chia, gắn kết và cùng nhau tạo nên những dấu ấn khó quên – đó chính là tinh thần mà tập thể Sano Media đã trải qua trong chuyến du lịch vừa qua.</p>
         <p><b>Ngày 1: Khởi đầu xanh mát, rộn ràng niềm vui</b></p>
@@ -64,4 +64,4 @@ const B2907 = () => {
   );
 };  
 
-export default B2907;
+export default B2909;
