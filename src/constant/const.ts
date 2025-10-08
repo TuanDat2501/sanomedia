@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0610%2Fup%20page.JPG?alt=media&token=137f7200-6bff-4fbe-81c1-62099a7ce0ce",
+        title: "Trung Thu Rộn Ràng – Gắn Kết Yêu Thương Cùng Sano Media!",
+        date: "06-10-2025",
+        subText: "Không khí Trung thu đã tràn ngập khắp Sano Media! Tối qua, đại gia đình chúng ta đã cùng nhau tận hưởng một đêm trăng thật đáng nhớ – nơi tiếng cười, niềm vui và tinh thần gắn kết hòa quyện thành một kỷ niệm ngọt ngào",
+        link: "/blog/6-10"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0110%2FIMG_4520.JPG?alt=media&token=98b86c32-280e-4c1f-bcf8-6db9e7ccd348",
         title: "Vinh Danh Team Xuất Sắc – Rinh Thưởng Ngày!",
         date: "01-10-2025",
