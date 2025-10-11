@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-2.jpg?alt=media&token=6aa8e90a-4a38-4c50-b910-6c0f5155c1d3",
+        title: "Sano Media – Nơi Kiến Tạo Giá Trị, Lan Tỏa Sự Khác Biệt",
+        date: "08-10-2025",
+        subText: "Trong thế giới truyền thông không ngừng thay đổi, Sano Media tự hào là một trong những đơn vị trẻ, năng động và sáng tạo, luôn tiên phong trong việc mang đến những giải pháp truyền thông hiệu quả và đột phá cho doanh nghiệp.",
+        link: "/blog/8-10"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0610%2Fup%20page.JPG?alt=media&token=137f7200-6bff-4fbe-81c1-62099a7ce0ce",
         title: "Trung Thu Rộn Ràng – Gắn Kết Yêu Thương Cùng Sano Media!",
         date: "06-10-2025",
