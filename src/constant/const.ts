@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-6.jpg?alt=media&token=67dd0c01-4c4b-41ea-9943-8f154203eb89",
+        title: "Sano Media – Nơi Nhiệt Huyết Gặp Gỡ Sáng Tạo!",
+        date: "10-10-2025",
+        subText: "Tại Sano Media, mỗi ngày đều là một hành trình khám phá mới. Một ý tưởng nhỏ có thể trở thành chiến dịch lớn. Một nụ cười, một cái bắt tay, hay chỉ một dòng tin nhắn “let’s go team!” cũng đủ để khởi động tinh thần bùng nổ của cả tập thể.",
+        link: "/blog/10-10"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-2.jpg?alt=media&token=6aa8e90a-4a38-4c50-b910-6c0f5155c1d3",
         title: "Sano Media – Nơi Kiến Tạo Giá Trị, Lan Tỏa Sự Khác Biệt",
         date: "08-10-2025",
