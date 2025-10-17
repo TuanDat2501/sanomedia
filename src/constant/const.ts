@@ -48,6 +48,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         subText: "Hành trình gieo mầm hy vọng của Sano Media tại điểm trường Mường Lống 02, xã Mường Lống, huyện Kỳ Sơn, tỉnh Nghệ An",
         link: "/blog/19-5"
     },
+     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1310%2F565668874_816633631124424_8679581095368316313_n.jpg?alt=media&token=623eae0e-5588-4a8f-926a-7ab1727a0c0c",
+        title: "Chinh Phục Ma Thiên Lãnh – Tinh Thần Đồng Đội Vượt Qua Mọi Giới Hạn",
+        date: "13-10-2025",
+        subText: "Mỗi hành trình đều mang đến những trải nghiệm đáng nhớ, nhưng có lẽ, chuyến leo núi Ma Thiên Lãnh vừa qua đã để lại trong các thành viên Sano Media những cảm xúc thật đặc biệt — vừa thử thách, vừa tự hào.",
+        link: "/blog/13-10"
+    },
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/aboutme-6.jpg?alt=media&token=67dd0c01-4c4b-41ea-9943-8f154203eb89",
         title: "Sano Media – Nơi Nhiệt Huyết Gặp Gỡ Sáng Tạo!",
