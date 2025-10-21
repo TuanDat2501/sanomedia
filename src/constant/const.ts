@@ -48,6 +48,14 @@ export const NEWS_SANOLIFE_DATA1 = [
         subText: "Hành trình gieo mầm hy vọng của Sano Media tại điểm trường Mường Lống 02, xã Mường Lống, huyện Kỳ Sơn, tỉnh Nghệ An",
         link: "/blog/19-5"
     },
+    
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2010%2F566212439_820403384080782_3758032469962314085_n.jpg?alt=media&token=8e3161e2-9ac2-4fed-b593-25f0bbccfcff",
+        title: "Sano Media Rộn Ràng Ngày 20/10 – Tôn Vinh Một Nửa Xinh Đẹp Của Công Ty!",
+        date: "20-10-2025",
+        subText: "Ngày 20/10 – Ngày Phụ nữ Việt Nam, là dịp để Sano Media gửi những lời chúc tốt đẹp nhất đến tất cả những “đóa hoa xinh đẹp” đang góp phần tạo nên sắc màu rực rỡ cho ngôi nhà chung này.",
+        link: "/blog/20-10-2025"
+    },
      {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F1310%2F565668874_816633631124424_8679581095368316313_n.jpg?alt=media&token=623eae0e-5588-4a8f-926a-7ab1727a0c0c",
         title: "Chinh Phục Ma Thiên Lãnh – Tinh Thần Đồng Đội Vượt Qua Mọi Giới Hạn",
