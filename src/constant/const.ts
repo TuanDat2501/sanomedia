@@ -48,7 +48,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         subText: "Hành trình gieo mầm hy vọng của Sano Media tại điểm trường Mường Lống 02, xã Mường Lống, huyện Kỳ Sơn, tỉnh Nghệ An",
         link: "/blog/19-5"
     },
-    
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/499970425_698257209628734_5679443522334471592_n.jpg?alt=media&token=937e7930-7b0b-4408-9262-bb3d49b68b14",
+        title: "Sano Media – Nơi Mỗi Ngày Là Một Hành Trình Cùng Nhau Phát Triển",
+        date: "23-10-2025",
+        subText: "Tại Sano Media, chúng tôi tin rằng: một môi trường làm việc tốt không chỉ là nơi có những dự án lớn, mà còn là nơi mọi người được lắng nghe, tôn trọng và cùng nhau trưởng thành.",
+        link: "/blog/23-10"
+    },
     {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2010%2F566212439_820403384080782_3758032469962314085_n.jpg?alt=media&token=8e3161e2-9ac2-4fed-b593-25f0bbccfcff",
         title: "Sano Media Rộn Ràng Ngày 20/10 – Tôn Vinh Một Nửa Xinh Đẹp Của Công Ty!",
@@ -1114,13 +1120,6 @@ export const NEWS_SANOLIFE_DATA1 = [
         date: "03-12-2024",
         subText: "Trong mỗi tổ chức, đội ngũ nhân viên là yếu tố quan trọng quyết định sự thành công và phát triển bền vững. Để ghi nhận những đóng góp xuất sắc và khích lệ tinh thần làm việc của nhân viên, việc tổ chức khen thưởng là một hoạt động không thể thiếu. Vào ngày đặc biệt này, công ty chúng tôi đã tổ chức lễ khen thưởng cho đội ngũ nhân viên xuất sắc, những người đã cống hiến không ngừng nghỉ để đưa công ty phát triển mạnh mẽ hơn.",
         link: "/blog/3-12"
-    },
-    {
-        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F2711%2F2024_11_27_08_18_IMG_3087.png?alt=media&token=79940917-bd47-472f-b06a-0d50b73e538d",
-        title: "Nhận thưởng hằng ngày",
-        date: "27-11-2024",
-        subText: "Nhận thưởng hằng ngày tại công ty không chỉ là một chính sách khích lệ mà còn là cách hiệu quả để thúc đẩy tinh thần làm việc, tạo động lực và xây dựng môi trường doanh nghiệp năng động. Vậy tại sao nhận thưởng hằng ngày lại quan trọng, và làm sao để áp dụng hiệu quả? Hãy cùng tìm hiểu qua bài viết này!",
-        link: "/blog/2711"
     },
     {
         image: "/image/2010/image11.webp",
