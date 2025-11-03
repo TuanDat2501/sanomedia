@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0311%2FDSC06136.jpg?alt=media&token=347054d8-06d2-4019-87e9-9a68b3df97b7",
+        title: "Hành trình truyền cảm hứng tại Sano Media",
+        date: "28-10-2025",
+        subText: "Tuần vừa qua, đại gia đình Sano Media đã có một buổi đào tạo nội bộ thật đặc biệt với chủ đề: “Đánh thức con người phi thường trong bạn.”",
+        link: "/blog/28-10"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/499970425_698257209628734_5679443522334471592_n.jpg?alt=media&token=937e7930-7b0b-4408-9262-bb3d49b68b14",
         title: "Sano Media – Nơi Mỗi Ngày Là Một Hành Trình Cùng Nhau Phát Triển",
         date: "23-10-2025",
