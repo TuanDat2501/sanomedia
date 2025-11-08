@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0611%2FIMG_9201.JPG?alt=media&token=c67f1155-8f92-4711-89fc-b868e3fb06da",
+        title: "Sano Media – Học Hỏi Không Ngừng Cùng Minh Travel",
+        date: "06-11-2025",
+        subText: "Tuần vừa qua, đại gia đình Sano Media đã có cơ hội tham gia buổi đào tạo nội bộ đặc biệt cùng diễn giả Minh Travel – một gương mặt quen thuộc trong lĩnh vực làm video và điện ảnh sáng tạo.”",
+        link: "/blog/6-11"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0311%2FDSC06136.jpg?alt=media&token=347054d8-06d2-4019-87e9-9a68b3df97b7",
         title: "Hành trình truyền cảm hứng tại Sano Media",
         date: "28-10-2025",
