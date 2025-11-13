@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/DSC06410.jpg?alt=media&token=cdb37fba-7473-4aeb-a8bf-5528ee6f686c",
+        title: "Sano Media – Nơi Sáng Tạo Gặp Gỡ Đam Mê",
+        date: "13-11",
+        subText: "Trong thời đại mà hình ảnh và cảm xúc lên ngôi, Sano Media tự hào là đơn vị truyền thông sáng tạo, mang đến giải pháp toàn diện trong lĩnh vực sản xuất video, nội dung và chiến lược truyền thông thương hiệu.”",
+        link: "/blog/13-11"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/images%2F0611%2FIMG_9201.JPG?alt=media&token=c67f1155-8f92-4711-89fc-b868e3fb06da",
         title: "Sano Media – Học Hỏi Không Ngừng Cùng Minh Travel",
         date: "06-11-2025",
