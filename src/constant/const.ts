@@ -48,7 +48,14 @@ export const NEWS_SANOLIFE_DATA1 = [
         subText: "Hành trình gieo mầm hy vọng của Sano Media tại điểm trường Mường Lống 02, xã Mường Lống, huyện Kỳ Sơn, tỉnh Nghệ An",
         link: "/blog/19-5"
     },
-     {
+    {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/585900853_844318668355920_6301779801000352808_n.jpg?alt=media&token=dfdfb10b-624f-4c3c-b848-70f59e5af571",
+        title: "Sano Media – Văn Hóa Tạo Nên Sức Mạnh",
+        date: "21-11-2025",
+        subText: "Ở Sano Media, điều khiến mỗi nhân viên cảm thấy tự hào không chỉ là những dự án chất lượng hay các sản phẩm truyền thông ấn tượng. Thứ tạo nên bản sắc riêng của chúng tôi chính là văn hoá làm việc tích cực, nhân văn và đầy cảm hứng.",
+        link: "/blog/21-11"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/585460997_844318591689261_6580625915479593595_n.jpg?alt=media&token=24c20a0a-6e3e-4fd9-9049-fc352c47f0c0",
         title: "Sano Media – Mạnh Mẽ Vì Chúng Tôi Là Một Đội",
         date: "18-11-2025",
