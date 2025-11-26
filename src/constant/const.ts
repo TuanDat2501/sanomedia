@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/DJI_20251106165420_0170_D.JPG?alt=media&token=adfb41cc-cadd-43be-bc2b-7b3359066c75",
+        title: "Sức mạnh của sự nỗ lực mỗi ngày – Hành trình của chúng ta",
+        date: "25-11-2025",
+        subText: "Có những điều tưởng nhỏ bé trong công việc hằng ngày, nhưng lại tạo nên giá trị lớn cho cả tập thể. Ở công ty chúng ta, mỗi thành viên đều là một mảnh ghép quan trọng, góp phần xây dựng môi trường làm việc tích cực, đoàn kết và không ngừng phát triển.",
+        link: "/blog/25-11"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/585900853_844318668355920_6301779801000352808_n.jpg?alt=media&token=dfdfb10b-624f-4c3c-b848-70f59e5af571",
         title: "Sano Media – Văn Hóa Tạo Nên Sức Mạnh",
         date: "21-11-2025",
