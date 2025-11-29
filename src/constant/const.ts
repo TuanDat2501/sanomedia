@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/521232545_746137144840740_995128191707898612_n.jpg?alt=media&token=2a448029-048b-4de2-8991-c59ca4d24d92",
+        title: "Tìm Kiếm Video Editor: Gia Nhập Đội Ngũ Sáng Tạo Tại Sano Media",
+        date: "29-11-2025",
+        subText: "Tại Sano Media, chúng tôi tự hào mang đến một môi trường làm việc mà bạn luôn tìm kiếm: Trẻ trung, năng động và tôn trọng sự khác biệt.",
+        link: "/blog/29-11"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/DJI_20251106165420_0170_D.JPG?alt=media&token=adfb41cc-cadd-43be-bc2b-7b3359066c75",
         title: "Sức mạnh của sự nỗ lực mỗi ngày – Hành trình của chúng ta",
         date: "25-11-2025",
@@ -1227,7 +1234,7 @@ export const DATA_BENEFIT = {
     editor: {
         salary: "12-15M",
         quantity: "3",
-        date: "30/6/2025",
+        date: "30/12/2025",
         title: "Editor",
         description: [
             "Dựng video, cắt ghép các video để tạo thành 1 video hoàn chỉnh theo kịch bản có sẵn , nguồn có sẵn.",
@@ -1251,7 +1258,7 @@ export const DATA_BENEFIT = {
     content: {
         salary: "12-15M",
         quantity: "3",
-        date: "30/6/2025",
+        date: "30/12/2025",
         title: "Content",
         description: [
             "Tìm nguồn, xây dựng kịch bản cho video đăng youtube.",
@@ -1280,7 +1287,7 @@ export const DATA_BENEFIT = {
     artist2D: {
         salary: "12-15M",
         quantity: "3",
-        date: "30/6/2025",
+        date: "30/12/2025",
         title: "Artist 2D",
         description: [
             "Lĩnh vực: Youtube 2D thị trường nước ngoài với đa nội dung",
@@ -1307,7 +1314,7 @@ export const DATA_BENEFIT = {
     animator2D: {
         salary: "12-15M",
         quantity: "3",
-        date: "30/6/2025",
+        date: "30/12/2025",
         title: "Animator 2D",
         description: [
             "Lĩnh vực : Youtube 2D thị trường nước ngoài với đa nội dung",
