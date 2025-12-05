@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://i.ibb.co/mCX71V59/539073780-773073298813791-3355023922934736797-n.jpg",
+        title: "Xây Dựng Văn Hóa Doanh Nghiệp Từ Những Điều Giản Dị",
+        date: "03-12-2025",
+        subText: "Một công ty vững mạnh không chỉ được xây dựng bằng chiến lược hay con số, mà còn bởi văn hoá – thứ vô hình nhưng tạo ra giá trị bền vững nhất.",
+        link: "/blog/03-12"
+    },
+    {
         image: "https://firebasestorage.googleapis.com/v0/b/sanomedia-prod.appspot.com/o/521232545_746137144840740_995128191707898612_n.jpg?alt=media&token=2a448029-048b-4de2-8991-c59ca4d24d92",
         title: "Tìm Kiếm Video Editor: Gia Nhập Đội Ngũ Sáng Tạo Tại Sano Media",
         date: "29-11-2025",
