@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://i.ibb.co/p6Kmvzx6/595146045-860013056786481-2102202801764208385-n.jpg",
+        title: "Vinh Danh Team Xuất Sắc Của Tháng",
+        date: "09-12-2025",
+        subText: "Mỗi tháng trôi qua đều mang theo những nỗ lực, cố gắng và dấu ấn riêng của từng đội nhóm. Và tháng này, chúng ta cùng chúc mừng Team Xuất Sắc Nhất Tháng – những người đã ghi dấu ấn mạnh mẽ bằng tinh thần làm việc nghiêm túc, trách nhiệm và bứt phá không ngừng.",
+        link: "/blog/9-12"
+    },
+    {
         image: "https://i.ibb.co/mCX71V59/539073780-773073298813791-3355023922934736797-n.jpg",
         title: "Xây Dựng Văn Hóa Doanh Nghiệp Từ Những Điều Giản Dị",
         date: "03-12-2025",
