@@ -49,6 +49,13 @@ export const NEWS_SANOLIFE_DATA1 = [
         link: "/blog/19-5"
     },
     {
+        image: "https://i.ibb.co/6JLRR45X/589123323-848967824557671-5277289159050350437-n.jpg",
+        title: "Sano Media - Cùng Bạn Tạo Nên Giá Trị Bền Vững",
+        date: "11-12-2025",
+        subText: "Trong bối cảnh truyền thông ngày càng cạnh tranh, một thương hiệu muốn được ghi nhớ cần nhiều hơn những hình ảnh đẹp – cần chiến lược đúng, nội dung chạm và sự đồng hành lâu dài. Sano Media ra đời với sứ mệnh trở thành người bạn đồng hành đáng tin cậy của doanh nghiệp trên hành trình xây dựng thương hiệu.",
+        link: "/blog/11-12-2025"
+    },
+    {
         image: "https://i.ibb.co/p6Kmvzx6/595146045-860013056786481-2102202801764208385-n.jpg",
         title: "Vinh Danh Team Xuất Sắc Của Tháng",
         date: "09-12-2025",
