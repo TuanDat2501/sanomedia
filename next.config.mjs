@@ -1,14 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
     distDir: 'dist',
-    images:{
-        unoptimized:true,
-        disableStaticImages:true,
+    images: {
+        unoptimized: true,
+        disableStaticImages: true,
     },
     experimental: {
         missingSuspenseWithCSRBailout: false,
+        serverComponentsExternalPackages: ["mongoose"],
     },
+    
 };
 
 export default nextConfig;
