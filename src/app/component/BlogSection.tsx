@@ -79,7 +79,7 @@ export default async function BlogSection({
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
-            {posts.map((post: any) => (
+            {posts?.map((post: any) => (
               <article 
                 key={post._id} 
                 className={`flex bg-white border rounded-lg overflow-hidden hover:shadow-md transition-shadow duration-300 relative 
