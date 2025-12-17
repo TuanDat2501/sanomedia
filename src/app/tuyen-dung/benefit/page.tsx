@@ -10,13 +10,11 @@ import IPhone1 from "@/icon/IPhone1";
 import ButtonRed from "@/app/component/button-red/ButtonRed";
 import Register from "@/app/component/register/Register";
 import {useMediaQuery} from "usehooks-ts";
-import {useParams, usePathname, useSearchParams} from "next/navigation";
+import {useSearchParams} from "next/navigation";
 import {DATA_BENEFIT, EMAIL, SDT} from "@/constant/const";
-
 const Benefit = () => {
     const email = EMAIL;
     const dataDefault = DATA_BENEFIT;
-    const pathname = usePathname()
     const [isShowPopup, setIsShowPopup] = useState(false);
     const [data, setData] = useState<any>()
     const clickShowPopup = () => {
