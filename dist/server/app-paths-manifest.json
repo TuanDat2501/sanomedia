@@ -1,6 +1,5 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js",
   "/tuyen-dung/page": "app/tuyen-dung/page.js",
+  "/page": "app/page.js",
   "/tuyen-dung/benefit/page": "app/tuyen-dung/benefit/page.js"
 }

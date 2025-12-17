@@ -5,8 +5,8 @@ import SanoImg from './SanoImg';
 import ImageMedia from './ImageMedia';
 import BlogSec from './BlogSec';
 import BlogSection from '../component/BlogSection';
-export const dynamic = 'force-dynamic'; 
 
+export const dynamic = 'force-dynamic'; 
 const  SanoLife =  () => {
     
     return (
