@@ -29,7 +29,7 @@ import { router } from "next/client";
 import { useRouter } from "next/navigation";
 import IArtist from "@/icon/IArtist";
 import IAnimation from "@/icon/IAnimation";
-
+export const dynamic = 'force-dynamic';
 const TREATMENT_DATA = [
     {
         icon: <IGraduate></IGraduate>,

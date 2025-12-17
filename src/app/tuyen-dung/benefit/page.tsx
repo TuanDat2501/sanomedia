@@ -9,9 +9,11 @@ import IEmail1 from "@/icon/IEmail1";
 import IPhone1 from "@/icon/IPhone1";
 import ButtonRed from "@/app/component/button-red/ButtonRed";
 import Register from "@/app/component/register/Register";
-import {useMediaQuery} from "usehooks-ts";
+
 import {useSearchParams} from "next/navigation";
 import {DATA_BENEFIT, EMAIL, SDT} from "@/constant/const";
+
+export const dynamic = 'force-dynamic';
 const Benefit = () => {
     const email = EMAIL;
     const dataDefault = DATA_BENEFIT;
