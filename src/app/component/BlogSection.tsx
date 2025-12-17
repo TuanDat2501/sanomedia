@@ -19,8 +19,30 @@ export default async function BlogSection({
   showPagination = false,
   baseUrl = "/sano-life"
 }: BlogSectionProps) {
-  
-  await dbConnect();
+  let data = null;
+  let errorMsg = null;
+  try {
+    // 1. Kết nối DB
+    await dbConnect();
+
+    // 2. Lấy dữ liệu (Ví dụ mẫu)
+    data = Post.find({}).sort({ isPinned: -1, createdAt: -1 }); 
+    // Nếu bạn chưa có model nào cho trang này thì để trống hoặc query cái khác
+    
+  } catch (error: any) {
+    console.error("❌ Lỗi tại trang Sano Life:", error); // Xem lỗi này ở Terminal
+    errorMsg = error.message;
+  }
+
+  // 3. Hiển thị
+  if (errorMsg) {
+    return (
+      <div className="p-10 text-center text-red-500">
+        <h1>Lỗi hệ thống</h1>
+        <p>{errorMsg}</p>
+      </div>
+    );
+  }
 
   // 1. Tính toán Skip (bỏ qua bao nhiêu bài)
   const skip = (page - 1) * limit;
@@ -36,7 +58,7 @@ export default async function BlogSection({
   // Luôn luôn limit số lượng
   query.limit(limit);
 
-  const postsRaw = await query.lean();
+  const postsRaw = await data?.lean();
   const posts = JSON.parse(JSON.stringify(postsRaw));
 
   // 3. Tính tổng số trang (Chỉ khi bật phân trang)
@@ -73,7 +95,7 @@ export default async function BlogSection({
         </div>
 
         {/* DANH SÁCH BÀI VIẾT (GRID) */}
-        {posts.length === 0 ? (
+        {posts?.length === 0 ? (
           <div className="text-center py-12 bg-gray-50 rounded-lg text-gray-500">
             Chưa có bài viết nào.
           </div>
